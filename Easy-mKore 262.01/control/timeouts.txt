@@ -1,0 +1,222 @@
+# 盡量不要更改這些變數，除非你真的了解它代表的意義。
+# 或是你真的想讓BOT暈頭轉向，就改吧。
+
+master 10
+# 登入主伺服器逾時(秒)
+gamelogin 10
+# 登入遊戲伺服器逾時(秒)
+charlogin 10
+# 登入角色伺服器逾時(秒)
+maplogin 10
+# 登入地圖伺服器逾時(秒)
+reconnect 10
+# 重新連線逾時(秒)
+play 40
+# 進入遊戲逾時(秒)
+
+ai 2
+# AI啟動延遲時間(秒)
+ai_move_giveup 2
+# 移動放棄時間(秒)
+
+ai_attack 1
+# 攻擊延遲(間隔)時間(秒)
+ai_attack_auto 0.5
+# 自動攻擊偵測間隔(秒)
+ai_attack_giveup 5
+# 攻擊放棄時間(秒)
+ai_attack_waitAfterKill 0.1
+# 戰鬥後暫停時間(秒)
+
+ai_take 0.5
+# 撿取物品間隔時間(秒)
+ai_items_take_start 0.5
+# 戰鬥後偵測可撿取物品間隔時間(秒)
+ai_items_take_end 1
+# 戰鬥後無可撿取物品時多久結束撿取動作(秒)
+ai_take_giveup 10
+# 撿取物品放棄時間(秒)
+
+ai_items_gather_start 1
+# 撿取無主物品延遲時間(秒)
+ai_items_gather_giveup 10
+# 撿取無主物品放棄時間(秒)
+ai_items_gather_auto 1
+# 撿取無主物品偵測間隔(秒)
+
+ai_follow_lost_end 20
+# 往跟隨目標消失方向持續行走時間(秒)
+ai_smart_follow 1
+# 智慧型跟隨目標偵測間隔時間(秒)
+ai_getInfo 1
+# 獲取訊息間隔時間(秒)
+ai_thanks_set 8
+# 遠端遙控自動回應時間(秒)
+
+ai_dealAuto 5
+# 回應交易延遲時間(秒)
+ai_partyAuto 5
+# 拒絕組隊延遲時間(秒)
+ai_guildAutoDeny 3
+# 拒絕公會延遲時間(秒)
+ai_AutoSpeak 300
+# 自動說話間隔時間(秒)
+ai_petPlay 120
+# 寵物表演間隔時間(秒)
+
+ai_dead_respawn 4
+# 死亡後重新開始延遲時間(秒)
+ai_wipe_old 200
+# 訊息清除間隔時間(秒)
+ai_wipe_check 30
+# 訊息清除偵測間隔(秒)
+
+ai_sit 4
+# 可切換坐下(站起)狀態之偵測間隔(秒)
+ai_sit_wait 1
+# 坐下延遲時間(秒)
+ai_stand_wait 1
+# 站起延遲時間(秒)
+ai_sit_idle 10
+# 發呆多久自動坐下(秒)
+ai_makechatAuto 1
+# 發呆多久自動坐下開啟聊天室(秒)
+
+ai_skill_use_giveup 0.7
+# 使用技能放棄時間(秒)
+ai_item_use_auto 0.3
+# 自動使用物品間隔時間(秒)
+ai_equip_auto 1
+# 自動裝備偵測間隔(秒)
+ai_equip_waitAfterChange 0.2
+# 切換裝備後暫停時間(秒)
+
+ai_teleport_hp 0.3
+# HP低於設定值瞬移偵測間隔(秒)
+ai_teleport_idle 12
+# 發呆多久自動瞬移(秒)
+ai_teleport_away 0.3
+# 瞬移逃離偵測間隔(秒)
+ai_teleport_portal 2
+# 遇傳點瞬移偵測間隔(秒)
+ai_teleport_search 2
+# 瞬移搜尋偵測間隔(秒)
+ai_teleport_safe_force 120
+# 強制成為安全狀態時間(秒)
+ai_avoidcheck 0.5
+# 閃避GM,特定人物,技能偵測間隔(秒)
+
+ai_route_npcTalk 2
+# 路徑中需與npc談話延遲時間(秒)
+ai_route_calcRoute 1
+# 計算路徑持續時間(秒) - 預設為計算路徑一秒後
+ai_route_calcRoute_cont 0.2
+# 計算路徑中斷時間(秒) - 暫停0.2秒將資源讓給其他的process
+
+ai_buyAuto 5
+# 自動買物偵測間隔(秒)
+ai_buyAuto_giveup 15
+# 自動買物放棄時間(秒)
+ai_buyAuto_wait 2
+# 自動買物延遲時間(秒)
+ai_buyAuto_wait_buy 5
+# 自動買物間隔時間(秒)
+ai_sellAuto 2
+# 自動賣物延遲時間(秒)
+ai_sellAuto_giveup 15
+# 自動賣物放棄時間(秒)
+ai_storageAuto 2
+# 自動存物延遲(間隔)時間(秒)
+ai_storagegetAuto 4
+# 自動取倉偵測間隔時間(秒)
+ai_storageAuto_giveup 15
+# 自動存物放棄時間(秒)
+ai_cartAuto 5
+# 自動手推車偵測間隔(秒)
+
+ai_sync 12
+# 伺服器同步逾時(秒)
+compilePortals_auto 10
+# 自動編譯傳點等待時間(秒)
+
+injectSync 5
+# X-Mode溝通同步逾時(秒)
+injectKeepAlive 12
+# X-Mode溝通維持時間(秒)
+welcomeText 4
+# X-Mode顯示歡迎詞延遲時間(秒)
+
+ai_look 0
+# 調整身體及面向方向週期
+
+ai_skillAuto_add 2
+# 分配技能點數延遲
+ai_statusAuto_add 2
+# 分配素質點數延遲
+ai_teleRoute 2
+# 瞬移路徑延遲時間(秒)
+ai_makeArrow 3
+#自動製作箭間隔時間
+ai_shoppingAuto_giveup 10
+#自動訪價放棄時間
+ai_shoppingAuto 1
+#自動訪價間隔時間
+ai_friendAuto 3
+# 回應好友邀請延遲時間(秒)
+ai_makeAuto 1
+#自動鍛造(製藥)間隔時間
+ai_makeAuto_giveup 5
+# 自動鍛造(製藥)放棄時間(秒)
+ai_teleport_spell 2
+# 遇法術瞬移偵測間隔(秒)
+
+ai_resurrect 1
+# 自動復活偵測間隔時間
+ai_skill_party 1
+# 隊伍技能偵測間隔時間
+
+ai_attack_skillCancel 3
+# 自動阻止怪物技能攻擊週期(秒)
+
+ai_skill_use_waitAfterKill 1
+# 戰鬥後暫時不使用技能時間(秒) - 只針對有設置waitAfterKill之輔助技能
+
+ai_takeImportant_giveup 10
+# 撿取重要物品放棄時間(秒)
+
+ai_talkAuto 4
+# 自動談話偵測間隔時間(秒)
+ai_talkAuto_wait 2
+# 自動談話延遲時間(秒)
+
+ai_sitAuto_wait 3
+# 自動坐下延遲時間(秒)
+
+ai_smartEquip_waitAfterChange 0.3
+# 切換裝備後暫停時間(秒)
+
+ai_modifiedTalk_giveup 20
+# NPC對話流程能快速進行時最大等待時間(秒)
+
+ai_partyAutoShare 300
+# 自動組隊經驗值均分間隔時間(秒)
+
+recordExp 3600
+# 戰績經驗紀錄間隔時間(秒)
+
+ai_refineAuto 1
+# 精練間隔
+ai_refineAuto_talk 1
+# 精練時談話間隔
+ai_refineAuto_giveup 2
+# 精練後超時檢測
+
+ai_gvgAuto_warp 5
+# 開啟傳陣偵測間隔時間(秒)
+ai_skill_guild 2
+# 公會技能偵測間隔時間
+ai_gvgAuto_Skill 5
+# 表情對應技能偵測間隔時間(秒)
+
+ai_aihomuns 1
+# 人工生命體ai延時

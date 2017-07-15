@@ -1,0 +1,70 @@
+#------------------------------------------------------------------------------------------
+#這裡是設定Vx模式使用的顏色使某些kore輸出為彩色。
+#------------------------------------------------------------------------------------------
+# 格式:
+#<訊息類別> [<前景顏色>][/<背景顏色>]
+# <訊息類別> 必需是Vx模式預先定義好的訊息種類
+# <前景顏色> 顯示前景(文字)的顏色
+# <背景顏色> 顯示文字後的背景的顏色
+#------------------------------------------------------------------------------------------
+#說明:
+#顏色可以是顏色名稱(Tk認可的)或與HTML相似的顏色16進位數值
+#如果省略任一或二者顏色，他們會使用預設顏色
+#default設定所有不包含於訊息類別的文字使用的顏色
+#換言之對 黑色文字於白色背景
+# default black/white
+#或對 灰色文字於黑色背景(我的偏好)
+# default grey/black
+#
+#如果default_only設true會使除了預設顏色之外的所有顏色失效(或1或yes或on)
+#------------------------------------------------------------------------------------------
+
+default_only false
+default grey/black
+
+attacked #66CCFF
+attackedMiss grey/black
+attacking #FF0066
+attackingMiss #666666
+attackmons orange
+
+jam #339999/#666666
+skillsAttack yellow
+casting #99CCFF
+skillRestore white
+disconnected /darkred
+connected /darkgreen
+version #FFFFFF
+chatroom #00CC00
+chatroomUserIn green
+chatroomUserOut red
+danger black/red
+route #FFCC33
+targetDie #FFDD99
+exp #CCFFFF
+sit green
+stand green
+setting yellow/black
+status #CCFFFF
+avoid black/red
+important yellow
+mapChange #FFCC33
+
+useItem green
+inventoryAdd #66CC00
+inventoryRemove #5A5A5A
+inventoryNoID #666666/grey25
+storageAdd #339900
+storageRemove #5A5A5A
+cartAdd #339900
+cartRemove #5A5A5A
+equip /grey25
+
+emotion #FFCCCC
+pm yellow
+chat white
+party #CC6600
+guild #CCFFCC
+guildNotice yellow
+guildMember yellow
+GMnotice yellow

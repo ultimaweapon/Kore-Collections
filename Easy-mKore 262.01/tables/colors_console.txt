@@ -1,0 +1,80 @@
+#------------------------------------------------------------------------------------------
+#這裡是設定console模式使用的顏色使某些kore輸出為彩色。
+#------------------------------------------------------------------------------------------
+# 格式:
+# <訊息類別> [<前景顏色>][/<背景顏色>]
+# <訊息類別> 必需是console模式預先定義好的訊息種類
+# <前景顏色> 顯示前景(文字)的顏色
+# <背景顏色> 顯示文字後的背景的顏色
+#------------------------------------------------------------------------------------------
+#說明:
+#顏色必須是以下的顏色名稱(console認可的)
+#		高亮度
+#BLACK				黑
+#BLUE		LIGHTBLUE	藍
+#GREEN		LIGHTGREEN	綠
+#CYAN		LIGHTCYAN	青
+#RED		LIGHTRED	紅
+#MAGENTA	LIGHTMAGENTA	藍
+#BROWN		YELLOW		黃
+#GRAY		WHITE		白
+
+#如果省略任一或二者顏色，他們會使用預設顏色
+#default設定所有不包含於訊息類別的文字使用的顏色
+#換言之對 黑色文字於白色背景
+# default black/white
+#或對 灰色文字於黑色背景(我的偏好)
+# default GRAY/BLACK
+#
+#如果default_only設true會使除了預設顏色之外的所有顏色失效(或1或yes或on)
+#------------------------------------------------------------------------------------------
+
+default_only false
+default GRAY/BLACK
+
+attacked BROWN
+attackedMiss GRAY
+attacking LIGHTRED
+attackingMiss GRAY
+attackmons GRAY
+
+jam GRAY
+skillsAttack YELLOW
+casting GRAY
+skillRestore GRAY
+disconnected GRAY
+connected GRAY
+version GRAY
+chatroom GRAY
+chatroomUserIn GREEN
+chatroomUserOut RED
+danger RED
+route LIGHTCYAN
+targetDie GRAY
+exp LIGHTMAGENTA
+sit GRAY
+stand GRAY
+setting YELLOW
+status LIGHTMAGENTA
+avoid RED
+important YELLOW
+mapChange LIGHTCYAN
+
+useItem GRAY
+inventoryAdd LIGHTGREEN
+inventoryRemove GRAY
+inventoryNoID GRAY
+storageAdd LIGHTGREEN
+storageRemove GRAY
+cartAdd GRAY
+cartRemove GRAY
+equip GRAY
+
+emotion CYAN
+pm YELLOW
+chat WHITE
+party LIGHTBLUE
+guild GREEN
+guildNotice YELLOW
+guildMember YELLOW
+GMnotice YELLOW

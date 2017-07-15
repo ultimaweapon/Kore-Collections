@@ -1,0 +1,64 @@
+
+#------------------------------------[魔物賽跑設定]------------------------------------
+raceAuto 0
+# 自動使用魔物賽跑 (0=關、1=單人賽、2=雙人賽)
+raceTicket_check 1
+# 當進入(hugel)地區後是否檢查身上有無"魔物票券"並加以丟棄 (0=關、1=開)
+
+
+#-- 單人賽設定 --
+raceAuto_single_npc auto hugel 58 72
+# 指定進入賽跑場NPC編號 [愛卡樂 伊樂伯特#Single]
+# 可用新型的npc座標擷取法 ex:raceAuto_single_npc auto hugel 58 72
+raceAuto_single_npc_steps c r1 c c r0 n
+# 與指定 NPC 對話之順序，請以空白隔開
+# (c:下一步、r<n>:第 n+1 項回應、n:取消)
+
+raceTicket_single_npc auto p_track01 73 22
+# 指定購買彩票NPC編號
+# 可用新型的npc座標擷取法 ex:raceTicket_single_npc auto p_track01 73 22
+raceTicket_single_npc_steps c a n
+# 購買彩票對話
+raceTicket_single_npc_number 
+# 指定購買彩票號碼 (空白=亂數選擇)
+
+raceExchange_single_npc auto p_track01 67 45
+# 指定兌換獎牌NPC編號
+# 可用新型的npc座標擷取法 ex:raceExchange_single_npc auto p_track01 67 45
+raceExchange_single_npc_steps c c c c c r0 c n
+# 兌換獎牌對話
+
+raceWithdrawal_single_npc auto p_track01 76 36
+# 指定退出賽跑場地NPC編號
+# 可用新型的npc座標擷取法 ex:raceWithdrawal_single_npc auto p_track01 76 36
+raceWithdrawal_single_npc_steps c c r0 n
+# 退出賽跑場地對話
+
+
+#-- 雙人賽設定 --
+raceAuto_double_npc auto hugel 62 69
+# 指定進入賽跑場NPC編號 [ 愛卡樂 伊勒尼思#Double]
+# 可用新型的npc座標擷取法 ex:raceAuto_double_npc auto hugel 62 69
+raceAuto_double_npc_steps c r1 c c r0 n
+# 與指定 NPC 對話之順序，請以空白隔開
+
+raceTicket_double_npc auto p_track02 73 22
+# 指定購買彩票NPC編號
+# 可用新型的npc座標擷取法 ex:raceTicket_double_npc auto p_track02 73 22
+raceTicket_double_npc_steps c r1 c c a c r0 c b c r0 n
+# 購買彩票對話
+raceTicket_double_npc_number 6
+raceTicket_double_npc_0_number 
+# 指定購買彩票號碼 (請將數字大的設於前)(空白=亂數選擇)
+
+raceExchange_double_npc auto p_track02 67 45
+# 指定兌換獎牌NPC編號
+# 可用新型的npc座標擷取法 ex:raceExchange_double_npc auto p_track02 67 45
+raceExchange_npc_one_steps c c c c r0 c n
+# 兌換獎牌對話
+
+raceWithdrawal_double_npc auto p_track02 76 38
+# 指定退出賽跑場地NPC編號
+# 可用新型的npc座標擷取法 ex:raceWithdrawal_double_npc auto p_track02 76 38
+raceWithdrawal_double_npc_steps c c r0 n
+# 退出賽跑場地對話

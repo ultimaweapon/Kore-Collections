@@ -1,0 +1,320 @@
+rachel.rsw#阿盧納貝茲 教國首都 拉赫#
+veins.rsw#峽谷村落 菲音斯#
+ve_in.rsw#菲音斯 內部#
+ve_in02.rsw#菲音斯 內部#
+que_moon.rsw#月宮廷#
+que_moc_16.rsw#月宮廷魔物田#
+ra_in01.rsw#拉赫 內部#
+ra_temin.rsw#神殿 內部#
+que_rachel.rsw#神殿 內部#
+06guild_r.rsw#公會對抗競技場 等候室#
+06guild_01.rsw#公會對抗競技場#
+06guild_02.rsw#公會對抗競技場#
+06guild_03.rsw#公會對抗競技場#
+06guild_04.rsw#公會對抗競技場#
+06guild_05.rsw#公會對抗競技場#
+06guild_06.rsw#公會對抗競技場#
+06guild_07.rsw#公會對抗競技場#
+06guild_08.rsw#公會對抗競技場#
+kh_dun01.rsw#機械人型工廠1樓#
+kh_kiehl01.rsw#齊爾的房間#
+kh_mansion.rsw#啟 海伊洛 官邸#
+kh_rossi.rsw#羅希米愛樂家 官邸#
+kh_school.rsw#啟 海伊洛 學院#
+kh_vila.rsw#啟 海伊洛 別墅#
+que_job01.rsw#秘密酒店#
+tha_t07.rsw#達納托斯 塔台 上層部#
+tha_t08.rsw#達納托斯 塔台 上層部#
+tha_t09.rsw#達納托斯 塔台 上層部#
+tha_t10.rsw#達納托斯 塔台 上層部#
+tha_t11.rsw#達納托斯 塔台 上層部#
+tha_t12.rsw#達納托斯 塔台 上層部#
+thana_step.rsw#達納托斯 塔台 上層部#
+auction_01.rsw#拍賣場#
+auction_02.rsw#拍賣場#
+quiz_02.rsw#OX 益智遊戲競賽場#
+jupe_cave.rsw#優配擂斯 洞穴入口#
+jupe_gate.rsw#優配擂斯 保安區域#
+jupe_area1.rsw#優配擂斯 保安區域#
+jupe_area2.rsw#優配擂斯 保安區域#
+jupe_ele.rsw#優配擂斯 電梯#
+jupe_ele_r.rsw#優配擂斯 電梯室#
+jupe_core.rsw#優配擂斯 中心部#
+lighthalzen.rsw#企業之都 里希塔樂鎮#
+lhz_in01.rsw#雷根貝勒 總公司#
+lhz_in02.rsw#里希塔樂鎮 內部#
+lhz_in03.rsw#里希塔樂鎮 內部#
+lhz_cube.rsw#正立方體 房間#
+lhz_que01.rsw#里希塔樂鎮 內部#
+lhz_airport.rsw#里希塔樂鎮 機場#
+airplane_01.rsw#飛空艇#
+yuno_pre.rsw#秀發茲發德 政府廳舍#
+ayothaya.rsw#哎喲泰雅#
+ayo_in02.rsw#哎喲泰雅 內部#
+ayo_in01.rsw#哎喲泰雅 內部#
+airplane.rsw#飛空艇#
+airport.rsw#機場#
+ein_in01.rsw#室內#
+einbech.rsw#採礦村落 艾音貝赫#
+einbroch.rsw#鋼鐵之都 艾音布羅克#
+turbo_e_16.rsw#競速場地 競賽場#
+turbo_e_8.rsw#競速場地 競賽場#
+turbo_e_4.rsw#競速場地 競賽場#
+turbo_n_16.rsw#競速場地 競賽場#
+turbo_n_8.rsw#競速場地 競賽場#
+turbo_n_4.rsw#競速場地 競賽場#
+turbo_n_1.rsw#競速場地 競賽場#
+turbo_room.rsw#競速場地 等待室#
+que_god02.rsw#任務地圖#
+que_god01.rsw#任務地圖#
+quiz_test.rsw#益智考試場#
+himinn.rsw#巴基力 神殿#
+jawaii_in.rsw#爪哇咿 內部#
+louyang.rsw#古都 龍之城#
+lou_in01.rsw#龍之城 內部#
+lou_in02.rsw#龍之城 內部#
+valkyrie.rsw#巴奇利神殿 (偉大戰士們的殿堂)#
+nif_in.rsw#尼芙菲姆內部#
+niflheim.rsw#死者國家 尼芙菲姆#
+yggdrasil01.rsw#禾貝勒開米勒之島 (天地樹葉樹幹)#
+um_in.rsw#汶巴拉內部#
+umbala.rsw#雨檀族村落 汶巴拉#
+sec_pri.rsw#巴哈拉宮 反省的房間(監獄)#
+sec_in01.rsw#巴哈拉宮 內部#
+sec_in02.rsw#巴哈拉宮 內部#
+gon_test.rsw#戰鬥場#
+gon_in.rsw#崑崙內部#
+gonryun.rsw#神仙之島 崑崙#
+ama_test.rsw#桃太郎 體驗所#
+ama_in02.rsw#天水角內部#
+ama_in01.rsw#天津町內部#
+amatsu.rsw#天水之國 天津町#
+alde_alche.rsw#鍊金術師 轉職所#
+yuno_in05.rsw#伊美樂的心臟 動力室#
+yuno_in04.rsw#朱諾 內部#
+job_duncer.rsw#克魔島 小劇場#
+job_sage.rsw#賢者 轉職 考試場#
+job_cru.rsw#十字軍 轉職 考試場#
+job_monk.rsw#聖 卡畢利那 修道院#
+monk_test.rsw#聖 卡畢利那 修道院#
+in_rogue.rsw#流氓工會 內部#
+yuno_in03.rsw#朱諾 內部#
+yuno_in02.rsw#賢者 城堡內部#
+yuno_in01.rsw#朱諾 內部#
+yuno.rsw#修發茲 共和國 首都 朱諾#
+job_wiz.rsw#巫師轉職 考場#
+job_prist.rsw#祭司轉職 考場#
+job_knt.rsw#騎士轉職 考場#
+job_hunte.rsw#獵人轉職 考場#
+payg_cas05.rsw#青林湖泊 工會#
+payg_cas04.rsw#青林湖泊 工會#
+payg_cas03.rsw#青林湖泊 工會#
+payg_cas02.rsw#青林湖泊 工會#
+payg_cas01.rsw#青林湖泊 工會#
+pay_gld.rsw#青林湖泊#
+aldeg_cas05.rsw#露依納 工會#
+aldeg_cas04.rsw#露依納 工會#
+aldeg_cas03.rsw#露依納 工會#
+aldeg_cas02.rsw#露依納 工會#
+aldeg_cas01.rsw#露依納 工會#
+alde_gld.rsw#艾爾帕蘭衛星都市 露依納#
+gefg_cas05.rsw#咘哩妥利亞 工會#
+gefg_cas04.rsw#咘哩妥利亞 工會#
+gefg_cas03.rsw#咘哩妥利亞 工會#
+gefg_cas02.rsw#咘哩妥利亞 工會#
+gefg_cas01.rsw#咘哩妥利亞 工會#
+prtg_cas05.rsw#巴基力雷恩 工會#
+prtg_cas04.rsw#巴基力雷恩 工會#
+prtg_cas03.rsw#巴基力雷恩 工會#
+prtg_cas02.rsw#巴基力雷恩 工會#
+prtg_cas01.rsw#巴基力雷恩 工會#
+prt_gld.rsw#巴基力雷恩#
+guild_vs5.rsw#工會 對抗競技場#
+guild_vs4.rsw#工會 對抗競技場#
+guild_vs3.rsw#工會 對抗競技場#
+guild_vs2.rsw#工會 對抗競技場#
+guild_vs1.rsw#工會 對抗競技場#
+guild_room.rsw#工會 對抗競技場 休息室#
+quiz_00.rsw#OX益智遊戲競賽場#
+quiz_01.rsw#OX益智遊戲競賽場#
+cmd_in02.rsw#克魔島 內部#
+cmd_in01.rsw#克魔島 內部#
+comodo.rsw#海邊之都 克魔島#
+xmas_in.rsw#薑餅城內部#
+xmas.rsw#白雪村落 薑餅城#
+prt_monk.rsw#聖卡畢利那 修道院#
+in_orcs01.rsw#獸人村落 室內#
+in_moc_16.rsw#刺客 工會#
+moc_fild19.rsw#蘇克拉特 沙漠#
+new_1-1.rsw#初學者 修練場#
+new_2-1.rsw#初學者 修練場#
+new_3-1.rsw#初學者 修練場#
+new_4-1.rsw#初學者 修練場#
+new_5-1.rsw#初學者 修練場#
+new_1-2.rsw#初學者 修練場#
+new_2-2.rsw#初學者 修練場#
+new_3-2.rsw#初學者 修練場#
+new_4-2.rsw#初學者 修練場#
+new_5-2.rsw#初學者 修練場#
+new_1-3.rsw#初學者 修練場#
+new_2-3.rsw#初學者 修練場#
+new_3-3.rsw#初學者 修練場#
+new_4-3.rsw#初學者 修練場#
+new_5-3.rsw#初學者 修練場#
+new_1-4.rsw#初學者 修練場#
+new_2-4.rsw#初學者 修練場#
+new_3-4.rsw#初學者 修練場#
+new_4-4.rsw#初學者 修練場#
+new_5-4.rsw#初學者 修練場#
+moc_prydb1.rsw#盜賊 工會#
+hunter_1-1.rsw#獵人轉職所#
+hunter_2-1.rsw#獵人轉職所#
+hunter_3-1.rsw#獵人轉職所#
+in_hunter.rsw#獵人轉職所#
+knight_1-1.rsw#騎士轉職所#
+knight_2-1.rsw#騎士轉職所#
+knight_3-1.rsw#騎士轉職所#
+priest_1-1.rsw#祭司轉職所#
+priest_2-1.rsw#祭司轉職所#
+priest_3-1.rsw#祭司轉職所#
+sword_1-1.rsw#劍士轉職所#
+sword_2-1.rsw#劍士轉職所#
+sword_3-1.rsw#劍士轉職所#
+thief_1-1.rsw#盜賊轉職所#
+thief_2-1.rsw#盜賊轉職所#
+thief_3-1.rsw#盜賊轉職所#
+wizard_1-1.rsw#巫師轉職所#
+wizard_2-1.rsw#巫師轉職所#
+wizard_3-1.rsw#巫師轉職所#
+force_1-1.rsw#限時激鬥模式#
+force_2-1.rsw#限時激鬥模式#
+force_3-1.rsw#限時激鬥模式#
+force_1-2.rsw#限時激鬥模式#
+force_2-2.rsw#限時激鬥模式#
+force_3-2.rsw#限時激鬥模式#
+force_1-3.rsw#限時激鬥模式#
+force_2-3.rsw#限時激鬥模式#
+force_3-3.rsw#限時激鬥模式#
+ordeal_1-1.rsw#團體戰鬥模式#
+ordeal_2-1.rsw#團體戰鬥模式#
+ordeal_3-1.rsw#團體戰鬥模式#
+ordeal_1-2.rsw#團體戰鬥模式#
+ordeal_2-2.rsw#團體戰鬥模式#
+ordeal_3-2.rsw#團體戰鬥模式#
+ordeal_1-3.rsw#團體戰鬥模式#
+ordeal_2-3.rsw#團體戰鬥模式#
+ordeal_3-3.rsw#團體戰鬥模式#
+ordeal_1-4.rsw#團體戰鬥模式#
+ordeal_2-4.rsw#團體戰鬥模式#
+ordeal_3-4.rsw#團體戰鬥模式#
+alb_ship.rsw#艾爾貝塔 船舶內#
+alberta.rsw#港口之都 艾爾貝塔#
+alberta_in.rsw#港口之都 艾爾貝塔#
+alb2trea.rsw#沉船附近的島嶼#
+aldebaran.rsw#運河之都 艾爾帕蘭#
+aldeba_in.rsw#運河之都 艾爾帕蘭#
+gef_tower.rsw#吉芬 中央塔#
+geffen.rsw#魔法之都 吉芬#
+geffen_in.rsw#魔法之都 吉芬#
+moc_castle.rsw#夢羅克 城內#
+morocc.rsw#沙漠之都 夢羅克#
+morocc_in.rsw#沙漠之都 夢羅克#
+pay_arche.rsw#山岳之都 斐揚#
+payon.rsw#山岳之都 斐揚#
+payon_in01.rsw#山岳之都 斐揚#
+payon_in02.rsw#山岳之都 斐揚#
+prontera.rsw#盧恩 米德加茲王國 首都 普隆德拉#
+prt_in.rsw#盧恩 米德加茲王國 首都 普隆德拉#
+prt_castle.rsw#普隆德拉 城內#
+prt_church.rsw#普隆德拉 聖堂內#
+izlude.rsw#衛星都市 依斯魯得島#
+izlude_in.rsw#衛星都市 依斯魯得島#
+izlu2dun.rsw#衛星都市 依斯魯得島#
+monk_in.rsw#聖卡畢利那 修道院內#
+prt_are_in.rsw#亞雷那 等候室#
+arena_room.rsw#亞雷那 等候室#
+prt_arena01.rsw#亞雷那#
+prt_are01.rsw#亞雷那#
+pvp_y_room.rsw#PvP : 等待室#
+pvp_n_room.rsw#PvP : 等待室#
+pvp_n_1-1.rsw#PvP : 三明治 房間#
+pvp_n_2-1.rsw#PvP : 三明治 房間#
+pvp_n_3-1.rsw#PvP : 三明治 房間#
+pvp_n_4-1.rsw#PvP : 三明治 房間#
+pvp_n_5-1.rsw#PvP : 三明治 房間#
+pvp_n_6-1.rsw#PvP : 三明治 房間#
+pvp_n_7-1.rsw#PvP : 三明治 房間#
+pvp_n_8-1.rsw#PvP : 三明治 房間#
+pvp_n_1-2.rsw#PvP : 雷達鎖定 房間#
+pvp_n_2-2.rsw#PvP : 雷達鎖定 房間#
+pvp_n_3-2.rsw#PvP : 雷達鎖定 房間#
+pvp_n_4-2.rsw#PvP : 雷達鎖定 房間#
+pvp_n_5-2.rsw#PvP : 雷達鎖定 房間#
+pvp_n_6-2.rsw#PvP : 雷達鎖定 房間#
+pvp_n_7-2.rsw#PvP : 雷達鎖定 房間#
+pvp_n_8-2.rsw#PvP : 雷達鎖定 房間#
+pvp_n_1-3.rsw#PvP : 四通道 房間#
+pvp_n_2-3.rsw#PvP : 四通道 房間#
+pvp_n_3-3.rsw#PvP : 四通道 房間#
+pvp_n_4-3.rsw#PvP : 四通道 房間#
+pvp_n_5-3.rsw#PvP : 四通道 房間#
+pvp_n_6-3.rsw#PvP : 四通道 房間#
+pvp_n_7-3.rsw#PvP : 四通道 房間#
+pvp_n_8-3.rsw#PvP : 四通道 房間#
+pvp_n_1-4.rsw#PvP : 反十字 房間#
+pvp_n_2-4.rsw#PvP : 反十字 房間#
+pvp_n_3-4.rsw#PvP : 反十字 房間#
+pvp_n_4-4.rsw#PvP : 反十字 房間#
+pvp_n_5-4.rsw#PvP : 反十字 房間#
+pvp_n_6-4.rsw#PvP : 反十字 房間#
+pvp_n_7-4.rsw#PvP : 反十字 房間#
+pvp_n_8-4.rsw#PvP : 反十字 房間#
+pvp_n_1-5.rsw#PvP : 羅盤 房間#
+pvp_n_2-5.rsw#PvP : 羅盤 房間#
+pvp_n_3-5.rsw#PvP : 羅盤 房間#
+pvp_n_4-5.rsw#PvP : 羅盤 房間#
+pvp_n_5-5.rsw#PvP : 羅盤 房間#
+pvp_n_6-5.rsw#PvP : 羅盤 房間#
+pvp_n_7-5.rsw#PvP : 羅盤 房間#
+pvp_n_8-5.rsw#PvP : 羅盤 房間#
+pvp_y_1-1.rsw#PvP : 普隆德拉#
+pvp_y_2-1.rsw#PvP : 普隆德拉#
+pvp_y_3-1.rsw#PvP : 普隆德拉#
+pvp_y_4-1.rsw#PvP : 普隆德拉#
+pvp_y_5-1.rsw#PvP : 普隆德拉#
+pvp_y_6-1.rsw#PvP : 普隆德拉#
+pvp_y_7-1.rsw#PvP : 普隆德拉#
+pvp_y_8-1.rsw#PvP : 普隆德拉#
+pvp_y_1-2.rsw#PvP : 依斯魯得島#
+pvp_y_2-2.rsw#PvP : 依斯魯得島#
+pvp_y_3-2.rsw#PvP : 依斯魯得島#
+pvp_y_4-2.rsw#PvP : 依斯魯得島#
+pvp_y_5-2.rsw#PvP : 依斯魯得島#
+pvp_y_6-2.rsw#PvP : 依斯魯得島#
+pvp_y_7-2.rsw#PvP : 依斯魯得島#
+pvp_y_8-2.rsw#PvP : 依斯魯得島#
+pvp_y_1-3.rsw#PvP : 斐揚#
+pvp_y_2-3.rsw#PvP : 斐揚#
+pvp_y_3-3.rsw#PvP : 斐揚#
+pvp_y_4-3.rsw#PvP : 斐揚#
+pvp_y_5-3.rsw#PvP : 斐揚#
+pvp_y_6-3.rsw#PvP : 斐揚#
+pvp_y_7-3.rsw#PvP : 斐揚#
+pvp_y_8-3.rsw#PvP : 斐揚#
+pvp_y_1-4.rsw#PvP : 艾爾貝塔#
+pvp_y_2-4.rsw#PvP : 艾爾貝塔#
+pvp_y_3-4.rsw#PvP : 艾爾貝塔#
+pvp_y_4-4.rsw#PvP : 艾爾貝塔#
+pvp_y_5-4.rsw#PvP : 艾爾貝塔#
+pvp_y_6-4.rsw#PvP : 艾爾貝塔#
+pvp_y_7-4.rsw#PvP : 艾爾貝塔#
+pvp_y_8-4.rsw#PvP : 艾爾貝塔#
+pvp_y_1-5.rsw#PvP : 夢羅克#
+pvp_y_2-5.rsw#PvP : 夢羅克#
+pvp_y_3-5.rsw#PvP : 夢羅克#
+pvp_y_4-5.rsw#PvP : 夢羅克#
+pvp_y_5-5.rsw#PvP : 夢羅克#
+pvp_y_6-5.rsw#PvP : 夢羅克#
+pvp_y_7-5.rsw#PvP : 夢羅克#
+pvp_y_8-5.rsw#PvP : 夢羅克#
+pvp_2vs2.rsw#PvP : 活動 競技場#

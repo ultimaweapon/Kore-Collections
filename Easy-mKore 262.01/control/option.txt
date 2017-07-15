@@ -1,0 +1,22 @@
+#  Vx_interface (開關)  - 當執行時開啟圖形使用者界面
+#  enableMoveClick (開關) - 開啟藉由地圖檢視命令kore移動
+#  Xmode (開關) - 開啟X-Kore模式.需要RO客戶端以執行.
+#  Xmode_exeName (名稱) - Ragnarok客戶端程式名稱.
+
+Vx_interface 0
+# 圖形使用者界面模式(0=不使用、1=使用)
+
+enableMoveClick 1
+#滑鼠控制開關
+
+Xmode 0
+# X-Kore模式，需要執行RO客戶端(0=不使用、1=使用)
+Xmode_exeName ragexe.exe
+# RO客戶端檔案名稱(不用更改)
+
+use_newPathDLL 1
+# 使用新型路徑計算DLL(0=不使用、1=使用)
+
+use_clientInfo 1
+# 是否從clientinfo.xml取得伺服器資訊開關(0=關、1=開)
+# 如果選擇關閉則請自行設定config.txt內之分流伺服器資訊.

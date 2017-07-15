@@ -1,0 +1,103 @@
+#------------------------------------------------------------------------------------------
+#這裡是設定智能控制對答訊息
+#請參考說明如何增加對答訊息
+#------------------------------------------------------------------------------------------
+#格式: <對答類型> <對答訊息>
+# <對答類型>: 對答類型可以在 config.txt 中或說明找到.
+# <對答訊息>: 輸入您想為該類型回應之對答訊息.
+#------------------------------------------------------------------------------------------
+#說明:
+#這功能支援隨機選擇訊息對答, 您只需要使用相同的對答類型增加一行訊息即可.
+#------------------------------------------------------------------------------------------
+
+dateS 不要玩了 %$cmd_user, 現在是 %$date
+dateS 我是什麼? 鐘嗎?? (不過現在是 %$date)
+
+authS 您現在已經是我的主人了 %$cmd_user, 來吧! ^^
+authF 您已經是我的主人了 %$cmd_user!
+
+relogS 我稍候回來
+relogS 嗯, 等一下...
+
+reloadS 嗶
+reloadS 嗯
+reloadS 完美啊
+
+confS1 這個 %$key 是... %$value
+confS2 嗶
+confS2 嗯
+confS2 完成
+confF1 嗄?
+confF2 我沒看到有這個東西
+confF3 嗚呼, 最好試試 %$cmd_user
+confF3 我不這麼認為耶
+
+timeoutS1 我想 %$key 的時間應該是 %$value 吧...
+timeoutS2 嗶
+timeoutS2 嗯
+timeoutS2 完成
+timeoutF1 嗄?
+timeoutF2 我沒看過這個東西
+
+quitS 再見啦
+quitS 我要離開了, 掰掰
+quitS 我走啦!
+
+sitS *boof*
+sitS *plop*
+
+standS 好的 ^^
+standS 是
+standS 嗯 %$cmd_user, 好像這樣?
+
+tankS Leecher
+tankF 嗄?
+
+tankStopS 幾好笑...
+tankStopF 我像一個盾嗎?
+
+moveS 好, 現在就去!
+moveS 我要自由啊!
+moveS 明白了!
+moveF 我不明白您在說什麼啊 %$user
+moveF 這我不知道 ><
+
+followS 好, 現在就來!
+followS 我要自由啊!
+followS 明白了!
+followF 我不明白您在說什麼啊 %$user
+followF 這我不知道 ><
+
+followStopS 我明白...
+followStopS 我很煩嗎?
+followStopF 您是偏執狂...
+followStopF 我圖謀不軌地盯著您
+
+statusS HP: %$char_hp / %$char_hp_max   SP: %$char_sp / %$char_sp_max\nBase: %$char_lv  |  %$char_exp / %$char_exp_max\nJob: %$char_lv_job  |  %$char_exp_job / %$char_exp_job_max\nWeight: %$char_weight / %$char_weight_max   Zenny: %$zenny
+
+thankS 沒問題 ^^
+thankS 沒有問題
+thankS 好高興啊, 主人 %$cmd_user
+thankS ^^
+
+verboseOnS 啊, 最於.
+verboseOnS 唉... 謝謝主人... 您老子...
+verboseOnF 我好像不太會說話嗎?
+verboseOnF 您愚弄我嗎? 我說話技巧不太好...
+
+verboseOffS 您老子...好...
+verboseOffS 我的天...
+verboseOffF 好...我會靜靜等待
+verboseOffF 嗯嗯... 我知道了
+
+whereS 找不到我了嗎? 我在 %$map: %$x, %$y
+whereS 我在這! %$map: %$x, %$y
+
+healS 好了點吧!
+healF1 啊? 我不知道要補誰
+healF2 啊, 我 SP 只剩 %$char_sp ... 我要 SP 啊...T_T
+healF3 我沒有這技能啦
+
+speedS 加速術..讓你跑的比火車還要快
+blessS 幫你天賜囉,別再喊了..會禁言
+kyrieS 霸邪給你,去前面幫我檔怪

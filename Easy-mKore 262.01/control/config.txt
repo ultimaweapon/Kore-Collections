@@ -1,0 +1,924 @@
+# 請參考文件了解這些變數的功能。
+#---------------------------------------[伺服器列表]---------------------------------------
+# option.txt預設從clientinfo.xml取得伺服器資訊則本區不用設定,如需自訂請將option內設定關閉
+
+#master_name_0 Taiwan Test server
+#master_host_0 61.220.62.26
+#master_port_0 6900
+#master_version_0 5
+
+checkExpireType 0
+# 檢查網路時間方式(0=預設、1=模式一、2=模式二)
+#----------------------------------[X-Mode遊戲模式設定]------------------------------------
+commandPrefix ;
+# 字串(如:":"或"*")，RO送出的以這個prefix開頭的聊天訊息會被X-Kore解釋為命令
+
+#---------------------------------[伺服器、帳號、密碼設定]---------------------------------
+version 111
+# 遊戲服務的版本(如啟用use_clientInfo則自動由clientinfo.xml取得)
+encrypt 0
+# 使用破解加密技術(0=不使用、1=kRO/cRO/tRO、2=iRO)
+SecureLogin 0
+# 啟動安全登入(MD5加密)(0=關、1=開)
+SecureLogin_Account 0
+# 啟動安全登入(MD5加密)(0=關、1=開)
+
+master 
+# 主伺服器編號
+server 
+# 遊戲伺服器編號
+username
+# 帳號
+password
+# 密碼
+char 
+# 角色編號
+sex 
+# 性別(0=女、1=男)
+# 只有其他玩家看的出改變，自己看不出來(建議不要設)
+
+login_password 
+# 登入密鑰設定，並非設定的明碼，而是編碼後變成的32個英文和數字(由X-Mode開倉取得)
+login_OpenKey
+# 登入密碼或角色登入密碼設定
+
+#------------------------------------[遠端控制密碼設定]------------------------------------
+adminPassword 
+# 遠端控制密碼，若為空白時會自動隨機產生，密語Kore可以用聊天命令遙控Kore
+callSign 
+# 遠端控制英文前置字詞，若為空白時會自動隨機產生，須用公開頻道(不須用隊伍和密語)，不分大小寫
+
+#------------------------------------[登出、入切換設定]------------------------------------
+
+avoid_setDirectory 
+# 迴避GM登出後自動重設目錄(空白=關、其他=指定更換編號)
+autoRestart_setDirectory 
+# 定時自動重登後自動重設目錄(空白=關、其他=指定更換編號)
+dualLogin_setDirectory 
+
+setDirectory_0_control 
+# 改變目錄時要設定的control目錄名稱(空白=不改變)
+setDirectory_0_table 
+# 改變目錄時要設定的table目錄名稱(空白=不改變)
+
+#------------------------------------[自動登出、入設定]------------------------------------
+dcOnAtkMiss 0
+# 攻擊怪物未擊中超過次數立即登出(0=關、n=次數)
+dcOnDeath 0
+# 死亡後立即登出(0=關、1=開)
+dcOnDualLogin 0
+# 相同帳號登入時模式選擇(0=立即重登、1=立即關閉、2以上=幾秒後重登)
+dcOnEmptyArrow 0
+# 用盡使用中箭矢立即登出(0=關、1=開)
+dcOnShopClosed 0
+# 商店物品全數販賣完畢關閉程式
+dcOnTryReConnect 0
+# 嘗試連線次數無法登入後關閉程式
+
+autoRestart 0
+# 定時自動重登(秒) [格式:基本時間(秒),亂數時間(秒)]
+deadRespawn 1
+# 陣亡時瞬移回城開關
+
+verbose 0
+# 指令自動回應(從X-Kore接收遊戲中訊息)(0=關、1=開)
+debug 0
+# 偵錯模式選擇(0=關、1=低、2=高)
+debug_sendPacket 0
+# x-mode偵錯模式選擇(0=關 1=開)
+message_length_max 80
+# 訊息顯示長度(字元)
+
+#----------------------------------------[攻擊設定]----------------------------------------
+attackAuto 2
+# 攻擊模式選擇 (0=不攻擊、1=只反擊、2=主動攻擊)
+attackAuto_followTarget 1
+# 幫助所跟隨的玩家攻擊(0=關、1=開)(你會優先攻擊這些怪物)
+attackAuto_inLockOnly 0
+# 僅在鎖定地圖自動攻擊開關(0=關 1=開)
+attackAuto_onlyWhenSafe 0
+# 四周沒有人(安全)時才攻擊(0=關、1=開)
+attackAuto_party 1
+# 幫助隊友攻擊(0=關、1=開)(你會優先攻擊這些怪物)
+attackMaxRouteDistance 100
+# 攻擊行進最大距離(格)
+attackMaxRouteTime 15
+# 計算攻擊怪物路徑最大時間(秒)(時間到時會給予新的攻擊目標)
+attackUseWeapon 1
+# 使用武器物理攻擊(0=關、1=開)(法/巫師要設0)
+attackDistance 2
+# 物理攻擊距離(格)
+
+modifiedAttack 1
+# 接近怪物或放棄攻擊時使用修正方法(0=關、1=開)
+
+NotAttackDistance 3
+# 怪物附近有人就不鎖定(防搶怪)(0=關、n=距離)
+NotAttackNearSpell 0
+# 怪物附近有持續技能時就不鎖定(防搶怪,如地面法術等等)(0=關、n=距離)
+NotAttackAfterWall 1
+# 與怪物之間有障礙物就不鎖定(0=關、1=開)
+
+attackSteal 0
+# 是否忽略別人先攻擊的怪(0=不忽略 1=忽略)此功能自由心證,小心構成搶怪
+
+exteraDetect 1
+# 使用額外的機制檢查防搶怪
+
+attackPickupMonsters 茲諾克,白蟻,工蟻,兵蟻,波利,土波利,波波利,盜蟲,瑪勒盜蟲,溜溜猴,庫克雷
+# 搶攻撿取重要物品怪物名稱
+
+modifiedSearch 1
+# 修正搜尋怪物方式(0=關、1=開)
+#--------------------------------------[鎖定地圖設定]--------------------------------------
+#-- 鎖定地圖第0組 --
+lockMap_0 
+# 對應tables/maps.txt，請打上鎖定地圖名稱(不加副檔名)
+lockMap_0_warpTo 
+# 前往鎖定地圖後先以傳送之陣前往最近地圖(城市地圖裡使用,且必須有傳送技能並紀錄身上有藍石)
+lockMap_0_x 
+# 鎖定x軸座標
+lockMap_0_y 
+# 鎖定y軸座標
+lockMap_0_randx 
+# 亂數增減鎖定x軸座標(範圍=lockMap_x-lockMap_randx ~ lockMap_x+lockMap_randx)
+lockMap_0_randy 
+# 亂數增減鎖定y軸座標(範圍=lockMap_y-lockMap_randy ~ lockMap_y+lockMap_randy)
+# (鎖定座標通常不用設定，除非要到定點)
+lockMap_0_timeout 0
+# 鎖定地圖秒數(0=關、n=秒，隔多久切換鎖定地圖)
+# 可自行增加第1組(lockMap_1_XXX)、第2組(lockMap_2_XXX)，以此類推
+useWaypoint 0
+# 在鎖定地圖使用"鎖定座標(偏好路徑)"(0=關、1=開)
+
+preferRoute 0
+# 自訂偏好地圖路徑開關(pfroute.txt設定路徑)
+
+#--------------------------------------[儲存地圖設定]--------------------------------------
+saveMap 
+# 對應tables/maps.txt，角色的儲存點地圖名稱(不加副檔名)
+saveMap_warpToBuyOrSell 0
+# 當自動補給條件成立時是否立即瞬移回儲存點(0=關、1=開)
+
+#--------------------------------------[自動行走設定]--------------------------------------
+modifiedWalkType 0
+# 當區域移動時使用修正座標方法(0=關、1或2=修正方法)
+modifiedWalkDistance 5
+# 重新計算座標距離
+modifiedRoute 1
+# 修正路徑尋找方式開關 (0=傳統計算 1=新型態計算)
+modifiedRoute_NPC 300
+# 是利用NPC移動時的加重格數
+modifiedRoute_diffPortal 50
+# 是走不同傳點的加重格數
+modifiedRoute_samePortal 150
+# 是走相同傳點(往回走)的加重格數
+modifiedRoute_undef 999
+# 未預先處理傳點的加重格數
+modifiedRoute_changeMap 150
+# 移動到不同地圖的加重格數
+
+route_randomWalk 1
+# 隨機路線移動(0=關、1=開)(Kore會隨機挑選一個目標點並計算路徑)
+route_randomWalk_maxRouteTime 15
+# 計算隨機路線最大時間(秒)(時間到時會給予新的目標點計算)
+route_step 12
+# 一次移動的距離(格)
+autoGetSpeed 1
+# 自動取得移動一格所需時間(0=關、1=開)
+
+route_randomWalk_inCity 0
+# 在城市內允許隨機路線移動(0=關、1=開)
+route_randomWalk_upLeft 
+# 指定移動範圍左上座標[格式:X軸座標,Y軸座標]
+route_randomWalk_bottomRight 
+# 指定移動範圍右下座標[格式:X軸座標,Y軸座標]
+
+route_NPC_distance 4
+# 與人型傳點NPC對話之隨機距離(格)
+
+teleRoute 0
+# 使用順移功能加速到達定目標地圖(0=關、1=開)
+teleRouteDist 160
+# 距離傳送點多少格以外就用瞬移方式(數值不要設太小免得飛太久)
+
+#-----------------------------------[自動坐下、起立設定]-----------------------------------
+sitAuto_hp_lower 0
+# HP低於多少百分比時自動坐下
+sitAuto_hp_upper 0
+# 直到HP高於多少百分比時起立
+sitAuto_sp_lower 0
+# SP低於多少百分比時自動坐下
+sitAuto_sp_upper 0
+# 直到SP高於多少百分比時起立
+
+sitAuto_idle 0
+# 發呆超過一定時間坐下(0=關、1=開)
+
+#--------------------------------------[自動瞬移設定]--------------------------------------
+teleportAuto_AtkMiss 0
+# 攻擊怪物Miss次數超過瞬移
+teleportAuto_deadly 1
+# 預測下次遭受致命攻擊時瞬移
+teleportAuto_hp 40
+# HP低於多少百分比時自動瞬移逃離
+teleportAuto_sp 0
+# SP低於多少百分比時自動瞬移逃離
+teleportAuto_idle 0
+# 發呆過久時瞬移(0=關、1=瞬移、2=回儲存點)
+teleportAuto_maxDmg 1200
+# 受攻擊單次損血多少以上就瞬移
+teleportAuto_minAggressives 0
+# 被幾隻以上怪物同時攻擊時自動瞬移逃離(0=不指定)
+teleportAuto_onlyWhenSafe 0
+# 四周沒有人(安全)時才瞬移，等待超過一定時間會強制成為安全狀態(0=關、1=開)
+teleportAuto_portal 0
+# 看到傳送點時瞬移(0=關、1=開)
+teleportAuto_search 0
+# 到達鎖定地圖後，使用自動瞬移搜尋(0=關、1=開)
+teleportAuto_minAgWithAgNM 2
+# 有瞬移開關設定為5的怪物打你時總計多少怪物打你就飛
+teleportAuto_dist 5
+# 有瞬移開關設定為4的怪物接近到幾格內就飛
+teleportAuto_minAgNotorious 0
+# 有多少瞬移開關設定為5的怪物打你就飛
+teleportAuto_useItem 0
+# 瞬移時檢查是否身上有瞬移道具(0=不檢查、1=檢查)，有瞬移技能及裝備瞬移夾者請設0，其餘請設1全程使用蒼蝶翅
+teleportAuto_param1 0
+# 角色陷入特殊狀態Ａ(石化、冰凍、昏迷、睡眠)時允許瞬移(0=關、1=開)
+teleportAuto_ban 0
+# 禁言時允許瞬移開關(0=關 1=開)
+
+#-- 迴避指定目標型技能第0組 --
+teleportAuto_skill_0 自我毀滅
+# 指定迴避之技能，請打上技能中文名稱並以逗號隔開啟動此組功能
+teleportAuto_skill_0_castBy 2
+# 施術者分類，請以逗號隔開(0=關、1=自己、2=怪物、4=玩家、8=不明人物)
+teleportAuto_skill_0_castOn 1,2,4,8
+# 受術者分類，請以逗號隔開(0=關、1=自己、2=怪物、4=玩家、8=不明目標、16=座標)
+teleportAuto_skill_0_dist 1
+# 受術者在指定距離之內時瞬移逃離(0=不限制、1=腳下、2以上=指定距離)
+teleportAuto_skill_0_inCity 0
+# 允許在城市內啟動此功能(0=關、1=開)
+teleportAuto_skill_0_randomWalk 
+# 改採用隨機移動代替瞬移迴避[空白=關、格式:至少距離,最多距離]
+
+#-- 迴避地面持續型技能第0組 --
+teleportAuto_spell_0 傳送之陣,冰刃之牆
+# 指定迴避之技能，請打上技能中文名稱並以逗號隔開啟動此組功能
+teleportAuto_spell_0_castBy 4,8
+# 施術者分類，請以逗號隔開(0=關、1=自己、2=怪物、4=玩家、8=不明人物)
+teleportAuto_spell_0_dist 2
+# 技能出現位置在指定距離之內時瞬移逃離(0=不限制、1=腳下、2以上=指定距離)
+teleportAuto_spell_0_inCity 1
+# 允許在城市內啟動此功能(0=關、1=開)
+teleportAuto_spell_0_randomWalk 4,8
+# 改採用隨機移動代替瞬移迴避[空白=關、格式:至少距離,最多距離]
+
+#----------------------------------[自動使用攻擊技能設定]----------------------------------
+#-- 自動使用攻擊技能第0組 --
+attackSkillSlot_0 
+# 對應tables/skills.txt，請打上技能中文名稱啟動此組功能，如:狂擊
+attackSkillSlot_0_smartEquip 
+# 指定必須先裝備後才可獲得此技能之裝備名稱及位置[格式:名稱,位置]
+attackSkillSlot_0_dist 3
+# 使用技能的距離(格)
+attackSkillSlot_0_hp_lower 0
+attackSkillSlot_0_hp_upper 100
+# ＨＰ介於此兩設定值(lower,upper)之間時使用此技能(%)
+attackSkillSlot_0_lvl 10
+# 使用技能等級
+attackSkillSlot_0_maxAggressives 0
+# 最多被幾隻怪物同時攻擊使用此技能(0=不限制)
+attackSkillSlot_0_minAggressives 0
+# 至少被幾隻怪物同時攻擊使用此技能(0=不限制)
+attackSkillSlot_0_maxCastTime 10
+# 使用此技能所需最長時間(秒)，施展成功即會繼續AI動作，不需等到延遲時間結束(一般攻擊型法術最好設8~10秒)
+attackSkillSlot_0_minCastTime 0
+# 使用此技能所需最短時間(秒)，施展成功仍需等到延遲時間結束，才會繼續AI動作
+attackSkillSlot_0_maxUses 0
+# 對同一怪物最多使用次數(0=不限制)
+attackSkillSlot_0_monsters 
+# 使用此技能對應之怪物名稱(空白=不限制)，對應tables/monsters.txt，請打上怪物中文名稱並以逗號隔開
+attackSkillSlot_0_sp_lower 0
+attackSkillSlot_0_sp_upper 100
+# ＳＰ介於此兩設定值(lower,upper)之間時使用此技能(%)
+attackSkillSlot_0_spirits_lower 0
+attackSkillSlot_0_spirits_upper 5
+# 氣球數介於此兩設定值(lower,upper)之間時使用此技能(非武道家可不必設定)
+attackSkillSlot_0_stopWhenHit 0
+# 被攻擊時停止使用此技能(0=關、1=開)(吟唱時間較長的法術應該要設為1)
+attackSkillSlot_0_stopWhenSteal 0
+# 對怪物偷竊成功時停止使用此組攻擊技能開關
+attackSkillSlot_0_timeout 0
+# 使用此攻擊技能之間隔時間(秒)
+attackSkillSlot_0_useSelf 0
+# 是否對自己施放輔助技能(關閉=0 開啟=1)
+attackSkillSlot_0_param1 
+# 怪物變成特殊狀態Ａ時(任一)使用此技能，請以逗號隔開(0=關、1以上=指定特殊狀態Ａ、負數=不在此狀態下)
+attackSkillSlot_0_param2 
+# 怪物陷入特殊狀態Ｂ時(任一)使用此技能，請以逗號隔開(0=關、1以上=指定特殊狀態Ｂ、負數=不在此狀態下)
+attackSkillSlot_0_param3 
+# 怪物處於特殊狀態Ｃ時(任一)使用此技能，請以逗號隔開(0=關、1以上=指定特殊狀態Ｃ、負數=不在此狀態下)
+attackSkillSlot_0_status 
+# 角色不在持續狀態時使用此技能，請以逗號隔開(空白=關、0以上=指定持續狀態、負數=在此狀態下)
+attackSkillSlot_0_loopSlot 
+# 此組技能之後要接續的組別(空白=關、0以上=指定組別)，將會清除該組的使用時間與次數紀錄，用以配合maxUses和timeouts等設定來控制技能的使用
+attackSkillSlot_0_Homun_sp_lower 0
+attackSkillSlot_0_Homun_sp_upper 0
+# 生命體ＳＰ介於此兩設定值(lower,upper)之間時使用此技能(%)
+attackSkillSlot_0_Homun 0
+# 是否對生命體使用技能開關 (0=關、1=開)
+
+attackSkillSlot_0_prevSkill 
+# 上次攻擊技能名稱後接續此組攻擊技能
+# (空白=關 對應tables/skills.txt，請打上技能中文名稱啟動此組功能，如:六合拳)
+attackSkillSlot_0_delayTime 0.5
+# 可自行增加第1組(attackSkillSlot_1_XXX)、第2組(attackSkillSlot_2_XXX)，以此類推
+
+#----------------------------------[自動使用輔助技能設定]----------------------------------
+useSelf_skill_smartHeal 0
+# 自動選擇治癒術的等級(0=關、1=開)
+
+#-- 自動使用輔助技能第0組 --
+useSelf_skill_0 
+# 對應tables/skills.txt，請打上技能中文名稱啟動此組功能，如:雙手劍攻擊速度增加
+useSelf_skill_0_smartEquip 
+# 指定必須先裝備後才可獲得此技能之裝備名稱及位置[格式:名稱,位置]
+useSelf_skill_0_hp_lower 0
+useSelf_skill_0_hp_upper 100
+# ＨＰ介於此兩設定值(lower,upper)之間時使用此技能(%)
+useSelf_skill_0_inLockOnly 0
+# 只在鎖定地圖使用此技能(0=關、1=開)
+useSelf_skill_0_lvl 10
+# 使用技能等級
+useSelf_skill_0_maxAggressives 0
+# 最多被幾隻怪物同時攻擊使用此技能(0=不限制)
+useSelf_skill_0_minAggressives 0
+# 至少被幾隻怪物同時攻擊使用此技能(0=不限制)
+useSelf_skill_0_maxCastTime 10
+# 使用此技能所需最長時間(秒)，施展成功即會繼續AI動作，不需等到延遲時間結束
+useSelf_skill_0_minCastTime 0
+# 使用此技能所需最短時間(秒)，施展成功仍需等到延遲時間結束，才會繼續AI動作
+useSelf_skill_0_sp_lower 0
+useSelf_skill_0_sp_upper 100
+# ＳＰ介於此兩設定值(lower,upper)之間時使用此技能(%)
+useSelf_skill_0_spirits_lower 0
+useSelf_skill_0_spirits_upper 5
+# 氣球數介於此兩設定值(lower,upper)之間時使用此技能(非武道家可不必設定)
+useSelf_skill_0_stopWhenHit 0
+# 被攻擊時停止使用此技能(0=關、1=開)
+useSelf_skill_0_timeout 0
+# 使用此技能之間隔時間(秒)，如:等級10"雙手劍攻擊速度增加"時效是300秒
+useSelf_skill_0_param2 
+# 角色陷入特殊狀態Ｂ時使用此技能
+useSelf_skill_0_status 
+# 不在此狀態下使用此技能，請以逗號隔開(空白=關、0以上=指定持續狀態、負數=在此狀態下)
+useSelf_skill_0_whileSitting 0
+# 蹲坐時使用此技能
+useSelf_skill_0_waitAfterKill 0
+# 戰鬥後暫時不使用此技能(0=關、1=開) - 暫停秒數請於control/timeouts.txt中設定
+useSelf_skill_0_Homun_hp_lower 0
+useSelf_skill_0_Homun_hp_upper 100
+# 生命體ＨＰ介於此兩設定值(lower,upper)之間時使用此技能(%)
+useSelf_skill_0_Homun_sp_lower 0
+useSelf_skill_0_Homun_sp_upper 100
+# 生命體ＳＰ介於此兩設定值(lower,upper)之間時使用此技能(%)
+useSelf_skill_0_Homun 0
+# 是否對生命體使用技能開關 (0=關、1=開)
+
+#------------------------------------[隊伍技能設定]------------------------------------
+partyAutoResurrect 0
+# 自動復活隊友			(0關閉 1開啟 ,需有復活術或天地樹葉子)
+partyAutoResurrectTime 5
+# 隊友死亡後幾秒後使用復活術	(單位:秒)
+partySkill_smartHeal 1
+# 使用治癒術時自動選擇等級	(0關閉 1開啟)
+partySkill_distance 5
+# 隊友目標人物施放技能距離
+partySkill_checkWall 1
+# 隊友目標施放技能前檢查是否有障礙物(0關閉 1開啟)
+
+#使用隊伍技能必須在組隊下才啟動,且useSelf_skill輔助技能至少設定一組
+partySkill_0 
+# 技能名稱設定參照skills.txt
+partySkill_0_smartEquip 
+# 指定必須先裝備後才可獲得此技能之裝備名稱及位置[格式:名稱,位置]
+partySkill_0_lvl 10
+# 施放技能等級
+partySkill_0_target 
+# 被施放技能目標人物名稱,設置多人請以逗號隔開,將會依序使用(限隊友)(空白=全體隊員)
+partySkill_0_targetHp_lower 0
+partySkill_0_targetHp_upper 60
+# 介於最高最低ＨＰ量施放
+partySkill_0_maxCastTime 10
+# 施放技能最長時間
+partySkill_0_minCastTime 0
+# 施放技能最短時間
+partySkill_0_sp_lower 0
+partySkill_0_sp_upper 100
+# 介於最高最低ＳＰ量施放
+partySkill_0_timeout 0
+# 施放技能間隔時間
+partySkill_0_status 
+# 隊友不在此狀態下施放,編號請參考tables/msgstrings.txt (空白=關、0以上=指定持續狀態、負數=在此狀態下)
+partySkill_0_onSit 0
+# 僅在目標人物蹲坐時施放此技能
+partySkill_0_inMap
+# 僅在指定地圖才使用此技能,設置多項請以逗號隔開 (空白=關)(對應tables/maps.txt，地圖名稱[不加副檔名])
+partySkill_0_statusTimeout 
+#此技能將會持續的時間, 只有設定持續狀態才會有作用,可避免目標離開畫面後發呆 (單位:秒)
+partySkill_0_param1 
+# 隊友陷入特殊狀態A時使用
+partySkill_0_param2 
+# 隊友陷入特殊狀態B時使用
+partySkill_0_param3 
+# 隊友陷入特殊狀態C時使用
+partySkill_0_stopWhenHit 0
+# 自身被攻擊時停止使用此技能(0=關、1=開)
+partySkill_0_stopWhenHitTarget 0
+# 目標人物被攻擊時停止使用此技能(0=關、1=開)
+
+#------------------------------------[自動使用物品設定]------------------------------------
+#-- 自動使用物品第0組 --
+useSelf_item_0 寵物飼料,香蕉,南瓜,紅蘿蔔,蕃薯,肉
+# 指定使用之物品,請打上物品中文名稱啟動此組功能,設置多樣請以逗號隔開,將會依序使用
+useSelf_item_0_hp_lower 0
+useSelf_item_0_hp_upper 60
+# ＨＰ介於此兩設定值(lower,upper)之間時使用此物品(%)
+useSelf_item_0_maxAggressives 0
+# 最多被幾隻怪物同時攻擊使用此物品(0=不限制)
+useSelf_item_0_minAggressives 0
+# 最少被幾隻怪物同時攻擊使用此物品(0=不限制)
+useSelf_item_0_sp_lower 0
+useSelf_item_0_sp_upper 100
+# ＳＰ介於此兩設定值(lower,upper)之間時使用此物品(%)
+useSelf_item_0_stopWhenHit 0
+# 被攻擊時停止使用此物品(0=關、1=開)
+useSelf_item_0_inLockOnly 0
+# 只在鎖定地圖使用此物品(0=關、1=開)
+useSelf_item_0_repeat 1
+# 連續使用此物品(0~1=1次、2以上=次數)
+useSelf_item_0_timeout 0
+# 使用此物品之間隔時間(秒)
+useSelf_item_0_param2 
+# 角色陷入特殊狀態Ｂ時使用此物品，請以逗號隔開(0=關、1以上=指定特殊狀態Ｂ、負數=不在此狀態下)
+useSelf_item_0_status 
+# 不在此人物狀態下使用此物品
+useSelf_item_0_checkSupplyFirst 0
+# 使用此物品前先檢查是否使用後會到達取倉或買物之下限(0=關、1=補給流程中仍會使用、2=補給流程中不會使用)
+# 如果檢查成立，將會直接啟動補給流程，而不使用此物品
+
+#------------------------------------[自動撿取物品設定]------------------------------------
+itemsTakeAuto 2
+# 撿取物品(0=關、1=把怪物清完才撿取物品、2=撿完物品才會攻擊)
+itemsGatherAuto 0
+# 撿取無主物品(0=關、1=把怪物清完才撿取物品、2=撿完物品才會攻擊)
+itemsMaxWeight 49
+# 負重高於多少百分比後停止撿取物品，並啟動自動補給功能
+itemsGreedyMode 0
+# 貪婪撿物模式(超過負重上限回存點途中遇怪攻擊仍把怪物清完並撿取)(0=關、1=開)
+itemsGatherInLockOnly 1
+# 只在鎖定地圖撿取無主物品(0=關、1=開)
+itemsGatherCheckWall 1
+# 撿取無主物品檢查是否有障礙物(0=關、1=開)
+itemsGatherDistance 2
+# 無主物品附近幾格內有人不撿取(n=距離)
+itemsTakeParty 0
+# 幫助隊友撿取物品
+itemsGatherDistanceFromYou 20
+# 撿取指定距離以內的掉落物品
+
+importantItemDistance 20
+# 撿取指定距離以內的重要物品
+importantItemFirst 1
+# 撿取重要物品後才會攻擊 (0=關、1=開)
+importantItemSequence 1
+# 撿取重要物品時, 依照出現重要物品順序撿取 (0=關、1=開)
+takeMaxRouteDistance 50
+# 撿取行進最大距離(格)
+takeMaxRouteTime 15
+# 計算撿取路徑最大時間(秒
+#------------------------------------[自動補給物品設定]------------------------------------
+searchNPC_distance 9
+# 新型NPC座標擷取法自動尋找NPC最遠距離(0=所有可見的NPC、n=最遠距離) 
+searchNPC_useSamePosWhenFail 1
+# 自動尋找NPC失敗時, 使用以npcs.txt裡相同座標的編號(0=關、1=開)
+searchNPC_restartWhenFail 0
+# 自動尋找NPC失敗時, 重新登入後再尋找一次(0=關、1=開)
+modifiedTalk 1
+# 讓NPC對話流程能快速進行
+
+##############對話###############
+talkAuto 0
+# 啟動以下與指定的NPC進行對話(0=關、1=開)
+
+talkAuto_0_npc 
+# 指定NPC編號
+# 可用新型的npc座標擷取法 ex:talkAuto_0_npc auto payon 181 104
+talkAuto_0_distance 4
+# 與指定NPC對話之隨機距離(格)
+talkAuto_0_npc_steps c c c r0 c c c n
+# 與指定NPC對話之順序，請以空白隔開
+# (c='talk cont'、r#='talk resp #'、a(#|"X")='talk answer (#|"X")'、n='talk no')
+talkAuto_0_hp 100
+# HP低於多少百分比時啟動自動對話功能(%)
+talkAuto_0_sp 100
+# SP低於多少百分比時啟動自動對話功能(%)
+talkAuto_0_brokenOnly 0
+# 有裝備損壞時才觸發自動對話功能(0=關、1=開)
+talkAuto_0_supplyOnly 0
+# 只在自動補給時才觸發自動對話功能(0=關、1=開)
+
+talkAuto_peace 0
+# 目前任務為attack時不觸發以上自動對話功能(0=關、1=開)
+talkAuto_single 0
+# 獨立循環模式(自動換鋁神)(0=關、1=開)
+
+##############存倉###############
+storageAuto 0
+# 使用倉庫 - 自動存放(提取)物品(0=關、1=開)
+storageAuto_npc 
+# 卡普拉小姐編號
+# 可用新型的npc座標擷取法 ex:storageAuto_npc auto payon 181 104
+storageAuto_npc_steps c r1 n
+# 使用倉庫 - 自動存放(提取)物品，請打上談話順序並以空白隔開
+# 如發現無法正常與卡普拉小姐對話，請自行確認對話順序
+storageAuto_distance 4
+# 與卡普拉小姐對話之隨機距離(格)
+getAuto_peace 0
+# 攻擊結束才觸發以下自動領取功能(0=關、1=開)
+storageAuto_password 
+# 倉庫密鑰設定，並非設定的明碼，而是編碼後變成的32個英文和數字(由X-Mode開倉取得)
+
+
+getAuto_0 
+# 對應tables/items.txt，請打上物品中文名稱啟動此組功能，如:紅色藥水
+getAuto_0_minAmount 1
+# 物品數量消耗到達下限時，會走回城與卡普拉小姐提取物品(空白=回儲存點才觸發)
+getAuto_0_maxAmount 10
+# 提取至物品數量上限
+getAuto_0_passive 0
+# 只在回城時提領物品,不觸動自動回城補給開關(0=關、1=開)
+# 可自行增加第1組(getAuto_1_XXX)、第2組(getAuto_2_XXX)，以此類推
+
+##############買賣###############
+buyAuto_peace 0
+# 攻擊結束才觸發自動買物功能(0=關、1=開)
+
+#-- 自動購買物品第0組 --
+buyAuto_0 
+# 對應tables/items.txt，請打上物品中文名稱啟動此組功能，如:紅色藥水
+buyAuto_0_npc 
+# 商人NPC編號
+# 可用新型的npc座標擷取法 ex:buyAuto_0_npc auto payon 181 104
+buyAuto_0_minAmount 1
+# 物品數量消耗到達下限時，會走回城購買物品(空白=回儲存點才觸發)
+buyAuto_0_maxAmount 10
+# 購買至物品數量上限
+buyAuto_0_distance 4
+# 與商人NPC對話之隨機距離(格)
+# 可自行增加第1組(buyAuto_1_XXX)、第2組(buyAuto_2_XXX)，以此類推
+buyAuto_0_talkMode 0
+# 獨立自動購物NPC買物時使用對話談模式(0=關、1=開) 
+buyAuto_0_npc_steps c r1 n
+# 獨立自動購物NPC對話之順序，請以空白隔開 
+# (c='talk cont'、r#='talk resp #'、a(#|"X")='talk answer (#|"X")'、n='talk no')
+
+sellAuto 0
+# 自動賣出物品(0=關、1=開)
+sellAuto_npc 
+# 商人NPC編號
+# 可用新型的npc座標擷取法 ex:sellAuto_npc auto payon 181 104
+sellAuto_distance 4
+# 與商人NPC對話之隨機距離(格)
+
+##############手推車###############
+cartAuto 0
+# 使用手推車 - 自動放置(拿取)物品(0=關、1=開)
+cartMaxWeight 95
+# 放置手推車最大負重(%)
+cartSmartWeight 1
+# 手推車自動放置物品時, 自動判斷最大負重(0=關、1=開)
+
+getAutoToCart_0 
+# 由倉庫提領物品至手推車，對應tables/items.txt，請打上物品中文名稱，如:紅色藥水
+getAutoToCart_0_maxAmount 10
+# 指定提領至手推車至物品數量上限
+# 這是直接由倉庫把物品放入手推車，只會在存倉時有作用
+#------------------------------------[自動跟隨玩家設定]------------------------------------
+follow 0
+# 跟隨模式啟動(0=關、1=開)
+followTarget 
+# 跟隨模式目標(玩家名稱)
+followDistanceMax 6
+# 最大跟隨距離(格)
+followDistanceMin 4
+# 最小跟隨距離(格)
+followLostStep 12
+# 跟丟時以每秒幾格的距離往目標消失的方向走去(建議不要修改)
+
+#--------------------------------------[肉盾模式設定]--------------------------------------
+tankMode 0
+# 肉盾模式啟動(0=關、1=開)
+tankModeTarget 
+# 肉盾模式目標(玩家名稱)
+
+#--------------------------------------[自動取消設定]--------------------------------------
+dealAuto 1
+# 自動交易(0=關、1=自動取消、2=自動接受)
+partyAuto 1
+# 自動取消隊伍邀請(0=關、1=開)
+partyAutoShare 1
+# 組隊經驗值均分開關(0=各自取得、1=均分)
+guildAutoDeny 1
+# 自動取消公會邀請(0=關、1=開)
+friendAuto 1
+# 自動因應好友邀請(0=關、1=自動取消、2=自動接受)
+ignoredAll 1
+# 拒絕密語開關(0=接受所有密語、1=拒絕所有密語)
+
+#----------------------------------------[系統設定]------------------------------------
+seconds_per_block 0.12
+# 移動一格所需時間
+sleepTime 50000
+# 程式迴圈靜止時間(微秒)
+#----------------------------------------[mod 新增]------------------------------------
+
+autoUpdateNPC 1
+# 自動更新NPC編號
+fastInfoDetect 0
+# 快速取得姓名資訊(如果太多玩家在視線內可能造成斷線)(0=關、1=開)
+guildAutoInfo 10
+# 自動索取公會資訊間隔時間(0=關、1以上=間隔時間(秒))
+
+makeChatwhenSit 0
+# 發呆超過一定時間開啟聊天室(聊天室名稱請對照 control\chatauto.txt並設定發呆坐下)(0=關、1=開)
+chatRoom 人不在...掛網中
+# 聊天室名稱
+chatRoomMode 20,1
+# 聊天室屬性 <limit #>,<public flag>,<password>
+
+#------------------------------------[寵物設定]---------------------------------------
+petAutoFeedRate 25
+# 寵物滿足感低於設定值時，自動餵食飼料(0=關、1~100=設定值)
+# 若自動餵食失敗會自動將寵物回復成蛋的狀態
+petAuto_return 1000
+# 寵物親密度高於設定值時，自動將寵物回復成蛋的狀態(0=關、1~1000=設定值)
+petAuto_protect 1
+# 寵物滿足感低於10或是親密度低於100時，自動將寵物回復成蛋的狀態(0=關、1=開)
+petAutoPlay 0
+# 定時表演寵物(ai_petPlay秒數)(0=關、1=開)
+
+#-----------------------------------[生命體設定]---------------------------------------
+hideMsg_homun 1
+# 隱藏人工生命體訊息開關 (0=不隱藏、1=隱藏)
+homunAutoFeedRate 50
+# 人工生命體滿足感低於設定值時，自動餵食飼料(0=關、1~100=設定值)
+# 若自動餵食失敗會自動將生命體安息
+homunAuto_return 1001
+# 人工生命體親密度高於設定值時，自動將生命體安息(0=關、1~1000=設定值)
+homunAuto_protect 0
+# 人工生命體滿足感低於15或是親密度低於20時，自動將生命體安息(0=關、1=開)
+homunAutoAttack 0
+# 人工生命體是否自動攻擊或反擊怪物 (0=關、1=開)
+homunAttackTimeout 20
+# 人工生命體多少秒無法攻擊既瞬移 (0=關、1以上=間隔時間(秒))
+homunLostUseTele 1
+# 人工生命體從視線範圍內消失既瞬移 (0=關、1=開)
+teleportAuto_Homun_hp 50
+# 人工生命體 ＨＰ 低於多少％自動瞬移逃離
+homunAutoResurrect 1
+# 自動復活死亡的生命體 (0=關、1=開)
+
+#------------------------------------[自動說話表情設定]--------------------------------
+ChatAuto 0
+#自動回應開關(0=關、1=開)
+ChatAuto_Autoignored 0
+# 對同一玩家達最多回應次數後自動拒絕密語(0=關、1=開)
+ChatAuto_Cps 0.25
+# 模擬即時輸入回應(每秒字元數)
+ChatAuto_Distance 5
+# 回應距離(格)
+ChatAuto_Emotime 0.5
+# 自動表情間格(秒)
+ChatAuto_inLockOnly 0
+# 在鎖定地圖自動說話
+ChatAuto_Max 5
+# 對同一玩家最多回應次數(0=關、n=次數)
+
+#------------------------------------[自動回應設定]------------------------------------
+# 以下設定文字請對照 control\chatauto.txt
+AntiSkillonMonster 0
+# 自動回應對怪物使用技能(0=關、1=開)
+AntiIncoming 0
+# 自動回應接收訊息(隊伍邀請、交易、公會邀請)(0=關、1=開)
+AntiJam 0
+# 自動回應堵塞(0=關、1=開、2=瞬移)
+AntiJam_Count 2
+# 回應堵塞達多少次即瞬移(0=關、n=次數)
+AntiWarp 0
+# 自動回應惡意傳送之陣(0=關、1=開)
+AutoThanks 0
+# 自動回應被治癒、加速、賜福(0=關、1=開)
+AutoSpeak 0
+# 定時說話或做表情(ai_AutoSpeak秒數)(0=關、1=開)
+
+#------------------------------------[活動地圖設定]------------------------------------
+# 注意:這裡指定你全部的活動範圍,從儲存地圖至鎖定地圖所會經過的地圖都要設定,如果不知道怎設
+# 建議你保持空白不指定
+
+allowableMap 
+# 指定活動地圖,請打上儲存點地圖名稱(不含.rsw)並以逗號隔開(空白=不指定)
+# 不在指定活動地圖時會啟動reactallowableMap
+
+reactallowableMap 
+# 離開指定活動地圖時執行(1=回儲存點,2=登出)
+
+#----------------------------------------[防GM設定]------------------------------------
+avoidGM 3
+# 發現GM時閃避模式選擇(0=關、1=瞬移、2=回儲存點、3=暫時登出)
+
+avoidGM_paranoia 1
+# 利用更多的偵測機制來偵測GM (0=關、1=開)
+
+avoid_namePattern ^GM0
+# 閃避之GM部分名稱(只要名稱中有GM0三字)
+
+avoid_onPM 2
+# 迴避密語對象(0=關閉 1=任何人 2=avoid_namePattern指定)
+
+avoid_reConnect 7200
+# 暫時登出後多久自動上線秒數 [格式:基本時間(秒),亂數時間(秒)]
+
+avoid_walkDistance 5
+# 當偵測到惡意傳陣或對怪使用技能時隨機移動距離(格)
+
+ppl_defaultFlag 1 1 0
+# ppl_control.txt中預設開關(<忽略開關> <自動瞬移開關> <自動下線開關>)
+
+Exclusive_Avoid 0
+# 視線內有祭司或牧師時瞬移(0=關、1=開、2=任何人)
+
+dcOnChatWord 確保,登入,表示
+# 聊天/密語頻道關鍵字過濾
+
+dcOnSysWord 鍵盤,規章,回應,規,章
+# 公告頻道關鍵字過濾
+
+dcOnSkillBan 1
+# 遭到禁言時立即登出(0=關、1=開)
+
+#------------------------------------[歷程紀錄設定]------------------------------------
+sysLog_emotions 
+# 記錄表情 (空白=不記錄、all=全部記錄)
+sysLog_monster 0
+# 記錄魔物
+sysLog_items 0
+# 記錄物品
+recordLocation 3
+# 自動紀錄目前位置(walk.dat)供MapViewer顯示(0=關、1以上=指定間隔時間(秒))
+recordStorage 1
+# 開啟倉庫後自動紀錄倉庫物品存量(0=關、1=開)
+# 紀錄位置:logs/storage.txt
+
+recordExp 2
+# 自動紀錄戰績統計資料(1:程式結束 2:接續 3:覆蓋 4:接續並重置)) 
+# 紀錄位置:logs/ExpLog.txt 紀錄間隔時間請在timeouts.txt內設定
+
+#------------------------------------[隱藏訊息設定]------------------------------------
+hideMsg_guildBulletin 1
+# 隱藏公會佈告欄之訊息開關(0=不隱藏、1=隱藏)
+hideMsg_otherUseItem 1
+# 隱藏其他玩家使用物品之訊息開關(0=不隱藏、1=隱藏)
+hideMsg_expDisplay 0
+# 隱藏獲得經驗值顯示(0=不隱藏、1=隱藏)
+hideMsg_itemExists 0
+# 隱藏發現物品(0=不隱藏、1=隱藏)
+hideMsg_itemAppeared 0
+# 隱藏出現物品(0=不隱藏、1=隱藏)
+hideMsg_emotions all
+# 隱藏表情開關 (空白=不隱藏、all=全部隱藏)
+hideMsg_arrowRemove 1
+# 隱藏單隻箭矢移除之訊息開關(0=不隱藏、1=隱藏)
+hideMsg_groundEffect 134
+# 隱藏地面持續型技能效果出現之訊息開關，請以逗號隔開(空白=不隱藏、all=全部隱藏)
+hideMsg_groundEffect_timeout 0
+# 地面持續型技能效果出現之訊息顯示間隔(0=關、1以上=間隔時間(秒)
+hideMsg_make 0
+# 隱藏鍛造製藥訊息 (0=不隱藏 1=鍛造精練 2.製藥 all=全部隱藏)
+hideMsg_loudspeaker 0
+# 隱藏擴聲器訊息 (0=不隱藏 1=隱藏)
+
+hideMsg_param1_0 all
+# 隱藏自身特殊狀態A變化之訊息開關，狀態編號請以逗號隔開(空白=不隱藏、狀態編號、all=全部隱藏)
+hideMsg_param1_0_source 4,8,16
+# 隱藏特殊狀態A變化 (1=自己、2=怪物、4=玩家、8=不明人物、16=座標、32=隊友、64=自己寵物、128=其他寵物)
+hideMsg_param2_0 all
+# 隱藏自身特殊狀態B變化之訊息開關，狀態編號請以逗號隔開(空白=不隱藏、狀態編號、all=全部隱藏)
+hideMsg_param2_0_source 4,8,16
+# 隱藏特殊狀態B變化 (1=自己、2=怪物、4=玩家、8=不明人物、16=座標、32=隊友、64=自己寵物、128=其他寵物)
+hideMsg_param3_0 all
+# 隱藏自身特殊狀態C變化之訊息開關，狀態編號請以逗號隔開(空白=不隱藏、狀態編號、all=全部隱藏)
+hideMsg_param3_0_source 1,2,4,8,16
+# 隱藏特殊狀態C變化 (1=自己、2=怪物、4=玩家、8=不明人物、16=座標、32=隊友、64=自己寵物、128=其他寵物)
+
+hideMsg_status_0 all
+# 隱藏自身常駐狀態變化之訊息開關，狀態編號請以逗號隔開(空白=不隱藏、狀態編號、all=全部隱藏)
+hideMsg_status_0_source 4,8,16
+# 隱藏狀態變化 (1=自己、2=怪物、4=玩家、8=不明人物、16=座標、32=隊友、64=自己寵物、128=其他寵物)
+
+hideMsg_attack_0_source 4,8,16
+# 隱藏施術者攻擊技能訊息(1=自己、2=怪物、4=玩家、8=不明人物、16=座標、32=隊友、64=自己寵物、128=其他寵物)
+hideMsg_attack_0_target 4,8,16
+# 隱藏受術者攻擊技能訊息(1=自己、2=怪物、4=玩家、8=不明人物、16=座標、32=隊友、64=自己寵物、128=其他寵物)
+
+hideMsg_skill_0 all
+# 隱藏技能訊息(空白=不隱藏、all=全部隱藏)
+hideMsg_skill_0_source 4,8,16
+# 隱藏施術者技能訊息(1=自己、2=怪物、4=玩家、8=不明人物、16=座標、32=隊友、64=自己寵物、128=其他寵物)
+hideMsg_skill_0_target 2,4,8,16
+# 隱藏受術者技能訊息(1=自己、2=怪物、4=玩家、8=不明人物、16=座標、32=隊友、64=自己寵物、128=其他寵物)
+
+#------------------------------------[系統音效設定]------------------------------------
+alertSound 0
+# 收到訊息時伴隨音效(0=關、1=開)
+
+#------------------------------------[自動更換裝備設定]---------------------------------
+equipAuto_teleport 
+# 瞬移前更換裝備名稱及位置(格式:裝備名稱[,位置])
+equipAuto_def_0 
+# 指定預設之裝備名稱及位置(格式:裝備名稱[,位置])
+# 卸下裝備(名稱需打上uneq)或是要裝備武器(裝飾品)至左手才需指定位置
+
+#-- 自動切換裝備第0組 --
+equipAuto_0_0 
+# 指定切換之裝備名稱(格式:裝備名稱[,位置])
+equipAuto_0_useWeapon 
+# 切換裝備後使用武器攻擊開關(法巫請保持空白,不然會拿杖敲)(空白=關閉 1=開啟)
+equipAuto_0_attackDistance 
+# 設定equipAuto_0_useWeapon為1時物理攻擊距離 (空白=關閉 1以上為距離)
+equipAuto_0_hp_lower 0
+equipAuto_0_hp_upper 100
+# HP介於此兩設定值(lower,upper)之間時切換此組裝備(%)
+equipAuto_0_maxAggressives 0
+# 最多被幾隻怪物同時攻擊切換此組裝備(0=不限制)
+equipAuto_0_minAggressives 0
+# 至少被幾隻怪物同時攻擊切換此組裝備(0=不限制)
+equipAuto_0_monsters 
+# 切換裝備對應之怪物,請打上怪物中文名稱並以逗號隔開(空白=不限制)
+equipAuto_0_skills 
+# 切換裝備對應之技能,請打上技能中文名稱並以逗號隔開(空白=不限制)
+equipAuto_0_sp_lower 0
+equipAuto_0_sp_upper 100
+# SP介於此兩設定值(lower,upper)之間時切換此組裝備(%)
+equipAuto_0_weight 0
+# 角色負重達多少百分比時切換此組裝備(0=關,1以上=指定百分比)
+equipAuto_0_whileSitting 0
+# 角色蹲坐時停止切換此組裝備(0=關,1=開)
+# 可自行增加第1組(equipAuto_1_XXX),第2組(equipAuto_2_XXX),以此類推
+
+#------------------------------------[自動加點設定]------------------------------------
+# 自動分配技能點數第0組,可自行增加
+autoAddSkill_0 
+# 自動分配技能 - 請設定技能名稱
+autoAddSkill_0_limit 1
+# 自動分配技能上限
+
+# 自動分配素質點數第0組,可自行增加
+autoAddStatus_0 
+# 自動分配素質點數(str|agi|vit|int|dex|luk)
+autoAddStatus_0_limit 99
+# 自動分配素質點數上限
+
+#------------------------------------[自動訪價設定]------------------------------------
+shoppingAuto 0
+# 自動露天商店市場調查開關
+# 輸出結果請參閱 logs\VenderLog.txt
+recordVender_clearName 1
+# 自動清除露天商品列表裡舊的人名及商店名
+
+#------------------------------------[自動鍛造設定]------------------------------------
+makeAuto_useitem 
+# 使用鍛造耗材物品名稱設定(如:攜帶用熔礦爐)
+makeAuto_makeitem 
+# 鍛造物品項目設定(鋼鐵..白色纖細藥水等等的)
+makeAuto_retry 10
+# 這是自動鍛造/製藥中如果沒收到製作列表的重試次數
+
+makeAuto_stone 
+# 鍛造武器所需屬性原石設定 (空白=關閉 1=火 2=水 3=風 4=地 屬性)
+makeAuto_stars 
+# 鍛造武器所需星星之角設定 (空白=關閉 1=一級 2=二級 3=三級 強悍)
+#------------------------------------[自動箭矢相關]------------------------------------
+makeArrowAuto 
+# 自動製作箭矢或使用箭矢筒開關 (空白=關 1=製作箭矢技能 2=使用箭矢筒 3=肯貝特製作)
+
+makeArrowAuto_0 
+# 練功中自動製作箭矢原料(如:華麗金屬或火箭矢筒)
+# 自動製作肯貝特物品(如:地 肯貝特)
+makeArrowAuto_0_checkItem 
+# 練功中自動製作箭矢/肯貝特檢查物品(如:無形箭矢或火箭矢或地 肯貝特)
+makeArrowAuto_0_minAmount 10
+# 檢查物品最低數量啟動自動製箭矢/肯貝特製作
+

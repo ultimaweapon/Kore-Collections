@@ -1,0 +1,255 @@
+================================================================================================
+                   Ragnarok Online Client Emulator
+================================================================================================
+【作業系統】Windows 98/SE/ME/XP/2000
+【免責事項】本程式為免費軟體，原作者與本人不為使用本程式所造成的任何損失負責.
+【轉載條件】必須保持本壓縮檔之完整性，並放置在自行準備之空間
+【技術支援】modKore & Clio by Karasu & Tiffany by AyonPan
+【安裝說明】須加入Kore系列地圖檔案
+【移除說明】不對系統機碼等做任何寫入動作，刪除時直接對資料夾做刪除即可
+【CHECKSUM】倉庫密鑰輸入程式.exe  f80e06b05c531c80473695d8d29d5385
+【原著作權】(c) 2004, 2005 mKore Ver 2.6.2 by Harry
+================================================================================================
+【感謝】
+	凱因斯、darkhenry 提供帳號給予測試
+	
+================================================================================================
+
+
+mKore參數
+--help          顯示輔助訊息.
+--control=path  指定control目錄.
+--fields=path   指定fields目錄.
+--logs=path     指定logs目錄.
+--plugins=path  指定plugins目錄.
+--tables=path   指定tables目錄.
+
+
+┌── Easy-mKore Ver 262.01 -─────────────────────────────┐
+│MD5 Checksum:	a2631be2596886af1c540bd91cd56c00  Easy-mKore Ver 262.01			│
+│											│
+│程式:											│
+│    ＊ 修改GVG娃娃機鐵匠無法自動修理問題 (當損壞道具有一種以上時會從最後一項開始修理)	│
+│    ＊ 修改GVG娃娃機使用"光耀之堂"會斷線的錯誤					│
+│    ＊ 修改倉庫密碼輸入不須加 "p"							│
+│    ＊ 修改當物品爆倉時不會對腳本修改停止存倉,緊暫時停止存倉動作			│
+│    ＋ 組隊技能增加 僅在指定地圖才使用技能 設定					│
+│    ＋ 公會技能增加 不被施放技能目標人物職業 設定					│
+│    ＋ 增加人工生命體 攻擊、恢復、復活、瞬移 等設定					│
+│    ＋ 增加指令 homun 生命體資訊顯示							│
+│    ＋ 增加指令 homun feed 生命體餵食							│
+│    ＋ 增加魔物賽跑設定 (程式自動判斷是否買中彩票進行兌換或退出賽場)			│
+│    － 刪除免服登入日期限制								│
+│											│
+├───────────────────────────────────────────┤
+│檔案:											│
+│											│
+│    ＋ 倉庫密鑰輸入程式.exe								│
+│control/										│
+│    ＋ race_control.txt								│
+│											│
+│control/config.txt									│
+│    ＋ partySkill_0_inMap								│
+│    ＋ attackSkillSlot_0_Homun_sp_lower						│
+│    ＋ attackSkillSlot_0_Homun_sp_upper						│
+│    ＋ attackSkillSlot_0_Homun							│
+│    ＋ useSelf_skill_0_Homun_hp_lower							│
+│    ＋ useSelf_skill_0_Homun_hp_upper							│
+│    ＋ useSelf_skill_0_Homun_sp_lower							│
+│    ＋ useSelf_skill_0_Homun_sp_upper							│
+│    ＋ useSelf_skill_0_Homun								│
+│    ＋ hideMsg_homun									│
+│    ＋ homunAttackTimeout								│
+│    ＋ homunLostUseTele								│
+│    ＋ teleportAuto_Homun_hp								│
+│    ＋ homunAutoResurrect								│
+│											│
+│control/timeouts.txt									│
+│    ＋ ai_aihomuns									│
+│											│
+│control/gvg_control.txt								│
+│    ＋ guildSkill_0_job								│
+│											│
+│control/race_control.txt								│
+│    ＋ raceAuto									│
+│    ＋ raceTicket_check								│
+│    ＋ raceAuto_single_npc								│
+│    ＋ raceAuto_single_npc_steps							│
+│    ＋ raceTicket_single_npc								│
+│    ＋ raceTicket_single_npc_steps							│
+│    ＋ raceTicket_single_npc_number							│
+│    ＋ raceExchange_single_npc							│
+│    ＋ raceExchange_single_npc_steps							│
+│    ＋ raceWithdrawal_single_npc							│
+│    ＋ raceWithdrawal_single_npc_steps						│
+│    ＋ raceAuto_double_npc								│
+│    ＋ raceAuto_double_npc_steps							│
+│    ＋ raceTicket_double_npc								│
+│    ＋ raceTicket_double_npc_steps							│
+│    ＋ raceTicket_double_npc_number							│
+│    ＋ raceTicket_double_npc_0_number							│
+│    ＋ raceExchange_double_npc							│
+│    ＋ raceExchange_double_npc_steps							│
+│    ＋ raceWithdrawal_double_npc							│
+│    ＋ raceWithdrawal_double_npc_steps						│
+│											│
+└───────────────────────────────────────────┘
+
+┌── mK-Bot V2.6.2.1 fix-C -─────────────────────────────┐
+│MD5 Checksum:	3b798d661fc33f72d81a0b044c41e0e3  mK-Bot 2.6.2.1 fix-C.exe		│
+│											│
+│程式:											│
+│    ＊ 修改傳送師傳點施放位置								│
+│    ＊ 修改公會技能guildSkill_$_target設定(不被施放技能目標人物名稱)			│
+│    ＋ 增加表情使用技能設定								│
+│    ＋ 增加隱藏擴聲器訊息設定								│
+│    ＋ 增加肯貝特製作設定								│
+│    ＋ 增加靈魂狀態技能顯示(沒試過不確定可以顯示)					│
+│    ＋ 增加免服安全密碼登入設定(使用期限:2007/10/31)					│
+│											│
+├───────────────────────────────────────────┤
+│檔案:											│
+│											│
+│control/config.txt									│
+│    ＋ checkExpireType								│
+│    ＋ login_OpenKey									│
+│    ＋ hideMsg_loudspeaker								│
+│											│
+│control/timeouts.txt									│
+│    ＋ ai_gvgAuto_Skill								│
+│											│
+│control/gvg_control.txt								│
+│    － GVG_Warp_rand_x								│
+│    － GVG_Warp_rand_y								│
+│    － GVG_Warp_0_Emotions_set							│
+│    － GVG_Warp_0_Chat_set								│
+│    － GVG_Warp_0_Map									│
+│    － GVG_Warp_0_Msg									│
+│    ＋ guildSkill_0_dist								│
+│    ＋ GVG_Warp_up_Emotions_set							│
+│    ＋ GVG_Warp_up_Chat_set								│
+│    ＋ GVG_Warp_up_Map								│
+│    ＋ GVG_Warp_up_Msg								│
+│    ＋ GVG_Warp_down_Emotions_set							│
+│    ＋ GVG_Warp_down_Chat_set								│
+│    ＋ GVG_Warp_down_Map								│
+│    ＋ GVG_Warp_down_Msg								│
+│    ＋ GVG_Warp_left_Emotions_set							│
+│    ＋ GVG_Warp_left_Chat_set								│
+│    ＋ GVG_Warp_left_Map								│
+│    ＋ GVG_Warp_left_Msg								│
+│    ＋ GVG_Warp_right_Emotions_set							│
+│    ＋ GVG_Warp_right_Chat_set							│
+│    ＋ GVG_Warp_right_Map								│
+│    ＋ GVG_Warp_right_Msg								│
+│    ＋ EmotionsSkill_0_set								│
+│    ＋ EmotionsSkill_0								│
+│    ＋ EmotionsSkill_0_dist								│
+│    ＋ EmotionsSkill_0_lvl								│
+│											│
+└───────────────────────────────────────────┘
+
+┌── mK-Bot V2.6.2.1 fix-B -─────────────────────────────┐
+│MD5 Checksum:	8ca15739d7a7dcba1138247d6e419efb  mK-Bot 2.6.2.1 fix-B.exe		│
+│											│
+│程式:											│
+│    ＊ 修改傳送師的設定								│
+│    ＊ 修改隊伍partySkill_$_target設定(空白=全體隊員)					│
+│    ＋ 增加傳送師公會技能設定								│
+│											│
+├───────────────────────────────────────────┤
+│檔案:											│
+│											│
+│control/										│
+│    ＋ gvg_control.txt								│
+│											│
+│control/config.txt									│
+│    － Guild_Name									│
+│    － GVG_Warp_rand_x								│
+│    － GVG_Warp_rand_y								│
+│    － GVG_Warp_0_Emotions_set							│
+│    － GVG_Warp_0_Chat_set								│
+│    － GVG_Warp_0_Map									│
+│    － GVG_Warp_0_Msg									│
+│											│
+│control/timeouts.txt									│
+│    ＋ ai_skill_guild									│
+│											│
+│control/gvg_control.txt								│
+│    ＋ GVG_Warp									│
+│    ＋ Guild_Name									│
+│    ＋ GVG_Warp_rand_x								│
+│    ＋ GVG_Warp_rand_y								│
+│    ＋ GVG_Warp_0_Emotions_set							│
+│    ＋ GVG_Warp_0_Chat_set								│
+│    ＋ GVG_Warp_0_Map									│
+│    ＋ GVG_Warp_0_Msg									│
+│    ＋ guildSkill_Auto								│
+│    ＋ guildSkill_0									│
+│    ＋ guildSkill_0_smartEquip							│
+│    ＋ guildSkill_0_lvl								│
+│    ＋ guildSkill_0_target								│
+│    ＋ guildSkill_0_maxCastTime							│
+│    ＋ guildSkill_0_minCastTime							│
+│    ＋ guildSkill_0_sp_lower								│
+│    ＋ guildSkill_0_sp_upper								│
+│    ＋ guildSkill_0_timeout								│
+│    ＋ guildSkill_0_status								│
+│    ＋ guildSkill_0_onSit								│
+│    ＋ guildSkill_0_statusTimeout							│
+│    ＋ guildSkill_0_stopWhenHit							│
+│											│
+└───────────────────────────────────────────┘
+
+┌── mK-Bot V2.6.2.1 fix-A -─────────────────────────────┐
+│MD5 Checksum:	b7d42af30c024fc6d4715d4e5aad7226  mK-Bot 2.6.2.1 fix-A.exe		│
+│											│
+│程式:											│
+│    ＋ 忽略別人先攻擊的怪(搶怪)							│
+│    ＋ 增加生命体體餵食,攻擊的部份亂加的不確定可以用					│
+│    ＋ 增加傳送師的設定,沒測試過不確定能正常使用					│
+│    ＋ 增加自動精練設定								│
+│											│
+├───────────────────────────────────────────┤
+│檔案:											│
+│											│
+│control/										│
+│    ＋ refine_control.txt								│
+│											│
+│control/config.txt									│
+│    ＋ attackSteal									│
+│    ＋ homunAutoFeedRate								│
+│    ＋ homunAuto_return								│
+│    ＋ homunAuto_protect								│
+│    ＋ homunAutoAttack								│
+│    ＋ Guild_Name									│
+│    ＋ GVG_Warp_rand_x								│
+│    ＋ GVG_Warp_rand_y								│
+│    ＋ GVG_Warp_0_Emotions_set							│
+│    ＋ GVG_Warp_0_Chat_set								│
+│    ＋ GVG_Warp_0_Map									│
+│    ＋ GVG_Warp_0_Msg									│
+│											│
+│control/timeouts.txt									│
+│    ＋ ai_refineAuto									│
+│    ＋ ai_refineAuto_talk								│
+│    ＋ ai_refineAuto_giveup								│
+│    ＋ ai_gvgAuto_warp								│
+│											│
+│control/refine_control.txt								│
+│    ＋ refineAuto_npc									│
+│    ＋ refineAuto_distance								│
+│    ＋ refineAuto_0									│
+│    ＋ refineAuto_0_steps_0 c r1 c r0 c n						│
+│    ＋ refineAuto_0_steps_1 c r1 c r0 c n						│
+│    ＋ refineAuto_0_steps_2 c r1 c r0 c n						│
+│    ＋ refineAuto_0_steps_3 c r1 c r0 c n						│
+│    ＋ refineAuto_0_steps_4 c r1 c r0 c c r0 c c n					│
+│    ＋ refineAuto_0_steps_5 c r1 c r0 c c r0 c c n					│
+│    ＋ refineAuto_0_steps_6 c r1 c r0 c c r0 c c n					│
+│    ＋ refineAuto_0_steps_7 c r1 c r0 c c r0 c c n					│
+│    ＋ refineAuto_0_steps_8 c r1 c r0 c c r0 c c n					│
+│    ＋ refineAuto_0_steps_9 c r1 c r0 c c r0 c c n					│
+│											│
+│											│
+└───────────────────────────────────────────┘

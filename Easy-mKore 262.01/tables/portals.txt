@@ -1,0 +1,2758 @@
+#傳點NPC資料
+izlu2dun 108 29 izlude 176 182 auto c r0
+izlude 198 180 izlu2dun 107 50 auto c r0
+izlude 182 186 alberta 189 151 auto c c r0
+alberta 189 151 izlude 182 186 auto c r1
+lhz_in01 24 140 lhz_dun01 149 258 auto c r0 n
+lhz_in01 35 226 lhz_in01 37 225 auto n
+c_tower3 10 249 c_tower4 185 44 auto c r2 n
+alde_dun03 264 16 alde_dun04 79 267 auto c r2 n
+################################################################################
+#RO旅遊卡
+
+#RO單程旅遊卡 城鎮部分
+#prontera 120 93 payon 181 104 auto c c r0 c c r0 r0 c
+#prontera 120 93 morocc 156 97 auto c c r0 c c r0 r1 c
+#prontera 120 93 alberta 113 60 auto c c r0 c c r0 r2 c
+#prontera 120 93 aldebaran 143 118 auto c c r0 c c r0 r3 c
+#prontera 120 93 comodo 195 150 auto c c r0 c c r0 r4 c
+#prontera 120 93 yuno 152 187 auto c c r0 c c r0 r5 c
+#prontera 120 93 umbala 87 160 auto c c r0 c c r0 r6 c
+#prontera 120 93 xmas 145 230 auto c c r0 c c r0 r7 c
+#prontera 120 93 izlude 134 88 auto c c r0 c c r0 r8 c
+#prontera 120 93 geffen 120 62 auto c c r0 c c r0 r9 c
+
+#RO單程旅遊卡 洞穴部分
+#prontera 120 93 gef_fild10 52 326 auto c c r0 c c r1 r0 c
+#prontera 120 93 mjolnir_02 79 358 auto c c r0 c c r1 r1 c
+#prontera 120 93 moc_fild04 106 56 auto c c r0 c c r1 r2 c
+#prontera 120 93 yuno_fild03 42 140 auto c c r0 c c r1 r3 c
+#prontera 120 93 glast_01 380 304 auto c c r0 c c r1 r4 c
+#prontera 120 93 prt_fild01 136 366 auto c c r0 c c r1 r5 c
+
+#RO紀念旅遊卡 城鎮部分
+#prontera 120 93 payon 181 104 auto c c r1 c c r0 r0 c
+#prontera 120 93 morocc 156 97 auto c c r1 c c r0 r1 c
+#prontera 120 93 alberta 113 60 auto c c r1 c c r0 r2 c
+#prontera 120 93 aldebaran 143 118 auto c c r1 c c r0 r3 c
+#prontera 120 93 comodo 195 150 auto c c r1 c c r0 r4 c
+#prontera 120 93 yuno 152 187 auto c c r1 c c r0 r5 c
+#prontera 120 93 umbala 87 160 auto c c r1 c c r0 r6 c
+#prontera 120 93 xmas 145 230 auto c c r1 c c r0 r7 c
+#prontera 120 93 izlude 134 88 auto c c r1 c c r0 r8 c
+#prontera 120 93 geffen 120 62 auto c c r1 c c r0 r9 c
+
+#RO紀念旅遊卡 洞穴部分
+#prontera 120 93 gef_fild10 52 326 auto c c r1 c c r1 r0 c
+#prontera 120 93 mjolnir_02 79 358 auto c c r1 c c r1 r1 c
+#prontera 120 93 izlu2dun 106 56 auto c c r1 c c r1 r2 c
+#prontera 120 93 yuno_fild03 42 140 auto c c r1 c c r1 r3 c
+#prontera 120 93 glast_01 380 304 auto c c r1 c c r1 r4 c
+#prontera 120 93 prt_fild01 136 366 auto c c r1 c c r1 r5 c
+
+################################################################################
+#卡普拉小姐傳點資料
+
+alberta 113 60 payon 181 104 auto c r2 c r0
+alberta 113 60 morocc 156 97 auto c r2 c r1
+alberta 113 60 prontera 146 89 auto c r2 c r2
+alberta 28 229 payon 181 104 auto c r2 c r0
+alberta 28 229 morocc 156 97 auto c r2 c r1
+alberta 28 229 prontera 146 89 auto c r2 c r2
+
+aldebaran 143 118 geffen 120 62 auto c r2 c r0
+aldebaran 143 118 yuno 152 187 auto c r2 c r1
+aldebaran 143 118 izlude 134 88 auto c r2 c r2
+aldebaran 143 118 mjolnir_02 99 351 auto c r2 c r3
+
+cmd_fild07 136 134 morocc 156 97 auto c c r2 c r0
+cmd_fild07 136 134 comodo 195 150 auto c c r2 c r1
+
+comodo 195 150 morocc 156 97 auto c c r2 c r0
+comodo 195 150 cmd_fild07 136 134 auto c c r2 c r1
+comodo 195 150 umbala 87 160 auto c c r2 c r2
+
+geffen 120 62 prontera 146 89 auto c r2 c r0
+geffen 120 62 aldebaran 143 110 auto c r2 c r1
+geffen 120 62 gef_fild10 52 326 auto c r2 c r2
+geffen 120 62 mjolnir_02 99 351 auto c r2 c r3
+geffen 203 123 prontera 146 89 auto c r2 c r0
+geffen 203 123 aldebaran 143 110 auto c r2 c r1
+geffen 203 123 gef_fild10 52 326 auto c r2 c r2
+geffen 203 123 mjolnir_02 99 351 auto c r2 c r3
+
+izlude 134 88 geffen 120 62 auto c r2 c r0
+izlude 134 88 payon 181 104 auto c r2 c r1
+izlude 134 88 morocc 156 97 auto c r2 c r2
+izlude 134 88 aldebaran 143 110 auto c r2 c r3
+
+morocc 156 97 prontera 146 89 auto c r2 c r0
+morocc 156 97 payon 181 104 auto c r2 c r1
+morocc 156 97 alberta 113 60 auto c r2 c r2
+morocc 156 97 comodo 195 150 auto c r2 c r3
+morocc 156 97 cmd_fild07 136 134 auto c r2 c r4
+morocc 160 258 prontera 146 89 auto c r2 c r0
+morocc 160 258 payon 181 104 auto c r2 c r1
+morocc 160 258 alberta 113 60 auto c r2 c r2
+morocc 160 258 comodo 195 150 auto c r2 c r3
+morocc 160 258 cmd_fild07 136 134 auto c r2 c r4
+
+payon 181 104 prontera 146 89 auto c r2 c r0
+payon 181 104 alberta 113 60 auto c r2 c r1
+payon 181 104 morocc 156 97 auto c r2 c r2
+payon 175 226 prontera 146 89 auto c r2 c r0
+payon 175 226 alberta 113 60 auto c r2 c r1
+payon 175 226 morocc 156 97 auto c r2 c r2
+
+prontera 146 89 izlude 134 88 auto c r2 c r0
+prontera 146 89 geffen 120 62 auto c r2 c r1
+prontera 146 89 payon 181 104 auto c r2 c r2
+prontera 146 89 morocc 156 97 auto c r2 c r3
+prontera 146 89 gef_fild10 52 326 auto c r2 c r4
+prontera 146 89 alberta 113 60 auto c r2 c r5
+prontera 29 207 izlude 134 88 auto c r2 c r0
+prontera 29 207 geffen 120 62 auto c r2 c r1
+prontera 29 207 payon 181 104 auto c r2 c r2
+prontera 29 207 morocc 156 97 auto c r2 c r3
+prontera 29 207 gef_fild10 52 326 auto c r2 c r4
+prontera 29 207 alberta 113 60 auto c r2 c r5
+prontera 282 200 izlude 134 88 auto c r2 c r0
+prontera 282 200 geffen 120 62 auto c r2 c r1
+prontera 282 200 payon 181 104 auto c r2 c r2
+prontera 282 200 morocc 156 97 auto c r2 c r3
+prontera 282 200 gef_fild10 52 326 auto c r2 c r4
+prontera 282 200 alberta 113 60 auto c r2 c r5
+prontera 151 29 izlude 134 88 auto c r2 c r0
+prontera 151 29 geffen 120 62 auto c r2 c r1
+prontera 151 29 payon 181 104 auto c r2 c r2
+prontera 151 29 morocc 156 97 auto c r2 c r3
+prontera 151 29 gef_fild10 52 326 auto c r2 c r4
+prontera 151 29 alberta 113 60 auto c r2 c r5
+
+umbala 87 160 comodo 195 150 auto c r2 c r0
+
+yuno 152 187 aldebaran 143 118 auto c r2 c r0
+
+#朱諾NPC傳送
+yuno 142 183 prontera 146 89 auto c c c c c r0
+yuno 142 183 izlude 134 88 auto c c c c c r1
+yuno 142 183 geffen 120 62 auto c c c c c r2
+yuno 142 183 morocc 156 97 auto c c c c c r3
+yuno 142 183 payon 181 104 auto c c c c c r4
+yuno 142 183 alberta 113 60 auto c c c c c r5
+yuno 142 183 comodo 195 150 auto c c c c c r6
+
+################################################################################
+#公會密穴傳點資料含NPC
+
+#中央城密穴(1)
+#prt_gld 135 60 prtg_cas01 96 173 auto c r0
+#prt_gld 131 60 prtg_cas01 96 173 auto c r0
+#prt_gld 138 68 prtg_cas01 96 173 auto c r0
+#prt_gld 138 60 prtg_cas01 96 173 auto c r0
+prt_gld 129 65 prtg_cas01 103 32
+prtg_cas01 103 32 prt_gld 129 65
+prtg_cas01 51 70 prtg_cas01 206 92
+prtg_cas01 206 92 prtg_cas01 51 70
+prtg_cas01 75 183 prtg_cas01 147 120
+prtg_cas01 147 120 prtg_cas01 75 183
+#prtg_cas01 96 200 gld_dun03 28 251 auto c c r0
+
+#中央城密穴(2)
+#prt_gld 236 126 prtg_cas02 71 36 auto c r0
+#prt_gld 236 128 prtg_cas02 71 36 auto c r0
+#prt_gld 244 128 prtg_cas02 71 36 auto c r0
+#prt_gld 244 126 prtg_cas02 71 36 auto c r0
+prt_gld 240 124 prtg_cas02 43 233
+prtg_cas02 43 233 prt_gld 240 124
+prtg_cas02 35 183 prtg_cas02 71 86
+prtg_cas02 71 86 prtg_cas02 35 183
+#prtg_cas02 84 72 gld_dun03 164 268 auto c c r0
+
+#中央城密穴(3)
+#prt_gld 158 140 prtg_cas03 181 215 auto c r0
+#prt_gld 147 136 prtg_cas03 181 215 auto c r0
+#prt_gld 158 136 prtg_cas03 181 215 auto c r0
+#prt_gld 147 140 prtg_cas03 181 215 auto c r0
+prt_gld 153 141 prtg_cas03 168 8
+prtg_cas03 168 8 prt_gld 153 141
+prtg_cas03 165 59 prtg_cas03 45 43
+prtg_cas03 45 43 prtg_cas03 165 59
+#prtg_cas03 86 73 prtg_cas03 178 85
+#prtg_cas03 178 85 prtg_cas03 86 73
+#prtg_cas03 45 120 prtg_cas03 164 173
+#prtg_cas03 164 173 prtg_cas03 45 120
+#prtg_cas03 6 78 prtg_cas03 172 44
+#prtg_cas03 172 44 prtg_cas03 6 78
+#prtg_cas03 194 233 prtg_cas03 191 55
+#prtg_cas03 191 55 prtg_cas03 194 233
+#prtg_cas03 169 235 prtg_cas03 7 200
+#prtg_cas03 7 200 prtg_cas03 169 235
+#prtg_cas03 181 215 prontera 278 211 auto c r1 c r0
+#prtg_cas03 5 70 gld_dun03 164 179 auto c c r0
+
+#中央城密穴(4)
+#prt_gld 122 236 prtg_cas04 258 247 auto c r0
+#prt_gld 120 236 prtg_cas04 258 247 auto c r0
+#prt_gld 122 243 prtg_cas04 258 247 auto c r0
+#prt_gld 120 243 prtg_cas04 258 247 auto c r0
+prt_gld 107 240 prtg_cas04 86 9
+prtg_cas04 86 9 prt_gld 107 240
+prtg_cas04 63 30 prtg_cas04 34 225
+prtg_cas04 34 225 prtg_cas04 63 30
+prtg_cas04 238 257 prtg_cas04 34 290
+prtg_cas04 34 290 prtg_cas04 238 257
+#prtg_cas04 56 283 gld_dun03 268 203 auto c c r0
+
+#中央城密穴(5)
+#prt_gld 199 236 prtg_cas05 53 40 auto c r0
+#prt_gld 197 243 prtg_cas05 53 40 auto c r0
+#prt_gld 197 236 prtg_cas05 53 40 auto c r0
+#prt_gld 199 243 prtg_cas05 53 40 auto c r0
+prt_gld 212 240 prtg_cas05 17 231
+prtg_cas05 17 231 prt_gld 212 240
+prtg_cas05 38 250 prtg_cas05 244 3
+prtg_cas05 244 3 prtg_cas05 38 250
+prtg_cas05 228 96 prtg_cas05 26 3
+prtg_cas05 26 3 prtg_cas05 228 96
+#prtg_cas05 212 95 gld_dun03 199 28 auto c c r0
+
+#斐陽城密穴(1)
+#pay_gld 110 233 payg_cas01 212 108 auto c r0
+#pay_gld 116 233 payg_cas01 212 108 auto c r0
+#pay_gld 125 236 payg_cas01 212 108 auto c r0
+#pay_gld 91 239 payg_cas01 212 108 auto c r0
+pay_gld 121 238 payg_cas01 214 44
+payg_cas01 214 44 pay_gld 121 238
+payg_cas01 222 130 payg_cas01 134 43
+payg_cas01 134 43 payg_cas01 222 130
+#payg_cas01 102 24 gld_dun01 186 165 auto c c r0
+
+#斐陽城密穴(2)
+#pay_gld 292 120 payg_cas02 22 275 auto c r0
+#pay_gld 292 112 payg_cas02 22 275 auto c r0
+#pay_gld 291 135 payg_cas02 22 275 auto c r0
+#pay_gld 271 163 payg_cas02 22 275 auto c r0
+pay_gld 291 116 payg_cas02 276 61
+payg_cas02 276 61 pay_gld 291 116
+payg_cas02 215 31 payg_cas02 65 292
+payg_cas02 65 292 payg_cas02 215 31
+payg_cas02 47 223 payg_cas02 280 291
+payg_cas02 280 291 payg_cas02 47 223
+#payg_cas02 278 244 gld_dun01 54 165 auto c c r0
+
+#斐陽城密穴(3)
+#pay_gld 333 254 payg_cas03 9 263 auto c r0
+#pay_gld 321 289 payg_cas03 9 263 auto c r0
+#pay_gld 321 298 payg_cas03 9 263 auto c r0
+#pay_gld 327 304 payg_cas03 9 263 auto c r0
+pay_gld 321 293 payg_cas03 226 22
+payg_cas03 226 22 pay_gld 321 293
+payg_cas03 262 71 payg_cas03 39 5
+payg_cas03 39 5 payg_cas03 262 71
+#payg_cas03 38 42 gld_dun01 54 39 auto c c r0
+
+#斐陽城密穴(4)
+#pay_gld 153 166 payg_cas04 40 235 auto c r0
+#pay_gld 143 160 payg_cas04 40 235 auto c r0
+#pay_gld 133 151 payg_cas04 40 235 auto c r0
+#pay_gld 137 160 payg_cas04 40 235 auto c r0
+pay_gld 140 156 payg_cas04 252 275
+payg_cas04 252 275 pay_gld 140 156
+payg_cas04 232 189 payg_cas04 78 261
+payg_cas04 78 261 payg_cas04 232 189
+payg_cas04 7 261 payg_cas04 59 30
+payg_cas04 59 30 payg_cas04 7 261
+#payg_cas04 52 48 gld_dun01 230 30 auto c c r0
+
+#斐陽城密穴(5)
+#pay_gld 208 268 payg_cas05 276 227 auto c r0
+#pay_gld 190 277 payg_cas05 276 227 auto c r0
+#pay_gld 199 268 payg_cas05 276 227 auto c r0
+#pay_gld 187 294 payg_cas05 276 227 auto c r0
+pay_gld 204 270 payg_cas05 62 223
+payg_cas05 62 223 pay_gld 204 270
+payg_cas05 56 255 payg_cas05 219 256
+payg_cas05 219 256 payg_cas05 56 255
+payg_cas05 283 256 payg_cas05 290 43
+payg_cas05 290 43 payg_cas05 283 256
+#payg_cas05 248 11 gld_dun01 159 99 auto c c r0
+
+#吉分城密穴(1)
+#gef_fild13 148 51 gefg_cas01 83 47 auto c r0
+#gef_fild13 155 54 gefg_cas01 83 47 auto c r0
+#gef_fild13 211 71 gefg_cas01 83 47 auto c r0
+#gef_fild13 212 79 gefg_cas01 83 47 auto c r0
+gef_fild13 150 54 gefg_cas01 34 136
+gefg_cas01 34 136 gef_fild13 150 54
+gef_fild13 210 75 gefg_cas01 99 178
+gefg_cas01 99 178 gef_fild13 210 75
+gefg_cas01 39 196 gefg_cas01 62 9
+gefg_cas01 62 9 gefg_cas01 39 196
+#gefg_cas01 77 83 gld_dun04 268 108 auto c c r0
+
+#吉分城密穴(2)
+#gef_fild13 290 243 gefg_cas02 23 66 auto c r0
+#gef_fild13 303 243 gefg_cas02 23 66 auto c r0
+#gef_fild13 312 243 gefg_cas02 23 66 auto c r0
+gef_fild13 308 244 gefg_cas02 70 147
+gefg_cas02 70 147 gef_fild13 308 244
+gefg_cas02 35 173 gefg_cas02 80 42
+gefg_cas02 80 42 gefg_cas02 35 173
+gefg_cas02 25 13 gefg_cas02 174 11
+gefg_cas02 174 11 gefg_cas02 25 13
+#gefg_cas02 167 40 gld_dun04 125 270 auto c c r0
+
+#吉分城密穴(3)
+#gef_fild13 73 295 gefg_cas03 116 89 auto c r0
+#gef_fild13 113 274 gefg_cas03 116 89 auto c r0
+#gef_fild13 144 244 gefg_cas03 116 89 auto c r0
+#gef_fild13 144 235 gefg_cas03 116 89 auto c r0
+#gef_fild13 87 182 gefg_cas03 116 89 auto c r0
+#gef_fild13 78 182 gefg_cas03 116 89 auto c r0
+gef_fild13 77 284 gefg_cas03 68 290
+gefg_cas03 68 290 gef_fild13 77 284
+gef_fild13 112 269 gefg_cas03 103 283
+gefg_cas03 103 283 gef_fild13 112 269
+gef_fild13 83 185 gefg_cas03 93 159
+gefg_cas03 93 159 gef_fild13 83 185
+gef_fild13 139 240 gefg_cas03 130 250
+gefg_cas03 130 250 gef_fild13 139 240
+gefg_cas03 66 223 gefg_cas03 92 53
+gefg_cas03 92 53 gefg_cas03 66 223
+gefg_cas03 154 16 gefg_cas03 256 11
+gefg_cas03 256 11 gefg_cas03 154 16
+#gefg_cas03 221 43 gld_dun04 268 251 auto c c r0
+
+#吉分城密穴(4)
+#gef_fild13 190 283 gefg_cas04 59 70 auto c r0
+#gef_fild13 199 274 gefg_cas04 59 70 auto c r0
+gef_fild13 196 281 gefg_cas04 24 145
+gefg_cas04 24 145 gef_fild13 196 281
+gefg_cas04 34 211 gefg_cas04 18 82
+gefg_cas04 18 82 gefg_cas04 34 211
+#gefg_cas04 58 74 gld_dun04 268 108 auto c c r0
+
+#吉分城密穴(5)
+#gef_fild13 252 51 gefg_cas05 61 52 auto c r0
+#gef_fild13 302 87 gefg_cas05 61 52 auto c r0
+#gef_fild13 313 83 gefg_cas05 61 52 auto c r0
+gef_fild13 305 83 gefg_cas05 99 204
+gefg_cas05 99 204 gef_fild13 305 83
+gefg_cas05 7 134 gef_fild13 256 57
+gef_fild13 256 57 gefg_cas05 7 134
+gefg_cas05 83 152 gefg_cas05 66 76
+gefg_cas05 66 76 gefg_cas05 83 152
+#gefg_cas05 64 22 gld_dun04 230 35 auto c c r0
+
+#新城密穴(1)
+#alde_gld 61 87 aldeg_cas01 211 181 auto c r0
+#alde_gld 61 79 aldeg_cas01 211 181 auto c r0
+#alde_gld 51 87 aldeg_cas01 211 181 auto c r0
+#alde_gld 45 87 aldeg_cas01 211 181 auto c r0
+alde_gld 48 79 aldeg_cas01 34 252
+aldeg_cas01 34 252 alde_gld 48 79
+aldeg_cas01 26 188 aldeg_cas01 46 70
+aldeg_cas01 46 70 aldeg_cas01 26 188
+aldeg_cas01 89 23 aldeg_cas01 207 128
+aldeg_cas01 207 128 aldeg_cas01 89 23
+#aldeg_cas01 211 181 gld_dun02 32 122 auto c c r0
+
+#新城密穴(2)
+#alde_gld 99 244 aldeg_cas02 84 74 auto c r0
+#alde_gld 99 251 aldeg_cas02 84 74 auto c r0
+alde_gld 95 253 aldeg_cas02 88 159
+aldeg_cas02 88 159 alde_gld 95 253
+aldeg_cas02 22 194 aldeg_cas02 88 9
+aldeg_cas02 88 9 aldeg_cas02 22 194
+aldeg_cas02 121 88 aldeg_cas02 177 131
+aldeg_cas02 177 131 aldeg_cas02 121 88
+#aldeg_cas02 194 136 gld_dun02 79 30 auto c c r0
+
+#新城密穴(3)
+#alde_gld 146 82 aldeg_cas03 118 76 auto c r0
+alde_gld 142 81 aldeg_cas03 114 290
+aldeg_cas03 114 290 alde_gld 142 81
+aldeg_cas03 79 130 aldeg_cas03 201 145
+aldeg_cas03 201 145 aldeg_cas03 79 130
+aldeg_cas03 60 241 aldeg_cas03 91 57
+aldeg_cas03 91 57 aldeg_cas03 60 241
+#aldeg_cas03 200 177 gld_dun02 165 38 auto c c r0
+
+#新城密穴(4)
+#aldeg_cas04 169 22 aldeg_cas04 45 88 auto c r0
+#aldeg_cas04 169 15 aldeg_cas04 45 88 auto c r0
+alde_gld 243 242 aldeg_cas04 145 17
+aldeg_cas04 145 17 alde_gld 243 242
+aldeg_cas04 196 86 aldeg_cas04 49 53
+#aldeg_cas04 76 64 gld_dun02 160 148 auto c c r0
+
+#新城密穴(5)
+#alde_gld 265 93 aldeg_cas05 31 190 auto c r0
+#alde_gld 265 87 aldeg_cas05 31 190 auto c r0
+alde_gld 259 90 aldeg_cas05 216 107
+aldeg_cas05 216 107 alde_gld 259 90
+aldeg_cas05 195 42 aldeg_cas05 15 227
+aldeg_cas05 15 227 aldeg_cas05 195 42
+#aldeg_cas05 22 205 gld_dun02 103 169 auto c c r0
+
+################################################################################
+# 一般傳點資料
+alb_ship 26 166 alberta 170 170
+alb_ship 37 174 alb_ship 68 99
+alb_ship 41 163 alberta 178 165
+alb_ship 68 99 alb_ship 37 174
+alb_ship 160 171 alberta 209 173
+alberta 15 234 pay_fild03 392 63
+alberta 33 42 alberta_in 78 44
+alberta 65 233 alberta_in 14 141
+alberta 93 205 alberta_in 114 130
+alberta 98 153 alberta_in 189 89
+alberta 99 221 alberta_in 125 160
+alberta 117 38 alberta_in 180 34
+alberta 170 170 alb_ship 26 166
+alberta 178 165 alb_ship 41 163
+alberta 209 173 alb_ship 160 171
+alberta_in 14 141 alberta 65 233
+alberta_in 22 153 alberta_in 22 170
+alberta_in 22 170 alberta_in 22 153
+alberta_in 24 33 alberta_in 64 31
+alberta_in 24 54 alberta_in 64 57
+alberta_in 64 31 alberta_in 24 33
+alberta_in 64 57 alberta_in 24 54
+alberta_in 78 44 alberta 33 42
+alberta_in 114 49 alberta_in 159 153
+alberta_in 114 97 alberta_in 159 175
+alberta_in 114 130 alberta 93 205
+alberta_in 114 183 alberta_in 152 186
+alberta_in 125 160 alberta 99 221
+alberta_in 152 186 alberta_in 114 183
+alberta_in 159 153 alberta_in 114 49
+alberta_in 159 175 alberta_in 114 97
+alberta_in 180 34 alberta 117 38
+alberta_in 189 89 alberta 98 153
+alde_dun01 167 158 c_tower2 142 283
+alde_dun01 292 306 alde_dun02 43 20
+alde_dun01 302 25 c_tower1 123 22
+alde_dun02 43 20 alde_dun01 292 306
+alde_dun02 122 169 c_tower3 42 41
+alde_dun02 279 250 alde_dun03 12 267
+alde_dun03 12 267 alde_dun02 279 250
+alde_dun03 191 31 c_tower3 212 159
+alde_dun03 276 48 c_tower1 235 226
+alde_dun03 277 183 c_tower2 24 24
+aldeba_in 24 224 aldebaran 51 218
+aldeba_in 27 34 aldebaran 72 197
+aldeba_in 27 71 aldeba_in 27 102
+aldeba_in 27 102 aldeba_in 27 71
+aldeba_in 37 238 aldeba_in 64 157
+aldeba_in 64 157 aldeba_in 37 238
+aldeba_in 83 191 aldeba_in 83 224
+aldeba_in 83 224 aldeba_in 83 191
+aldeba_in 94 38 aldebaran 197 70
+aldeba_in 97 102 aldeba_in 103 61
+aldeba_in 103 61 aldeba_in 97 102
+aldeba_in 103 157 aldeba_in 134 237
+aldeba_in 134 237 aldeba_in 103 157
+aldeba_in 144 92 aldeba_in 149 55
+aldeba_in 148 224 aldebaran 61 229
+aldeba_in 149 55 aldeba_in 144 92
+aldeba_in 149 123 aldebaran 225 54
+aldeba_in 157 193 aldebaran 233 105
+aldeba_in 208 117 aldebaran 118 63
+aldeba_in 217 71 aldeba_in 218 104
+aldeba_in 217 131 aldeba_in 217 160
+aldeba_in 217 160 aldeba_in 217 131
+aldeba_in 218 104 aldeba_in 217 71
+aldeba_in 245 237 aldebaran 89 234
+aldebaran 35 140 alde_gld 284 160
+aldebaran 51 218 aldeba_in 24 224
+aldebaran 61 229 aldeba_in 148 224
+aldebaran 72 197 aldeba_in 27 34
+aldebaran 89 234 aldeba_in 245 237
+aldebaran 118 63 aldeba_in 208 117
+aldebaran 138 34 mjolnir_12 199 378
+aldebaran 139 135 c_tower1 200 157
+aldebaran 197 70 aldeba_in 94 38
+aldebaran 225 54 aldeba_in 149 123
+aldebaran 233 105 aldeba_in 157 193
+alde_gld 284 160 aldebaran 35 140
+anthell01 35 267 moc_fild04 219 327
+anthell01 253 33 anthell02 33 267
+anthell02 33 267 anthell01 253 33
+anthell02 171 169 moc_fild15 258 253
+c_tower1 123 22 alde_dun01 302 25
+c_tower1 200 157 aldebaran 139 135
+c_tower1 235 226 c_tower2 273 26
+c_tower2 24 24 alde_dun03 277 183
+c_tower2 142 283 c_tower3 60 147
+c_tower2 273 26 c_tower1 235 226
+c_tower3 42 41 alde_dun02 122 169
+c_tower3 60 147 c_tower2 142 283
+c_tower3 212 159 alde_dun03 276 48
+
+#克魔島
+comodo 24 214 beach_dun 276 67
+comodo 92 128 cmd_in01 90 174
+comodo 115 291 cmd_in02 69 129
+comodo 126 98 cmd_in02 139 97
+comodo 130 195 cmd_in02 139 169
+comodo 140 90 cmd_in02 74 21
+comodo 140 111 cmd_in02 178 136
+comodo 145 328 cmd_in01 120 67
+comodo 153 97 cmd_in02 216 97
+comodo 176 358 beach_dun2 154 13
+comodo 192 294 cmd_in01 183 123
+comodo 236 298 cmd_in01 183 81
+comodo 265 74 cmd_in01 123 186
+comodo 271 271 cmd_in01 109 125
+comodo 333 175 beach_dun3 17 265
+beach_dun 276 67 comodo 24 214
+beach_dun2 154 13 comodo 176 358
+beach_dun3 17 265 comodo 333 175
+beach_dun3 286 57 cmd_fild01 26 318
+cmd_fild01 26 318 beach_dun3 286 57
+cmd_fild01 222 24 cmd_fild02 222 376
+cmd_fild01 362 73 cmd_fild03 23 68
+cmd_fild01 362 263 cmd_fild03 23 269
+cmd_fild02 222 376 cmd_fild01 222 24
+cmd_fild02 358 95 cmd_fild04 31 92
+cmd_fild02 382 269 cmd_fild04 21 275
+cmd_fild03 23 68 cmd_fild01 362 73
+cmd_fild03 23 269 cmd_fild01 362 263
+cmd_fild03 181 17 cmd_fild04 180 372
+cmd_fild03 384 165 cmd_fild05 21 163
+cmd_fild04 21 275 cmd_fild02 382 269
+cmd_fild04 31 92 cmd_fild02 358 95
+cmd_fild04 180 372 cmd_fild03 181 17
+cmd_fild04 376 287 cmd_fild06 21 285
+cmd_fild05 21 163 cmd_fild03 384 165
+cmd_fild05 148 19 cmd_fild06 150 380
+cmd_fild06 21 285 cmd_fild04 376 287
+cmd_fild06 150 380 cmd_fild05 148 19
+cmd_fild06 151 27 cmd_fild07 149 379
+cmd_fild06 368 96 cmd_fild08 15 102
+cmd_fild06 372 359 cmd_fild08 25 355
+cmd_fild06 379 174 cmd_fild08 25 170
+cmd_fild07 149 379 cmd_fild06 151 27
+cmd_fild07 389 186 cmd_fild09 12 170
+moc_fild12 35 303 cmd_fild08 354 324 auto c r0 n
+cmd_fild08 354 324 moc_fild12 35 303
+cmd_fild08 15 102 cmd_fild06 368 96
+cmd_fild08 25 170 cmd_fild06 379 174
+cmd_fild08 25 355 cmd_fild06 372 359
+cmd_fild08 76 31 cmd_fild09 75 382
+cmd_fild08 309 48 cmd_fild09 309 381
+cmd_fild09 12 170 cmd_fild07 389 186
+cmd_fild09 75 382 cmd_fild08 76 31
+cmd_fild09 309 381 cmd_fild08 309 48
+cmd_fild09 369 164 moc_fild18 51 170
+cmd_in01 90 174 comodo 92 128
+cmd_in01 109 125 comodo 271 271
+cmd_in01 120 67 comodo 145 328
+cmd_in01 123 186 comodo 265 74
+cmd_in01 183 81 comodo 236 298
+cmd_in01 183 123 comodo 192 294
+cmd_in02 58 74 cmd_in02 168 113
+cmd_in02 69 129 comodo 115 291
+cmd_in02 74 21 comodo 140 90
+cmd_in02 90 37 cmd_in02 187 78
+cmd_in02 98 216 cmd_in02 208 206
+cmd_in02 139 97 comodo 126 98
+cmd_in02 139 169 comodo 130 195
+cmd_in02 168 113 cmd_in02 58 74
+cmd_in02 178 136 comodo 140 111
+cmd_in02 187 78 cmd_in02 90 37
+cmd_in02 208 206 cmd_in02 98 216
+cmd_in02 216 97 comodo 153 97
+
+gef_dun00 104 103 gef_tower 153 28
+gef_dun00 107 169 gef_dun01 115 240
+gef_dun01 115 240 gef_dun00 107 169
+gef_dun01 197 38 gef_dun02 106 134
+gef_dun02 106 134 gef_dun01 197 38
+gef_fild00 40 199 geffen 217 119
+gef_fild00 267 382 mjolnir_06 265 29
+gef_fild00 381 137 prt_fild00 18 129
+gef_fild01 16 102 gef_fild09 368 95
+gef_fild01 69 17 gef_fild03 66 382
+gef_fild01 382 111 prt_fild04 17 114
+gef_fild02 14 78 gef_fild03 382 77
+gef_fild02 16 275 gef_fild03 382 277
+gef_fild02 266 18 prt_fild10 227 299
+gef_fild02 380 68 prt_fild07 13 64
+gef_fild02 380 156 prt_fild07 17 145
+gef_fild02 380 289 prt_fild07 14 289
+gef_fild03 18 52 gef_fild10 370 56
+gef_fild03 66 382 gef_fild01 69 17
+gef_fild03 312 16 prt_fild11 302 301
+gef_fild03 382 77 gef_fild02 14 78
+gef_fild03 382 277 gef_fild02 16 275
+gef_fild04 16 309 gef_fild05 364 309
+gef_fild04 187 39 geffen 119 213
+gef_fild04 261 362 mjolnir_01 284 18
+gef_fild04 362 322 mjolnir_06 18 331
+gef_fild05 15 201 gef_fild06 382 211
+gef_fild05 64 15 gef_fild07 64 363
+gef_fild05 364 309 gef_fild04 16 309
+gef_fild06 18 304 glast_01 380 304
+gef_fild06 218 17 gef_fild08 200 355
+gef_fild06 382 211 gef_fild05 15 201
+gef_fild07 18 191 gef_fild08 360 187
+gef_fild07 40 19 gef_fild13 41 373
+gef_fild07 64 363 gef_fild05 64 15
+gef_fild07 339 187 geffen 26 119
+gef_fild08 200 355 gef_fild06 218 17
+gef_fild08 215 18 gef_fild12 221 374
+gef_fild08 360 187 gef_fild07 18 191
+gef_fild09 23 56 gef_fild13 380 56
+gef_fild09 225 25 gef_fild10 251 371
+gef_fild09 368 95 gef_fild01 16 102
+gef_fild10 27 219 gef_fild14 371 219
+gef_fild10 63 337 in_orcs01 30 154
+gef_fild10 104 21 gef_fild11 111 364
+gef_fild10 136 331 in_orcs01 124 171
+gef_fild10 138 284 in_orcs01 29 116
+gef_fild10 215 51 in_orcs01 162 55
+gef_fild10 223 205 in_orcs01 108 86
+gef_fild10 251 371 gef_fild09 225 25
+gef_fild10 370 56 gef_fild03 18 52
+gef_fild11 111 364 gef_fild10 104 21
+gef_fild11 377 293 prt_fild11 17 281
+gef_fild12 221 374 gef_fild08 215 18
+gef_fild12 368 180 gef_fild13 25 202
+gef_fild12 373 50 gef_fild13 25 59
+gef_fild13 25 59 gef_fild12 373 50
+gef_fild13 25 202 gef_fild12 368 180
+gef_fild13 41 373 gef_fild07 40 19
+gef_fild13 200 25 gef_fild14 180 360
+gef_fild13 380 56 gef_fild09 23 56
+gef_fild14 180 360 gef_fild13 200 25
+gef_fild14 371 219 gef_fild10 27 219
+gef_tower 38 160 gef_tower 42 86
+gef_tower 42 86 gef_tower 38 160
+gef_tower 42 86 gef_tower 66 156
+gef_tower 44 36 gef_tower 106 158
+gef_tower 52 135 gef_tower 158 174
+gef_tower 52 181 geffen 120 114
+gef_tower 60 34 gef_tower 62 87
+gef_tower 62 87 gef_tower 60 34
+gef_tower 66 156 gef_tower 42 86
+gef_tower 106 69 gef_tower 106 115
+gef_tower 106 115 gef_tower 106 69
+gef_tower 106 158 gef_tower 44 36
+gef_tower 116 31 gef_tower 118 68
+gef_tower 118 68 gef_tower 116 31
+gef_tower 118 114 gef_tower 120 158
+gef_tower 120 158 gef_tower 118 114
+gef_tower 153 28 gef_dun00 104 103
+gef_tower 156 93 gef_tower 158 104
+gef_tower 158 104 gef_tower 156 93
+gef_tower 158 128 gef_tower 158 150
+gef_tower 158 150 gef_tower 158 128
+gef_tower 158 174 gef_tower 52 135
+geffen 26 119 gef_fild07 339 187
+geffen 43 85 geffen_in 70 132
+geffen 61 180 geffen_in 163 94
+geffen 98 141 geffen_in 28 156
+geffen 119 213 gef_fild04 187 39
+geffen 120 114 gef_tower 52 181
+geffen 138 138 geffen_in 28 106
+geffen 172 174 geffen_in 70 48
+geffen 182 59 geffen_in 106 181
+geffen 217 119 gef_fild00 40 199
+geffen_in 26 37 geffen_in 26 60
+geffen_in 26 60 geffen_in 26 37
+geffen_in 28 106 geffen 138 138
+geffen_in 28 156 geffen 98 141
+geffen_in 41 67 geffen_in 52 65
+geffen_in 52 65 geffen_in 41 67
+geffen_in 70 48 geffen 172 174
+geffen_in 70 83 geffen_in 72 98
+geffen_in 70 132 geffen 43 85
+geffen_in 70 149 geffen_in 70 158
+geffen_in 70 158 geffen_in 70 149
+geffen_in 72 98 geffen_in 70 83
+geffen_in 79 107 geffen_in 104 109
+geffen_in 87 65 geffen_in 100 67
+geffen_in 100 67 geffen_in 87 65
+geffen_in 104 109 geffen_in 79 107
+geffen_in 106 181 geffen 182 59
+geffen_in 113 163 geffen_in 136 169
+geffen_in 114 37 geffen_in 114 60
+geffen_in 114 60 geffen_in 114 37
+geffen_in 136 169 geffen_in 113 163
+geffen_in 138 149 geffen_in 138 162
+geffen_in 138 162 geffen_in 138 149
+geffen_in 163 94 geffen 61 180
+gl_cas01 135 40 gl_cas01 149 314
+gl_cas01 185 236 gl_cas01 167 191
+gl_cas01 200 18 glast_01 200 297
+gl_cas01 200 165 gl_cas02 104 15
+gl_cas01 215 236 gl_cas01 234 192
+gl_cas01 149 314 gl_prison 11 70
+gl_cas01 167 191 gl_prison 11 70
+gl_cas01 234 192 gl_prison 11 70
+gl_cas01 371 301 gl_prison 11 70
+gl_cas02 104 15 gl_cas01 200 165
+gl_cas02 104 193 glast_01 199 322
+gl_church 16 299 gl_chyard 147 287
+gl_church 156 4 glast_01 200 137
+gl_church 301 46 gl_chyard 147 12
+gl_chyard 12 149 gl_sew02 30 273
+gl_chyard 147 12 gl_church 301 46
+gl_chyard 147 287 gl_church 16 299
+gl_dun01 133 277 gl_sew04 104 78
+gl_dun01 225 18 gl_dun02 224 277
+gl_dun02 224 277 gl_dun01 225 18
+gl_in01 81 68 glast_01 162 330
+gl_in01 83 174 glast_01 179 360
+gl_in01 106 125 glast_01 220 360
+gl_in01 118 59 glast_01 237 330
+gl_knt01 12 148 gl_knt02 10 138
+gl_knt01 104 204 gl_knt01 128 292
+gl_knt01 128 292 gl_knt01 104 204
+gl_knt01 150 6 glast_01 77 193
+gl_knt01 150 291 gl_knt02 157 292
+gl_knt01 231 197 gl_sew02 296 18
+gl_knt01 287 144 gl_knt02 289 138
+gl_knt02 10 138 gl_knt01 12 148
+gl_knt02 157 292 gl_knt01 150 291
+gl_knt02 289 138 gl_knt01 287 144
+gl_prison 11 70 gl_cas01 234 192
+gl_prison 149 183 gl_prison1 150 10
+gl_prison1 62 187 gl_sew01 258 258
+gl_prison1 150 10 gl_prison 149 183
+gl_sew01 19 21 gl_sew02 109 294
+gl_sew01 258 258 gl_prison1 62 187
+gl_sew02 30 273 gl_chyard 12 149
+gl_sew02 109 294 gl_sew01 19 21
+gl_sew02 290 156 gl_step 120 124
+gl_sew02 296 18 gl_knt01 231 197
+gl_sew02 299 294 gl_sew03 171 286
+gl_sew03 64 10 gl_sew04 68 280
+gl_sew03 171 286 gl_sew02 299 294
+gl_sew04 68 280 gl_sew03 64 10
+gl_sew04 104 78 gl_dun01 133 277
+gl_step 8 7 glast_01 51 108
+gl_step 120 124 gl_sew02 290 156
+glast_01 51 108 gl_step 8 7
+glast_01 77 193 gl_knt01 150 6
+glast_01 162 330 gl_in01 81 68
+glast_01 179 360 gl_in01 83 174
+glast_01 200 137 gl_church 156 4
+glast_01 200 297 gl_cas01 200 18
+glast_01 220 360 gl_in01 106 125
+glast_01 237 330 gl_in01 118 59
+glast_01 380 304 gef_fild06 18 304
+in_moc_16 20 94 in_moc_16 20 140
+in_moc_16 20 140 in_moc_16 20 94
+in_moc_16 20 169 in_moc_16 66 148
+in_moc_16 66 148 in_moc_16 20 169
+in_moc_16 88 46 in_moc_16 182 187
+in_moc_16 88 105 in_moc_16 88 136
+in_moc_16 88 136 in_moc_16 88 105
+in_moc_16 168 116 in_moc_16 182 169
+in_moc_16 182 169 in_moc_16 168 116
+in_moc_16 182 187 in_moc_16 88 46
+in_orcs01 29 116 gef_fild10 138 284
+in_orcs01 30 154 gef_fild10 63 337
+in_orcs01 30 182 orcsdun01 32 172
+in_orcs01 108 86 gef_fild10 223 205
+in_orcs01 108 114 orcsdun02 180 15
+in_orcs01 124 171 gef_fild10 136 331
+in_orcs01 162 55 gef_fild10 215 51
+in_sphinx1 80 191 in_sphinx2 149 77
+in_sphinx1 288 6 moc_fild19 98 99
+in_sphinx2 149 77 in_sphinx1 80 191
+in_sphinx2 276 272 in_sphinx3 210 57
+in_sphinx3 12 69 in_sphinx4 10 224
+in_sphinx3 35 227 in_sphinx3 60 227
+in_sphinx3 60 227 in_sphinx3 35 227
+in_sphinx3 70 83 in_sphinx3 70 111
+in_sphinx3 70 111 in_sphinx3 70 83
+in_sphinx3 210 57 in_sphinx2 276 272
+in_sphinx4 10 224 in_sphinx3 12 69
+in_sphinx4 120 113 in_sphinx5 100 96
+in_sphinx5 100 96 in_sphinx4 120 113
+iz_dun00 39 41 iz_dun01 41 32
+iz_dun00 168 173 izlu2dun 108 83
+iz_dun00 352 342 iz_dun01 253 258
+iz_dun01 41 32 iz_dun00 39 41
+iz_dun01 118 170 iz_dun02 236 198
+iz_dun01 253 258 iz_dun00 352 342
+iz_dun02 236 198 iz_dun01 118 170
+iz_dun02 339 331 iz_dun03 29 63
+iz_dun03 29 63 iz_dun02 339 331
+iz_dun03 264 245 iz_dun04 26 24
+iz_dun04 26 24 iz_dun03 264 245
+izlu2dun 108 83 iz_dun00 168 173
+izlude 30 78 prt_fild08 371 212
+izlude 52 140 izlude_in 74 158
+izlude 109 151 izlude_in 65 84
+izlude 148 148 izlude_in 116 46
+izlude 216 129 izlude_in 148 127
+izlude_in 65 84 izlude 109 151
+izlude_in 74 158 izlude 52 140
+izlude_in 87 169 izlude_in 108 169
+izlude_in 108 169 izlude_in 87 169
+izlude_in 116 46 izlude 148 148
+izlude_in 148 127 izlude 216 129
+izlude_in 171 97 izlude_in 172 116
+izlude_in 172 116 izlude_in 171 97
+izlude_in 172 139 izlude_in 172 158
+izlude_in 172 158 izlude_in 172 139
+mag_dun01 125 67 yuno_fild03 33 140
+mag_dun01 243 240 mag_dun02 48 33
+mag_dun02 48 33 mag_dun01 243 240
+mjo_dun01 14 283 mjo_dun02 384 343
+mjo_dun01 52 14 mjolnir_02 79 365
+mjo_dun02 31 21 mjo_dun03 302 264
+mjo_dun02 39 21 mjo_dun03 308 264
+mjo_dun02 384 343 mjo_dun01 14 283
+mjo_dun03 302 264 mjo_dun02 31 21
+mjo_dun03 308 264 mjo_dun02 39 21
+mjolnir_01 284 18 gef_fild04 261 362
+mjolnir_01 381 256 mjolnir_02 28 258
+mjolnir_02 28 258 mjolnir_01 381 256
+mjolnir_02 79 365 mjo_dun01 52 14
+mjolnir_02 326 289 mjolnir_03 21 258
+mjolnir_02 361 18 mjolnir_06 366 383
+mjolnir_03 21 258 mjolnir_02 326 289
+mjolnir_03 212 17 mjolnir_07 214 383
+mjolnir_03 242 204 mjolnir_04 122 208
+mjolnir_04 122 208 mjolnir_03 242 204
+mjolnir_04 160 46 mjolnir_08 159 373
+mjolnir_04 387 174 mjolnir_05 16 171
+mjolnir_05 16 171 mjolnir_04 387 174
+mjolnir_05 220 382 mjolnir_12 220 26
+mjolnir_05 235 16 mjolnir_10 235 381
+mjolnir_06 18 331 gef_fild04 362 322
+mjolnir_06 265 29 gef_fild00 267 382
+mjolnir_06 366 383 mjolnir_02 361 18
+mjolnir_06 382 377 mjolnir_07 16 377
+mjolnir_06 383 74 mjolnir_07 17 77
+mjolnir_07 16 377 mjolnir_06 382 377
+mjolnir_07 17 77 mjolnir_06 383 74
+mjolnir_07 156 16 prt_fild00 159 383
+mjolnir_07 214 383 mjolnir_03 212 17
+mjolnir_07 383 233 mjolnir_08 30 234
+mjolnir_07 383 362 mjolnir_08 29 346
+mjolnir_08 29 346 mjolnir_07 383 362
+mjolnir_08 30 234 mjolnir_07 383 233
+mjolnir_08 159 373 mjolnir_04 160 46
+mjolnir_08 185 28 mjolnir_09 194 367
+mjolnir_08 369 257 mjolnir_10 15 258
+mjolnir_09 30 249 prt_fild00 383 249
+mjolnir_09 106 28 prt_fild05 105 381
+mjolnir_09 194 367 mjolnir_08 185 28
+mjolnir_09 300 28 prt_fild05 292 385
+mjolnir_09 373 288 prt_fild01 20 292
+mjolnir_10 15 258 mjolnir_08 369 257
+mjolnir_10 66 15 prt_fild01 66 373
+mjolnir_10 235 381 mjolnir_05 235 16
+mjolnir_10 265 13 prt_fild01 261 373
+mjolnir_10 384 220 mjolnir_11 20 220
+mjolnir_11 20 220 mjolnir_10 384 220
+mjolnir_11 174 20 prt_fild02 173 382
+mjolnir_12 199 378 aldebaran 138 34
+mjolnir_12 220 26 mjolnir_05 220 382
+moc_castle 94 183 morocc 160 183
+moc_fild01 22 242 prt_fild09 383 223
+moc_fild01 56 384 prt_fild08 55 21
+moc_fild01 68 16 moc_fild04 314 381
+moc_fild01 101 16 moc_fild04 314 381
+moc_fild01 239 382 prt_fild08 233 16
+moc_fild01 321 16 moc_fild02 67 342
+moc_fild01 379 162 pay_fild04 17 165
+moc_fild02 67 342 moc_fild01 321 16
+moc_fild02 71 18 moc_fild13 146 368
+moc_fild02 228 29 moc_fild13 298 370
+moc_fild02 332 19 moc_fild03 70 341
+moc_fild02 350 339 pay_fild04 194 17
+moc_fild02 378 272 pay_gld 16 276
+moc_fild03 17 37 moc_fild13 308 49
+moc_fild03 70 341 moc_fild02 332 19
+moc_fild03 179 16 pay_fild11 38 330
+moc_fild03 303 170 pay_fild01 13 152
+moc_fild04 14 122 moc_fild05 384 126
+moc_fild04 19 206 moc_fild05 378 208
+moc_fild04 92 381 prt_fild09 246 16
+moc_fild04 175 18 moc_fild08 170 383
+moc_fild04 219 327 anthell01 35 267
+moc_fild04 314 381 moc_fild01 68 16
+moc_fild04 336 381 moc_fild01 68 16
+moc_fild05 18 136 moc_fild06 377 316
+moc_fild05 18 154 moc_fild06 377 316
+moc_fild05 82 16 moc_fild09 80 369
+moc_fild05 144 375 prt_fild10 263 20
+moc_fild05 268 18 moc_fild09 267 371
+moc_fild05 325 382 prt_fild09 95 16
+moc_fild05 378 208 moc_fild04 19 206
+moc_fild05 384 126 moc_fild04 14 122
+moc_fild06 18 198 moc_fild07 381 201
+moc_fild06 207 18 moc_fild10 208 298
+moc_fild06 377 316 moc_fild05 18 154
+moc_fild07 198 21 morocc 160 297
+moc_fild07 381 201 moc_fild06 18 198
+moc_fild08 16 207 moc_fild09 374 195
+moc_fild08 170 383 moc_fild04 175 18
+moc_fild08 204 16 moc_fild14 196 382
+moc_fild08 383 211 moc_fild13 29 171
+moc_fild09 30 162 moc_fild10 384 258
+moc_fild09 80 369 moc_fild05 82 16
+moc_fild09 126 20 moc_fild15 158 363
+moc_fild09 267 371 moc_fild05 268 18
+moc_fild09 374 195 moc_fild08 16 207
+moc_fild10 19 207 morocc 302 207
+moc_fild10 189 23 moc_fild11 189 363
+moc_fild10 208 298 moc_fild06 207 18
+moc_fild10 384 258 moc_fild09 30 162
+moc_fild11 26 161 moc_fild12 289 168
+moc_fild11 189 363 moc_fild10 189 23
+moc_fild11 212 29 moc_fild17 218 369
+moc_fild11 379 197 moc_fild15 38 105
+moc_fild12 118 30 moc_fild18 158 382
+moc_fild12 159 381 morocc 160 17
+moc_fild12 289 168 moc_fild11 26 161
+moc_fild13 29 171 moc_fild08 383 211
+moc_fild13 146 368 moc_fild02 71 18
+moc_fild13 298 370 moc_fild02 228 29
+moc_fild13 308 49 moc_fild03 17 37
+moc_fild14 16 278 moc_fild15 367 276
+moc_fild14 196 382 moc_fild08 204 16
+moc_fild15 38 105 moc_fild11 379 197
+moc_fild15 104 16 moc_fild16 125 383
+moc_fild15 158 363 moc_fild09 126 20
+moc_fild15 258 253 anthell01 35 267
+moc_fild15 348 18 moc_fild16 334 382
+moc_fild15 367 276 moc_fild14 16 278
+moc_fild16 16 179 moc_fild17 369 272
+moc_fild16 125 383 moc_fild15 104 16
+moc_fild16 334 382 moc_fild15 348 18
+moc_fild16 205 296 in_moc_16 18 8
+in_moc_16 18 8 moc_fild16 205 296
+moc_fild17 30 300 moc_fild18 382 305
+moc_fild17 218 369 moc_fild11 212 29
+moc_fild17 369 272 moc_fild16 16 179
+moc_fild18 51 170 cmd_fild09 369 164
+moc_fild18 158 382 moc_fild12 118 30
+moc_fild18 382 305 moc_fild17 30 300
+moc_fild19 71 170 moc_ruins 71 16
+moc_fild19 98 99 in_sphinx1 288 6
+moc_fild19 169 107 morocc 24 164
+moc_pryd01 90 109 moc_prydb1 100 191
+moc_pryd01 195 9 moc_ruins 54 161
+moc_pryd01 10 195 moc_pryd02 10 195
+moc_pryd02 10 195 moc_pryd01 10 195
+moc_pryd02 100 99 moc_pryd03 100 97
+moc_pryd03 12 15 moc_pryd04 12 15
+moc_pryd03 15 187 moc_pryd04 15 187
+moc_pryd03 100 97 moc_pryd02 100 99
+moc_pryd03 184 11 moc_pryd04 184 11
+moc_pryd03 188 184 moc_pryd04 188 184
+moc_pryd04 12 15 moc_pryd03 12 15
+moc_pryd04 15 187 moc_pryd03 15 187
+moc_pryd04 184 11 moc_pryd03 184 11
+moc_pryd04 188 184 moc_pryd03 188 184
+moc_pryd05 94 98 moc_prydb1 100 55
+moc_pryd05 223 9 moc_pryd06 195 8
+moc_pryd06 195 8 moc_pryd05 223 9
+moc_prydb1 59 115 moc_prydb1 87 115
+moc_prydb1 87 115 moc_prydb1 59 115
+moc_prydb1 100 55 moc_pryd05 94 98
+moc_prydb1 100 77 moc_prydb1 100 104
+moc_prydb1 100 104 moc_prydb1 100 77
+moc_prydb1 100 191 moc_pryd01 90 109
+moc_prydb1 111 115 moc_prydb1 142 115
+moc_prydb1 142 115 moc_prydb1 111 115
+moc_ruins 54 161 moc_pryd01 195 9
+moc_ruins 71 16 moc_fild19 71 170
+moc_ruins 159 37 morocc 25 294
+morocc 24 164 moc_fild19 169 107
+morocc 25 294 moc_ruins 159 37
+morocc 46 46 morocc_in 68 75
+morocc 52 259 morocc_in 183 65
+morocc 85 55 morocc_in 44 146
+morocc 98 68 morocc_in 44 178
+morocc 160 17 moc_fild12 159 381
+morocc 160 183 moc_castle 94 183
+morocc 160 297 moc_fild07 198 21
+morocc 197 66 morocc_in 83 90
+morocc 253 56 morocc_in 134 77
+morocc 274 269 morocc_in 136 136
+morocc 284 170 morocc_in 108 179
+morocc 302 207 moc_fild10 19 207
+morocc_in 23 161 morocc_in 34 161
+morocc_in 34 161 morocc_in 23 161
+morocc_in 44 146 morocc 85 55
+morocc_in 44 178 morocc 98 68
+morocc_in 55 95 morocc_in 68 95
+morocc_in 55 123 morocc_in 68 123
+morocc_in 57 161 morocc_in 70 161
+morocc_in 68 42 morocc_in 68 62
+morocc_in 68 62 morocc_in 68 42
+morocc_in 68 75 morocc 46 46
+morocc_in 68 95 morocc_in 55 95
+morocc_in 68 123 morocc_in 55 123
+morocc_in 70 161 morocc_in 57 161
+morocc_in 83 90 morocc 197 66
+morocc_in 86 101 morocc_in 86 117
+morocc_in 86 117 morocc_in 86 101
+morocc_in 93 95 morocc_in 105 95
+morocc_in 93 123 morocc_in 106 123
+morocc_in 105 95 morocc_in 93 95
+morocc_in 106 123 morocc_in 93 123
+morocc_in 108 179 morocc 284 170
+morocc_in 134 77 morocc 253 56
+morocc_in 136 136 morocc 274 269
+morocc_in 144 109 morocc_in 144 122
+morocc_in 144 122 morocc_in 144 109
+morocc_in 144 151 morocc_in 144 166
+morocc_in 144 166 morocc_in 144 151
+morocc_in 149 129 morocc_in 166 130
+morocc_in 166 130 morocc_in 149 129
+morocc_in 171 37 morocc_in 171 50
+morocc_in 171 50 morocc_in 171 37
+morocc_in 174 109 morocc_in 174 122
+morocc_in 174 122 morocc_in 174 109
+morocc_in 174 151 morocc_in 174 166
+morocc_in 174 166 morocc_in 174 151
+morocc_in 183 65 morocc 52 259
+orcsdun01 32 172 in_orcs01 30 182
+orcsdun01 183 8 orcsdun02 21 188
+orcsdun02 21 188 orcsdun01 183 8
+orcsdun02 180 15 in_orcs01 108 114
+pay_dun00 21 186 pay_arche 36 131
+pay_arche 36 131 pay_dun00 21 186
+pay_dun00 184 33 pay_dun01 15 33
+pay_dun01 15 33 pay_dun00 184 33
+pay_dun01 286 25 pay_dun02 16 63
+pay_dun02 16 63 pay_dun01 286 25
+pay_dun02 137 128 pay_dun03 155 161
+pay_dun03 127 62 pay_dun04 202 206
+pay_dun03 127 62 pay_dun04 40 37
+pay_dun03 155 161 pay_dun02 137 128
+pay_dun04 40 37 pay_dun03 127 62
+pay_dun04 202 206 pay_dun03 127 62
+pay_fild01 13 152 moc_fild03 303 170
+pay_fild01 278 14 pay_fild02 83 386
+pay_fild01 353 14 pay_fild02 167 390
+pay_fild01 379 201 pay_fild07 16 200
+pay_fild02 16 175 pay_fild11 297 135
+pay_fild02 83 386 pay_fild01 278 14
+pay_fild02 134 16 pay_fild05 127 378
+pay_fild02 167 390 pay_fild01 353 14
+pay_fild02 284 108 pay_fild03 15 110
+pay_fild03 15 110 pay_fild02 284 108
+pay_fild03 172 281 pay_fild07 163 17
+pay_fild03 313 16 pay_fild06 305 375
+pay_fild03 392 63 alberta 15 234
+pay_fild04 17 165 moc_fild01 379 162
+pay_fild04 194 17 moc_fild02 350 339
+pay_fild05 127 378 pay_fild02 134 16
+pay_fild05 271 284 pay_fild06 28 288
+pay_fild06 28 288 pay_fild05 271 284
+pay_fild06 305 375 pay_fild03 313 16
+pay_fild07 16 200 pay_fild01 379 201
+pay_fild07 163 17 pay_fild03 172 281
+pay_fild07 280 382 pay_fild08 160 16
+pay_fild07 382 290 pay_fild10 16 290
+pay_fild08 17 75 payon 189 69
+pay_fild08 160 16 pay_fild07 280 382
+pay_fild08 262 91 pay_fild09 16 91
+pay_fild09 16 91 pay_fild08 262 91
+pay_fild09 112 16 pay_fild10 112 382
+pay_fild10 16 290 pay_fild07 382 290
+pay_fild10 112 382 pay_fild09 112 16
+pay_fild11 38 330 moc_fild03 179 16
+pay_fild11 297 135 pay_fild02 16 175
+pay_gld 16 276 moc_fild02 378 272
+prontera 22 203 prt_fild05 373 205
+prontera 42 67 prt_in 47 29
+prontera 45 346 prt_in 80 113
+prontera 73 100 prt_in 208 179
+prontera 74 90 prt_in 248 173
+prontera 84 89 prt_in 282 179
+prontera 107 215 prt_in 240 141
+prontera 132 222 prt_in 135 71
+prontera 133 183 prt_in 53 105
+prontera 156 22 prt_fild08 170 378
+prontera 156 360 prt_castle 102 16
+prontera 177 221 prt_in 168 124
+prontera 179 184 prt_in 60 77
+prontera 192 267 prt_in 181 55
+prontera 204 192 prt_in 68 130
+prontera 208 154 prt_in 172 33
+prontera 237 317 prt_church 100 56
+prontera 289 203 prt_fild06 23 193
+prt_castle 28 121 prt_castle 40 138
+prt_castle 31 113 prt_castle 54 113
+prt_castle 40 138 prt_castle 28 121
+prt_castle 45 145 prt_castle 68 153
+prt_castle 54 113 prt_castle 31 113
+prt_castle 59 29 prt_castle 82 29
+prt_castle 68 153 prt_castle 45 145
+prt_castle 75 107 prt_castle 92 107
+prt_castle 82 29 prt_castle 59 29
+prt_castle 92 107 prt_castle 75 107
+prt_castle 102 16 prontera 156 360
+prt_castle 102 73 prt_castle 102 88
+prt_castle 102 88 prt_castle 102 73
+prt_castle 102 129 prt_castle 102 140
+prt_castle 102 140 prt_castle 102 129
+prt_castle 102 181 prt_gld 159 25
+prt_castle 113 107 prt_castle 130 107
+prt_castle 121 29 prt_castle 144 29
+prt_castle 130 107 prt_castle 113 107
+prt_castle 135 153 prt_castle 164 145
+prt_castle 144 29 prt_castle 121 29
+prt_castle 149 113 prt_castle 172 113
+prt_castle 164 145 prt_castle 135 153
+prt_castle 170 138 prt_castle 176 121
+prt_castle 172 113 prt_castle 149 113
+prt_castle 176 121 prt_castle 170 138
+prt_church 31 19 prt_church 90 81
+prt_church 90 81 prt_church 31 19
+prt_church 100 56 prontera 237 317
+prt_church 109 81 prt_church 168 19
+prt_church 168 19 prt_church 109 81
+prt_fild00 18 129 gef_fild00 381 137
+prt_fild00 159 383 mjolnir_07 156 16
+prt_fild00 165 18 prt_fild04 160 387
+prt_fild00 317 18 prt_fild04 323 387
+prt_fild00 383 249 mjolnir_09 30 249
+prt_fild01 20 292 mjolnir_09 373 288
+prt_fild01 66 373 mjolnir_10 66 15
+prt_fild01 199 24 prt_gld 159 298
+prt_fild01 261 373 mjolnir_10 265 13
+prt_fild01 380 243 prt_fild02 17 242
+prt_fild01 382 304 prt_fild02 17 305
+prt_fild01 382 351 prt_fild02 17 350
+prt_fild02 17 242 prt_fild01 380 243
+prt_fild02 17 305 prt_fild01 382 304
+prt_fild02 17 350 prt_fild01 382 351
+prt_fild02 173 382 mjolnir_11 174 20
+prt_fild02 305 17 prt_fild06 277 320
+prt_fild02 380 347 prt_fild03 16 249
+prt_fild03 16 249 prt_fild02 380 347
+prt_fild04 17 114 gef_fild01 382 111
+prt_fild04 160 387 prt_fild00 165 18
+prt_fild04 323 387 prt_fild00 317 18
+prt_fild04 378 72 prt_fild05 13 63
+prt_fild04 384 155 prt_fild05 14 141
+prt_fild04 384 334 prt_fild05 15 333
+prt_fild05 13 63 prt_fild04 378 72
+prt_fild05 14 141 prt_fild04 384 155
+prt_fild05 15 333 prt_fild04 384 334
+prt_fild05 105 381 mjolnir_09 106 28
+prt_fild05 134 14 prt_fild07 132 381
+prt_fild05 255 14 prt_fild07 248 376
+prt_fild05 292 385 mjolnir_09 300 28
+prt_fild05 373 205 prontera 22 203
+prt_fild06 23 193 prontera 289 203
+prt_fild06 277 320 prt_fild02 305 17
+prt_fild07 13 64 gef_fild02 380 68
+prt_fild07 14 289 gef_fild02 380 289
+prt_fild07 17 145 gef_fild02 380 156
+prt_fild07 84 13 prt_fild09 87 380
+prt_fild07 132 381 prt_fild05 134 14
+prt_fild07 206 12 prt_fild09 224 380
+prt_fild07 248 376 prt_fild05 255 14
+prt_fild07 383 239 prt_fild08 16 239
+prt_fild07 385 186 prt_fild08 16 187
+prt_fild08 16 187 prt_fild07 385 186
+prt_fild08 16 239 prt_fild07 383 239
+prt_fild08 55 21 moc_fild01 56 384
+prt_fild08 170 378 prontera 156 22
+prt_fild08 233 16 moc_fild01 239 382
+prt_fild08 371 212 izlude 30 78
+prt_fild09 14 139 prt_fild10 339 126
+prt_fild09 87 380 prt_fild07 84 13
+prt_fild09 95 16 moc_fild05 325 382
+prt_fild09 224 380 prt_fild07 206 12
+prt_fild09 246 16 moc_fild04 92 381
+prt_fild09 383 223 moc_fild01 22 242
+prt_fild10 20 122 prt_fild11 362 111
+prt_fild10 20 196 prt_fild11 361 184
+prt_fild10 227 299 gef_fild02 266 18
+prt_fild10 263 20 moc_fild05 144 375
+prt_fild10 339 126 prt_fild09 14 139
+prt_fild11 17 281 gef_fild11 377 293
+prt_fild11 302 301 gef_fild03 312 16
+prt_fild11 361 184 prt_fild10 20 196
+prt_fild11 362 111 prt_fild10 20 122
+prt_gld 159 25 prt_castle 102 181
+prt_gld 159 298 prt_fild01 199 24
+prt_in 37 65 prt_in 48 65
+prt_in 47 29 prontera 42 67
+prt_in 48 65 prt_in 37 65
+prt_in 53 105 prontera 133 183
+prt_in 60 77 prontera 179 184
+prt_in 68 130 prontera 204 192
+prt_in 69 65 prt_in 82 65
+prt_in 70 143 prt_in 70 162
+prt_in 70 162 prt_in 70 143
+prt_in 80 113 prontera 45 346
+prt_in 82 65 prt_in 69 65
+prt_in 135 71 prontera 132 222
+prt_in 168 124 prontera 177 221
+prt_in 172 33 prontera 208 154
+prt_in 181 55 prontera 192 267
+prt_in 208 179 prontera 73 100
+prt_in 217 163 prt_in 234 163
+prt_in 234 163 prt_in 217 163
+prt_in 240 141 prontera 107 215
+prt_in 248 173 prontera 74 90
+prt_in 254 113 prt_in 256 131
+prt_in 256 131 prt_in 254 113
+prt_in 263 163 prt_in 274 163
+prt_in 274 163 prt_in 263 163
+prt_in 282 179 prontera 84 89
+
+#下水道
+prt_fild05 270 212 prt_sewb1 135 248 auto c r0
+prt_sewb1 135 248 prt_fild05 270 212
+prt_sewb1 188 247 prt_sewb2 19 12
+prt_sewb2 19 12 prt_sewb1 188 247
+prt_sewb2 19 175 prt_sewb2 60 24
+prt_sewb2 60 24 prt_sewb2 19 175
+prt_sewb2 100 176 prt_sewb2 140 24
+prt_sewb2 140 24 prt_sewb2 100 176
+prt_sewb2 180 24 prt_sewb3 180 173
+prt_sewb3 20 185 prt_sewb4 100 96
+prt_sewb3 180 173 prt_sewb2 180 24
+prt_sewb4 100 96 prt_sewb3 20 185
+
+#沉船
+alb2trea 39 50 alberta 195 151 auto r0
+alberta 195 151 alb2trea 39 50 auto c c r0 n
+alb2trea 88 111 treasure01 69 22
+treasure01 69 22 alb2trea 88 111
+treasure01 27 164 treasure01 38 164
+treasure01 38 164 treasure01 27 164
+treasure01 41 37 treasure01 58 37
+treasure01 58 37 treasure01 41 37
+treasure01 41 111 treasure01 61 111
+treasure01 61 111 treasure01 41 111
+treasure01 69 75 treasure01 69 102
+treasure01 69 102 treasure01 69 75
+treasure01 69 125 treasure01 69 140
+treasure01 69 140 treasure01 69 125
+treasure01 76 111 treasure01 98 111
+treasure01 98 111 treasure01 76 111
+treasure01 79 37 treasure01 96 37
+treasure01 96 37 treasure01 79 37
+treasure01 99 164 treasure01 112 164
+treasure01 112 164 treasure01 99 164
+treasure01 125 161 treasure01 142 161
+treasure01 142 161 treasure01 125 161
+treasure01 164 91 treasure01 164 114
+treasure01 164 114 treasure01 164 91
+treasure01 69 177 treasure02 102 24
+treasure02 102 24 treasure01 69 177
+treasure02 49 99 treasure02 49 128
+treasure02 49 128 treasure02 49 99
+treasure02 65 72 treasure02 80 72
+treasure02 80 72 treasure02 65 72
+treasure02 102 103 treasure02 102 118
+treasure02 102 118 treasure02 102 103
+treasure02 123 72 treasure02 138 72
+treasure02 138 72 treasure02 123 72
+treasure02 155 99 treasure02 155 128
+treasure02 155 128 treasure02 155 99
+
+#烏龜島
+alberta 247 122 tur_dun01 165 29 auto c r1 c r0 c c c n
+tur_dun01 165 29 alberta 247 122 auto c r0 c c n
+tur_dun01 154 241 tur_dun02 148 268
+tur_dun02 148 268 tur_dun01 154 241
+tur_dun02 167 19 tur_dun03 132 193
+tur_dun03 132 193 tur_dun02 167 19
+tur_dun03 217 71 tur_dun04 100 196
+tur_dun04 100 196 tur_dun03 217 71
+
+#耶�菃�
+aldebaran 168 168 xmas_fild01 84 48 auto c r1 c c n
+xmas_fild01 84 48 aldebaran 168 168
+xmas_fild01 69 252 xmas 149 41
+xmas 142 239 xmas_in 94 83
+xmas 119 162 xmas_in 38 89
+xmas 120 131 xmas_in 46 33
+xmas 142 258 xmas_in 94 117
+xmas 143 314 xmas_dun01 205 13
+xmas 149 41 xmas_fild01 69 252
+xmas 149 239 xmas_in 104 83
+xmas 149 258 xmas_in 104 117
+xmas 173 160 xmas_in 163 93
+xmas 174 131 xmas_in 153 32
+xmas 189 278 xmas_in 168 160
+xmas 181 169 xmas_in 179 109
+xmas_in 94 83 xmas 142 239
+xmas_in 38 89 xmas 119 162
+xmas_in 46 33 xmas 120 131
+xmas_in 94 117 xmas 142 258
+xmas_in 104 83 xmas 149 239
+xmas_in 104 117 xmas 149 258
+xmas_in 153 32 xmas 174 131
+xmas_in 163 93 xmas 173 160
+xmas_in 168 160 xmas 189 278
+xmas_in 179 109 xmas 181 169
+xmas_dun01 205 13 xmas 143 314
+xmas_dun01 129 130 xmas_dun02 129 130
+xmas_dun02 129 130 xmas_dun01 129 130
+
+alde_dun03 171 127 alde_dun03 130 125
+alde_dun03 130 125 alde_dun03 171 127
+
+#北森傳點資料
+prt_maze01 14 45 mjolnir_12 44 17
+mjolnir_12 44 17 prt_maze01 17 114
+prt_fild01 136 373 prt_maze01 99 34
+prt_maze01 177 74 prt_fild01 136 373
+prt_maze01 99 34 prt_maze01 137 125
+prt_maze01 137 125 prt_maze01 194 139
+prt_maze01 194 139 prt_maze01 22 85
+prt_maze01 22 85 prt_maze01 137 125
+prt_maze01 137 74 prt_maze01 168 94
+prt_maze01 168 94 prt_maze01 194 139
+prt_maze01 166 139 prt_maze01 125 171
+prt_maze01 125 171 prt_maze01 5 186
+prt_maze01 5 186 prt_maze01 182 85
+prt_maze01 182 85 prt_maze01 52 45
+prt_maze01 52 45 prt_maze01 139 45
+prt_maze01 139 45 prt_maze01 74 12
+prt_maze01 74 12 prt_maze01 52 45
+prt_maze01 74 74 prt_maze01 58 194
+prt_maze01 58 194 prt_maze01 23 125
+prt_maze01 5 140 prt_maze01 52 45
+prt_maze01 17 114 prt_maze01 5 186
+prt_maze01 22 194 prt_maze01 16 34
+prt_maze01 16 34 prt_maze01 125 171
+prt_maze01 154 181 prt_maze01 194 175
+prt_maze01 175 165 prt_maze01 45 104
+prt_maze01 45 21 prt_maze01 142 114
+prt_maze01 125 105 prt_maze01 14 45
+prt_maze01 154 134 prt_maze01 58 194
+prt_maze01 18 154 prt_maze01 177 74
+prt_maze01 114 22 prt_maze01 177 74
+prt_maze01 175 45 prt_maze01 52 45
+prt_maze01 5 58 prt_maze01 45 104
+prt_maze01 45 104 prt_maze01 63 125
+prt_maze01 96 45 prt_maze01 63 125
+prt_maze01 154 22 prt_maze01 139 45
+prt_maze01 142 114 prt_maze01 23 125
+prt_maze01 23 125 prt_maze01 154 22
+prt_maze01 102 165 prt_maze01 99 34
+prt_maze01 85 13 prt_maze01 22 85
+prt_maze01 98 154 prt_maze01 102 165
+prt_maze01 54 154 prt_maze01 194 175
+prt_maze01 194 175 prt_maze01 23 125
+prt_maze01 165 22 prt_maze01 63 125
+prt_maze01 63 125 prt_maze01 182 85
+prt_maze01 194 94 prt_maze01 58 194
+prt_maze01 105 114 prt_maze01 114 145
+prt_maze01 114 145 prt_maze01 23 125
+prt_maze01 14 74 prt_maze01 154 22
+prt_maze01 54 5 prt_maze01 125 171
+prt_maze01 194 54 prt_maze01 99 34
+prt_maze01 114 56 prt_maze01 176 5
+prt_maze01 176 5 prt_maze01 137 125
+prt_maze01 85 146 prt_maze01 142 114
+prt_maze01 114 95 prt_maze01 14 45
+prt_maze01 63 114 prt_maze01 114 56
+prt_maze01 85 56 prt_maze01 105 114
+prt_maze01 85 97 prt_maze01 63 125
+prt_maze01 63 85 prt_maze01 154 22
+prt_maze01 74 97 prt_maze01 74 12
+prt_maze01 104 74 prt_maze01 14 45
+prt_maze01 23 5 prt_maze01 176 5
+prt_maze01 176 34 prt_maze01 22 194
+prt_maze01 194 15 prt_maze01 52 45
+prt_maze01 85 174 prt_maze02 93 16
+prt_maze02 93 16 prt_maze01 85 174
+prt_maze02 100 182 prt_maze03 182 85
+prt_maze03 182 85 prt_maze02 100 182
+prt_maze03 194 54 prt_maze03 168 94
+prt_maze03 168 94 prt_maze03 194 54
+prt_maze03 165 22 prt_maze03 114 145
+prt_maze03 114 145 prt_maze03 165 22
+prt_maze03 176 34 prt_maze03 85 56
+prt_maze03 85 56 prt_maze03 176 34
+prt_maze03 194 15 prt_maze03 5 58
+prt_maze03 5 58 prt_maze03 176 5
+prt_maze03 176 5 prt_maze03 114 95
+prt_maze03 114 95 prt_maze03 176 5
+prt_maze03 96 45 prt_maze03 45 104
+prt_maze03 52 45 prt_maze03 16 34
+prt_maze03 16 34 prt_maze03 52 45
+prt_maze03 23 5 prt_maze03 85 13
+prt_maze03 85 13 prt_maze03 23 5
+prt_maze03 99 34 prt_maze03 98 154
+prt_maze03 98 154 prt_maze03 99 34
+prt_maze03 114 22 prt_maze03 104 74
+prt_maze03 104 74 prt_maze03 114 22
+prt_maze03 114 56 prt_maze03 5 140
+prt_maze03 5 140 prt_maze03 114 56
+prt_maze03 23 125 prt_maze03 177 74
+prt_maze03 177 74 prt_maze03 23 125
+prt_maze03 18 154 prt_maze03 45 21
+prt_maze03 45 21 prt_maze03 18 154
+prt_maze03 194 94 prt_maze03 154 22
+prt_maze03 105 114 prt_maze03 125 171
+prt_maze03 125 171 prt_maze03 105 114
+prt_maze03 154 181 prt_maze03 139 45
+prt_maze03 102 165 prt_maze03 137 74
+prt_maze03 137 74 prt_maze03 102 165
+prt_maze03 85 174 prt_maze03 14 45
+prt_maze03 14 45 prt_maze03 85 174
+prt_maze03 14 74 prt_maze03 63 114
+prt_maze03 63 114 prt_maze03 14 74
+prt_maze03 85 146 prt_maze03 22 85
+prt_maze03 22 85 prt_maze03 85 146
+prt_maze03 17 114 prt_maze03 125 105
+prt_maze03 142 114 prt_maze03 54 154
+prt_maze03 54 154 prt_maze03 142 114
+prt_maze03 63 125 prt_maze03 85 97
+prt_maze03 85 97 prt_maze03 63 125
+prt_maze03 175 45 prt_maze03 22 194
+prt_maze03 22 194 prt_maze03 175 45
+prt_maze03 5 186 prt_maze03 154 134
+prt_maze03 154 134 prt_maze03 5 186
+prt_maze03 54 5 prt_maze03 71 97
+prt_maze03 63 85 prt_maze03 166 139
+prt_maze03 166 139 prt_maze03 63 85
+prt_maze03 194 139 prt_maze03 194 175
+prt_maze03 194 175 prt_maze03 194 139
+
+#天津傳點資料含NPC
+alberta 245 93 amatsu 194 79 auto c r1 c c c r0 n
+amatsu 194 79 alberta 245 93 auto c r0 n
+amatsu 85 235 ama_in02 226 45
+ama_in02 226 45 amatsu 85 235
+ama_in02 65 37 ama_in02 195 44
+ama_in02 195 44 ama_in02 65 37
+ama_in02 59 141 ama_in02 56 44
+ama_in02 56 44 ama_in02 59 141
+ama_in02 215 149 ama_in02 59 160
+ama_in02 59 160 ama_in02 215 149
+ama_in02 126 164 ama_in02 222 161
+ama_in02 222 161 ama_in02 126 164
+ama_in02 115 177 ama_dun01 229 7 auto c r1 c r0 n
+ama_dun01 229 7 ama_in02 115 177 auto c r0 n
+ama_dun01 235 144 ama_dun02 30 40
+ama_dun02 30 40 ama_dun01 235 144
+ama_dun02 196 123 ama_dun03 120 9
+ama_dun03 120 9 ama_dun02 196 123
+ama_in01 33 24 amatsu 132 117
+amatsu 132 117 ama_in01 33 24
+amatsu 94 117 ama_in01 33 24
+ama_in01 33 24 amatsu 94 117
+ama_fild01 75 30 amatsu 248 292
+amatsu 248 292 ama_fild01 75 30
+amatsu 217 116 ama_in01 157 25
+ama_in01 157 25 amatsu 217 116
+ama_in01 162 34 ama_in01 166 73
+ama_in01 166 73 ama_in01 162 34
+ama_fild01 330 141 ama_in01 174 121
+ama_in01 174 121 ama_fild01 330 141
+amatsu 168 182 ama_in01 34 96
+ama_in01 34 96 amatsu 168 182
+amatsu 177 138 ama_in01 31 176
+ama_in01 31 176 amatsu 177 138
+amatsu 248 160 ama_in01 76 178
+ama_in01 76 178 amatsu 248 160
+amatsu 52 148 ama_in01 88 94
+ama_in01 88 94 amatsu 52 148
+ama_in01 175 171 ama_fild01 174 331
+ama_fild01 174 331 ama_in01 175 171
+
+#崑崙傳點資料含NPC
+alberta 245 69 gon_fild01 255 79 auto c r1 c c r0 n
+gon_fild01 255 79 alberta 245 69 auto c r0 n
+gon_in 95 26 gonryun 195 93
+gonryun 195 93 gon_in 95 26
+gonryun 161 8 gon_fild01 192 265
+gon_fild01 192 265 gonryun 161 8
+gonryun 215 114 gon_in 149 24
+gon_in 149 24 gonryun 215 114
+gon_in 184 36 gon_in 186 107
+gon_in 186 107 gon_in 184 36
+gon_in 186 85 gon_in 184 11
+gon_in 184 11 gon_in 186 85
+gonryun 221 162 gon_in 109 98
+gon_in 109 98 gonryun 221 162
+gonryun 109 131 gon_in 47 24
+gon_in 47 24 gonryun 109 131
+gon_in 42 35 gon_in 31 97
+gon_in 31 97 gon_in 42 35
+gonryun 107 184 gon_in 72 67
+gon_in 72 67 gonryun 107 184
+gonryun 159 201 gon_dun01 153 45
+gon_dun01 153 45 gonryun 159 201
+gon_dun01 162 273 gon_dun02 14 113
+gon_dun02 14 113 gon_dun01 162 273
+gon_dun02 56 119 gon_dun02 44 213
+gon_dun02 44 213 gon_dun02 56 119
+gon_dun02 92 190 gon_dun02 196 20
+gon_dun02 196 20 gon_dun02 92 190
+gon_dun02 168 92 gon_dun02 276 76
+gon_dun02 276 76 gon_dun02 168 92
+gon_dun02 234 191 gon_dun02 148 236
+gon_dun02 148 236 gon_dun02 234 191
+gon_dun02 235 138 gon_dun02 165 189
+gon_dun02 165 189 gon_dun02 235 138
+gon_dun02 199 94 gon_dun02 63 66
+gon_dun02 63 66 gon_dun02 199 94
+gon_dun02 44 166 gon_dun02 94 118
+gon_dun02 94 118 gon_dun02 180 189
+gon_dun02 145 66 gon_dun02 196 20
+gon_dun02 171 258 gon_dun02 76 100
+gon_dun02 76 100 gon_dun02 145 66
+gon_dun02 86 44 gon_dun02 148 236
+gon_dun02 170 161 gon_dun02 86 44
+gon_dun02 180 189 gon_dun02 170 161
+gon_dun02 251 268 gon_dun03 68 6
+gon_dun03 68 6 gon_dun02 251 268
+
+#汶巴拉傳點資料
+cmd_fild01 77 366 um_fild03 114 50
+beach_dun2 258 244 um_fild01 31 274
+um_fild01 31 274 beach_dun2 258 244
+um_fild01 369 277 um_fild02 22 272
+um_fild02 22 272 um_fild01 369 277
+um_fild02 373 329 um_fild03 19 334
+um_fild02 188 374 um_fild04 182 13
+um_fild03 114 50 cmd_fild01 77 366
+um_fild03 19 334 um_fild02 373 329
+um_fild04 182 13 um_fild02 188 374
+um_fild04 215 339 umbala 130 79
+umbala 130 79 um_fild04 215 339
+umbala 106 285 um_dun01 42 27
+umbala 100 203 um_in 141 39
+umbala 68 253 um_in 38 110
+umbala 138 129 um_in 99 111
+umbala 125 157 um_in 155 111
+umbala 107 130 um_in 99 63
+umbala 94 186 um_in 166 69
+um_in 141 39 umbala 100 203
+um_in 38 110 umbala 68 253
+um_in 99 111 umbala 138 129
+um_in 155 111 umbala 125 157
+um_in 99 63 umbala 107 130
+um_in 166 69 umbala 94 186
+um_dun01 42 27 umbala 106 285
+um_dun01 149 198 um_dun02 55 19
+um_dun02 55 19 um_dun01 149 198
+um_dun02 64 79 um_dun02 222 259
+um_dun02 222 259 um_dun02 64 79
+um_dun02 169 38 um_dun02 215 85
+um_dun02 215 85 um_dun02 169 38
+um_dun02 113 208 um_dun02 32 249
+um_dun02 32 249 um_dun02 113 208
+um_dun02 231 255 um_dun02 26 244
+um_dun02 26 244 um_dun02 231 255
+um_dun02 60 89 um_dun02 215 77
+um_dun02 215 77 um_dun02 60 89
+um_dun02 177 38 um_dun02 103 208
+um_dun02 103 208 um_dun02 177 38
+um_dun02 126 162 yggdrasil01 39 63
+yggdrasil01 270 52 yggdrasil01 27 195
+yggdrasil01 27 195 yggdrasil01 270 52
+
+#跳樓點
+#umbala 140 197 nif_in 68 14
+
+#死都傳點資料
+yggdrasil01 248 259 nif_fild01 315 67
+nif_fild01 344 322 nif_fild02 22 311
+nif_fild02 22 311 nif_fild01 344 322
+nif_fild02 378 235 niflheim 19 154
+niflheim 19 154 nif_fild02 378 235
+niflheim 219 198 nif_in 135 13
+niflheim 219 169 nif_in 11 88
+niflheim 255 194 nif_in 18 154
+niflheim 166 162 nif_in 154 78
+niflheim 202 248 nif_in 95 106
+niflheim 189 210 nif_in 23 11
+niflheim 189 241 nif_in 78 74
+nif_in 18 154 niflheim 255 194
+nif_in 11 88 niflheim 219 169
+nif_in 135 13 niflheim 219 198
+nif_in 154 78 niflheim 166 162
+nif_in 65 174 nif_in 140 171
+nif_in 140 171 nif_in 65 174
+nif_in 169 82 nif_in 186 106
+nif_in 186 106 nif_in 169 82
+nif_in 88 29 nif_in 34 34
+nif_in 34 34 nif_in 88 29
+nif_in 23 11 niflheim 189 210
+nif_in 78 74 niflheim 189 241
+nif_in 95 106 niflheim 202 248
+
+#洛陽傳點資料含NPC
+alberta 245 45 lou_fild01 190 100 auto c r1 c c r0 n
+lou_fild01 190 100 alberta 245 45 auto c r0 n
+louyang 218 19 lou_fild01 233 356
+lou_fild01 233 356 louyang 218 19
+louyang 37 271 lou_dun01 221 195
+lou_dun01 221 195 louyang 37 271
+lou_dun01 40 201 lou_dun02 288 18
+lou_dun02 288 18 lou_dun01 40 201
+lou_dun02 165 269 lou_dun03 165 35
+lou_dun03 165 35 lou_dun02 165 269
+louyang 280 167 lou_in02 58 170
+lou_in02 58 170 louyang 280 167
+lou_in02 80 190 lou_in02 71 140
+lou_in02 71 140 lou_in02 80 190
+lou_in02 35 190 lou_in02 44 138
+lou_in02 44 138 lou_in02 35 190
+lou_in02 201 94 lou_in02 176 46
+lou_in02 176 46 lou_in02 201 94
+louyang 136 97 lou_in02 249 173
+lou_in02 249 173 louyang 136 97
+lou_in01 125 141 lou_in01 153 141
+lou_in01 153 141 lou_in01 125 141
+louyang 218 255 lou_in01 101 119
+lou_in01 101 119 louyang 218 255
+lou_in01 79 141 lou_in01 79 141
+lou_in02 198 159 louyang 125 121
+louyang 125 121 lou_in02 198 159
+louyang 129 121 lou_in02 203 159
+lou_in02 203 159 louyang 129 121
+lou_in02 242 59 louyang 263 93
+louyang 263 93 lou_in02 242 59
+lou_in02 189 74 louyang 309 80
+louyang 309 80 lou_in02 189 74
+louyang 145 174 lou_in02 126 165
+lou_in02 126 165 louyang 145 174
+louyang 130 63 lou_in02 72 28
+lou_in02 72 28 louyang 130 63
+
+#斐楊重建工程
+payon 141 85 payon_in01 17 51
+payon_in01 17 51 payon 141 85
+payon_in01 10 59 payon_in01 10 80
+payon_in01 10 80 payon_in01 10 59
+payon_in01 10 38 payon_in01 10 17
+payon_in01 10 17 payon_in01 10 38
+payon 223 117 payon_in01 172 11
+payon_in01 172 11 payon 223 117
+payon_in01 181 43 payon_in01 181 70
+payon_in01 181 70 payon_in01 181 43
+payon_in01 146 61 payon_in01 193 92
+payon_in01 193 92 payon_in01 146 61
+payon_in01 133 42 payon_in01 133 21
+payon_in01 133 21 payon_in01 133 42
+payon 151 127 payon_in01 56 50
+payon_in01 56 50 payon 151 127
+payon 136 158 payon_in01 23 129
+payon_in01 23 129 payon 136 158
+payon 130 169 payon_in01 13 139
+payon_in01 13 139 payon 130 169
+payon 269 152 payon_in01 86 9
+payon_in01 86 9 payon 269 152
+payon 256 285 payon_in01 42 11
+payon_in01 42 11 payon 256 285
+payon 189 233 payon_in03 146 39
+payon_in03 146 39 payon 189 233
+payon_in03 130 17 payon_in03 158 32
+payon_in03 158 32 payon_in03 130 17
+payon_in03 172 32 payon_in03 160 17
+payon_in03 160 17 payon_in03 172 32
+payon_in03 186 32 payon_in03 190 17
+payon_in03 190 17 payon_in03 186 32
+payon 127 204 payon_in03 85 19
+payon_in03 85 19 payon 127 204
+payon_in03 74 19 payon_in03 67 19
+payon_in03 67 19 payon_in03 74 19
+payon_in03 46 19 payon_in03 39 19
+payon_in03 39 19 payon_in03 46 19
+payon_in03 28 19 payon_in03 21 19
+payon_in03 21 19 payon_in03 28 19
+payon 156 247 payon_in03 98 114
+payon_in03 98 114 payon 156 247
+payon_in03 90 124 payon_in03 83 124
+payon_in03 83 124 payon_in03 90 124
+payon_in03 107 124 payon_in03 114 124
+payon_in03 114 124 payon_in03 107 124
+payon_in03 99 133 payon_in03 99 148
+payon_in03 99 148 payon_in03 99 133
+payon 107 326 payon_in03 20 60
+payon_in03 20 60 payon 107 326
+payon_in03 20 73 payon_in03 20 86
+payon_in03 20 86 payon_in03 20 73
+payon_in03 20 103 payon_in03 20 118
+payon_in03 20 118 payon_in03 20 103
+payon_in03 12 131 payon_in03 12 142
+payon_in03 12 142 payon_in03 12 131
+payon_in03 28 161 payon_in03 28 172
+payon_in03 28 172 payon_in03 28 161
+payon_in03 12 172 payon_in03 12 161
+payon_in03 12 161 payon_in03 12 172
+payon_in03 28 142 payon_in03 28 131
+payon_in03 28 131 payon_in03 28 142
+payon 155 328 payon_in03 165 140
+payon_in03 165 140 payon 155 328
+payon_in03 186 153 payon_in03 186 178
+payon_in03 186 178 payon_in03 186 153
+payon 267 89 pay_fild08 17 75
+pay_fild08 17 75 payon 267 89
+pay_arche 81 17 payon 228 329
+payon 228 329 pay_arche 81 17
+pay_arche 71 156 payon_in02 82 45
+payon_in02 82 45 pay_arche 71 156
+payon_in02 70 33 payon_in02 61 33
+payon_in02 61 33 payon_in02 70 33
+payon_in02 50 4 pay_arche 92 170
+pay_arche 92 170 payon_in02 50 4
+payon_in02 64 56 pay_arche 145 165
+pay_arche 145 165 payon_in02 64 56
+payon_in02 52 67 payon_in02 35 67
+payon_in02 35 67 payon_in02 52 67
+payon_in02 75 67 payon_in02 10 25
+payon_in02 10 25 payon_in02 75 67
+pay_gld 374 149 payon 16 143
+payon 16 143 pay_gld 374 149
+payon 122 27 pay_fild01 333 361
+pay_fild01 333 361 payon 122 27
+payon_in01 92 37 payon_in01 107 71
+payon_in01 107 71 payon_in01 92 37
+
+#蜜月島(jawaii)
+izlude 171 185 jawaii 239 112 auto c r1 n
+jawaii 239 112 izlude 171 185 auto c c r0 n
+jawaii_in 27 91 jawaii_in 27 91
+jawaii_in 27 91 jawaii_in 27 91
+jawaii_in 89 117 jawaii_in 132 107
+jawaii_in 132 107 jawaii_in 89 117
+jawaii_in 113 61 jawaii 192 215
+jawaii 192 215 jawaii_in 113 61
+jawaii_in 90 78 alberta 178 165
+alberta 178 165 jawaii_in 90 78
+
+#關於亞納雷(競技場)
+arena_room 105 93 prt_are_in 54 13 auto c r0 n
+prt_are_in 54 13 arena_room 105 93
+izlude 128 226 arena_room 99 24
+arena_room 99 24 izlude 128 226
+arena_room 84 71 arena_room 63 53
+arena_room 63 53 arena_room 84 71
+arena_room 76 87 arena_room 49 87
+arena_room 49 87 arena_room 76 87
+arena_room 84 103 arena_room 63 126
+arena_room 63 126 arena_room 84 103
+arena_room 123 88 arena_room 150 87
+arena_room 150 87 arena_room 123 88
+arena_room 115 71 arena_room 136 53
+arena_room 136 53 arena_room 115 71
+
+#新手試鍊場
+new_2-1 148 112 new_2-2 100 6
+new_2-2 100 6 new_2-1 148 112
+new_2-2 126 106 new_2-2 156 171
+new_2-2 156 171 new_2-2 126 106
+new_2-2 73 106 new_2-2 46 172
+new_2-2 46 172 new_2-2 73 106
+new_3-1 148 112 new_3-2 100 6
+new_3-2 100 6 new_3-1 148 112
+new_3-2 126 106 new_3-2 156 171
+new_3-2 156 171 new_3-2 126 106
+new_3-2 73 106 new_3-2 46 172
+new_3-2 46 172 new_3-2 73 106
+new_4-1 148 112 new_4-2 100 6
+new_4-2 100 6 new_4-1 148 112
+new_4-2 126 106 new_4-2 156 171
+new_4-2 156 171 new_4-2 126 106
+new_4-2 73 106 new_4-2 46 172
+new_4-2 46 172 new_4-2 73 106
+new_5-1 148 112 new_5-2 100 6
+new_5-2 126 106 new_5-2 156 171
+new_5-2 156 171 new_5-2 126 106
+new_5-2 73 106 new_5-2 46 172
+new_5-2 46 172 new_5-2 73 106
+
+alberta_in 22 113 alberta_in 22 130
+alberta_in 22 130 alberta_in 22 113
+
+moc_fild01 301 16 moc_fild02 67 342
+moc_fild02 92 342 moc_fild01 321 16
+
+prontera 120 267 prt_in 183 97
+prt_in 183 97 prontera 120 267
+
+aldebaran 53 65 alde_alche 42 171
+aldebaran 65 53 alde_alche 19 171
+alde_alche 89 62 alde_alche 17 29
+alde_alche 17 29 alde_alche 89 62
+alde_alche 46 77 alde_alche 93 17
+alde_alche 93 17 alde_alche 46 77
+alde_alche 42 171 aldebaran 53 65
+alde_alche 19 171 aldebaran 65 53
+alde_alche 41 186 alde_alche 114 183
+alde_alche 13 184 alde_alche 88 117
+alde_alche 88 117 alde_alche 13 184
+alde_alche 46 104 alde_alche 160 17
+alde_alche 133 77 alde_alche 158 107
+alde_alche 160 17 alde_alche 46 104
+alde_alche 114 183 alde_alche 41 186
+alde_alche 133 103 alde_alche 158 163
+alde_alche 158 163 alde_alche 133 103
+alde_alche 158 107 alde_alche 133 77
+
+yuno_in05 125 83 yuno_in05 148 83
+yuno_in05 47 185 yuno_in05 181 91
+yuno_in05 40 178 yuno_in05 177 9
+
+valkyrie 49 67 valkyrie 49 72
+valkyrie 49 72 valkyrie 49 67
+
+pay_dun04 191 41 pay_dun03 127 62
+pay_dun04 32 204 pay_dun03 127 62
+
+um_fild02 373 148 um_fild03 32 145
+um_fild03 32 145 um_fild02 373 148
+cmd_fild01 178 370 um_fild03 243 26
+um_fild03 243 26 cmd_fild01 178 370
+
+#武僧轉職所
+prt_fild03 371 256 prt_monk 22 248
+prt_monk 22 248 prt_fild03 371 256
+prt_monk 192 172 monk_test 329 47
+monk_test 166 278 prt_monk 192 172
+monk_test 329 47 prt_monk 192 172
+monk_test 329 76 monk_test 259 115
+monk_test 259 115 monk_test 329 76
+monk_test 272 125 monk_test 298 127
+monk_test 298 127 monk_test 272 125
+prt_monk 245 106 monk_in 98 27
+monk_in 98 27 prt_monk 245 106
+monk_in 69 46 monk_in 40 38
+monk_in 40 38 monk_in 69 46
+monk_in 69 84 monk_in 40 92
+monk_in 40 92 monk_in 69 84
+monk_in 159 90 monk_in 128 84
+monk_in 128 46 monk_in 159 38
+monk_in 159 38 monk_in 128 46
+monk_in 99 102 monk_in 99 141
+monk_in 99 141 monk_in 99 102
+monk_in 98 186 prt_monk 245 137
+prt_monk 245 137 monk_in 98 186
+
+job_prist 24 109 job_prist 168 17
+job_prist 168 180 job_prist 98 40
+job_prist 98 105 prt_church 16 37
+in_hunter 100 13 pay_fild10 143 250
+job_hunte 89 139 payon_in03 130 17
+new_1-1 148 112 new_1-2 100 6
+new_1-2 126 106 new_1-2 156 171
+new_1-2 156 171 new_1-2 126 106
+new_1-2 73 106 new_1-2 46 172
+new_1-2 46 172 new_1-2 73 106
+izlude_in 43 169 izlude_in 74 158
+sword_2-1 192 244 sword_2-1 223 243
+sword_2-1 223 243 sword_2-1 8 207
+sword_2-1 8 207 sword_2-1 8 207
+sword_2-1 193 207 sword_2-1 223 205
+sword_2-1 223 205 sword_2-1 8 169
+sword_2-1 239 117 sword_2-1 8 169
+sword_2-1 193 168 sword_2-1 215 167
+
+louyang 317 176 lou_in02 121 28
+lou_in02 121 28 louyang 317 176
+
+new_5-2 100 6 new_5-1 148 112
+yuno 218 180 que_god01 99 81
+que_god01 99 81 yuno 218 180
+
+yuno 48 105 yuno_in01 40 176
+yuno 48 151 yuno_in01 34 100
+yuno 87 321 yuno_in02 172 61
+yuno 117 135 yuno_in01 116 40
+yuno 196 138 yuno_in01 32 36
+yuno 245 147 yuno_in01 101 85
+yuno 264 87 yuno_in01 168 104
+yuno 278 293 yuno_in03 25 11
+yuno 284 366 yuno_in03 224 19
+yuno 323 284 yuno_in03 167 19
+yuno 342 203 yuno_in04 29 58
+yuno_in01 32 36 yuno 196 138
+yuno_in01 32 182 yuno_in01 82 164
+yuno_in01 34 100 yuno 48 151
+yuno_in01 40 176 yuno 48 105
+yuno_in01 82 164 yuno_in01 32 182
+yuno_in01 88 36 yuno_in01 176 34
+yuno_in01 101 85 yuno 245 147
+yuno_in01 116 40 yuno 117 135
+yuno_in01 168 104 yuno 264 87
+yuno_in01 176 34 yuno_in01 88 36
+yuno_in02 82 14 yuno_in05 196 194
+yuno_in02 172 61 yuno 87 321
+yuno_in03 25 11 yuno 278 293
+yuno_in03 25 56 yuno_in03 32 89
+yuno_in03 32 89 yuno_in03 25 56
+yuno_in03 66 186 yuno_in03 153 134
+yuno_in03 96 62 yuno_in03 223 167
+yuno_in03 104 115 yuno_in03 219 50
+yuno_in03 111 192 yuno_in03 162 129
+yuno_in03 124 178 yuno_in03 173 118
+yuno_in03 153 134 yuno_in03 66 186
+yuno_in03 161 174 yuno_in03 186 119
+yuno_in03 161 187 yuno_in03 186 131
+yuno_in03 162 129 yuno_in03 111 192
+yuno_in03 167 19 yuno 323 284
+yuno_in03 167 72 yuno_in03 179 109
+yuno_in03 173 118 yuno_in03 124 178
+yuno_in03 179 109 yuno_in03 167 72
+yuno_in03 186 119 yuno_in03 161 174
+yuno_in03 186 131 yuno_in03 161 187
+yuno_in03 219 50 yuno_in03 104 115
+yuno_in03 223 167 yuno_in03 96 62
+yuno_in03 224 19 yuno 284 366
+yuno_in03 231 62 yuno_in03 239 141
+yuno_in03 235 91 yuno_in03 244 52
+yuno_in03 239 141 yuno_in03 231 62
+yuno_in03 244 52 yuno_in03 235 91
+yuno_in04 29 58 yuno 342 203
+yuno_in04 95 58 yuno_in04 52 58
+yuno_in04 52 58 yuno_in04 95 58
+yuno_in04 103 22 yuno_in04 115 51
+yuno_in04 103 51 yuno_in04 115 22
+yuno_in04 103 64 yuno_in04 103 93
+yuno_in04 103 93 yuno_in04 103 64
+yuno_in04 115 22 yuno_in04 115 51
+yuno_in04 115 51 yuno_in04 115 22
+yuno_in04 115 64 yuno_in04 103 93
+yuno_in04 115 93 yuno_in04 103 64
+yuno_in04 122 57 yuno_in04 161 110
+yuno_in04 161 110 yuno_in04 122 57
+yuno_in05 16 188 yuno_in05 137 71
+yuno_in05 31 167 yuno_in05 50 88
+yuno_in05 50 88 yuno_in02 82 14
+yuno_in05 137 71 yuno_in05 16 188
+yuno_in05 148 83 yuno_in05 165 103
+yuno_in05 153 142 yuno_in05 196 103
+yuno_in05 165 103 yuno_in05 148 83
+yuno_in05 177 9 yuno_in05 181 116
+yuno_in05 177 52 yuno_in05 181 91
+yuno_in05 181 91 yuno_in05 177 52
+yuno_in05 181 116 yuno_in05 177 9
+yuno_in05 196 103 yuno_in05 153 142
+yuno_in05 196 194 yuno_in02 82 14
+
+#	# EP8.5 朱諾周邊地圖
+#	yuno_fild04 231 288 yuno 158 13
+#	yuno 158 13 yuno_fild04 231 288
+#	aldebaran 140 243 yuno_fild01 208 18
+#	yuno_fild01 208 18 aldebaran 140 243
+#	yuno_fild01 70 377 yuno_fild02 69 23
+#	yuno_fild01 286 367 yuno_fild02 287 16
+#	yuno_fild02 19 340 yuno_fild03 382 331
+#	yuno_fild02 69 23 yuno_fild01 70 377
+#	yuno_fild02 287 16 yuno_fild01 286 367
+#	yuno_fild03 20 79 yuno_fild04 374 82
+#	yuno_fild03 20 162 yuno_fild04 374 149
+#	yuno_fild03 33 140 mag_dun01 125 67
+#	yuno_fild03 382 331 yuno_fild02 19 340
+#	yuno_fild04 374 82 yuno_fild03 20 79
+#	yuno_fild04 374 149 yuno_fild03 21 162
+
+# EP10.1 朱諾周邊地圖 採礦村落 礦山洞穴 剛鐵之都
+yuno_fild04 231 288 yuno 158 13
+yuno 158 13 yuno_fild04 231 288
+aldebaran 140 243 yuno_fild01 208 18
+yuno_fild01 208 18 aldebaran 140 243
+yuno_fild09 70 18 yuno_fild01 70 377
+yuno_fild01 70 377 yuno_fild09 70 18
+ein_fild06 335 176 yuno_fild07 73 220
+yuno_fild07 73 220 ein_fild06 335 176
+yuno_fild07 57 79 ein_fild06 355 95
+ein_fild06 355 95 yuno_fild07 57 79
+yuno_fild07 92 28 yuno_fild11 91 372
+yuno_fild11 91 372 yuno_fild07 92 28
+yuno_fild07 179 354 yuno_fild03 178 15
+yuno_fild03 178 15 yuno_fild07 179 354
+yuno_fild07 360 72 yuno_fild08 31 58
+yuno_fild08 31 58 yuno_fild07 360 72
+yuno_fild07 352 292 yuno_fild08 24 275
+yuno_fild08 24 275 yuno_fild07 352 292
+yuno_fild08 375 194 yuno_fild09 20 193
+yuno_fild09 20 193 yuno_fild08 375 194
+yuno_fild01 287 367 yuno_fild09 280 29
+yuno_fild09 280 29 yuno_fild01 287 367
+yuno_fild01 27 247 yuno_fild12 369 244
+yuno_fild12 369 244 yuno_fild01 27 247
+yuno_fild12 23 226 yuno_fild11 364 218
+yuno_fild11 364 218 yuno_fild12 23 226
+yuno_fild12 193 372 yuno_fild08 134 29
+yuno_fild08 134 29 yuno_fild12 193 372
+yuno_fild12 23 339 yuno_fild11 368 361
+yuno_fild11 368 361 yuno_fild12 23 339
+yuno_fild11 28 266 ein_fild07 381 264
+ein_fild07 381 264 yuno_fild11 28 266
+ein_fild07 144 362 ein_fild06 135 36
+ein_fild06 135 36 ein_fild07 144 362
+ein_fild10 196 371 ein_fild07 183 43
+ein_fild07 183 43 ein_fild10 196 371
+ein_fild09 328 344 ein_fild10 25 330
+ein_fild10 25 330 ein_fild09 328 344
+ein_fild06 251 365 yuno_fild04 249 22
+yuno_fild04 249 22 ein_fild06 251 365
+yuno_fild04 374 82 yuno_fild03 20 79
+yuno_fild03 20 79 yuno_fild04 374 82
+yuno_fild04 374 149 yuno_fild03 21 162
+yuno_fild03 21 162 yuno_fild04 374 149
+yuno_fild03 33 140 mag_dun01 125 67
+mag_dun01 125 67 yuno_fild03 33 140
+yuno_fild03 382 331 yuno_fild02 19 340
+yuno_fild02 19 340 yuno_fild03 382 331
+yuno_fild02 287 16 yuno_fild08 285 385
+yuno_fild08 285 385 yuno_fild02 287 16
+yuno_fild02 69 23 yuno_fild08 75 375
+yuno_fild08 75 375 yuno_fild02 69 23
+ein_fild09 34 135 ein_fild08 361 129
+ein_fild08 361 129 ein_fild09 34 135
+yuno_fild04 42 370 yuno_fild05 61 29
+yuno_fild05 61 29 yuno_fild04 42 370
+
+# 機場 & 飛空艇
+airplane 243 73 yuno 157 168
+airplane 243 29 yuno 157 168
+airplane 254 54 airplane 87 67
+airplane 87 67 airplane 254 54
+airplane 243 73 einbroch 92 281
+airplane 243 29 einbroch 92 281
+einbroch 92 281 airplane 224 64
+einbroch 64 234 airport 142 61
+airport 142 61 einbroch 64 234
+airport 124 13 airport 19 18
+airport 19 18 airport 124 13
+airport 47 18 airport 161 13
+airport 161 13 airport 47 18
+airport 143 43 airport 143 49 auto c r0 c r0 n
+airport 143 49 airport 143 43 auto c r0 c r0 n
+airport 158 43 airport 143 49 auto c r0 c r0 n
+airport 158 49 airport 143 43 auto c r0 c r0 n
+airport 126 43 airport 143 49 auto c r0 c r0 n
+airport 126 49 airport 143 43 auto c r0 c r0 n
+einbroch 64 207 airport 143 14
+airport 143 14 einbroch 64 207
+
+# 鋼鐵之都 艾音布羅克
+einbroch 150 25 ein_fild08 164 380
+ein_fild08 164 380 einbroch 150 25
+einbroch 132 79 ein_in01 13 213
+ein_in01 13 213 einbroch 132 79
+einbroch 179 73 ein_in01 81 198
+ein_in01 81 198 einbroch 179 73
+einbroch 216 214 ein_in01 108 13
+ein_in01 108 13 einbroch 216 214
+einbroch 290 222 ein_in01 121 77
+ein_in01 121 77 einbroch 290 222
+einbroch 278 233 ein_in01 103 95
+ein_in01 103 95 einbroch 278 233
+ein_in01 126 88 ein_in01 100 142
+ein_in01 100 142 ein_in01 126 88
+einbroch 255 107 ein_in01 14 14
+ein_in01 14 14 einbroch 255 107
+ein_in01 39 36 ein_in01 39 85
+ein_in01 39 85 ein_in01 39 36
+einbroch 257 199 ein_in01 195 224
+ein_in01 195 224 einbroch 257 199
+ein_in01 211 232 ein_in01 271 232
+ein_in01 271 232 ein_in01 211 232
+ein_in01 271 218 ein_in01 211 216
+ein_in01 211 216 ein_in01 271 218
+ein_in01 274 203 ein_in01 274 176
+ein_in01 274 176 ein_in01 274 203
+ein_in01 264 203 ein_in01 232 176
+ein_in01 232 176 ein_in01 264 203
+ein_in01 264 246 ein_in01 231 273
+ein_in01 231 273 ein_in01 264 246
+ein_in01 274 246 ein_in01 273 273
+ein_in01 273 273 ein_in01 274 246
+ein_in01 284 224 ein_in01 180 277
+ein_in01 180 277 ein_in01 284 224
+
+# 火車站
+einbech 39 215 einbroch 232 272 auto c r0 n
+einbroch 232 272 einbech 39 215 auto c r0 n
+einbroch 252 301 einbech 39 215 auto c r0 n
+einbroch 214 263 einbroch 233 312
+einbroch 233 312 einbroch 214 263
+einbroch 250 263 einbroch 269 312
+einbroch 269 312 einbroch 250 263
+
+# 紀念塔
+einbroch 176 172 einbroch 175 196 auto c c c c r0 n
+einbroch 175 196 einbroch 176 172 auto c c r0 
+einbroch 218 198 einbroch 175 196 auto c c c c r0 n
+einbroch 175 196 einbroch 218 198 auto c c r0 
+einbroch 173 229 einbroch 175 196 auto c c c c r0 n
+einbroch 175 196 einbroch 173 229 auto c c r0 
+
+#採礦村落 艾音貝赫
+ein_fild09 71 352 einbech 62 29
+einbech 62 29 ein_fild09 71 352
+einbech 138 252 ein_dun01 22 11
+einbroch 129 229 ein_in01 11 147
+ein_in01 11 147 einbroch 129 229
+einbech 154 106 ein_in01 288 89
+ein_in01 288 89 einbech 154 106
+ein_in01 265 104 einbech 145 112
+einbech 145 112 ein_in01 265 104
+einbech 177 136 ein_in01 190 38
+ein_in01 190 38 einbech 177 136
+einbech 207 135 ein_in01 187 99
+ein_in01 187 99 einbech 207 135
+einbech 214 121 ein_in01 205 83
+ein_in01 205 83 einbech 214 121
+einbech 256 109 ein_in01 145 153
+ein_in01 145 153 einbech 256 109
+ein_dun01 22 11 einbech 138 252
+ein_dun01 261 255 ein_dun02 286 292
+ein_dun02 286 292 ein_dun01 261 255
+ein_dun02 228 109 ein_dun02 195 130
+ein_dun02 195 130 ein_dun02 228 109
+
+#泰國的傳點資料
+ayothaya 129 86 ayo_in01 23 176
+ayo_in01 23 176 ayothaya 129 86
+ayothaya 165 90 ayo_in01 73 174
+ayo_in01 73 174 ayothaya 165 90
+ayothaya 208 283 ayo_in02 100 148
+ayo_in02 100 148 ayothaya 208 283
+ayothaya 202 140 ayo_in01 31 78
+ayo_in01 31 78 ayothaya 202 140
+ayo_in01 50 94 ayothaya 211 150
+ayothaya 211 150 ayo_in01 50 94
+ayo_in01 48 82 ayo_in01 60 14
+ayo_in01 60 14 ayo_in01 48 82
+ayo_in01 10 94 ayothaya 192 150
+ayothaya 192 150 ayo_in01 10 94
+ayo_in01 13 82 ayo_in01 21 14
+ayo_in01 21 14 ayo_in01 13 82
+ayo_in01 13 107 ayo_in01 135 27
+ayo_in01 135 27 ayo_in01 31 111
+ayo_in01 48 107 ayo_in01 176 27
+ayo_in01 176 27 ayo_in01 48 107
+ayo_in01 31 111 ayothaya 202 161
+ayothaya 202 161 ayo_in01 31 111
+ayothaya 276 176 ayo_fild01 32 240
+ayo_fild01 32 240 ayothaya 276 176
+ayothaya 111 109 ayo_in01 177 129
+ayo_in01 177 129 ayothaya 111 109
+ayothaya 62 104 ayo_in01 194 183
+ayo_in01 194 183 ayothaya 62 104
+ayothaya 130 97 ayo_in01 46 183
+ayo_in01 46 183 ayothaya 130 97
+ayo_in01 85 149 ayothaya 173 77
+ayothaya 173 77 ayo_in01 85 149
+ayo_in01 98 175 ayothaya 177 90
+ayothaya 177 90 ayo_in01 98 175
+ayothaya 229 69 ayo_in01 137 195
+ayo_in01 137 195 ayothaya 229 69
+alberta 247 42 ayothaya 152 68 auto c r1 c c r0 n
+ayothaya 152 68 alberta 247 42 auto c r0 n
+ayo_fild01 129 197 ayo_fild02 25 154 auto c c c c c r0 c c c n
+ayo_fild02 25 154 ayo_fild01 129 197 auto c r0 c n
+ayo_fild02 285 149 ayo_dun01 274 14
+ayo_dun01 274 14 ayo_fild02 285 149
+ayo_dun01 24 283 ayo_dun02 24 22 auto n
+ayo_dun01 24 283 ayo_dun02 276 22 auto n
+ayo_dun02 24 22 ayo_dun01 24 283
+ayo_dun02 276 22 ayo_dun01 24 283
+
+#虛擬通道
+nif_fild01 315 67 umbala 87 160
+
+#自動新增部份
+prontera 263 279 prt_in 227 15
+prt_in 227 15 prontera 263 279
+geffen 119 55 gefenia03 130 206
+
+gefenia01 38 103 gefenia04 264 85
+gefenia04 286 85 gefenia01 38 103
+
+# 朱諾飛機場 EP 10.2
+izlude 206 55 airplane_01 244 58 auto c r0 c r0
+airplane_01 208 53 airplane_01 245 160
+airplane_01 245 160 airplane_01 208 53
+airplane_01 250 54 airplane_01 88 68
+airplane_01 88 68 airplane_01 250 54
+airplane_01 254 54 airplane_01 87 67
+airplane_01 87 67 airplane_01 254 54
+airplane_01 208 53 airplane_01 245 160
+airplane_01 245 160 airplane_01 208 53
+y_airport 143 16 yuno 52 207
+yuno 53 214 y_airport 143 23
+y_airport 143 43 y_airport 148 51 auto c r0 c r0
+y_airport 143 49 y_airport 142 40 auto c r0 c r0
+y_airport 140 63 yuno 47 244 auto c r0
+y_airport 145 63 yuno 59 244 auto c r0
+airplane 243 29 yuno 92 260
+yuno 96 261 airplane 244 64
+yuno 5 261 airplane_01 244 58
+airplane 243 73 einbroch 92 278
+airplane_01 243 29 izlude 200 56
+airplane_01 243 73 yuno 12 261
+einbroch 92 281 airplane 244 64
+izlude 149 39 izlude 182 56
+izlude 149 39 izlude 176 56
+izlude 176 56 izlude 149 39
+y_airport 143 16 yuno 52 207
+yuno 6 261 airplane_01 244 58
+yuno 47 240 y_airport 143 54
+yuno 53 214 y_airport 143 23
+yuno 59 240 y_airport 143 54
+yuno 96 261 airplane 244 58
+yuno 142 183 izlude 94 103 auto c c c c c r1
+#企業之都 里希塔樂鎮
+lhz_in01 24 140 lhz_dun01 149 285 auto c r0 c
+lighthalzen 310 302 lhz_cube 231 17 auto c c r0
+lighthalzen 267 200 lighthalzen 303 229 auto n
+lighthalzen 294 223 lighthalzen 260 199 auto n
+ein_fild03 142 31 lhz_fild02 166 366
+ein_fild03 361 204 ein_fild04 14 205
+ein_fild03 361 219 ein_fild04 14 215
+ein_fild03 363 257 ein_fild04 20 250
+ein_fild04 14 205 ein_fild03 361 204
+ein_fild04 14 215 ein_fild03 361 219
+ein_fild04 20 250 ein_fild03 363 257
+ein_fild04 184 26 einbroch 157 331
+ein_fild08 23 275 lhz_fild03 364 282
+einbroch 157 331 ein_fild04 184 26
+lhz_cube 231 12 lighthalzen 324 301
+lhz_cube 231 96 lhz_dun02 224 6
+lhz_dun01 149 291 lhz_in01 15 129
+lhz_dun01 281 150 lhz_dun02 282 161
+lhz_dun02 149 149 lhz_dun03 139 137
+lhz_dun02 224 6 lhz_cube 231 90
+lhz_dun02 282 161 lhz_dun01 281 150 
+lhz_dun03 139 137 lhz_dun02 149 149
+lhz_fild01 210 18 lighthalzen 214 329
+lhz_fild01 367 222 lhz_fild02 29 219
+lhz_fild02 29 219 lhz_fild01 367 222
+lhz_fild02 164 37 lhz_fild03 158 350
+lhz_fild02 166 366 ein_fild03 142 31
+lhz_fild03 158 350 lhz_fild02 164 37
+lhz_fild03 364 282 ein_fild08 23 275
+lhz_fild01 210 18 lighthalzen 214 329
+lighthalzen 214 329 lhz_fild01 210 18
+lighthalzen 101 248 lhz_in01 111 121
+lighthalzen 106 248 lhz_in01 116 121
+lighthalzen 93 110 lhz_in02 108 26
+lighthalzen 159 133 lhz_in02 232 261
+lighthalzen 196 46 lhz_in02 282 79
+lighthalzen 197 36 lhz_in02 288 30
+lighthalzen 198 163 lhz_in02 21 191
+lighthalzen 198 257 lhz_in02 44 28
+lighthalzen 236 276 lhz_in02 129 199
+lighthalzen 238 220 lhz_in02 27 265
+lighthalzen 50 86 lhz_in03 50 31
+lighthalzen 251 299 lhz_in03 93 21
+lighthalzen 267 75 lhz_airport 142 13
+lighthalzen 294 76 lhz_airport 142 60
+lighthalzen 308 76 airplane 254 54
+lhz_airport 19 18 lhz_airport 125 13
+lhz_airport 47 18 lhz_airport 160 13
+lhz_airport 125 13 lhz_airport 19 18
+lhz_airport 142 13 lighthalzen 267 75
+lhz_airport 142 60 lighthalzen 294 76
+lhz_airport 160 13 lhz_airport 47 18
+lhz_in01 116 121 lighthalzen 106 248
+lhz_in01 111 121 lighthalzen 101 248
+lhz_in01 11 24 lhz_in01 149 179
+lhz_in01 15 129 lhz_in01 40 224
+lhz_in01 40 224 lhz_in01 15 129
+lhz_in01 43 144 lhz_in01 278 157
+lhz_in01 43 114 lhz_in01 278 132
+lhz_in01 58 129 lhz_in01 191 127
+lhz_in01 76 254 lhz_in01 98 55
+lhz_in01 88 215 lhz_in01 106 15
+lhz_in01 98 55 lhz_in01 76 254
+lhz_in01 106 15 lhz_in01 88 215
+lhz_in01 140 215 lhz_in01 158 15
+lhz_in01 149 179 lhz_in01 11 24
+lhz_in01 158 15 lhz_in01 140 215
+lhz_in01 188 254 lhz_in01 194 55
+lhz_in01 191 127 lhz_in01 58 129
+lhz_in01 194 55 lhz_in01 188 254
+lhz_in01 231 226 lhz_in01 251 226
+lhz_in01 251 226 lhz_in01 231 226
+lhz_in01 278 132 lhz_in01 43 114
+lhz_in01 278 157 lhz_in01 43 144
+lhz_in02 21 191 lighthalzen 198 163
+lhz_in02 27 265 lighthalzen 238 220
+lhz_in02 44 28 lighthalzen 198 257
+lhz_in02 108 26 lighthalzen 93 110
+lhz_in02 232 261 lighthalzen 159 133
+lhz_in02 282 79 lighthalzen 196 46
+lhz_in02 288 30 lighthalzen 197 36
+lhz_in02 13 155 lhz_in02 79 223
+lhz_in02 13 284 lhz_in02 95 285
+lhz_in02 36 136 lhz_in02 39 204
+lhz_in02 39 204 lhz_in02 36 136
+lhz_in02 49 154 lhz_in02 103 155
+lhz_in02 79 223 lhz_in02 13 155
+lhz_in02 89 144 lhz_in02 94 212
+lhz_in02 94 212 lhz_in02 89 144
+lhz_in02 95 285 lhz_in02 13 284
+lhz_in02 103 155 lhz_in02 49 154
+lhz_in02 114 272 lhz_in02 149 282
+lhz_in02 149 282 lhz_in02 114 272
+lhz_in02 210 284 lhz_in02 236 219
+lhz_in02 216 182 lhz_in02 231 182
+lhz_in02 216 200 lhz_in02 231 200
+lhz_in02 231 182 lhz_in02 216 182
+lhz_in02 231 200 lhz_in02 216 200
+lhz_in02 236 219 lhz_in02 210 284
+lhz_in02 238 154 lhz_in02 238 169
+lhz_in02 238 169 lhz_in02 238 154
+lhz_in02 250 278 lhz_in02 261 278
+lhz_in02 254 212 lhz_in02 269 212
+lhz_in02 261 278 lhz_in02 250 278
+lhz_in02 265 14 lhz_in02 274 82
+lhz_in02 269 212 lhz_in02 254 212
+lhz_in02 274 82 lhz_in02 265 14
+lhz_in03 93 21 lighthalzen 251 299
+lhz_in03 13 31 lhz_in03 20 99
+lhz_in03 20 99 lhz_in03 13 31
+lhz_in03 50 31 lighthalzen 50 86
+lhz_in03 120 90 lhz_in03 134 14
+lhz_in03 134 14 lhz_in03 120 90
+lighthalzen 324 301 lhz_in03 237 100
+lighthalzen 340 240 lhz_in03 180 90
+lighthalzen 345 231 lhz_in03 188 11
+lighthalzen 347 261 lhz_in03 10 216
+lhz_in03 10 216 lighthalzen 347 261
+lhz_in03 180 90 lighthalzen 340 240
+lhz_in03 188 11 lighthalzen 345 231
+lhz_in03 190 100 lhz_in03 191 35
+lhz_in03 191 35 lhz_in03 190 100
+lhz_in03 237 100 lighthalzen 324 301
+lhz_in03 250 14 lhz_in03 257 83
+lhz_in03 257 83 lhz_in03 250 14
+lhz_cube 2 192 lhz_cube 2 74
+lhz_cube 10 66 lhz_cube 130 18
+lhz_cube 18 18 lhz_cube 10 185
+lhz_cube 59 75 lhz_cube 59 136
+lhz_cube 59 136 lhz_cube 75 193
+lhz_cube 66 66 lhz_cube 18 18
+lhz_cube 66 82 lhz_cube 75 193
+lhz_cube 66 128 lhz_cube 59 75
+lhz_cube 66 144 lhz_cube 59 75
+lhz_cube 66 184 lhz_cube 66 128
+lhz_cube 75 75 lhz_cube 59 136
+lhz_cube 75 193 lhz_cube 59 75
+lhz_cube 114 18 lhz_cube 248 184
+lhz_cube 177 96 lighthalzen 324 301
+lhz_cube 231 12 lighthalzen 324 301
+#亞納雷(競技場)
+arena_room 105 93 prt_are_in 54 13 auto c r0 n
+arena_room 49 87 arena_room 76 87
+arena_room 63 53 arena_room 84 71
+arena_room 63 126 arena_room 84 103
+arena_room 76 87 arena_room 49 87
+arena_room 84 71 arena_room 63 53
+arena_room 84 103 arena_room 63 126
+arena_room 99 24 izlude 128 226
+arena_room 115 71 arena_room 136 53
+arena_room 123 88 arena_room 150 87
+arena_room 136 53 arena_room 115 71
+arena_room 150 87 arena_room 123 88
+izlude 128 226 arena_room 99 24
+prt_are_in 54 13 arena_room 105 93
+#優沛擂斯
+yuno_fild07 213 175 jupe_cave 145 52
+jupe_cave 145 52 yuno_fild07 213 175 
+jupe_cave 35 52 juperos_01 52 248
+juperos_01 52 248 jupe_cave 35 52 
+juperos_01 100 92 juperos_02 127 275
+juperos_02 127 275 juperos_01 100 92
+juperos_02 131 150 jupe_gate 49 167
+jupe_gate 49 167 juperos_02 131 150 
+jupe_gate 49 167 jupe_gate 28 145
+jupe_gate 28 145 jupe_gate 49 167
+jupe_gate 49 167 jupe_gate 71 144
+jupe_gate 71 144 jupe_gate 49 167 
+jupe_gate 71 144 jupe_area2 60 222
+jupe_area2 60 222 jupe_gate 71 144 
+jupe_gate 28 14 jupe_area1 103 222
+jupe_area1 103 222 jupe_gate 28 14
+#EP 10.3 yuno週邊變動新增部分#
+hu_fild01 141 36 yuno_fild06 151 370
+hu_fild04 27 126 yuno_fild06 369 132
+hu_fild04 122 27 yuno_fild02 117 375
+hu_fild04 380 183 hu_fild05 33 198
+hu_fild05 33 198 hu_fild04 380 183
+hu_fild05 89 43 hu_fild07 81 370
+hu_fild07 36 352 yuno_fild02 383 339
+hu_fild07 57 37 yuno_fild09 48 376
+hu_fild07 81 370 hu_fild05 89 43
+hu_fild07 226 38 yuno_fild09 220 373
+yuno_fild02 117 375 hu_fild04 122 27
+yuno_fild02 383 339 hu_fild07 36 352
+yuno_fild03 215 383 yuno_fild06 214 27
+yuno_fild05 370 321 yuno_fild06 40 319
+yuno_fild06 40 319 yuno_fild05 370 321
+yuno_fild06 151 370 hu_fild01 141 36
+yuno_fild06 214 27 yuno_fild03 215 383
+yuno_fild06 369 132 hu_fild04 27 126
+yuno_fild09 48 376 hu_fild07 57 37
+yuno_fild09 220 373 hu_fild07 226 38
+#達納托斯 塔台#
+hu_fild05 168 304 hu_fild05 184 204 auto c r0 c c c n
+hu_fild01 140 163 tha_scene01 131 220 auto c r2 c r0 n
+tha_scene01 144 198 tha_t01 149 33
+tha_t01 150 150 tha_t02 149 125
+tha_t02 149 125 tha_t01 150 150
+#深淵湖水 地下洞穴#
+hu_fild05 168 304 hu_fild05 184 204 auto c r0 c c c n
+hu_fild05 196 210 abyss_01 265 274
+abyss_01 265 274 hu_fild05 196 210
+abyss_01 25 24 abyss_02 277 270
+abyss_02 277 270 abyss_01 25 24
+abyss_02 145 280 abyss_03 115 25
+abyss_03 115 25 abyss_02 145 280
+##換暗水傳點資料##
+niflheim 146 241 que_sign01 45 20 auto c c r1 n
+que_sign01 45 16 niflheim 146 254
+
+########## EP10.4 田園都市 & 奧丁神殿 ############
+hugel 58 72 p_track01 72 22 auto c r1 c c r0 n
+hugel 62 69 p_track02 72 22 auto c r1 c c r0 n
+hugel 91 104 hu_in01 30 299
+hu_in01 30 299 hugel 91 104
+hu_in01 34 318 hu_in01 34 246
+hu_in01 34 246 hu_in01 34 318
+hugel 104 79 hu_in01 231 107
+hu_in01 231 107 hugel 104 79
+hu_in01 268 123 hu_in01 265 42
+hu_in01 265 42 hu_in01 268 123
+hugel 92 167 hu_in01 246 359
+hu_in01 246 359 hugel 92 167
+hu_in01 248 388 hu_in01 244 315
+hu_in01 244 315 hu_in01 248 388
+hu_in01 229 313 hu_in01 168 315
+hu_in01 168 315 hu_in01 229 313
+hu_in01 168 307 hu_in01 168 379
+hu_in01 168 379 hu_in01 168 307
+hugel 70 157 hu_in01 110 369
+hu_in01 110 369 hugel 70 157
+hu_in01 108 390 hu_in01 114 322
+hu_in01 114 322 hu_in01 108 390
+hugel 55 208 hu_in01 49 7
+hu_in01 49 7 hugel 55 208
+hu_in01 53 34 hu_in01 48 66
+hu_in01 48 66 hu_in01 53 34
+hu_in01 39 34 hu_in01 34 105
+hu_in01 34 105 hu_in01 39 34
+hugel 80 230 hu_in01 24 362
+hu_in01 24 362 hugel 80 230
+hugel 153 216 hu_in01 301 379
+hu_in01 301 379 hugel 153 216
+hu_in01 314 386 hu_in01 307 322
+hu_in01 307 322 hu_in01 314 386
+hugel 153 153 hu_in01 287 227
+hu_in01 287 227 hugel 153 153
+hu_in01 263 252 hu_in01 365 253
+hu_in01 365 253 hu_in01 263 252
+hugel 206 228 hu_in01 381 363 
+hu_in01 388 388 hu_in01 380 319
+hu_in01 380 319 hu_in01 388 388
+hugel 155 114 hu_in01 211 173
+hu_in01 211 173 hugel 155 114
+hu_in01 195 192 hu_in01 162 168
+hu_in01 162 168 hu_in01 195 192
+hu_in01 195 219 hu_in01 162 228
+hu_in01 162 228 hu_in01 195 219
+hugel 129 66 hu_in01 345 107
+hu_in01 345 107 hugel 129 66
+hu_in01 381 118 hu_in01 379 178
+hu_in01 379 178 hu_in01 381 118
+yuno_fild09 377 184 yuno_fild10 39 183
+yuno_fild10 39 183 yuno_fild09 377 184
+hu_fild05 353 126 hu_fild06 28 119
+hu_fild06 28 119 hu_fild05 353 126
+hu_fild06 200 372 hugel 95 33
+hugel 95 33 hu_fild06 200 372
+hugel 104 79 hu_in01 231 107
+hu_in01 231 107 hugel 104 79
+hu_in01 268 123 hu_in01 265 42
+hu_in01 265 42 hu_in01 268 123
+hugel 91 104 hu_in01 34 318
+hu_in01 30 299 hugel 91 104
+hu_in01 34 318 hu_in01 34 246
+hu_in01 34 246 hu_in01 30 299
+hugel 70 157 hu_in01 108 390
+hu_in01 110 369 hugel 70 157
+hu_in01 108 390 hu_in01 114 322
+hu_in01 114 322 hu_in01 108 390
+hu_in01 168 315 hu_in01 244 315
+hu_in01 244 315 hu_in01 248 388
+hugel 92 167 hu_in01 246 359
+hu_in01 246 359 hugel 92 167
+hu_in01 248 388 hu_in01 244 315
+hu_in01 244 315 hu_in01 248 388
+hu_in01 229 313 hu_in01 168 315
+hu_in01 168 315 hu_in01 229 313
+hu_in01 168 307 hu_in01 168 379
+hu_in01 168 379 hu_in01 168 307
+hugel 55 208 que_bingo 49 7
+que_bingo 49 7 hugel 55 208
+que_bingo 39 34 que_bingo 34 105
+que_bingo 34 105 que_bingo 39 34
+que_bingo 53 34 que_bingo 48 66
+que_bingo 48 66 que_bingo 53 34
+hugel 153 216 hu_in01 301 379
+hu_in01 301 379 hugel 153 216
+hu_in01 314 386 hu_in01 307 322
+hu_in01 307 322 hu_in01 314 386
+hugel 153 153 hu_in01 287 227
+hu_in01 287 227 hugel 153 153
+hu_in01 263 252 hu_in01 365 253
+hu_in01 365 253 hu_in01 263 252
+hugel 206 228 hu_in01 381 363
+hu_in01 381 363 hugel 206 228
+hu_in01 388 388 hu_in01 380 319
+hu_in01 380 319 hu_in01 388 388
+hugel 155 114 hu_in01 211 173
+hu_in01 211 173 hugel 155 114
+hu_in01 195 219 hu_in01 162 228
+hu_in01 162 228 hu_in01 195 219
+hugel 209 109 odin_tem01 93 146 auto c r1 n
+odin_tem01 93 146 hugel 209 109 auto c r1 n
+odin_tem01 377 182 odin_tem02 21 180
+odin_tem02 21 180 odin_tem01 377 182
+odin_tem02 21 334 odin_tem01 383 334
+odin_tem01 383 334 odin_tem02 21 334
+odin_tem02 153 349 odin_tem03 121 49
+odin_tem03 121 49 odin_tem02 153 349
+odin_tem02 261 377 odin_tem03 247 34
+odin_tem03 247 34 odin_tem02 261 377
+hu_fild05 284 356 hu_fild03 288 19
+hu_fild03 288 19 hu_fild05 284 356
+hu_fild03 25 163 hu_fild02 378 162
+hu_fild02 378 162 hu_fild03 25 163
+hu_fild03 20 338 hu_fild02 374 339
+hu_fild02 374 339 hu_fild03 20 338
+hu_fild02 283 28 hu_fild04 294 379
+hu_fild04 294 379 hu_fild02 283 28
+hu_fild02 40 22 hu_fild04 47 372
+hu_fild04 47 372 hu_fild02 40 22
+hu_fild02 17 168 hu_fild01 366 185
+hu_fild01 366 185 hu_fild02 17 168
+yuno_fild05 41 350 ein_fild01 349 369
+ein_fild01 349 369 yuno_fild05 41 350
+ein_fild02 108 364 ein_fild01 106 34
+ein_fild01 106 34 ein_fild02 108 364
+ein_fild02 257 350 ein_fild01 234 34
+ein_fild01 234 34 ein_fild02 257 350
+ein_fild02 357 251 yuno_fild04 33 279
+yuno_fild04 33 279 ein_fild02 357 251
+ein_fild02 170 29 ein_fild05 172 371
+ein_fild05 172 371 ein_fild02 170 29
+ein_fild05 376 183 ein_fild06 42 171
+ein_fild06 42 171 ein_fild05 376 183
+ein_fild05 76 294 ein_fild04 343 293
+ein_fild04 343 293 ein_fild05 76 294
+
+##### 忍者就職所 & 神槍手就職所 #####
+einbroch 137 199 que_ng 130 166
+que_ng 130 166 einbroch 137 199
+que_ng 178 162 que_ng 170 85
+que_ng 170 85 que_ng 178 162
+que_ng 165 137 que_ng 172 42
+que_ng 172 42 que_ng 165 137
+amatsu 148 140 que_ng 20 138
+que_ng 20 138 amatsu 148 140
+que_ng 37 64 que_ng 10 183
+que_ng 10 183 que_ng 37 64
+que_ng 30 37 que_ng 63 30
+que_ng 63 30 que_ng 30 37
+
+#####阿盧納貝茲 教國首都 拉赫 原野地圖#####
+lhz_fild01 296 382 ra_fild06 294 21
+rachel 275 125 ra_fild12 36 225
+rachel 25 125 ra_fild11 360 226
+ra_fild01 233 333 ice_dun01 157 10
+ra_fild01 306 38 ra_fild04 322 378
+ra_fild02 373 275 ra_fild03 23 294
+ra_fild02 169 36 ra_fild07 168 349
+ra_fild03 23 294 ra_fild02 373 275
+ra_fild03 374 168 ra_fild04 23 176
+ra_fild04 322 378 ra_fild01 306 38
+ra_fild04 23 176 ra_fild03 374 168
+ra_fild04 362 351 ra_fild05 33 353
+ra_fild04 263 54 ra_fild08 287 370
+ra_fild05 33 353 ra_fild04 362 351
+ra_fild05 348 274 ra_fild06 19 277
+ra_fild05 27 13 ra_fild09 29 343
+ra_fild06 294 21 lhz_fild01 296 382
+ra_fild06 19 277 ra_fild05 348 274
+ra_fild07 168 349 ra_fild02 169 36
+ra_fild07 215 27 ra_fild11 202 335
+ra_fild08 287 370 ra_fild04 263 54
+ra_fild08 368 234 ra_fild09 27 238
+ra_fild08 165 29 ra_fild12 149 374
+ra_fild09 29 343 ra_fild05 27 13
+ra_fild09 27 238 ra_fild08 368 234
+ra_fild10 384 287 ra_fild11 21 290
+ra_fild11 360 226 rachel 25 125
+ra_fild11 202 335 ra_fild07 215 27
+ra_fild11 21 290 ra_fild10 384 287
+ra_fild12 36 225 rachel 275 125
+ra_fild12 149 374 ra_fild08 165 29
+ra_fild12 303 27 ra_fild13 295 346
+ra_fild13 295 346 ra_fild12 303 27
+
+#####阿盧納貝茲 教國首都######
+lhz_fild01 296 382 ra_fild06 294 21
+ra_fild06 294 21 lhz_fild01 296 382
+ra_fild06 19 277 ra_fild05 348 274
+ra_fild05 348 274 ra_fild06 19 277
+ra_fild05 27 13 ra_fild09 29 343
+ra_fild09 29 343 ra_fild05 27 13
+ra_fild05 33 353 ra_fild04 362 351
+ra_fild04 362 351 ra_fild05 33 353
+ra_fild04 322 378 ra_fild01 306 38
+ra_fild01 306 38 ra_fild04 322 378
+ra_fild04 263 54 ra_fild08 287 370
+ra_fild08 287 370 ra_fild04 263 54
+ra_fild04 23 176 ra_fild03 374 168
+ra_fild03 374 168 ra_fild04 23 176
+ra_fild08 368 234 ra_fild09 27 238
+ra_fild09 27 238 ra_fild08 368 234
+ra_fild08 165 29 ra_fild12 149 374
+ra_fild12 149 374 ra_fild08 165 29
+ra_fild12 303 27 ra_fild13 295 346
+ra_fild13 295 346 ra_fild12 303 27
+ra_fild12 36 225 rachel 275 125
+rachel 275 125 ra_fild12 36 225
+rachel 150 249 ra_temple 120 22
+ra_temple 120 22 rachel 150 249
+rachel 25 125 ra_fild11 360 226
+ra_fild11 360 226 rachel 25 125
+ra_fild11 202 335 ra_fild07 215 27
+ra_fild07 215 27 ra_fild11 202 335
+ra_fild11 21 290 ra_fild10 384 287
+ra_fild10 384 287 ra_fild11 21 290
+ra_fild07 168 353 ra_fild02 168 36
+ra_fild02 168 36 ra_fild07 168 353
+ra_fild02 373 275 ra_fild03 23 294
+ra_fild03 23 294 ra_fild02 373 275
+ra_temple 119 180 ra_temin 169 18
+ra_temin 169 18 ra_temple 119 180
+ra_temin 206 93 ra_temin 312 253
+ra_temin 312 253 ra_temin 206 93
+ra_temin 130 93 ra_temin 239 253
+ra_temin 239 253 ra_temin 130 93
+ra_temin 275 332 ra_temin 27 299
+ra_temin 27 299 ra_temin 275 332
+rachel 83 78 ra_in01 249 262
+ra_in01 249 262 rachel 83 78
+ra_in01 241 299 ra_in01 185 303
+ra_in01 197 312 ra_in01 241 299
+ra_in01 185 303 ra_in01 194 245
+ra_in01 194 245 ra_in01 185 303
+rachel 42 87 ra_in01 171 355
+ra_in01 171 355 rachel 42 87
+ra_in01 165 369 ra_in01 126 334
+ra_in01 126 334 ra_in01 178 370
+ra_in01 178 370 ra_in01 109 385
+ra_in01 109 385 ra_in01 178 370
+ra_in01 172 392 rachel 42 109
+rachel 42 109 ra_in01 172 392
+rachel 115 149 ra_in01 386 39
+ra_in01 386 39 rachel 115 149
+ra_in01 357 61 ra_in01 309 70
+ra_in01 314 62 ra_in01 357 61
+ra_in01 309 70 rachel 105 171
+rachel 105 171 ra_in01 309 70
+ra_in01 297 59 ra_in01 339 120
+ra_in01 339 120 ra_in01 297 59
+ra_in01 375 109 rachel 115 149
+rachel 116 158 ra_in01 375 109
+
+#####神殿聖域#####
+ra_temin 28 319 ra_san01 139 139
+ra_san01 139 139 ra_temin 28 319
+ra_san01 139 13 ra_san02 213 280
+ra_san02 213 280 ra_san01 139 13
+ra_san01 139 13 ra_san02 213 280
+ra_san03 123 283 ra_san01 139 13
+ra_san01 139 13 ra_san04 119 104
+ra_san04 119 104 ra_san01 139 13
+ra_san02 289 149 ra_san03 5 149
+ra_san03 5 149 ra_san02 289 149
+ra_san02 213 4 ra_san04 35 221
+ra_san04 35 221 ra_san02 213 4
+ra_san02 30 21 ra_san05 14 149
+ra_san03 85 15 ra_san04 203 221
+ra_san04 203 221 ra_san03 85 15
+ra_san03 279 21 ra_san05 282 149
+ra_san04 120 48 ra_san05 150 282
+ra_san05 150 7 ra_temple 119 153
+
+#####冰洞穴#####
+ice_dun01 157 10 ra_fild01 233 333
+ice_dun01 146 161 ice_dun02 151 145
+ice_dun02 151 145 ice_dun01 146 161
+ice_dun02 150 285 ice_dun03 149 19
+ice_dun03 149 19 ice_dun02 150 285
+
+#####機械人型工廠#####
+yuno_fild08 71 170 kh_dun01 3 230 auto c r0 c r0 c
+kh_dun01 3 234 yuno_fild08 74 174
+kh_dun01 44 203 kh_dun02 41 198 auto c a"華麗的鑰匙卡" c r0
+kh_dun01 36 195 kh_dun02 41 198 auto c a"華麗的鑰匙卡" c r0
+kh_dun02 43 195 kh_dun01 32 199
+#####菲音斯 原野地圖#####
+rachel 130 21 ra_fild13 195 382
+ra_fild11 233 27 ve_fild01 243 368
+ra_fild13 195 382 rachel 130 21
+ra_fild13 29 308 ve_fild02 385 308
+ve_fild01 350 92 ve_fild02 73 133
+ve_fild01 366 267 ve_fild02 31 263
+ve_fild01 184 20 ve_fild04 174 339
+ve_fild01 243 368 ra_fild11 233 27
+ve_fild02 31 263 ve_fild01 366 267
+ve_fild02 73 133 ve_fild01 350 92
+ve_fild02 385 308 ra_fild13 29 308
+ve_fild03 355 223 ve_fild04 44 249
+ve_fild03 222 43 ve_fild05 200 330
+ve_fild04 174 339 ve_fild01 184 20
+ve_fild04 44 249 ve_fild03 355 223
+ve_fild04 115 50 ve_fild06 81 177
+ve_fild05 200 330 ve_fild03 222 43
+ve_fild05 359 192 ve_fild06 81 177
+ve_fild06 153 220 veins 218 361
+ve_fild07 147 371 veins 143 25
+veins 218 361 ve_fild06 153 220
+veins 143 25 ve_fild07 147 371
+
+#######################
+# ve_fild06 81 177 屬於隨機傳點
+# 隨機傳送到 ve_fild04 或 ve_fild05
+#######################
+#ve_fild06 81 177 ve_fild04 115 50
+#ve_fild06 81 177 ve_fild05 359 192
+
+#####托爾火山 洞穴#####
+ve_fild03 168 240 thor_v01 21 224
+thor_v01 21 224 ve_fild03 168 240
+thor_v01 201 37 thor_v02 73 203
+thor_v02 73 203 thor_v01 201 37
+thor_v02 192 60 thor_v03 30 262
+thor_v02 143 78 que_thor 69 56
+thor_v03 30 262 thor_v02 192 60
+que_thor 69 56 thor_v02 143 78
+
+#####峽谷村落 菲音斯#####
+#(武器店)#
+veins 150 179 ve_in 349 219
+ve_in 349 219 veins 150 179
+#(道具店)#
+veins 230 166 ve_in 251 283
+ve_in 251 283 veins 230 166

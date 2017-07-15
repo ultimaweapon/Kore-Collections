@@ -1,0 +1,2072 @@
+#######################################
+# ³q¥Î
+#######################################
+title			%$char{name} [%$char{percent_hp}/%$char{percent_sp}] (B%$char{lv}:%$arg0{base} J%$char{lv_job}:%$arg0{job}) w%$char{percent_weight}% %$map{name} : %$char{pos_x},%$char{pos_y}
+sysLog			[%$time{now}][%$char{name}][%$arg0] %$arg1
+sysLog_undef		[%$time{now}] %$1
+sysLog_message		[%$time{now}] %$0
+
+char_monster		©Çª« %$arg0{name} (%$arg0{binID})
+char_you		§A
+char_player		ª±®a %$arg0{name} (%$arg0{binID})
+char_party		¶¤­û %$arg0{name} (%$arg0{binID})
+char_pet		Ãdª« %$arg0{name_given}
+
+monoster_self		¥L¦Û¤v
+you_self		§A¦Û¤v
+player_self		¥L¦Û¤v
+
+unknown_item		¤£©úª««~ %$arg0
+unknown_param		¥¼ª¾ª¬ºA %$arg0
+unknown_inStatus	ÅÜ¦¨¥¼ª¾ª¬ºA %$arg0
+unknown_outStatus	¸Ñ°£¥¼ª¾ª¬ºA %$arg0
+unknown_emotion		¥¼ª¾ªí±¡ %$arg0
+unknown_skill		¤£©ú§Ş¯à %$arg0
+unknown_target		¤£©ú¥Ø¼Ğ
+unknown_player		¤£©ú¤Hª«
+unknown_monster		¤£©ú©Çª« %$arg0
+unknown_npc		¤£©úNPC %$arg0
+unknown_pet		¤£©úÃdª«
+unknown_petType		¤£©úºØÃş %$arg0
+unknown_mode		¤£©ú¼Ò¦¡ %$arg0
+unknown_portal		¤£©ú¶ÇÂI %$arg0
+unknown_type		¤£©ú«¬ºA %$arg0
+unknown_job		¤£©úÂ¾·~ %$arg0
+unknown_map		¤£©ú¦a¹Ï %$arg0
+unknown_itemTypes	¤£©úª««~«¬ºA %$arg0
+unknown_equipTypes	¤£©ú¸Ë³Æ«¬ºA %$arg0
+unknown_sex		¤£©ú©Ê§O %$arg0
+
+param1_1		[¯S®íª¬ºA¢Ï] %$0\n
+param2_1		[¯S®íª¬ºA¢Ğ] %$0\n
+param3_1		[¯S®íª¬ºA¢Ñ] %$0\n
+status_1		[«ùÄòª¬ºA] %$0\n
+
+param1_2		[¯S®íª¬ºA¢Ï] %$1 %$0\n
+param1_2_color	status
+param2_2		[¯S®íª¬ºA¢Ğ] %$1 %$0\n
+param2_2_color	status
+param3_2		[¯S®íª¬ºA¢Ñ] %$1 %$0\n
+param3_2_color	status
+status_2		[«ùÄòª¬ºA] %$1 %$0\n
+status_2_color	status
+
+getUsername		½Ğ¿é¤J¹CÀ¸±b¸¹:\n
+getPassword		½Ğ¿é¤J¹CÀ¸±K½X:\n
+getServer		½Ğ¿ï¾Ü¦øªA¾¹¡A¨Ã¿é¤J½s¸¹:\n
+getChar			½Ğ¿ï¾Ü§Aªº¤Hª«¸ê®Æ¡A¨Ã¿é¤J¤Hª«½s¸¹:\n
+skillLV			\ (Lv %$arg0)
+recoverHP		\ - ¦^´_ %$arg0 HP
+recoverSP		\ - ¦^´_ %$arg0 SP
+skillSteal		\ - °½¨ì 1 ­Óª««~
+location		®y¼Ğ (%$arg0{x}, %$arg0{y})
+mode_PVP		PVP ¼Ò¦¡
+mode_GVG		GVG ¼Ò¦¡
+mode_PK			PK ¼Ò¦¡
+on			§°Ê
+off			Ãö³¬
+pet_named		³Q·Rªº\s
+itemFix_identified	\ -- ¥¼Å²©w
+itemFix_pet		\ -- ¤w¹å¤Æ
+itemFix_named		\ -- ¤w©R¦W
+itemFix_broken		\ -- ¤w·lÃa
+itemFix_maker		\ -- ¥Ñ %$arg0 »s§@
+itemFix_makerNone	\ -- ¥Ñ µL¦W »s§@
+
+
+#######################################
+# ¦@¥Î¦Cªí
+#######################################
+list_arrow_head		------------- ¥i»s§@½b¥Úª««~²M³æ -------------\n
+list_arrow_head		#   ª««~¦WºÙ\n
+list_arrow		%3d %s\n
+list_arrow_arg		%$arg0
+list_arrow_arg		%$arg1
+list_arrow_end		----------------------------------------------\n
+list_arrow_end		½Ğ¿é¤J 'arrow <¥i»s§@½b¥Úª««~½s¸¹>' ¿ï¾Ü\n
+
+list_convert_head	------------- ¥i»s§@ªÖ¨©¯Sª««~²M³æ -------------\n
+list_convert_head		#   ª««~¦WºÙ\n
+list_convert		%3d %s\n
+list_convert_arg	%$arg0
+list_convert_arg	%$arg1
+list_convert_end	----------------------------------------------\n
+list_convert_end	½Ğ¿é¤J 'convert <¥i»s§@ªÖ¨©¯Sª««~½s¸¹>' ¿ï¾Ü\n
+
+list_petCall_head	-------¥i¹å¤ÆÃdª«³J¦Cªí-------\n
+list_petCall		%-4d %s\n
+list_petCall_arg	%$arg0
+list_petCall_arg	%$arg1
+list_petCall_end	------------------------------\n
+list_petCall_end	½Ğ¿é¤J 'pet call <¥i¹å¤ÆÃdª«³J½s¸¹>' ¿ï¾Ü\n
+
+list_identify_head	---------¥iÅ²©wª««~²M³æ--------\n
+list_identify_head	#   ª««~¦WºÙ\n
+list_identify		%3d %s\n
+list_identify_arg	%$arg0
+list_identify_arg	%$arg1
+list_identify_end	------------------------------\n
+list_identify_end	½Ğ¿é¤J 'identify <¥iÅ²©wª««~½s¸¹>' ¿ï¾Ü\n
+
+list_talkResp_head	----------¦^À³²M³æ-----------\n
+list_talkResp_head	NPC: %$arg0\n
+list_talkResp_head	#  ¿ï¶µ\n
+list_talkResp		%2d %s\n
+list_talkResp_arg	%$arg0
+list_talkResp_arg	%$arg1
+list_talkResp_end	-------------------------------\n
+list_talkResp_end	%$arg0 : ¿é¤J 'talk resp' ¨Ã¿ï¾Ü¦^À³.\n
+
+list_make_head		----------- ¥iÁë§Mª««~/°t»sÃÄ²~²M³æ ----------\n
+list_make_head		#   ª««~¦WºÙ\n
+list_make		%3d %s\n
+list_make_arg		%$arg0
+list_make_arg		%$arg1
+list_make_end		----------------------------------------------\n
+list_make_end		½Ğ¿é¤J 'make <¥iÁë§Mª««~/°t»sÃÄ²~½s¸¹>' ¿ï¾Ü\n
+list_make_end		\       'make <¥iÁë§Mª««~½s¸¹> <Äİ©Ê> <¬P¨¤¼Æ¶q>' Áë§MÄİ©Ê©Î±j®«ªZ¾¹\n
+list_make_end		\             <Äİ©Ê: 0=µL, 1=¤õ, 2=¤ô, 3=­·, 4=¦a>\n
+
+list_itemEquip_head	-- ¸Ë³ÆÃş --\n
+list_itemEquip		%-4d %s\n
+list_itemEquip_arg	%$arg0
+list_itemEquip_arg	%$arg1
+list_itemEquip_end
+
+list_itemEtc_head	-- ¨ä  ¥L --\n
+list_itemEtc		%-4d %s\n
+list_itemEtc_arg	%$arg0
+list_itemEtc_arg	%$arg1 x %$arg2
+list_itemEtc_end
+
+list_itemUseable_head	-- ¥i¨Ï¥Î --\n
+list_itemUseable	%-4d %s\n
+list_itemUseable_arg	%$arg0
+list_itemUseable_arg	%$arg1 x %$arg2
+list_itemUseable_end
+
+list_warp_head		---------- %$arg0 -----------\n
+list_warp		%$arg0 %$arg1{name} -¡i%$arg1{alias}¡j\n
+list_warp_end		-------------------------------\n
+list_warp_end		¨Ï¥Î¤èªk: warp <warp # | to | open | cancel> <¦a¹Ï¦WºÙ]>\n
+warp_random		ÀH¾÷¦aÂI
+warp_cancel		¨ú®ø
+
+npcTalk_cancel		¨ú®ø
+
+list_buy_head		----------NPC Store List-----------\n
+list_buy_head		#  Name                    Type           Price\n
+list_buy		%2d %-23s %-14s %8sz\n
+list_buy_arg		%$0
+list_buy_arg		%$1{name}
+list_buy_arg		%$itemTypes{%$1{type}}
+list_buy_arg		%$formatNumber{%$1{DCprice}}
+list_buy_end		-----------------------------------\n
+
+list_sell_head		----------Sell List-----------\n
+list_sell_head		#  Name                    Price\n
+list_sell		%2d %-23s %8sz\n
+list_sell_arg		%$0
+list_sell_arg		%$1{name}
+list_sell_arg		%$formatNumber{%$2{OCprice}}
+list_sell_end		------------------------------\n
+
+list_exclude_head	----------©Úµ´±K»y¦W³æ----------\n
+list_exclude		%s\n
+list_exclude_arg	%$1
+list_exclude_end	--------------------------------\n
+
+#######################################
+# aiModule.pm
+#######################################
+attack			¡òÂê©w§ğÀ»¥Ø¼Ğ: %$arg0{name} (%$arg0{binID})\n
+attack_color		attackmons
+attack_verbose		3
+
+lost_account		Kore does not have enough account information, so AI has been disabled. Relog to enable AI.\n
+
+
+#######################################
+# fileParser.pm
+#######################################
+parseFile		¥¿¦bÅª¨ú %$arg0...\n
+parseFileError		¿ù»~:µLªkÅª¨ú %$arg0\n
+getFieldError		\n!!ÀÉ®× %$arg0 Åª¨ú¥¢±Ñ - §A¥²¶·¦w¸ËKore¨t¦C¦a¹ÏÀÉ®×!!\n\n
+npcDual			NPC½s¸¹ %$arg0 ­«½Æ\n
+
+#######################################
+# miscFunctions.pm
+#######################################
+setting			¡º%$arg0 '%$arg1' ³]©w¦¨ %$arg2\n
+setting_color		setting
+input_a_error		µo¥Í¿ù»~ 'a' (Attack Monster)\n
+input_a_error		Monster %$arg0 does not exist.\n
+input_a_syntax		»yªk¿ù»~ 'a' (Attack Monster)\n
+input_a_syntax		¨Ï¥Î¤èªk: attack <monster # | none | no | yes >\n
+input_aiOn		AI turned on\n
+input_aiOff		AI turned off\n
+input_aiClear		Clear AI Route\n
+input_ai_syntax		»yªk¿ù»~ 'ai' (AI state)\n
+input_ai_syntax		¨Ï¥Î¤èªk: ai [<on|off|clear>]\n
+input_arror_error	µo¥Í¿ù»~ 'arrow' (Make Arrow)\n
+input_arror_error	±ı»s§@½b¥Úª««~ %$arg0 ¤£¦s¦b.\n
+input_arror_syntax	»yªk¿ù»~ 'arrow' (Make Arrow)\n
+input_arror_syntax	¨Ï¥Î¤èªk: arrow [<¥i»s§@½b¥Úª««~½s¸¹>]\n
+input_bestow_error_1	µo¥Í¿ù»~ 'bestow' (Bestow Admin in Chat)\n
+input_bestow_error_1	You are not in a Chat Room.\n
+input_bestow_error_2	µo¥Í¿ù»~ 'bestow' (Bestow Admin in Chat)\n
+input_bestow_error_2	Chat Room User %$arg0 doesn't exist\n
+input_bestow_syntax	»yªk¿ù»~ 'bestow' (Bestow Admin in Chat)\n
+input_bestow_syntax	¨Ï¥Î¤èªk: bestow <user #>\n
+input_buy_error		µo¥Í¿ù»~ 'buy' (Buy Store Item)\n
+input_buy_error		Store Item %$arg0 does not exist.\n
+input_buy_error_2	µo¥Í¿ù»~ 'buy' (Buy NPC Store Item)\n
+input_buy_error_2	§AÁÙ¨S¦³¸ò¥ô¦ó NPC ¥æ½Í.\n
+input_buy_syntax	»yªk¿ù»~ 'buy' (Buy Store Item)\n
+input_buy_syntax	¨Ï¥Î¤èªk: buy <item #> [<amount>]\n
+input_c_syntax		»yªk¿ù»~ 'c' (Chat)\n
+input_c_syntax		¨Ï¥Î¤èªk: c <message>\n
+input_chat_error	µo¥Í¿ù»~ 'chat' (Create Chat Room)\n
+input_chat_error	You are already in a chat room.\n
+input_chat_syntax	»yªk¿ù»~ 'chat' (Create Chat Room)\n
+input_chat_syntax	¨Ï¥Î¤èªk: chat "<title>" [<limit #> <public flag> <password>]\n
+input_chatmod_syntax	»yªk¿ù»~ 'chatmod' (Modify Chat Room)\n
+input_chatmod_syntax	¨Ï¥Î¤èªk: chatmod "<title>" [<limit #> <public flag> <password>]\n
+input_chist_head	------------ ²á¤Ñ¾ú¥v¸ê®Æ --------------\n
+input_chist		%$arg0
+input_chist_end		----------------------------------------\n
+input_chist_error	Unable to open Chat file. \n
+input_cl		All log cleared\n
+input_conf		Config '%$arg0' is %$arg1\n
+input_conf_error	Config variable '%$arg0' doesn't exist\n
+input_conf_syntax	»yªk¿ù»~ 'conf' (Config Modify)\n
+input_conf_syntax	¨Ï¥Î¤èªk: conf <variable> [<value>]\n
+input_convert_error	µo¥Í¿ù»~ 'convert' (Create Converter)\n
+input_convert_error	±ı»s§@ªÖ¨©¯Sª««~ %$arg0 ¤£¦s¦b.\n
+input_convert_syntax	»yªk¿ù»~ 'convert' (Create Converter)\n
+input_convert_syntax	¨Ï¥Î¤èªk: convert [<¥i»s§@ªÖ¨©¯Sª««~½s¸¹>]\n
+chatroom_admin		(Admin)
+chatroom_public		¤½ ¶}
+chatroom_private	¨p ¤H
+input_cri_error		There is no chat room info - you are not in a chat room\n
+input_cri_head		-----------²á¤Ñ«Ç¸ê°T-----------\n
+input_cri_head		¦WºÙ                                 ¤H ¼Æ ¤½/¨p\n
+input_cri_head		%-36s %2d/%2d %-5s\n
+input_cri_head		-- Users --\n
+input_cri_head_arg	%$arg0{title}
+input_cri_head_arg	%$arg0{num_users}
+input_cri_head_arg	%$arg0{limit}
+input_cri_head_arg	%$arg1
+input_cri		%-3d %-23s %-10s\n
+input_cri_arg		%$arg0
+input_cri_arg		%$arg1
+input_cri_arg		%$arg2
+input_cri_end		------------------------------------\n
+input_crl_head		----------- ²á¤Ñ«Ç¦Cªí -----------\n
+input_crl_head		#   ¼ĞÃD                       ¾Ö¦³ªÌ                  ¤H ¼Æ ¤½/¨p\n
+input_crl		%-3d %-36s %-23s %2d/%2d %-5s\n
+input_crl_arg		%$arg0
+input_crl_arg		%$arg1{title}
+input_crl_arg		%$arg2
+input_crl_arg		%$arg1{num_users}
+input_crl_arg		%$arg1{limit}
+input_crl_arg		%$arg3
+input_crl_end		------------------------------------\n
+input_deal_error_1	µo¥Í¿ù»~ 'deal' (Deal a Player)\n
+input_deal_error_1	You are already in a deal\n
+input_deal_error_2	µo¥Í¿ù»~ 'deal' (Deal a Player)\n
+input_deal_error_2	You must first cancel the incoming deal\n
+input_deal_error_3	µo¥Í¿ù»~ 'deal' (Deal a Player)\n
+input_deal_error_3	Player %$arg0 does not exist\n
+input_deal_error_4	µo¥Í¿ù»~ 'deal' (Deal a Player)\n
+input_deal_error_4	There is no deal to accept\n
+input_deal_error_5	µo¥Í¿ù»~ 'deal' (Deal a Player)\n
+input_deal_error_5	Cannot make the trade - %$arg0 has not finalized\n
+input_deal_error_6	µo¥Í¿ù»~ 'deal' (Deal a Player)\n
+input_deal_error_6	You already accepted the final deal\n
+input_dealNo_error	µo¥Í¿ù»~ 'deal' (Deal a Player)\n
+input_dealNo_error	There is no incoming/current deal to cancel\n
+input_deal		You accepted the final Deal\n
+input_dealAdd_error_1	µo¥Í¿ù»~ 'deal_add' (Add Item to Deal)\n
+input_dealAdd_error_1	No deal in progress\n
+input_dealAdd_error_2	µo¥Í¿ù»~ 'deal_add' (Add Item to Deal)\n
+input_dealAdd_error_2	Can't add any Items - You already finalized the deal\n
+input_dealAdd_error_3	µo¥Í¿ù»~ 'deal_add' (Add Item to Deal)\n
+input_dealAdd_error_3	Inventory Item %$arg0 does not exist.\n
+input_dealAdd_error_4	µo¥Í¿ù»~ 'deal_add' (Add Item to Deal)\n
+input_dealAdd_error_4	Amount must either be a number, or not specified.\n
+input_dealAdd_error_5	You can't add any more items to the deal\n
+input_dealAdd		You put forward %$arg0 z to Deal\n
+input_deal_syntax	»yªk¿ù»~ 'deal' (Deal a player)\n
+input_deal_syntax	¨Ï¥Î¤èªk: deal [<Player # | no | add>] [<item #>] [<amount>]\n
+deal_finalize		Finalized
+input_dl_error		There is no deal list - You are not in a deal\n
+input_dl_head		-----------Current Deal-----------\n
+input_dl_head		%-30s   %-30s\n
+input_dl_head_arg	%$arg0
+input_dl_head_arg	%$arg1
+input_dl_one		%$arg0 x %$arg1
+input_dl		%-30s   %-30s\n
+input_dl_arg		%$arg0
+input_dl_arg		%$arg1
+input_dl_end		Zenny: %-14s            Zenny: %-14s\n
+input_dl_end		----------------------------------\n
+input_dl_end_arg	%$arg2
+input_dl_end_arg	%$arg3
+input_drop_error	µo¥Í¿ù»~ 'drop' (Drop Inventory Item)\n
+input_drop_error	Inventory Item %$arg0 does not exist.\n
+input_drop_syntax	»yªk¿ù»~ 'drop' (Drop Inventory Item)\n
+input_drop_syntax	¨Ï¥Î¤èªk: drop <item #> [<amount>]\n
+input_e_syntax_head	»yªk¿ù»~ 'e' (Emotion)\n
+input_e_syntax_head	¨Ï¥Î¤èªk: e <emotion # (0-47)>\n
+input_e_syntax_head	-------------- ÃB¥~»¡©ú --------------\n
+input_e_syntax_head	#                       #                       #\n
+input_e_syntax_one	%-3d %-19s
+input_e_syntax_one_arg	%$arg0
+input_e_syntax_one_arg	%$arg1
+input_e_syntax		%$arg0 %$arg1 %$arg2\n
+input_e_syntax_end	--------------------------------------\n
+input_eq_posDesc	ÀYÀ¹(¤W)#ÀYÀ¹(¤¤)#ÀYÀ¹(¤U)#¨­¤W¬ïµÛ#¥k¤â®³µÛ#¥ª¤â®³µÛ#ªÓ¤W©ÜµÛ#¸}¤W¬ïµÛ#°t¥ó(¥k)#°t¥ó(¥ª)
+input_eq_arrowDesc	½bµ©¸ËµÛ
+input_eq_head		------------------- ¸Ë³ÆÄæ -------------------\n
+input_eq_head		¸Ë³Æ¦ì¸m #   ¦WºÙ\n
+input_eq		%-8s %-3d %-60s\n
+input_eq_arg		%$arg0
+input_eq_arg		%$arg1
+input_eq_arg		%$arg2
+input_eq_empty		%$arg0\n
+input_eq_arrow		%-8s %-3d %-60s\n
+input_eq_arrow_arg	%$arg0
+input_eq_arrow_arg	%$arg1
+input_eq_arrow_arg	%$arg2 x %$arg3
+input_eq_end		----------------------------------------------\n
+input_eq_end		¨Ï¥Î¤èªk: eq [<ª««~½s¸¹>] [<left=¥ª¤â¦ì¸m>]\n
+input_eq_error_1	µo¥Í¿ù»~ 'equip' (Equip Inventory Item)\n
+input_eq_error_1	Inventory Item %$arg0 does not exist.\n
+input_eq_error_2	µo¥Í¿ù»~ 'equip' (Equip Inventory Item)\n
+input_eq_error_2	Inventory Item %$arg0 can't be equipped.\n
+input_follow_syntax	»yªk¿ù»~ 'follow' (Follow Player)\n
+input_follow_syntax	¨Ï¥Î¤èªk: follow <player #>\n
+input_follow_error	µo¥Í¿ù»~ 'follow' (Follow Player)\n
+input_follow_error	Player %$arg0 does not exist.\n
+input_g_syntax		»yªk¿ù»~ 'g' (Guild Chat)\n
+input_g_syntax		¨Ï¥Î¤èªk: g <message>\n
+input_friend_head	-------------- ¦n¤Í¦W³æ ---------------\n
+input_friend_head	#  ¦n¤Í¦WºÙ\n
+input_friend		%-2d %s\n
+input_friend_arg	%$arg0
+input_friend_arg	%$arg1{name}
+input_friend_end	---------------------------------------\n
+input_friendJoin_error	µo¥Í¿ù»~ 'friend join' (Friend Join Functions)\n
+input_friendJoin_error	¥²¶·­n¦³¤HÁÜ½Ğ§A¥[¤J¦n¤Í\n
+input_friendJoin_syntax	»yªk¿ù»~: 'friend join' (Friend Join Functions)\n
+input_friendJoin_syntax	¨Ï¥Î¥Îªk: friend join <flag>\n
+input_friendRq_error_1	µo¥Í¿ù»~ 'friend request' (Request to Join Friend)\n
+input_friendRq_error_1	µLªkÁÜ½Ğ¥[¤J¦n¤Í - ª±®a %$arg0 ¤£¦s¦b\n
+input_friendRq_error_2	µo¥Í¿ù»~ 'friend request' (Request to Join Friend)\n
+input_friendRq_error_2	µLªkÁÜ½Ğ¥[¤J¦n¤Í - ª±®a %$arg0 ¦WºÙ©|¥¼¨ú±o\n
+input_friendRq_syntax	»yªk¿ù»~: 'friend request' (Request to Join Friend)\n
+input_friendRq_syntax	¥Îªk: friend request (<player #>|"<username>")\n
+input_friendKick_error	¨Ï¥Î¿ù»~: 'friend kick' (Friend Kick Functions)\n
+input_friendKick_error	¦n¤Í %$arg0 ¨Ã¤£¦s¦b\n
+input_friendKick_syntax	»yªk¿ù»~: 'friend kick' (Friend Kick Functions)\n
+input_friendKick_syntax	¥Îªk: friend kick <firend #>\n
+input_friendPm_error_1	¨Ï¥Î¿ù»~: 'friend pm' (Private Message to Friend Functions)\n
+input_friendPm_error_1	¦n¤Í %$arg0 ¨Ã¤£¦s¦b\n
+input_friendPm_error_2	¨Ï¥Î¿ù»~: 'friend pm' (Private Message to Friend Functions)\n
+input_friendPm_error_2	µL±K»y¤º®e\n
+input_friendPm_syntax	»yªk¿ù»~: 'friend pm' (Private Message to Friend Functions)\n
+input_friendPm_syntax	¥Îªk: friend pm <firend #> <message>\n
+input_friend_syntax	»yªk¿ù»~ 'friend' (Friend Functions)\n
+input_friend_syntax	¨Ï¥Î¤èªk: friend <request> (<player #>|"<username>")\n
+input_friend_syntax	\          friend [<join|kick>] [<flag>|<firend #>]\n
+input_friend_syntax	\          friend <pm> <firend #>  <message>\n
+input_guild_error	¨Ï¥Î¿ù»~: 'guild' (guild function)\n
+input_guild_error	¨S¦³¥[¤J¤½·|\n
+input_guild_info	------------- ¤½ ·| ¸ê °T -------------\n
+input_guild_info	¤½·|¦WºÙ    : %-25s    ¥Ø«e¸gÅç: %10d\n
+input_guild_info	¤½·|µ¥¯Å    : %-25d    ¤É¯Å¸gÅç: %10d\n
+input_guild_info	¤½·|·|ªø    : %-25s    ³Ñ¾lÂI¼Æ: %10d\n
+input_guild_info	¤½·|¦¨­û    : %3d/%-3d (Max: %d)\n
+input_guild_info	¦¨­û¥­§¡µ¥¯Å : %-3d\n
+input_guild_info	---------------------------------------\n
+input_guild_info_arg	%$arg0{name}
+input_guild_info_arg	%$arg0{exp}
+input_guild_info_arg	%$arg0{lv}
+input_guild_info_arg	%$arg0{next_exp}
+input_guild_info_arg	%$arg0{master}
+input_guild_info_arg	%$arg0{offerPoint}
+input_guild_info_arg	%$arg0{conMember}
+input_guild_info_arg	%$arg1
+input_guild_info_arg	%$arg0{maxMember}
+input_guild_info_arg	%$arg0{average}
+guild_mem_online	*
+input_guild_mem_head	------------ ¤½·|¦¨­û ------------\n
+input_guild_mem_head	#    ¦WºÙ                        ºÙ¸¹                  Â¾·~      µ¥¯Å Ãº¯Ç¸gÅç\n
+input_guild_mem		%-2d %1s %-24s %-24s %-11s %2d %-8d\n
+input_guild_mem_arg	%$arg0
+input_guild_mem_arg	%$arg4
+input_guild_mem_arg	%$arg1{name}
+input_guild_mem_arg	%$arg3
+input_guild_mem_arg	%$arg2
+input_guild_mem_arg	%$arg1{lv}
+input_guild_mem_arg	%$arg1{exp}
+input_guild_mem_end	---------------------------------------\n
+input_guild_pos_head	----------- ¤½  ·|  ºÙ  ¸¹  -----------\n
+input_guild_pos_head	#  ¤½·|ºÙ¸¹                 ¥[¤J ³B»@ ¸gÅç\n
+input_guild_pos		%-2d %-24s %4s %4s  %2d%\n
+input_guild_pos_arg	%$arg0
+input_guild_pos_arg	%$arg1{name}
+input_guild_pos_arg	%$arg1{join}
+input_guild_pos_arg	%$arg1{kick}
+input_guild_pos_arg	%$arg1{feeEXP}
+input_guild_pos_end	---------------------------------------\n
+input_guild_syntax	»yªk¿ù»~: 'guild' (guild function)\n
+input_guild_syntax	®æ¦¡: guild [<i>|<m>|<p>]\n
+input_iDesc_error	µo¥Í¿ù»~ 'i desc' (Iventory Item Description)\n
+input_iDesc_error	±ıÀËµøª««~ %$arg0 ¤£¦s¦b.\n
+input_iDesc		================== ª««~»¡©ú ==================\n
+input_iDesc		ª««~¦WºÙ: %$arg0\n
+input_iDesc		\n%$arg1
+input_iDesc		==============================================\n
+input_i_syntax		»yªk¿ù»~ 'i' (Iventory List)\n
+input_i_syntax		¨Ï¥Î¤èªk: i [<u | eq | nu | desc>] [<ª««~½s¸¹>]\n
+input_i_head		-------------ª««~Äæ------------\n
+input_i_end		-------------------------------\n
+input_identify_error	µo¥Í¿ù»~ 'identify' (Identify Item)\n
+input_identify_error	Identify Item %$arg0 does not exist\n
+input_identify_syntax	»yªk¿ù»~ 'identify' (Identify Item)\n
+input_identify_syntax	¨Ï¥Î¤èªk: identify [<identify #>]\n
+input_ignore_syntax	»yªk¿ù»~ 'ignore' (Ignore Player/Everyone)\n
+input_ignore_syntax	¨Ï¥Î¤èªk: ignore <flag> <name | all>\n
+input_il_head		-----------Item List-----------\n
+input_il_head		#    Name\n
+input_il		%-4d %-30s\n
+input_il_arg		%$0
+input_il_arg		%$1{name} x %$1{amount}
+input_il_end		-------------------------------\n
+input_im_syntax		»yªk¿ù»~ 'im' (Use Item on Monster)\n
+input_im_syntax		¨Ï¥Î¤èªk: im <item #> <monster #>\n
+input_im_error_1	µo¥Í¿ù»~ 'im' (Use Item on Monster)
+input_im_error_1	Inventory Item %$arg0 does not exist.\n
+input_im_error_2	µo¥Í¿ù»~ 'im' (Use Item on Monster)\n
+input_im_error_2	Inventory Item %$arg0 is not of type Usable.\n
+input_im_error_3	µo¥Í¿ù»~ 'im' (Use Item on Monster)\n
+input_im_error_3	Monster %$arg1 does not exist.\n
+input_ip_syntax		»yªk¿ù»~ 'ip' (Use Item on Player)\n
+input_ip_syntax		¨Ï¥Î¤èªk: ip <item #> <player #>\n
+input_ip_error_1	µo¥Í¿ù»~ 'ip' (Use Item on Player)\n
+input_ip_error_1	Inventory Item %$arg0 does not exist.\n
+input_ip_error_2	µo¥Í¿ù»~ 'ip' (Use Item on Player)\n
+input_ip_error_2	Inventory Item %$arg0 is not of type Usable.\n
+input_ip_error_3	µo¥Í¿ù»~ 'ip' (Use Item on Player)\n
+input_ip_error_3	Player %$arg1 does not exist.\n
+input_is_syntax		»yªk¿ù»~ 'is' (Use Item on Self)\n
+input_is_syntax		¨Ï¥Î¤èªk: is <item #>\n
+input_is_error_1	µo¥Í¿ù»~ 'is' (Use Item on Self)\n
+input_is_error_1	Inventory Item %$arg0 does not exist.\n
+input_is_error_2	µo¥Í¿ù»~ 'is' (Use Item on Self)\n
+input_is_error_2	Inventory Item %$arg0 is not of type Usable.\n
+input_join_syntax	»yªk¿ù»~ 'join' (Join Chat Room)\n
+input_join_syntax	¨Ï¥Î¤èªk: join <chat room #> [<password>]\n
+input_join_error_1	µo¥Í¿ù»~ 'join' (Join Chat Room)\n
+input_join_error_1	You are already in a chat room.\n
+input_join_error_2	µo¥Í¿ù»~ 'join' (Join Chat Room)\n
+input_join_error_2	Chat Room %$arg0 does not exist.\n
+input_judge_syntax	»yªk¿ù»~ 'judge' (Give an alignment point to Player)\n
+input_judge_syntax	¨Ï¥Î¤èªk: judge <player #> <0 (good) | 1 (bad)>\n
+input_judge_error	µo¥Í¿ù»~ 'judge' (Give an alignment point to Player)\n
+input_judge_error	Player %$arg0 does not exist.\n
+input_kick_syntax	»yªk¿ù»~ 'kick' (Kick from Chat)\n
+input_kick_syntax	¨Ï¥Î¤èªk: kick <user #>\n
+input_kick_error_1	µo¥Í¿ù»~ 'kick' (Kick from Chat)\n
+input_kick_error_1	You are not in a Chat Room.\n
+input_kick_error_2	µo¥Í¿ù»~ 'kick' (Kick from Chat)\n
+input_kick_error_2	Chat Room User %$arg0 doesn't exist\n
+input_leave_error	µo¥Í¿ù»~ 'leave' (Leave Chat Room)\n
+input_leave_error	You are not in a Chat Room.\n
+input_log_result	±N«ü¥O '%$arg0' ªº¿é¥Xµ²ªG¼g¤J %$arg1\n
+input_log_syntax	»yªk¿ù»~ 'log' (Log Command)\n
+input_log_syntax	¨Ï¥Î¤èªk: log "<command>" <output filename>\n
+input_look_syntax	»yªk¿ù»~ 'look' (Look a Direction)\n
+input_look_syntax	¨Ï¥Î¤èªk: look <¨­Åé> [<ÀY³¡>]\n
+input_look_syntax	------------ ÃB¥~»¡©ú --------------\n
+input_look_syntax	\¨­Åé:¢°  ¢¯  ¢¶        ÀY³¡: 0=¥¿«e¤è\n
+input_look_syntax	\       ¡ø¡ô¡ù\n
+input_look_syntax	\     ¢±¡ö¡ğ¡÷¢µ              1=¥k«e¤è\n
+input_look_syntax	\       ¡ú¡õ¡û\n
+input_look_syntax	\     ¢²  ¢³  ¢´              2=¥ª«e¤è\n
+input_look_syntax	------------------------------------\n
+input_make_error_1	µo¥Í¿ù»~ 'make' (Smithery and Pharmacy)\n
+input_make_error_1	±ıÁë§Mª««~/°t»sÃÄ²~ %$arg0 ¤£¦s¦b.\n
+input_make_error_2	µo¥Í¿ù»~ 'make <¥iÁë§Mª««~½s¸¹> <Äİ©Ê> <¬P¨¤¼Æ¶q>' (Smithery and Pharmacy)\n
+input_make_error_2	½ĞÀË¬d¨­¤Wªº Äİ©Ê¥Û ¥H¤Î ¬P¬Pªº¨¤ ªº¼Æ¶q.\n
+input_make_error_3	µo¥Í¿ù»~ 'make <¥iÁë§Mª««~½s¸¹> <Äİ©Ê> <¬P¨¤¼Æ¶q>' (Smithery and Pharmacy)\n
+input_make_error_3	½ĞÀË¬d¿é¤Jªº <Äİ©Ê> ¥H¤Î <¬P¨¤¼Æ¶q> ¬O§_¦³»~.\n
+input_make_syntax	»yªk¿ù»~ 'make' (Smithery and Pharmacy)\n
+input_make_syntax	¨Ï¥Î¤èªk: make [<¥iÁë§Mª««~/°t»sÃÄ²~½s¸¹>] [<Äİ©Ê>] [<¬P¨¤¼Æ¶q>]\n
+input_make_syntax	\          make <desc> <¥iÁë§Mª««~/°t»sÃÄ²~½s¸¹>\n
+input_makeDesc_error	µo¥Í¿ù»~ 'make desc' (Smithery Material Description)\n
+input_makeDesc_error	±ıÀËµø§÷®Æ %$arg0 ¤£¦s¦b.\n
+input_makeDesc		================== §÷®Æ»¡©ú ==================\n
+input_makeDesc		ª««~¦WºÙ: %$arg0\n
+input_makeDesc		\n%$arg1
+input_makeDesc		==============================================\n
+input_ml_head		-----------Monster List ( Coordinate : %$char{pos_x}, %$char{pos_y} ) -----------\n
+input_ml_head		#    Name                     DmgTo    DmgFrom     (x,y)\n
+input_ml		%-4d %-24s %-5d    %-5d    %-11s %s\n
+input_ml_arg		%$arg0
+input_ml_arg		%$arg1{name}
+input_ml_arg		%$arg1{dmgTo}
+input_ml_arg		%$arg1{dmgFrom}
+input_ml_arg		(%$arg1{pos_x},%$arg1{pos_y})
+input_ml_end		-------------------------------------------------------------\n
+input_move_syntax	»yªk¿ù»~ 'move' (Move Player)\n
+input_move_syntax	¨Ï¥Î¤èªk: move <x> <y> &| <map>\n
+input_move_error	Map %$arg0 does not exist\n
+input_moveStop		Stopped all movement\n
+input_move_1		Calculating route to: %$0{alias}(%$0{name}): %$1{x}, %$1{y}\n
+input_move_2		Calculating route to: %$0{alias}(%$0{name})\n
+input_nl_head		-----------NPC ¦Cªí-----------\n
+input_nl_head		#   ID         ¦WºÙ                          ®y   ¼Ğ\n
+input_nl		%-3d %-10d %-28s (%3d,%3d)\n
+input_nl_arg		%$arg0
+input_nl_arg		%$arg1{nameID}
+input_nl_arg		%$arg1{name}
+input_nl_arg		%$arg1{pos_x}
+input_nl_arg		%$arg1{pos_y}
+input_nl_end		---------------------------------\n
+input_p_syntax		»yªk¿ù»~ 'p' (Party Chat)\n
+input_p_syntax		¨Ï¥Î¤èªk: p <message>\n
+party_online		Yes
+party_offline		No
+party_admin		(A)
+input_party_error	µo¥Í¿ù»~ 'party' (Party Functions)\n
+input_party_error	Can't list party - you're not in a party.\n
+input_party_head	----------Party-----------\n
+input_party_head	¶¤¥î¦WºÙ: %$arg0\n
+input_party_head	#      Name                    Map                   Online HP\n
+input_party		%2d %-3s %-23s %-11s (%3d,%3d) %-6s %5d/%-5d (%d%)\n
+input_party_arg		%$arg0
+input_party_arg		%$arg2
+input_party_arg		%$arg1{name}
+input_party_arg		%$arg1{map}
+input_party_arg		%$arg1{pos_x}
+input_party_arg		%$arg1{pos_y}
+input_party_arg		%$arg3
+input_party_arg		%$arg1{hp}
+input_party_arg		%$arg1{hp_max}
+input_party_arg		%$arg1{percent_hp}
+input_party_end		--------------------------\n
+input_partyCre_syntax	»yªk¿ù»~ 'party create' (Organize Party)\n
+input_partyCre_syntax	¨Ï¥Î¤èªk: party create "<party name>"\n
+input_partyJoin_syntax	»yªk¿ù»~ 'party join' (Accept/Deny Party Join Request)\n
+input_partyJoin_syntax	¨Ï¥Î¤èªk: party join <flag>\n
+input_partyJoin_error	µo¥Í¿ù»~ 'party join' (Join/Request to Join Party)\n
+input_partyJoin_error	Can't accept/deny party request - no incoming request.\n
+input_partyReq_error_1	µo¥Í¿ù»~ 'party request' (Request to Join Party
+input_partyReq_error_1	Can't request a join - you're not in a party.\n
+input_partyReq_error_2	µo¥Í¿ù»~ 'party request' (Request to Join Party)\n
+input_partyReq_error_2	Can't request to join party - player %$arg0 does not exist.\n
+input_partyLeave_error	µo¥Í¿ù»~ 'party leave' (Leave Party)\n
+input_partyLeave_error	Can't leave party - you're not in a party.\n
+input_partyShare_error	µo¥Í¿ù»~ 'party share' (Set Party Share EXP)\n
+input_partyShare_error	Can't set share - you're not in a party.\n
+input_partyShare_syntax	»yªk¿ù»~ 'party share' (Set Party Share EXP)\n
+input_partyShare_syntax	¨Ï¥Î¤èªk: party share <flag>\n
+input_partyKick_error_1	µo¥Í¿ù»~ 'party kick' (Kick Party Member)\n
+input_partyKick_error_1	Can't kick member - you're not in a party.\n
+input_partyKick_syntax	»yªk¿ù»~ 'party kick' (Kick Party Member)\n
+input_partyKick_syntax	¨Ï¥Î¤èªk: party kick <party member #>\n
+input_partyKick_error_2	µo¥Í¿ù»~ 'party kick' (Kick Party Member)\n
+input_partyKick_error_2	Can't kick member - member %$arg0 doesn't exist.\n
+input_pet		----- Ãdª«¸ê°T -----\n
+input_pet		¦WºÙ : %-10s    µ¥¯Å : %-2d\n
+input_pet		¹¡­¹«× : %-10d  ¿Ë±K«× : %-4d\n
+input_pet		Pet ID : %s\n
+input_pet		--------------------\n
+input_pet_arg		%$arg0{name}
+input_pet_arg		%$arg0{level}
+input_pet_arg		%$arg0{hungry}
+input_pet_arg		%$arg0{friendly}
+input_pet_arg		%$arg0{nameID}
+input_petFeed		§AÁı­¹¤FÃdª«\n
+input_petPlay		§A¥¿«ü´§Ãdª«°µ°Ê§@\n
+input_petBack		§AªºÃdª«¦^ÂĞ¨ì³Jªºª¬ºA\n
+input_petCall_error	µo¥Í¿ù»~ 'pet call' (Pet Call)\n
+input_petCall_error	­n¹å¤ÆÃdª«³J¤£¦s¦b\n
+input_petCall_syntax	»yªk¿ù»~ 'pet call' (Pet Call)\n
+input_petCall_syntax	½Ğ¿é¤J 'pet call <¥i¹å¤ÆÃdª«³J½s¸¹>' ¿ï¾Ü\n
+input_pet_error		µo¥Í¿ù»~ 'pet' ( Q'pet command )\n
+input_pet_error		§A¨S¦³¤w¹å¤ÆªºÃdª«\n
+input_pet_syntax	»yªk¿ù»~ 'pet' ( Q'pet command )\n
+input_pet_syntax	¨Ï¥Î¤èªk : pet < info | feed | play | back | call> [<¥i¹å¤ÆÃdª«³J½s¸¹>]\n
+input_petl_head		-----------Ãdª«¦Cªí-----------\n
+input_petl_head		#    Type                     Name\n
+input_petl		%-4d %-24s %-25s\n
+input_petl_arg		%$arg0
+input_petl_arg		%$arg1{name}
+input_petl_arg		%$arg1{name_given}
+input_petl_end		----------------------------------\n
+input_pm_syntax		»yªk¿ù»~ 'pm' (Private Message)\n
+input_pm_syntax		¨Ï¥Î¤èªk: pm ("<username>" | <pm #>) <message>\n
+input_pm_error		µo¥Í¿ù»~ 'pm' (Private Message)\n
+input_pm_error		Quick look-up %$arg0 does not exist\n
+input_pmcl		¤w±N¶Ç°e±K»y®É­«½ÆÅã¥Ü¤§¸Ü»y§R°£\n
+input_pml_head		-----------PM LIST-----------\n
+input_pml		%-4d %-24s\n
+input_pml_arg		%$arg0
+input_pml_arg		%$arg1
+input_pml_end		-----------------------------\n
+input_pl_head		-----------ªşªñª±®a¦Cªí ( ·í«e®y¼Ğ : %$char{pos_x},%$char{pos_y} ) -----------\n
+input_pl_head		#   Lv   Name                                 Sex   Job      (x,y)\n
+input_pl		%-3d %-2s %-38s %-5s %-8s (%3d,%3d)\n
+input_pl_arg		%$arg0
+input_pl_arg		%$arg1{level}
+input_pl_arg		%$arg1{name} [%$arg2]
+input_pl_arg		%$arg3
+input_pl_arg		%$arg4
+input_pl_arg		%$arg1{pos_x}
+input_pl_arg		%$arg1{pos_y}
+input_pl_end		------------------------------------------------------------\n
+input_portals_head	-----------Portal List-----------\n
+input_portals_head	#   Name                                ®y¼Ğ      ½d³ò\n
+input_portals		%-3d %-35s (%3d,%3d) %d\n
+input_portals_arg	%$arg0
+input_portals_arg	%$arg1{name}
+input_portals_arg	%$arg1{pos_x}
+input_portals_arg	%$arg1{pos_y}
+input_portals_arg	%$arg1{dist}
+input_portals_end	---------------------------------\n
+input_remain		----------- Airtime Remaining -----------\n
+input_remain		Login at: %$arg0\n
+input_remain		Botting time : %$arg1{hour} Hours %$arg1{min} Minutes %$arg1{sec} Seconds\n
+input_remain		Now Remain : %$arg2{day} Days %$arg2{hour} Hours %$arg2{min} Minutes %$arg2{sec} Seconds\n
+input_remain		-----------------------------------------\n
+input_s_head		------------ °ò¥»ª¬ºA (AID:%$char{aid} CID:%$char{cid}) -------------\n
+input_s			%-25s HP: %s\n
+input_s			%-25s SP: %s\n
+input_s			Base: %-3d %s\n
+input_s			Job:  %-3d %s\n
+input_s			Weight: %-17s Zenny: %s\n
+input_s_arg		%$char{name}
+input_s_arg		%$char{hp}/%$char{hp_max} (%$char{percent_hp}%)
+input_s_arg		%$char{job} %$char{sex}
+input_s_arg		%$char{sp}/%$char{sp_max} (%$char{percent_sp}%)
+input_s_arg		%$char{lv}
+input_s_arg		%$char{exp}/%$char{exp_max}/%$arg2{base} (%$arg1{base}%)
+input_s_arg		%$char{lv_job}
+input_s_arg		%$char{exp_job}/%$char{exp_job_max}/%$arg2{job} (%$arg1{job}%)
+input_s_arg		%$char{weight}/%$char{weight_max} (%$char{percent_weight}%)
+input_s_arg		%$char{zenny}
+input_s_end		-----------------------------------------------\n
+input_sell_syntax	»yªk¿ù»~ 'sell' (Sell Inventory Item)\n
+input_sell_syntax	¨Ï¥Î¤èªk: sell <item #> [<amount>]\n
+input_sell_error	µo¥Í¿ù»~ 'sell' (Sell Inventory Item)\n
+input_sell_error	Inventory Item %$arg0 does not exist.\n
+input_sell_error_2	µo¥Í¿ù»~ 'sell' (Sell Inventory Item)\n
+input_sell_error_2	§AÁÙ¨S¦³¸ò¥ô¦ó NPC ¥æ½Í.\n
+input_set_syntax	»yªk¿ù»~ 'set' (setting directory)\n
+input_set_syntax	¨Ï¥Î¤èªk: set <control | table> <¥Ø¿ı¦WºÙ>\n
+input_skills_head	----------Skill List-----------\n
+input_skills_head	#  Skill Name                     Lv  SP\n
+input_skills		%-2d %-29s %3s %3s %5s %2s\n
+input_skills_arg	%$arg0
+input_skills_arg	%$arg2
+input_skills_arg	%$arg1{lv}
+input_skills_arg	%$arg1{sp}
+input_skills_end	\nSkill Points: %$arg0\n
+input_skills_end	-------------------------------\n
+input_skillsAdd_error_1	µo¥Í¿ù»~ 'skills add' (¤À°t§Ş¯àÂI¼Æ)\n
+input_skillsAdd_error_1	¨S¦³µo²{¦¹§Ş¯à %$arg0.\n
+input_skillsAdd_error_2	µo¥Í¿ù»~ 'skills add' (¤À°t§Ş¯àÂI¼Æ)\n
+input_skillsAdd_error_2	¨S¦³¨¬°÷ªºÂI¼Æ¥i¥H¤À°t¨ì %$arg0.\n
+input_skillsDesc_error	µo¥Í¿ù»~ 'skills desc' (Skills Description)\n
+input_skillsDesc_error	±ıÀËµø§Ş¯à %$arg0 ¤£¦s¦b.\n
+input_skillsDesc	================== §Ş¯à»¡©ú ==================\n
+input_skillsDesc	§Ş¯à¦WºÙ: %$arg0\n
+input_skillsDesc	\n%$arg1
+input_skillsDesc	==============================================\n
+input_skills_syntax	»yªk¿ù»~ 'skills' (Skills Functions)\n
+input_skills_syntax	¨Ï¥Î¤èªk: skills [<add>] [<skill #>]\n
+input_sl_head		--------------------- ¦a­±«ùÄò«¬§Ş¯à¦Cªí --------(·í«e®y¼Ğ : %$char{pos_x},%$char{pos_y})----\n	
+input_sl_head		#   Ãş«¬ ¦WºÙ          ¬I³NªÌ                         ®y   ¼Ğ  ¶ZÂ÷\n
+input_sl		%-3d %-4s %-13s %-29s (%3d,%3d) %s\n
+input_sl_arg		%$arg0
+input_sl_arg		%$arg1{type}
+input_sl_arg		%$arg2
+input_sl_arg		%$arg3
+input_sl_arg		%$arg1{pos_x}
+input_sl_arg		%$arg1{pos_y}
+input_sl_arg		%$arg4
+input_sl_end		--------------------------------------------------------------\n
+input_sg_syntax		»yªk¿ù»~ 'sg' (Use Skill on Location)\n
+input_sg_syntax		¨Ï¥Î¤èªk: sg <skill #> <x> <y> [<skill lvl>]\n
+input_sg_error_1	µo¥Í¿ù»~ 'sg' (Use Skill on Ground)\n
+input_sg_error_1	Skill %$arg0 does not exist.\n
+input_sg_error_2	µo¥Í¿ù»~ 'sg' (Use Skill on Ground)\n
+input_sg_error_2	Skill Position does not exist.\n
+input_sm_syntax		»yªk¿ù»~ 'sm' (Use Skill on Monster)\n
+input_sm_syntax		¨Ï¥Î¤èªk: sm <skill #> <monster #> [<skill lvl>]\n
+input_sm_error_1	µo¥Í¿ù»~ 'sm' (Use Skill on Monster)\n
+input_sm_error_1	Monster %$arg1 does not exist.\n
+input_sm_error_2	µo¥Í¿ù»~ 'sm' (Use Skill on Monster)\n
+input_sm_error_2	Skill %$arg0 does not exist.\n
+input_sp_syntax		»yªk¿ù»~ 'sp' (Use Skill on Player)\n
+input_sp_syntax		¨Ï¥Î¤èªk: sp <skill #> <player #> [<skill lvl>]\n
+input_sp_error_1	µo¥Í¿ù»~ 'sp' (Use Skill on Player)\n
+input_sp_error_1	Player %$arg1 does not exist.\n
+input_sp_error_2	µo¥Í¿ù»~ 'sp' (Use Skill on Player)\n
+input_sp_error_2	Skill %$arg0 does not exist.\n
+input_ss_syntax		»yªk¿ù»~ 'ss' (Use Skill on Self)\n
+input_ss_syntax		¨Ï¥Î¤èªk: ss <skill #> [<skill lvl>]\n
+input_ss_error		µo¥Í¿ù»~ 'ss' (Use Skill on Self)\n
+input_ss_error		Skill %$arg0 does not exist.\n
+input_st		---------- ¤H ª« ª¬ ºA ----------\n
+input_st		Str: %3d+%3d #%2d Atk:  %3d+%3d Def:  %3d+%3d\n
+input_st		Agi: %3d+%3d #%2d Matk: %3d-%3d Mdef: %3d+%3d\n
+input_st		Vit: %3d+%3d #%2d Hit:      %3d Flee: %3d+%3d\n
+input_st		Int: %3d+%3d #%2d Critical: %3d Aspd: %3d\n
+input_st		Dex: %3d+%3d #%2d Status Points: %3d\n
+input_st		Luk: %3d+%3d #%2d Guild: %s\n
+input_st		----------------------------------\n
+input_st_arg		%$arg0{str}
+input_st_arg		%$arg0{str_bonus}
+input_st_arg		%$arg0{points_str}
+input_st_arg		%$arg0{attack}
+input_st_arg		%$arg0{attack_bonus}
+input_st_arg		%$arg0{def}
+input_st_arg		%$arg0{def_bonus}
+input_st_arg		%$arg0{agi}
+input_st_arg		%$arg0{agi_bonus}
+input_st_arg		%$arg0{points_agi}
+input_st_arg		%$arg0{attack_magic_min}
+input_st_arg		%$arg0{attack_magic_max}
+input_st_arg		%$arg0{def_magic}
+input_st_arg		%$arg0{def_magic_bonus}
+input_st_arg		%$arg0{vit}
+input_st_arg		%$arg0{vit_bonus}
+input_st_arg		%$arg0{points_vit}
+input_st_arg		%$arg0{hit}
+input_st_arg		%$arg0{flee}
+input_st_arg		%$arg0{flee_bonus}
+input_st_arg		%$arg0{int}
+input_st_arg		%$arg0{int_bonus}
+input_st_arg		%$arg0{points_int}
+input_st_arg		%$arg0{critical}
+input_st_arg		%$arg0{attack_speed}
+input_st_arg		%$arg0{dex}
+input_st_arg		%$arg0{dex_bonus}
+input_st_arg		%$arg0{points_dex}
+input_st_arg		%$arg0{points_free}
+input_st_arg		%$arg0{luk}
+input_st_arg		%$arg0{luk_bonus}
+input_st_arg		%$arg0{points_luk}
+input_st_arg		%$char{guild}
+input_statAdd_syntax	»yªk¿ù»~ 'stat_add' (Add Status Point)\n
+input_statAdd_syntax	¨Ï¥Î¤èªk: stat_add <str | agi | vit | int | dex | luk>\n
+input_statAdd_error_1	µo¥Í¿ù»~ 'stat_add' (¤À°t¯À½èÂI¼Æ)\n
+input_statAdd_error_1	¨S¦³¨¬°÷ªºÂI¼Æ¥i¥H¼W¥[¨ì %$arg0\n
+input_statAdd_error_2	¦¹¯À½è¤w¸g¨ì¹F³Ì°ª (99)\n
+input_storage_head	-------------­Ü®w-------------\n
+input_storage_end	\nCapacity: %$arg0{items}/%$arg0{items_max}\n
+input_storage_end	------------------------------\n
+input_storageAdd_error	µo¥Í¿ù»~ 'storage add' (Add Item to Storage)\n
+input_storageAdd_error	Inventory Item %$arg0 does not exist\n
+input_storageAdd_error2	µo¥Í¿ù»~ 'storage add' (Add Item to Storage)\n
+input_storageAdd_error2	ª««~ %$0 ¤w¸Ë³Æ\n
+input_storageAdd_error3	µo¥Í¿ù»~ 'storage add' (Add Item to Storage)\n
+input_storageAdd_error3	ª««~ %$0 ¤w¹å¤Æ\n
+input_storageAdd_syntax	»yªk¿ù»~ 'storage add' (Add Item to Storage)\n
+input_storageAdd_syntax	¨Ï¥Î¤èªk: storage add <ª««~½s¸¹> [<¼Æ¶q>]\n
+input_storageGet_error	µo¥Í¿ù»~ 'storage get' (Get Item from Storage)\n
+input_storageGet_error	Storage Item %$arg0 does not exist\n
+input_storageGet_syntax	»yªk¿ù»~ 'storage get' (Get Item from Storage)\n
+input_storageGet_syntax	¨Ï¥Î¤èªk: storage get <­Ü®wª««~½s¸¹> [<¼Æ¶q>]\n
+input_storageDesc_error	µo¥Í¿ù»~ 'storage desc' (Storage Item Description)\n
+input_storageDesc_error	±ıÀËµøª««~ %$arg0 ¤£¦s¦b.\n
+input_storageDesc	================== ª««~»¡©ú ==================\n
+input_storageDesc	ª««~¦WºÙ: %$arg0\n
+input_storageDesc	\n%$arg1
+input_storageDesc	==============================================\n
+input_storage_syntax	»yªk¿ù»~ 'storage' (Storage Functions)\n
+input_storage_syntax	¨Ï¥Î¤èªk: storage [u | eq | nu | desc>] [<ª««~½s¸¹>]\n
+input_take_syntax	»yªk¿ù»~ 'take' (Take Item)\n
+input_take_syntax	¨Ï¥Î¤èªk: take <item #>\n
+input_take_error	µo¥Í¿ù»~ 'take' (Take Item)\n
+input_take_error	Item %$arg0 does not exist.\n
+input_talk_error	µo¥Í¿ù»~ 'talk' (Talk to NPC)\n
+input_talk_error	NPC %$arg0 ¤£¦s¦b\n
+input_talkAns_error	µo¥Í¿ù»~ 'talk answer' (Answer to NPC)\n
+input_talkAns_error	§AÁÙ¨S¦³¸ò¥ô¦ó NPC ¥æ½Í.\n
+input_talkAns_syntax	»yªk¿ù»~ 'talk answer' (Answer to NPC)\n
+input_talkAns_syntax	¨Ï¥Î¤èªk: talk answer (<¼Æ¶q>|"<¤å¦r>")\n
+input_talkResp_error_1	µo¥Í¿ù»~ 'talk resp' (Respond to NPC)\n
+input_talkResp_error_1	You are not talking to any NPC.\n
+input_talkResp_error_2	µo¥Í¿ù»~ 'talk resp' (Respond to NPC)\n
+input_talkResp_error_2	Response %$arg0 does not exist.\n
+input_talkCont_error	µo¥Í¿ù»~ 'talk cont' (Continue Talking to NPC)\n
+input_talkCont_error	You are not talking to any NPC.\n
+input_talkNo_error	µo¥Í¿ù»~ 'talk no' (Talk to NPC)\n
+input_talkNo_error	§AÁÙ¨S¦³¸ò¥ô¦óNPC¥æ½Í.\n
+input_talk_syntax	»yªk¿ù»~ 'talk' (Talk to NPC)\n
+input_talk_syntax	¨Ï¥Î¤èªk: talk (<NPC #>|<cont|resp|answer|no>) [<response #>|<¼Æ¶q>|"<¤å¦r>"]\n
+input_tank_syntax	»yªk¿ù»~ 'tank' (Tank for a Player)\n
+input_tank_syntax	¨Ï¥Î¤èªk: tank <player #>\n
+input_tank_error	µo¥Í¿ù»~ 'tank' (Tank for a Player)\n
+input_tank_error	Player %$arg0 does not exist.\n
+input_timeout_syntax	»yªk¿ù»~ 'timeout' (set a timeout)\n
+input_timeout_syntax	¨Ï¥Î¤èªk: timeout <type> [<seconds>]\n
+input_timeout_error	µo¥Í¿ù»~ 'timeout' (set a timeout)\n
+input_timeout_error	Timeout %$arg0 doesn't exist\n
+input_timeout		Timeout '%$arg0' is %$arg1\n
+input_uneq_syntax	»yªk¿ù»~ 'unequip' (Unequip Inventory Item)\n
+input_uneq_syntax	¨Ï¥Î¤èªk: unequip <item #>\n
+input_uneq_error_1	µo¥Í¿ù»~ 'unequip' (Unequip Inventory Item)\n
+input_uneq_error_1	Inventory Item %$arg0 does not exist.\n
+input_uneq_error_2	µo¥Í¿ù»~ 'unequip' (Unequip Inventory Item)\n
+input_uneq_error_2	Inventory Item %$arg0 is not equipped.\n
+input_vender_syntax	»yªk¿ù»~ 'vender' (Vender Shop)\n
+input_vender_syntax	¨Ï¥Î¤èªk: vender <vender # | end> [<item #> <amount>]\n
+input_vender_error_1	µo¥Í¿ù»~ 'vender' (Vender Shop)\n
+input_vender_error_1	Vender %$arg0 does not exist.\n
+input_vender_error_2	µo¥Í¿ù»~ 'vender' (Vender Shop)\n
+input_vender_error_2	Vender ID is wrong.\n
+input_vl_head		------------ Åu¦ì¦Cªí ------------\n
+input_vl_head		#   ¼ĞÃD                                 ¾Ö¦³ªÌ\n
+input_vl		%3d %-36s %-20s\n
+input_vl_arg		%$arg0
+input_vl_arg		%$arg1
+input_vl_arg		%$arg2
+input_vl_end		----------------------------------\n
+input_where		------------------------------------\n
+input_where		¥Ø«e¦ì©ó %$arg0{alias}(%$arg0{name}) : %$arg1{x}, %$arg1{y}\n
+input_where		------------------------------------\n
+unknown_input		Ô£¡H\n
+
+connectMaster		¥¿¦b³s±µ¥D­n¦øªA¾¹...\n
+connectEncryptKey	¥[±Kµn¤J : ¥¿¦b°e¥X±KÆ_\n
+connectSecure		¥[±Kµn¤J : Encrypt password\n
+connectMaster_error	¥D­n¦øªA¾¹³sµ²¹O®É¡A­«·s³sµ²...\n
+connectServer		¥¿³sµ²¹CÀ¸¦øªA¾¹...\n
+connectServer_error	¦øªA¾¹³sµ²¹O®É¡A­«·s³sµ²...\n
+connectChar		¥¿³sµ²¹CÀ¸¦øªA¾¹...\n
+connectChar_error	¦øªA¾¹³sµ²¹O®É¡A­«·s³sµ²...\n
+connectMap		¥¿³sµ²¦a¹Ï¦øªA¾¹...\n
+connectMap_error_1	¦a¹Ï¦øªA¾¹³sµ²¹O®É¡A­«·s³sµ²...\n
+connectMap_error_2	¦a¹Ï¦øªA¾¹³sµ²¹O®É¡AÂà³sµ²¥D­n¦øªA¾¹...\n
+connection		³sµ² (%$arg0:%$arg1)...
+connectionSucc		¤w¸g³s½u\n
+connectionFail		µLªk³s½u\n
+killConnection		»P(%$arg0:%$arg1)Â÷½u...
+killConnectionSucc	Â÷½u\n
+killConnectionFail	¼È®ÉµLªkÂ÷½u\n
+quit			©I¡ã  ²×©ó¥i¥H¥ğ®§¤F¡ã\n
+relog			µ¥«İ %$arg0 ¬í«á¦Û°Ê³s½u...\n
+teleport_error_1	Can't teleport - need skill\n
+teleport_error_2	Can't teleport or respawn - need wing or skill\n
+teleport_error_3	[¦MÀI] §A¤w¸g³QGM¸T¨¥ (%$arg0 ¤ÀÄÁ),µLªk¨Ï¥Î§Ş¯à»Pª««~\n
+teleport_error_3_log	Alert.txt
+teleport_error_4	[¦MÀI] Àş²¾¥¢±Ñ - §A¤w¸g %$0 ¤F¡I\n
+teleport_error_4_log	Alert.txt
+changeDirectory_modify	­×§ïµn¤J¥Î³]©w\n
+setDirectory_control	³]©w control ¥Ø¿ı¬° %$arg0\n
+setDirectory_table	³]©w table ¥Ø¿ı¬° %$arg0\n
+
+#######################################
+# modkore-hybrid.pl
+#######################################
+createInjectSocket	¥»¾÷·¾³q¨ó©w«Ø¥ß§¹¦¨ (%$arg0:%$arg1)\n
+
+masterServer_head	------------- ¥D¦øªA¾¹ ------------\n
+masterServer_head	#   ¦WºÙ\n
+masterServer		%-3d %-43s\n
+masterServer_arg	%$arg0
+masterServer_arg	%$arg1
+masterServer_end	-----------------------------------\n
+masterServer_end	¿ï¾Ü¥D¦øªA¾¹, ½Ğ¿é¤J½s¸¹:\n
+
+waitProcess		¿ù»~: µLªk§ä¨ì %$arg0.\n
+waitProcess		¥¿µ¥«İ§A±Ò°Ê¹CÀ¸µøµ¡...
+foundProcess		µo²{¹CÀ¸µ{¦¡¡C\n
+waitInjectConnect	µ¥«İ·¾³q¨ó©w³sµ²¤¤...\n
+injectConnected		·¾³q¨ó©w³sµ²§¹¦¨ - ·Ç³Æ¶i¤J¦Û°Ê±±¨îª¬ºA\n
+
+
+#######################################
+# packetParse.pm
+#######################################
+mapLoaded		¦a¹Ï¸ê°TÅª¨ú§¹¦¨\n
+unparsePacket_1		%$arg2 > %$arg0 (%$arg1): Caught unparsed packet error, potential loss of data.\n
+unparsePacket_2		Unparsed packet - %$arg0\n
+accountInfo		--------- ±b ¸¹ ¸ê °T ----------\n
+accountInfo		Account ID: %$arg0\n
+accountInfo		Sex:        %$arg1\n
+accountInfo		Session ID: %$arg2\n
+accountInfo		\            %$arg3\n
+accountInfo		--------------------------------\n
+server_head		--------- ¦øªA¾¹¸s ----------\n
+server_head		#         Name            Users  IP              Port  Main  new\n
+server			%-3d %-21s %-6d %-15s %-6d%-6d%-6d\n
+server_arg		%$arg0
+server_arg		%$arg1{name}
+server_arg		%$arg1{users}
+server_arg		%$arg1{ip}
+server_arg		%$arg1{port}
+server_arg		%$arg1{maintenance}
+server_arg		%$arg1{new}
+server_end		-------------------------------\n
+closeMasterConnect	¥¿Ãö³¬»P¥D­n¦øªA¾¹³sµ²\n
+charServerConnect	³sµ²¨ì¦øªA¾¹»P³s±µ°ğ %$arg0:%$arg1\n
+selectServer		¤w¸g¿ï¾Ü %$arg0 ¦øªA¾¹\n
+incorrectAccount	¡»ÄY­«¿ù»~: ¹CÀ¸±b¸¹¤£¦s¦b¡I\n
+incorrectPassword	¡»ÄY­«¿ù»~: ¹CÀ¸±K½X¿ù»~¡I\n
+loginError_3		¦øªA¾¹©Úµ´§Aªº³sµ²\n
+loginError_4		¿ù»~: ¦øªA¾¹©Úµ´§Aªº±b¸¹³sµ²¹CÀ¸\n
+loginError_5		ª©¥» %$arg0 ¿ù»~...µ{¦¡¥¿À|¸ÕÀ°§A§ä¨ì¥¿½Tª©¥»¤¤\n
+loginError_6		The server is temporarily blocking your connection\n
+recvCharData		¥¿±q¦øªA¾¹Åª¨ú§Aªº¤Hª«¸ê°T\n
+characterData		--------- ¨¤ ¦â %2d ---------\n
+characterData		Name:  %-23s\n
+characterData		Job:   %-10s  Str: %-8s\n
+characterData		Lv:    %-10s  Agi: %-8s\n
+characterData		J.Lv:  %-10s  Vit: %-8s\n
+characterData		Exp:   %-10s  Int: %-8s\n
+characterData		J.Exp: %-10s  Dex: %-8s\n
+characterData		HP:    %5s/%-5s Luk: %-8s\n
+characterData		SP:    %5s/%-5s Zenny: %-12s\n
+characterData		----------------------------\n
+characterData_arg	%$arg0
+characterData_arg	%$arg1{name}
+characterData_arg	%$arg2
+characterData_arg	%$arg1{str}
+characterData_arg	%$arg1{lv}
+characterData_arg	%$arg1{agi}
+characterData_arg	%$arg1{lv_job}
+characterData_arg	%$arg1{vit}
+characterData_arg	%$arg1{exp}
+characterData_arg	%$arg1{int}
+characterData_arg	%$arg1{exp_job}
+characterData_arg	%$arg1{dex}
+characterData_arg	%$arg1{hp}
+characterData_arg	%$arg1{hp_max}
+characterData_arg	%$arg1{luk}
+characterData_arg	%$arg1{sp}
+characterData_arg	%$arg1{sp_max}
+characterData_arg	%$arg3
+selectChar		¤Hª«¸ê°T %$arg0 ¤w¸g¿ï¾Ü\n
+invalidChar		¹CÀ¸¦øªA¾¹¸ê®ÆÅª¨ú¿ù»~ (invalid character specified)...\n
+recvMapServerData	¥¿±q¦øªA¾¹Åª¨ú¤Hª«¸ê°T»P¦a¹Ï¦øªA¾¹¦ì¸m\n
+welcomeInGame		*** Åwªï±z¨Ï¥ÎmKore ±z¤w¸g¶i¤J¹CÀ¸ ***\n
+welcomeInGame_log	Alert.txt
+welcomeInGame_verbose	0
+nowMap			**±z¥Ø«e©Ò¦b¦a¹Ï : %$arg0{name}\n
+nowMap_log		Alert.txt
+nowMap_verbose		0
+gameInfo		--------- ¹C À¸ ¸ê °T ----------\n
+gameInfo		Char ID: %$arg0\n
+gameInfo		MAP Name: %$arg1\n
+gameInfo		MAP IP: %$arg2\n
+gameInfo		MAP Port: %$arg3\n
+gameInfo		--------------------------------\n
+closeServerConnect	Closing connection to Game Login Server\n
+enteringGame		\n¢i¢g¢e¢c¢b§A¤w¶i¤J¹CÀ¸¢b¢c¢e¢g¢i\n
+enteringGame		§A¥X²{¦b: %$arg0{alias}(%$arg0{name}): (%$arg1{x}, %$arg1{y})\n
+mapLoading		Åª¨ú¦a¹Ï¤¤¡A½Ğµy«á..\n
+ignoredPm_all		¥¿Ãö³¬±KÀW¡A©Úµ´©Ò¦³±KÀW°T®§...\n
+ignoredPm_accept	¥¿¶}±Ò±KÀW¡A±µ¨ü©Ò¦³±KÀW°T®§...
+ignoredPm_complete	§¹¦¨\n
+existPortal		µo²{¶Ç°eÂI: %$arg0{name} - (%$arg0{binID})\n
+existNpc		µo²{NPC: %$arg0{name} - %$arg0{nameID} - (%$arg0{binID})\n
+dead_you		¡»­«­n°T®§: §A¨ü¨ì­P©Rªº¤@À», §A¦º¤F¡I(%$arg0{alias}:%$arg0{name})\n
+dead_you_log		Alert.txt
+dead_player		ª±®a¦º¤`: %$arg0{name} (%$arg0{binID}) %$arg2 %$arg1\n
+loginFailure_0		¿ù»~: ¦øªA¾¹Â_½u\n
+loginFailure_2		¿ù»~: ­«½Æµn¤J±b¸¹ - ­«·sÀ|¸Õ³s±µ!\n
+loginFailure_2_log	Alert.txt
+loginFailure_3		¿ù»~: »P¦øªA¾¹¦P¨B·¾³q¥¢±Ñ\n
+loginFailure_5		¿ù»~: §A¥¼º¡18·³\n
+loginFailure_6		¿ù»~: §A¥²¶·¬°§Aªº±b¸¹Àx¦sÂI¼Æ!\n
+loginFailure_8		¿ù»~: ¦øªA¾¹¤´¦b½T»{§A¤W¦¸ªº³s±µ!\n
+loginFailure_15		¿ù»~: §A¤w³QºŞ²z¤H­û±j¨îµ²§ô¹CÀ¸\n
+loginFailure_other	¿ù»~: ¥¼ª¾µn¤J¿ù»~ %$arg0\n
+dcOnDualLogin_1		¥ß§YÂ_½u!\n
+dcOnDualLogin_2		Â_½uµ¥«İ %$arg0 ¬í...\n
+
+youAttackMonster	[%3d|%3d]¡³§A§ğÀ»©Çª«: %s (%s) - ³y¦¨¶Ë®`: %s\n
+youAttackMonster_arg	%$char{percent_hp}
+youAttackMonster_arg	%$char{percent_sp}
+youAttackMonster_arg	%$arg0{name}
+youAttackMonster_arg	%$arg0{binID}
+youAttackMonster_arg	%$arg1
+youAttackMonster_color	attacked
+
+youAttackMonMiss	[%3d|%3d]¡³§A§ğÀ»©Çª«: %s (%s) - ³y¦¨¶Ë®`: %s\n
+youAttackMonMiss_arg	%$char{percent_hp}
+youAttackMonMiss_arg	%$char{percent_sp}
+youAttackMonMiss_arg	%$arg0{name}
+youAttackMonMiss_arg	%$arg0{binID}
+youAttackMonMiss_arg	%$arg1
+youAttackMonMiss_color	attackedMiss
+
+youStand		§A¯¸¤F°_¨Ó\n
+youStand_color		stand
+youSit			§A§ä­ÓµÎ¾Aªº¦a¤è, §¤¤U¨Ó¥ğ®§\n
+youSit_color		sit
+
+monsterAttackYou	[%3d|%3d]¡´©Çª«§ğÀ»§A : %s (%s) - ³y¦¨¶Ë®`: %s\n
+monsterAttackYou_arg	%$char{percent_hp}
+monsterAttackYou_arg	%$char{percent_sp}
+monsterAttackYou_arg	%$arg0{name}
+monsterAttackYou_arg	%$arg0{binID}
+monsterAttackYou_arg	%$arg1
+monsterAttackYou_color	attacking
+
+monAttackYouMiss	[%3d|%3d]¡´©Çª«§ğÀ»§A : %s (%s) - ³y¦¨¶Ë®`: %s\n
+monAttackYouMiss_arg	%$char{percent_hp}
+monAttackYouMiss_arg	%$char{percent_sp}
+monAttackYouMiss_arg	%$arg0{name}
+monAttackYouMiss_arg	%$arg0{binID}
+monAttackYouMiss_arg	%$arg1
+monAttackYouMiss_color	attackingMiss
+
+playerAttackMonster	%$arg0{name} (%$arg0{binID}) §ğÀ»©Çª« %$arg1{name} (%$arg1{binID}) - ³y¦¨¶Ë®`: %$arg2\n
+playerAttackMonster_color	jam
+
+mapChange		¦a¹ÏÂà´«¨ì - %$arg0{name} (%$arg1{x}, %$arg1{y})\n
+mapChange_color		mapChange
+mapInfo			------------¦a¹Ï¸ê°T------------\n
+mapInfo			MAP Name: %$arg0\n
+mapInfo			MAP IP: %$arg1\n
+mapInfo			MAP Port: %$arg2\n
+mapInfo			--------------------------------\n
+closeMapConnect		Closing connection to Map Server\n
+existItem		µo²{ª««~: %$arg0{name} (%$arg0{binID}) x %$arg0{amount}\n
+appearItem		¥X²{ª««~: %$arg0{name} (%$arg0{binID}) x %$arg0{amount}\n
+inventoryAdd		ª««~Äæ¼W¥[: %$arg0{name} (%$arg1) x %$arg2 - %$arg3 (%$arg0{type})\n
+inventoryAdd_color	inventoryAdd
+inventoryAdd_error_1	¶W¹L³Ì¤j­t­«¶q¡AµLªk¨ú±o¹D¨ã\n
+inventoryAdd_error_2	¤w¸g¶W¹L¤@¦¸¥i®³¨úªº¼Æ¶q¡AµLªk¦A®³¨ú¥ô¦ó¹D¨ã\n
+inventoryAdd_error_3	¦P¤@ºØª««~µLªk¨ú±o¢²¸U­Ó¥H¤W\n
+inventoryAdd_error_4	µLªk¾ß°_ª««~...­«¸Õ¤¤...\n
+storageOpen		­Ü®w¶}±Ò\n
+eruipFail		§AµLªk¸Ë³Æ %$arg0 (%$arg1)\n
+eruip			§A¸Ë³Æ %$arg0{name} (%$arg1) - %$arg2 (%$arg0{equipped})\n
+unequipFail		§AµLªk¨ø¤U %$arg0 (%$arg1)\n
+unequip			§A¨ø¤U %$arg0{name} (%$arg1) - %$arg2 (%$arg0{equipped})\n
+inventoryRemoveFail_1	¸Ë³Æªº½b¤@©w­n¥ı¨ø¤U\n
+inventoryRemoveFail_2	¸Ë³Æªºª««~¤@©w­n¥ı¨ø¤U\n
+inventoryRemove		ª««~Äæ´î¤Ö: %$arg0{name} (%$arg1) x %$arg2\n
+inventoryRemove_color	inventoryRemove
+ban_period_0		§Aªº¸T¨¥­­¨î¤w¸g¸Ñ°£¡I\n
+ban_period_1		§Aªº¸T¨¥­­¨îÁÙ³Ñ¤U %$arg0 ¤ÀÄÁ\n
+npcTalk			%$arg0 : %$arg1\n
+npcTalk_next		%$arg0 : ¿é¤J 'talk cont' Ä~Äò¥æ½Í\n
+npcTalk_close		%$arg0 : §¹¦¨¥æ½Í\n
+npcTalk_number		%$arg0 : Type 'talk answer <amount>' to Input number\n
+npcTalk_text		%$arg0 : ½Ğ¿é¤J 'talk answer "<¤å¦r>"' ¿é¤J±ı¦^À³¤å¦r, ©Î¿é¤J 'talk no' ¨ú®ø¹ï¸Ü\n
+statAddFail		¨S¦³¨¬°÷ªº¯à¤OÂI¼Æ¥i¥H¼W¥[\n
+statAddSucc		³Ñ¤U: %$arg0\n
+who			¥Ø«e¦³ %$arg0 ¦ìª±®a¦b½u¤W\n
+npcBuySellSelect	%$arg0 : ¿é¤J 'buy' ¶}©l¶R¡A©Î¿é¤J 'sell' ¶}©l½æ\n
+npcBuySelect		%$arg0 : Check my store list by typing 'buy'\n
+npcSellSelect		·Ç³Æ¶}©l³c½æª««~\n
+buyFail_1		ª÷¿ú¤£¨¬\n
+buyFail_2		¶W¹L­t­«¶q\n
+sellFail_1		¥æ©ö¥¢±Ñ\n
+gmKick			"**GM±N§A±j¨î¤U½u\n
+gmKick_log		Alert.txt
+gmKick_sound		sound/gm.wav
+
+acceptPlayerPm		±µ¨üª±®a±K»y\n
+acceptPlayerPmFail	±µ¨üª±®a±K»y¥¢±Ñ\n
+denyPlayerPm		©Úµ´ª±®a±K»y\n
+denyPlayerPmFail	©Úµ´ª±®a±K»y¥¢±Ñ\n
+excludeAll		©Úµ´©Ò¦³ª±®a±K»y\n
+excludeAllFail		©Úµ´©Ò¦³ª±®a±K»y¥¢±Ñ\n
+includeAll		±µ¨ü©Ò¦³ª±®a±K»y\n
+includeAllFail		±µ¨ü©Ò¦³ª±®a±K»y¥¢±Ñ\n
+chatroomCreate		²á¤Ñ«Ç¤w¸g«Ø¥ß (%$arg0)\n
+chatroomCreate_color	chatroom
+chatroomJoin_error_1	µLªk¶i¤J²á¤Ñ«Ç - ¤H¼Æ¶W¹L¤W­­\n
+chatroomJoin_error_2	µLªk¶i¤J²á¤Ñ«Ç - ±K½X¿ù»~\n
+chatroomJoin_error_3	µLªk¶i¤J²á¤Ñ«Ç - ©Úµ´¶i¤J\n
+chatroomJoin		You have joined the Chat Room "%$arg0"\n
+chatroomJoin_player	%$arg0 ¶i¤J²á¤Ñ«Ç\n
+chatroomJoin_player_color	chatroomUserIn
+chatroomLeave		§AÂ÷¶}²á¤Ñ«Ç\n
+chatroomLeave_player	%$arg0 Â÷¶}²á¤Ñ«Ç\n
+chatroomProp		Chat Room Properties Modified\n
+dealRequest_1		%$arg0 ­n¨D©M§A¥æ©ö\n
+dealRequest_1		½Ğ¿é¤J 'deal' ±µ¨ü¥æ©ö, ©Î¿é¤J 'deal no' ©Úµ´¥æ©ö\n
+dealRequest_2		%$arg0 (CID:%$arg1 LV:%$arg2) ­n¨D©M§A¥æ©ö\n
+dealRequest_2		½Ğ¿é¤J 'deal' ±µ¨ü¥æ©ö, ©Î¿é¤J 'deal no' ©Úµ´¥æ©ö\n
+dealRespone_error_1	¶W¹L¥i¥æ©öªº¶ZÂ÷\n
+dealRespone_error_2	¨S¦³±z©Ò«ü©wªº¤Hª«\n
+dealRespone_error_3	¦¹¤Hª«»P¨ä¥L¤Hª«¥¿¦b¥æ©ö¤¤\n
+dealRespone_1		±µ¨ü©M %$arg0 ¥æ©ö\n
+dealRespone_2		±µ¨ü©M %$arg0 (CID:%$arg1 LV:%$arg2) ¥æ©ö\n
+dealAddItem_player	%$arg0 added Item to Deal: %$arg1 x %$arg2\n
+dealAddZeny_player	%$arg0 added %$arg1 z to Deal\n
+dealAddItem		You added Item to Deal: %$arg0 x %$arg1\n
+dealAddZeny		You added %$arg0 z to Deal\n
+dealAddItem_error	¹ï¤è¤Hª«¶W¹L³Ì¤j­t­«¶q, µLªk®³¨ú\n
+dealFinalize_player	%$arg0 finalized the Deal\n
+dealFinalize		You finalized the Deal\n
+dealCancel		¥æ©ö¨ú®ø\n
+dealComplete		¥æ©ö§¹¦¨\n
+storageAdd		­Ü®wª««~¼W¥[: %$arg0{name} (%$arg1) x %$arg2\n
+storageAdd_color	storageAdd
+storageRemove		­Ü®wª««~²¾°£: %$arg0{name} (%$arg1) x %$arg2\n
+storageRemove_color	storageRemove
+storageClose		Ãö³¬­Ü®w\n
+partyCreate_error	Can't organize party - party name exists\n
+partyJoinReq_error_1	Join request failed: %$arg0 is already in a party\n
+partyJoinReq_error_2	Join request failed: %$arg0 denied request\n
+partyJoinReq		%$arg0 accepted your request\n
+partyRequest		Incoming Request to join %$arg1 party '%$arg0'\n
+partyShare_1		¡º¸gÅç­È¤À°t¤è¦¡: ¦U¦Û¨ú±o\n
+partyShare_2		¡º¸gÅç­È¤À°t¤è¦¡: §¡µ¥¤À°t\n
+partyShare_error	¡ºµLªk§ó§ï¸gÅç­È¤À°t¤è¦¡\n
+partyJoin		§A¤w¸g¥[¤J¶¤¥î '%$arg0'\n
+partyJoin_player	%$arg1 ¤w¸g¥[¤J§Aªº¶¤¥î '%$arg0'\n
+partyLeave		You left the party\n
+partyLeave_player	%$arg0 left the party\n
+
+mvpItem			§A¨ú±oMVPª««~ : %$arg0\n
+mvpItem_log		Chat.txt
+
+mvpExp			§A±o¨ìMVP!!! ¨ú±o¯S§O¸gÅç­È: %$arg0\n
+mvpExp_log		Chat.txt
+
+mvp			%$arg0 ±o¨ì MVP!\n
+mvp_log			Chat.txt
+
+skillFail		§A¬I®i§Ş¯à %$arg0: ¥¢±Ñ!\n
+skillAttack		¡¹%$arg0ªº %$arg1%$arg2 ¹ï%$arg3³y¦¨¶Ë®`: %$arg4\n
+skillAttack_color	skillsAttack
+skillAttackMiss		¡¹%$arg0¬I®i %$arg1%$arg2\n
+skillAttackMiss_color	skillsAttack
+skillonLocation		¡¹%$arg0¬I®i %$arg1 ¡÷ %$arg2\n
+skillRestore		¡¹%$arg0¹ï%$arg1¬I®i %$arg2%$arg3\n
+skillRestore_color	skillRestore
+skillArea		¡¹%$arg0ªº %$arg1 ¥X²{¦b%$arg2, ¶ZÂ÷: %$arg3\n
+skillCast		¡¹%$arg0¬I®i %$arg1 %$arg2 ¡÷ %$arg3, %$arg4¬í«áµú°Û§¹¦¨\n
+skillCast_color		casting
+skillUse		²{¦b¨Ï¥Î %$arg0, lv %$arg1\n
+skillInterupt		%$arg0 ¨Ï¥Î§Ş¯à¥¢±Ñ\n
+memoSucc		¬ö¿ı§¹¦¨\n
+memoFail		¬ö¿ı¥¢±Ñ\n
+cartAdd			¤â±À¨®ª««~¼W¥[: %$arg0{name} (%$arg1) x %$arg2\n
+cartAdd_color		cartAdd
+cartRemove		¤â±À¨®ª««~²¾°£: %$arg0{name} (%$arg1) x %$arg2\n
+cartRemove_color	cartRemove
+cartFail_1		¤â±À¨®ªº¸ü­«¶q¤w¶W¹L¤W­­\n
+cartFail_2		¤â±À¨®ªºª««~¼Æ¶q¤w¶W¹L¤W­­\n
+shopItemNumber		You can sell %$arg0 items!\n
+
+vender_head		---------- ÅS¤Ñ°Ó©± : %-36s ----------\n
+vender_head		ª±®a : %-24s ®y¼Ğ : (%3d,%3d)\n
+vender_head		#  Name                          Type       Amount     Price\n
+vender_head_arg		%$arg0
+vender_head_arg		%$arg1{name}
+vender_head_arg		%$arg1{pos_x}
+vender_head_arg		%$arg1{pos_y}
+vender			%2d %-29s %-10s %5s %10sz\n
+vender_arg		%$0
+vender_arg		%$fixItemName{%$1}
+vender_arg		%$itemTypes{%$1{type}}
+vender_arg		%$1{amount}
+vender_arg		%$formatNumber{%$1{price}}
+vender_end		--------------------------------------\n
+
+shopParam		[ÅS¤Ñ°Ó©±] %$0\n
+
+venderYou_head		---------- §Úªº°Ó©± : %$arg0 -------------\n
+venderYou_head		#  ¦WºÙ                          Ãş§O         ¼Æ¶q        »ù®æ\n
+venderYou		%-2d %-29s %-10s %6s %10sz\n
+venderYou_arg		%$0
+venderYou_arg		%$fixItemName{%$1}
+venderYou_arg		%$itemTypes{%$1{type}}
+venderYou_arg		%$1{amount}
+venderYou_arg		%$formatNumber{%$1{price}}
+venderYou_end		------------------------------------\n
+
+shopSold		½æ¥Xª««~ : %$arg0{name} x %$arg1 - %$arg2 z\n
+shopSold_log		Shop.txt
+shopSold_sound		sound/shop.wav
+
+shopSoldOut		¤w¸g½æ§¹©Ò¦³ª««~^^, ¥¿¦bÃö³¬§AªºÅS¤Ñ°Ó©±\n
+emptyArrow		§A¨S¦³¸Ë³Æ½b¥Ú, §ğÀ»¥¢±Ñ\n
+equipArror		¸Ë³Æ½b¥Ú: %$arg0{name} (%$arg1)\n
+resurrected		You have been resurrected\n
+guildJoinRequest	§A³QÁÜ½Ğ¥[¤J¤½·| '%$arg0'\n
+guildMemberOnline	¤½·|¦¨­û (%$arg0) ¤W½u\n
+guildMemberOnline_color	guildMember
+guildMemberOffline	¤½·|¦¨­û (%$arg0) Â÷½u\n
+guildMemberOffline_color	guildMember
+guildMemberLeave	¤½·|¦¨­û (%$arg0) Â÷¶}¤½·| (²z¥Ñ:%$arg1)\n
+guildMemberKicked	¤½·|¦¨­û (%$arg0) ³Q³v¥X¤½·| (²z¥Ñ:%$arg1)\n
+guildNotice		--- ¤½ ·| ¤½ §i ---\n
+guildNotice		%$arg0\n\n
+guildNotice		%$arg1\n
+guildNotice		------------------\n
+guildAllyRequest	Incoming Request to Ally Guild '%$arg0'\n
+identifyItem		Item Identified: %$arg0\n
+slot_head		---------¥i´¡¥d¸Ë³Æ²M³æ--------\n
+slot_head		#  ª««~¦WºÙ\n
+slot			%-2d %-60s\n
+slot_arg		%$arg0
+slot_arg		%$arg1
+slot_end		------------------------------\n
+equipRefine		Your Weapon changed to : +%$arg0\n
+equipRefineFail		ºëÁå¥¢±Ñ\n
+makeSucc_1		Áë§M %$arg0 ¦¨¥\\¡I\n
+makeSucc_2		Áë§M %$arg0 ¥¢±Ñ¡I\n
+makeFail_1		°t»s %$arg0 ¦¨¥\\¡I\n
+makeFail_2		°t»s %$arg0 ¥¢±Ñ¡I\n
+mode			§A¶i¤J %$arg0¡I\n
+mode_color		important
+rank_1			¢I§A¥Ø«e±Æ¦W %$arg0 / %$arg1¡I\n
+rank_2			²{³õ %$arg0 ³Ó, %$arg1 ±Ñ, PVPÂI¼Æ¬O %$arg2\n
+lvup_1			%$arg0 ¤É¯Å¤F!\n
+lvup_2			%$arg0 §Ş¯àµ¥¯Å´£ª@¤F!\n
+lvup_3			%$arg0 Áë³y¥¢±Ñ!!\n
+lvup_4			%$arg0 Áë³y§¹¦¨!!\n
+lvup_5			%$arg0 °tÃÄ ¦¨¥\\!!\n
+lvup_6			%$arg0 °tÃÄ ¥¢±Ñ!!\n
+lvup_7			%$arg0 happen unknown %$arg1 !!\n
+petFeedFail		Áı­¹¹}®Æ %$arg0 ¥¢±Ñ¡A¦Û°Ê±NÃdª«¦^´_¦¨³Jªºª¬ºA\n
+petAutoReturn		Ãdª«¿Ë±K«×°ª©ó %$arg0¡A¦Û°Ê±NÃdª«¦^´_¦¨³Jªºª¬ºA\n
+petAutoProtect_1	Ãdª«¿Ë±K«×§C©ó 100¡A¦Û°Ê±NÃdª«¦^´_¦¨³Jªºª¬ºA\n
+petFeed			¦Û°ÊÁı­¹Ãdª«\n
+petAutoProtect_2	Ãdª«º¡¨¬·P§C©ó10¡A¦Û°Ê±NÃdª«¦^´_¦¨³Jªºª¬ºA\n
+banMinute		%$arg0 ªº¸T¨¥­­¨îÁÙ³Ñ¤U %$arg1¤ÀÄÁ¡I\n
+airTime			You have Airtime : %$arg0{day} days, %$arg0{hour} hours and %$arg0{min} minutes\n
+useItemFail		§AµLªk¨Ï¥Îª««~: %$arg0{name} (%$arg1)\n
+useItemFail_color	useItem
+useItemYou		§A¨Ï¥Îª««~: %$arg0{name} (%$arg1) x %$arg2 - ³Ñ¾l¼Æ¶q: %$arg3\n
+useItemYou_color	useItem
+useItem			%$arg0 ¨Ï¥Î %$arg1{name} - ³Ñ¾l¼Æ¶q: %$arg3\n
+spirit			¥Ø«e¾Ö¦³ %$arg0 Áû¨T²y\n
+friendOnline		¦n¤Í %$arg0 ¤W½u¡I\n
+friendOffline		¦n¤Í %$arg0 Â÷½u¡I\n
+friendJoinRequest	%$arg0 ÁÜ½Ğ§A¥[¤J¦n¤Í\n
+friendJoinSucc		»P %$arg0 ¦¨¬°¦n¤Í\n
+friendJoinFail_1	µLªk»P %$arg0 ¦¨¬°¦n¤Í\n
+friendJoinFail_2	§Aªº¦n¤Í¦W³æ¤wº¡¡A¤£¯à¦A¥[¤J\n
+friendJoinFail_3	%$arg0 ªº¦n¤Í¦W³æ¤wº¡¡A¤£¯à¦A¥[¤J\n
+friendKick		­ç°£¦n¤Í %$arg0\n
+dump			Message Dumped into DUMP.txt!\n
+emotionYou		[ªí±¡]§A§@¤F­Óªí±¡ : %$arg0\n
+emotionYou_color	emotion
+emotionPetYou		[ªí±¡]§AªºÃdª« : %$arg0\n
+emotionPetYou_color	emotion
+emotion			[ªí±¡]%$arg1 : %$arg0\n
+emotion_color		emotion
+
+message_chat		[²á¤Ñ]¶ZÂ÷:%2d Lv:%2d %s : %s\n
+message_chat_arg	%$arg4
+message_chat_arg	%$arg3
+message_chat_arg	%$arg0
+message_chat_arg	%$arg1
+message_chat_color	chat
+message_chat_log	Chat.txt
+
+message_youChat		[²á¤Ñ]%$arg0 : %$arg1\n
+message_youChat_color	chat
+message_youChat_log	Chat.txt
+
+message_pm		(From: %$arg0) : %$arg1\n
+message_pm_color	pm
+message_pm_log		Chat.txt
+message_pm_sound	sound/pm.wav
+
+message_youPm		(To: %$arg0) : %$arg1\n
+message_youPm_color	pm
+message_youPm_log	Chat.txt
+
+message_youPm_error_1	%$arg0 ¨S¦³¦¹¤Hª«¦WºÙ©Î¥¼¤W½u\n
+message_youPm_error_1_color	pm
+
+message_youPm_error_2	ª±®aµLªk±µ¨ü§Aªº±K»y - §A³Q©Úµ´ª¬ºA\n
+message_youPm_error_2_color	pm
+
+message_youPm_error_3	ª±®aµLªk±µ¨ü§Aªº±K»y - ©Úµ´©Ò¦³±K»y\n
+message_youPm_error_3_color	pm
+
+message_gm		%$arg0\n
+message_gm_color	GMnotice
+message_gm_log		GMMessage.txt
+message_gm_sound	sound/note.wav
+
+message_party		[¶¤¥î] %$arg0 : %$arg1\n
+message_party_color	party
+message_party_log	Chat.txt
+message_party_sound	sound/chat.wav
+
+message_guild		[¤½·|] %$arg0 : %$arg1\n
+message_guild_color	guild
+message_guild_log	Chat.txt
+
+message_npc		[NPC] %$0\n
+message_npc_color	npc
+message_npc_log		Chat.txt
+message_npc_sound	sound/chat.wav
+
+message_speaker		[ÂXÁn¾¹] %$0\n
+message_speaker_color	npc
+message_speaker_log	Chat.txt
+message_apeaker_sound	sound/chat.wav
+
+#######################################
+# Plugins.pm
+#######################################
+plugins_loadall_error	Unable to load plugins from folder %$arg1 (%$arg0)\n
+plugins_load		Loading plugin %$arg0...\n
+plugins_load_error	Unable to load plugin %$arg1: %$arg0\n
+
+
+#######################################
+# Interface\Input.pm
+#######################################
+createInputSocket	±Ò°Ê¥»¾÷³s±µ°ğ (%$arg0:%$arg1)\n
+createInputClient	²£¥Í¿é¤Jºİ¤f...
+connectInputSocket	¿é¤Jºİ¤f¤w³s±µ\n
+
+
+#######################################
+# Plugins\autoDeal.pm
+#######################################
+venderLog_shop		ª±®a:%-24s Map:%-11s (%3d,%3d) ÅS¤Ñ:%s
+venderLog_shop_arg	%$arg1{name}
+venderLog_shop_arg	%$map{name}
+venderLog_shop_arg	%$arg1{pos_x}
+venderLog_shop_arg	%$arg1{pos_y}
+venderLog_shop_arg	%$arg0
+venderLog_item		%-35s %10sz %s\n
+venderLog_item_arg	%$arg0
+venderLog_item_arg	%$arg1
+venderLog_item_arg	%$arg2
+
+
+#######################################
+# Plugins\avoidGM.pm
+#######################################
+avoid_1			[°{Á×] Teleport/Respawn Success, ¼È®ÉÂ÷½u %$arg0 ¬í\n
+avoid_1_color		avoid
+avoid_1_log		Alert.txt
+
+avoid_2			[Act] Avoiding %$arg0{name} (%$arg0{nameID}) Distance: %$arg1 , use teleport lv %$arg2\n
+avoid_2_color		avoid
+avoid_2_log		Alert.txt
+
+avoid_3			[Act] Avoiding %$arg0{name} (%$arg0{nameID}) Distance: %$arg1 , ¼È®ÉÂ÷½u %$arg2 ¬í\n
+avoid_3_color		avoid
+avoid_3_log		Alert.txt
+
+avoid_4			[Act] Avoiding %$arg0{name} (%$arg0{nameID}) Distance: %$arg1 , Stand Still ...\n
+avoid_4_color		avoid
+avoid_4_log		Alert.txt
+
+avoid_5			[Act] Force Exclusive Avoid : %$arg0{name} (%$arg0{nameID}) [%$arg1]\n
+avoid_5_color		avoid
+avoid_5_log		Alert.txt
+
+avoid_pm		[¦MÀI]°»´ú¨ì±K»yÀW¹D¦³ÃöÁä¦r[%$arg0]: [%$arg1], ¼È®ÉÂ÷½u %$arg2 ¬í\n
+avoid_pm_color		avoid
+avoid_pm_log		Alert.txt
+
+avoid_pm_name		[°{Á×] Avoiding pm message by : %$arg0, ¼È®ÉÂ÷½u %$arg1 ¬í\n
+avoid_pm_name_color	avoid
+avoid_pm_name_log	Alert.txt
+avoid_pm_name_sound	sound/gm.wav
+
+avoid_chat		[¦MÀI]°»´ú¨ì²á¤ÑÀW¹D¦³ÃöÁä¦r[%$arg0]: [%$arg1], ¼È®ÉÂ÷½u %$arg2 ¬í\n
+avoid_chat_color	avoid
+avoid_chat_log		Alert.txt
+
+avoid_sys		[¦MÀI]°»´ú¨ì¤½§iÀW¹D¦³ÃöÁä¦r[%$arg0]: [%$arg1], ¼È®ÉÂ÷½u %$arg2 ¬í\n
+avoid_sys_color		avoid
+avoid_sys_log		Alert.txt
+
+avoid_ban		[¦MÀI]¥i¯à¾D¨ì´c·N¸T¨¥, ±Ò°Ê dcOnSkillBan - ¥ß§Yµn¥X¡I\n
+avoid_ban_color		avoid
+avoid_ban_log		Alert.txt
+
+avoid_paranoia		¡»µo²{GM: %$arg0 %$arg1, %$arg2\n
+avoid_paranoia_color	avoid
+avoid_paranoia_log	Alert.txt
+
+avoid_paranoia_chat	¦b¤½¶}ÀW¹Dµo¨¥
+avoid_paranoia_party	¦b¶¤¥îÀW¹Dµo¨¥
+avoid_paranoia_guild	¦b¤½·|ÀW¹Dµo¨¥
+avoid_paranoia_near	¥X²{¦bªşªñ
+avoid_paranoia_chatroom	¦bªşªñ¶}±Ò²á¤Ñ«Ç
+avoid_paranoia_tele	Àş¶¡²¾°Ê
+avoid_paranoia_respawn	¦^Àx¦sÂI
+avoid_paranoia_reconn	¼È®ÉÂ÷½u %$arg0 ¬í
+avoid_paranoia_still	«ö§L¤£°Ê
+avoid_setDirectory	¦Û°Ê­«³]³]©w¥Î¥Ø¿ı\n
+
+
+#######################################
+# Plugins\cart.pm
+#######################################
+shopAutoClose		©w®ÉÃö³¬®É¶¡¤w¨ì, ¥¿¦bÃö³¬§AªºÅS¤Ñ°Ó©±\n
+shopSoldClose		³æ¶µª««~¤w½æ§¹, ¥¿¦bÃö³¬§AªºÅS¤Ñ°Ó©±\n
+shopOpen		§A¶}±ÒÅS¤Ñ°Ó©± ( %$arg0 )\n
+shopOpen_error_1	µLªk¶}±ÒÅS¤Ñ°Ó©± - ¨S¦³ÅS¤Ñ°Ó©±§Ş¯à©Î¨S¦³³]©w°Ó©±¦WºÙ\n
+shopOpen_error_2	µLªk¶}±ÒÅS¤Ñ°Ó©± - §A¤w¸g³QGM¸T¨¥ %$arg0 ¤ÀÄÁ\n
+shopOpen_error_3	µLªk¶}±ÒÅS¤Ñ°Ó©± - ¨S¦³¥i¥H½æªºª««~\n
+shopOpen_error_4	µLªk¶}±ÒÅS¤Ñ°Ó©± - ª««~¼Æ¶q¶W¹L¤W­­\n
+input_cart_head		------------¤â±À¨®------------\n
+input_cart_end		\nCapacity: %$arg0{items}/%$arg0{items_max}  Weight: %$arg0{weight}/%$arg0{weight_max}\n
+input_cart_end		-------------------------------\n
+input_cartDesc_error	µo¥Í¿ù»~ 'cart desc' (Cart Item Description)\n
+input_cartDesc_error	±ıÀËµøª««~ %$arg0 ¤£¦s¦b.\n
+input_cartDesc		================== ª««~»¡©ú ==================\n
+input_cartDesc		ª««~¦WºÙ: %$arg0\n
+input_cartDesc		\n%$arg1
+input_cartDesc		==============================================\n
+input_cart_error_1	µo¥Í¿ù»~ 'cart' (Cart Functions)\n
+input_cart_error_1	¦b¨S¦³¤â±À¨®ªºª¬ºA¤UµLªk¨Ï¥Î¤â±À¨®¬ÛÃö«ü¥O.\n
+input_cart_error_2	µo¥Í¿ù»~ 'cart' (Cart Functions)\n
+input_cart_error_2	¦b¶}©±ª¬ºAµLªk±q¤â±À¨®¨ú¥X©Î©ñ¤Jª««~.\n
+input_cartAdd_error	µo¥Í¿ù»~ 'cart add' (Add Item to Cart)\n
+input_cartAdd_error	Inventory Item %$arg0 does not exist.\n
+input_cartAdd_error2	µo¥Í¿ù»~ 'cart add' (Add Item to Cart)\n
+input_cartAdd_error2	ª««~ %$0 ¤w¸Ë³Æ\n
+input_cartAdd_error3	µo¥Í¿ù»~ 'cart add' (Add Item to Cart)\n
+input_cartAdd_error3	ª««~ %$0 ¤w¹å¤Æ\n
+input_cartAdd_syntax	»yªk¿ù»~ 'cart add' (Add Item to Cart)\n
+input_cartAdd_syntax	¨Ï¥Î¤èªk: cart add <item #>\n
+input_cartGet_error	µo¥Í¿ù»~ 'cart get' (Get Item from Cart)\n
+input_cartGet_error	Cart Item %$arg0 does not exist.\n
+input_cartGet_syntax	»yªk¿ù»~ 'cart get' (Get Item from Cart)\n
+input_cartGet_syntax	¨Ï¥Î¤èªk: cart get <cart item #>\n
+input_cart_syntax	»yªk¿ù»~ 'cart' (Cart Functions)\n
+input_cart_syntax	¨Ï¥Î¤èªk: cart [<u | eq | nu | desc>] [<¤â±À¨®ª««~½s¸¹>]\n
+input_shop_error_1	µo¥Í¿ù»~ 'shop' (Show Shop Detail)\n
+input_shop_error_1	§A©|¥¼¶}³]ÅS¤Ñ°Ó©±\n
+input_shop_error_2	µo¥Í¿ù»~ 'shop open' (Open Shop)\n
+input_shop_error_2	§A¥²¶·¥ıÂ÷¶}²á¤Ñ«Ç\n
+input_shop_error_3	µo¥Í¿ù»~ 'shop open' (Open Shop)\n
+input_shop_error_3	§A¤w¸g¶}³]¦n¤@­ÓÅS¤Ñ°Ó©±\n
+input_shop_error_4	µo¥Í¿ù»~ 'shop' (Show Shop Detail)\n
+input_shop_error_4	§A©|¥¼¶}³]ÅS¤Ñ°Ó©±\n
+input_shop_syntax	»yªk¿ù»~ 'shop' (Show Shop Detail)\n
+input_shop_syntax	¨Ï¥Î¤èªk: shop [<open|close>]\n
+input_shopClose		¥¿¦bÃö³¬§Aªº°Ó©±\n
+input_shop_head		---------- %$arg0 -------------\n
+input_shop_head		#  ¦WºÙ                          Ãş§O         ¼Æ¶q        »ù®æ\n
+input_shop		%-2d %-29s %-10s %6s %10sz\n
+input_shop_arg		%$arg0
+input_shop_arg		%$arg1{name}
+input_shop_arg		%$arg2
+input_shop_arg		%$arg1{amount}
+input_shop_arg		%$arg3
+input_shop_end		-------------------------\n
+input_shop_end		¨ì¥Ø«e¦@ÁÈ : %$arg1 z.\n
+input_shop_end		-------------------------\n
+
+
+#######################################
+# Plugins\chatAuto.pm
+#######################################
+attackStop			[Rep] °±¤î§ğÀ» : %$arg0{name} (%$arg0{binID})\n
+
+antiSkillonMonster		%$arg0 ¬I®i %$arg2 ·m§ğ§A¥¿§ğÀ»ªº©Çª«\n
+antiSkillonMonster_color	danger
+antiSkillonMonster_log		Alert.txt
+
+pplControl_teleport		Avoiding %$arg0 (%$arg1), use teleport lv %$arg2 ...\n
+pplControl_teleport_color	danger
+pplControl_teleport_log		Alert.txt
+pplControl_teleport_sound	sound/gm.wav
+
+pplControl_reconnect		Avoiding %$arg0 (%$arg1), Disconnect...\n
+pplControl_reconnect_color	avoid
+pplControl_reconnect_log	Alert.txt
+pplControl_reconnect_sound	sound/gm.wav
+
+autoThanks			%$arg0 ¹ï§A¬I®i %$arg2\n
+autoThanks_log			Alert.txt
+autoThanks_sound		SystemDefault
+
+tryingtoWarpYou			%$arg0 Trying to Warp You\n
+tryingtoWarpYou_color		danger
+tryingtoWarpYou_log		Alert.txt
+tryingtoWarpYou_sound		SystemDefault
+
+tryingtoUseSafetyWall		%$arg0 Trying to use Safety Wall on Your Attack Monster\n
+tryingtoUseSafetyWall_color	avoid
+tryingtoUseSafetyWall_log	Alert.txt
+tryingtoUseSafetyWall_sound	SystemDefault
+
+#######################################
+# Plugins\mainAI.pm
+#######################################
+checkPortals		\nÀË¬d¬O§_¦³·s¶Ç°eÂI¸ê®Æ...
+checkPortals_found	µo²{·s¶Ç°eÂI¸ê®Æ¡I\n
+checkPortals_found	±N¦b %$arg0 ¬í«á¦Û°Ê½sÄ¶¶Ç°eÂI¸ê°T...\n
+checkPortals_found	¬O§_²{¦b°¨¤W½sÄ¶¶Ç°eÂI¸ô®|¸ê°T? (y/n)
+checkPortals_none	µL·s¶Ç°eÂI¸ê®Æ\n
+compilePortals		¥¿¦b½sÄ¶¤¤¡A½Ğµy«á¡I\n\n
+compilePortals_error	µo²{¿ù»~¡A©¿²¤½sÄ¶¡I\n\n
+compilePortals_process	¥¿¦b³B²z¦a¹Ï %$arg0\n
+compilePortals_path	­pºâ¶Ç°eÂI¸ô®| %$arg0 -> %$arg1\n
+compilePortals_write	±N¶Ç°eÂI¸ê°T¼g¤J '%$arg0'\n
+autoDrop		Auto-Drop Item : %$arg0{name} (%$arg1) x %$arg2\n
+autoDrop_color		inventoryRemove
+
+sysLog_items		%$arg0{name} x %$arg2\n
+sysLog_items_log	items.txt
+sysLog_items_verbose	0
+
+importantItemsFound_1	µo²{­«­nª««~ %$arg0{name} (%$arg0{binID}) ¥ß§Y¾ß¨ú!\n
+importantItemsFound_1_color	important
+importantItemsFound_1_log	items.txt
+importantItemsFound_1_sound	SystemDefault
+
+importantItemsFound_2	¥X²{­«­nª««~ %$arg0{name} (%$arg0{binID}) ¥ß§Y¾ß¨ú!\n
+importantItemsFound_2_color	important
+importantItemsFound_2_log	items.txt
+importantItemsFound_2_sound	SystemDefault
+
+importantItemsGet	Àò±o­«­nª««~ %$arg0{name} x %$arg1\n
+importantItemsGet_color		important
+importantItemsGet_log		items.txt
+importantItemsGet_sound		sound/pick.wav
+
+importantItemsPlayer	­«­nª««~ %$arg0{name} ³Q %$arg1{name} ¾ß¨«¤F\n
+importantItemsPlayer_color	important
+importantItemsPlayer_log	items.txt
+importantItemsPlayer_sound	SystemDefault
+
+autoTalk_broken		°»´ú¨ì¹D¨ãÄæ¸Ë³Æ·lÃa¡A±Ò°Ê¸Éµ¹¥ô°È¡I\n
+autoTalk_broken_verbose	3
+
+autoTalk_error		[Warn] ¦Û°Ê½Í¸ÜÄµ§i: §ä¤£¨ì½s¸¹ %$arg0 ªºNPC\n
+autoTalk_error		[Hint] ½Ğ¥ıÀË¬d npcs.txt ÀÉ®×¤º¤§NPC½s¸¹\n
+
+autoTalk_route		­pºâ¸ô®|«e©¹¦Û°Ê½Í¸Ü¦aÂI: %$arg0{alias}(%$arg0{name}): %$arg1{x}, %$arg1{y}\n
+autoTalk_route_verbose	3
+
+autoStorage_error	[Warn] ¦Û°Ê¦s­ÜÄµ§i: §ä¤£¨ì½s¸¹ %$arg0 ªºNPC\n
+autoStorage_error	[Hint] ½Ğ¥ıÀË¬d npcs.txt ÀÉ®×¤º¤§NPC½s¸¹\n
+
+autoStorage_route	­pºâ¸ô®|«e©¹¥d´¶©Ô: %$arg0{alias}(%$arg0{name}): %$arg1{x}, %$arg1{y}\n
+autoStorage_route_verbose	3
+
+autoStorage_max		[Warn] Storage is maximum size\n
+autoStorage_max_log	Alert.txt
+
+autoSell_error		[Warn] ¦Û°Ê½æª«Äµ§i: §ä¤£¨ì½s¸¹ %$arg0 ªºNPC\n
+autoSell_error		[Hint] ½ĞÀË¬d npcs.txt ÀÉ®×¤º¤§NPC½s¸¹\n
+
+autoSell_route		­pºâ¸ô®|«e©¹¦Û°Ê½æª«¦aÂI: %$arg0{alias}(%$arg0{name}): %$arg1{x}, %$arg1{y}\n
+autoSell_route_verbose	3
+
+autoBuy_route		­pºâ¸ô®|«e©¹¦Û°Ê¶Rª«¦aÂI: %$arg0{alias}(%$arg0{name}): %$arg1{x}, %$arg1{y}\n
+autoBuy_route_verbose	3
+
+autoBuy_error		[Warn] ¦Û°Ê¶Rª«Äµ§i: §ä¤£¨ì½s¸¹ %$arg0 ªºNPC\n
+autoBuy_error		[Hint] ½ĞÀË¬d npcs.txt ÀÉ®×¤º¤§NPC½s¸¹\n
+lockMap_switch		lockMap timeOut switch map to : %$arg0\n
+
+lockMap_error		Invalid map specified for lockMap - map %$arg0 doesn't exist\n
+lockMap_error_verbose	3
+
+lockMap_route_1		­pºâ¸ô®|«e©¹Âê©w¦aÂI: %$arg0{alias}(%$arg0{name})\n
+lockMap_route_1_color	route
+lockMap_route_1_verbose	3
+
+lockMap_route_2		­pºâ¸ô®|«e©¹Âê©w¦aÂI: %$arg0{alias}(%$arg0{name}): %$arg1{x}, %$arg1{y}\n
+lockMap_route_2_color	route
+lockMap_route_2_verbose	3
+
+randomWalk_route	­pºâ¸ô®|«e©¹ÀH¾÷¦aÂI: %$arg0{alias}(%$arg0{name}): %$arg1{x}, %$arg1{y}\n
+randomWalk_route_color		route
+randomWalk_route_verbose	3
+
+dcOnDeath		Disconnecting on death!\n
+dcOnDeath_verbose	3
+
+follow_noTarget		¥¼³]©w¸òÀH¥Ø¼Ğ, ¨ú®ø¸òÀH¼Ò¦¡\n
+
+follow_dead		¥D¤H°}¤`¤F,§Ú±N¦b³o¸Ìµ¥«İ.\n
+follow_dead_verbose	3
+
+follow_disconnect	§Ú¸ò¥á¤F¥D¤H, ¥D¤H¤w¸gÂ÷½u¤F\n
+follow_disconnect_verbose	3
+
+follow_try		§Ú¸ò¥á¤F¥D¤H, À|¸Õ´M§ä§Úªº¥D¤H\n
+follow_try_verbose	3
+
+follow_unknow		§Ú¸ò¥á¤F¥D¤H, Don't know what happened to Master\n
+follow_unknow_verbose	3
+
+follow_route_1		­pºâ¸òÀH¸ô®|: %$arg0{alias}(%$arg0{name})\n
+follow_route_1_verbose	3
+
+follow_route_2		­pºâ¸òÀH¸ô®|: %$arg0{alias}(%$arg0{name}): %$arg1{x}, %$arg1{y}\n
+follow_route_2_verbose	3
+
+followLost_lost		¸òÀH¥Ø¼Ğ®ø¥¢\n
+followLost_lost_verbose	3
+
+followLost_disconnect	¸òÀH¥Ø¼ĞÂ÷½u¤F\n
+followLost_disconnect_verbose	3
+
+followLost_found	§ä¨ì¸òÀH¥Ø¼Ğ¤F!\n
+followLost_verbose	3
+
+attack_giveup		©ñ±ó§ğÀ»¥Ø¼Ğ,¥²¶·ªá¶O¤Óªø®É¶¡±µªñ¥Ø¼Ğ\n
+attack_giveup_verbose	3
+
+attack_die		¥Ø¼Ğ°}¤`: %$arg0{name} (%$arg0{binID})\n
+attack_die_color	targetDie
+
+attack_lost		§ğÀ»¥Ø¼Ğ®ø¥¢\n
+attack_lost_verbose	3
+
+attack_clear		©ñ±ó§ğÀ»¥Ø¼Ğ - ¤w³Q·m¥ı§ğÀ»\n
+attack_clear_verbose	3
+
+attack_fail		©ñ±ó§ğÀ»¥Ø¼Ğ - »İªá¶O¤Óªø®É¶¡§ğÀ»\n
+attack_fail_verbose	3
+
+teleRoute_0		¡¶¸ô®|Àş²¾ - µLªk¨B¦æ¨ìÂà´«ÂI(%$arg2{x},%$arg2{y})\n
+teleRoute_1		¡¶¸ô®|Àş²¾ - Â÷Âà´«ÂI(%$arg2{x},%$arg2{y}) %$arg0®æ, ©|¥¼¹F¨ì%$arg1®æ¤º\n
+teleRoute_2		¡¶¶}©l¨B¦æ - Â÷Âà´«ÂI(%$arg2{x},%$arg2{y}) %$arg0®æ\n
+teleRoute_3		¡¶¸ô®|Àş²¾ - ¤£¦b(%$arg0{x},%$arg0{y}) - (%$arg1{x},%$arg1{y})ªº°Ï°ì¤º, ¶ZÂ÷¶Ç°eÂI%$arg2®æ\n
+teleRoute_4		¡¶¶}©l¨B¦æ - ¤w¦b(%$arg0{x},%$arg0{y}) - (%$arg1{x},%$arg1{y})ªº°Ï°ì¤º, ¶ZÂ÷¶Ç°eÂI%$arg2®æ\n
+route_error		[Warn] ¸ô®|²¾°Ê: §ä¤£¨ì½s¸¹ %$arg0 ªºNPC\n
+route_error		[Hint] ½ĞÀË¬d npcs.txt ÀÉ®×¤º¤§NPC½s¸¹\n
+
+take_giveup		¾ß¨úª««~¥¢±Ñ %$arg0{name} (%$arg0{binID})\n
+take_giveup_verbose	3
+
+take_fail		¾ß¨úª««~¥¢±Ñ %$arg0{name} (%$arg0{binID}) - »İªá¶O¤Óªø®É¶¡²¾°Ê\n
+take_fail_verbose	3
+
+itemGather_timeout	Failed to gather %$arg0{name} (%$arg0{binID}) : Timeout\n
+itemGather_timeout_verbose	3
+
+itemGather_noLoot	Failed to gather %$arg0{name} (%$arg0{binID}) : No looting!\n
+itemGather_noLoot_verbose	3
+
+itemGather_fail		¾ß¨úµL¥Dª««~¥¢±Ñ %$arg0{name} (%$arg0{binID}) - »İªá¶O¤Óªø®É¶¡²¾°Ê\n
+itemGather_fail_verbose	3
+
+unstuck_1		Cannot find destination, trying to unstuck ...\n
+unstuck_2		Invalid original position, trying to unstuck ...\n
+unstuck_3		Keep trying to move to same spot, teleporting to unstuck ...\n
+unstuck_4		Keep trying to move from same spot, teleport to unstuck ...\n
+unstuck_5		Route failed, trying to unstuck ...\n
+clearRouteAI_1		Keep trying to move to same spot, clearing route AI to unstuck ...\n
+clearRouteAI_2		Keep trying to move from same spot, clearing route AI to unstuck ...\n
+clearRouteAI_3		Route failed, clearing route AI to unstuck ...\n
+
+respawnUnstuck		µLªk¨ì¹FÂê©w®y¼Ğ, Àş²¾¦^Àx¦sÂI ...\n
+respawnUnstuck_log	Alert.txt
+
+attackStop_1		¡ó°±¤î§ğÀ»¥Ø¼Ğ : %$arg0{name} (%$arg0{binID})\n
+attackPickupMonster	¡°¥D°Ê§ğÀ»¾ßÄ_©Çª« %$arg0{name} (%$arg0{binID})\n
+
+
+#######################################
+# Plugins\misc.pm
+#######################################
+portalTrace		±N¶Ç°eÂI %$arg1{map} (%$arg1{pos_x},%$arg1{pos_y}) -> %$arg2{map} (%$arg2{pos_x},%$arg2{pos_y}) ¼g¤J '%$arg0'.\n
+preferRoute_error	¦a¹Ï %$arg0 ¨S¦³§ä¨ì,½Ğ½T»{¦a¹Ï¦WºÙ©Î¦a¹ÏÀÉ.\n
+calculatePreferRoute	­pºâ°¾¦n¸ô®|¨ì: %$arg0{alias} (%$arg0{name})\n
+waypoint		move to (%$arg0{x},%$arg0{y})\n
+waypoint_error		\n!!µLªkÅª¨ú¶Ç°eÂI¸ê°T - ½ĞÀË¬d¶Ç°eÂI¸ê®ÆÀÉ©Î¦a¹ÏÀÉ!!\n\n
+
+hitAndRun		Fleeing from target\n
+hitAndRun_verbose	3
+
+autoAddStatus		¦Û°Ê¼W¥[¯À½èÂI¼Æ : %$arg0\n
+autoAddSkill		¦Û°Ê¼W¥[§Ş¯àÂI¼Æ : %$arg0\n
+petPlay			¦Û°ÊÃdª«ªíºt\n
+makeArrowAuto		¦Û°Ê»s§@½b\n
+makeConvertAuto		¦Û°Ê»s§@ªÖ¨©¯S\n
+autoSkillCancel_1	[«ü©w§ğÀ»] ©Çª«¹ï§A¨Ï¥Î§Ş¯à - Âà´«Àu¥ı§ğÀ» : %$arg1{name} (%$arg1{binID})\n
+autoSkillCancel_2	[Act] Avoid casting Skill - switch position to : %$arg0{x},%$arg0{y}\n
+input_automake		¦Û°ÊÁë³y/»sÃÄ - %$arg0\n
+input_automake_off	Ãö³¬¦Û°ÊÁë³y/»sÃÄ\n
+input_automake_on	§°Ê¦Û°ÊÁë³y/»sÃÄ\n
+input_automake_error_1	¦Û°ÊÁë³y/»sÃÄ¥¢±Ñ - Â¾·~¤£¬OÅK¦K©ÎÁåª÷³N®v\n
+input_automake_error_2	¦Û°ÊÁë³y/»sÃÄ¥¢±Ñ - ¯Ó§÷ª««~¤£¨¬\n
+input_automake_error_3	¦Û°ÊÁë³y/»sÃÄ¥¢±Ñ - ¥¼¦¬¨ì»s§@²M³æ©Î²M³æªÅ¥Õ\n
+input_automake_error_4	¦Û°ÊÁë³y/»sÃÄ¥¢±Ñ - ²M³æ¤º¨S¦³«ü©w»s§@ªºª««~\n
+input_automake_error_5	¦Û°ÊÁë³y/»sÃÄ¥¢±Ñ - ¥¼«ü©w¯Ó§÷ª««~\n
+input_automake_error_6	¦Û°ÊÁë³y/»sÃÄ¥¢±Ñ - ¥¼«ü©w»s§@ª««~\n
+input_warp		¶}±Ò¤@­Ó¶Ç°e¤§°}, ®y¼Ğ(%$arg0{x},%$arg0{y})\n
+input_warp_error	±z¨S¦³¶Ç°e¤§°}§Ş¯à, µLªk¨Ï¥Î\n
+input_warp_open_error	µo¥Í¿ù»~ 'warp' (Respond to warp)\n
+input_warp_open_error	¨S¦³³]©w¥Ø¼Ğ¦a¹Ï¦WºÙ\n
+input_warp_to_error	µo¥Í¿ù»~ 'warp' (Respond to warp)\n
+input_warp_to_error	¨S¦³³]©w¥Ø¼Ğ¦a¹Ï¦WºÙ\n
+input_warp_error_2	µo¥Í¿ù»~ 'warp' (Respond to warp)\n
+input_warp_error_2	§A¨S¦³¶Ç°e¤§°}¦Cªí.\n
+input_warp_error_3	µo¥Í¿ù»~ 'warp' (Respond to warp)\n
+input_warp_error_3	¥Ø¼Ğ¦aÂI½s¸¹¿ù»~, ¤£¦b¶Ç°e¦Cªí¤º\n
+input_warp_error_4	µo¥Í¿ù»~ 'warp' (Respond to warp)\n
+input_warp_error_4	³o¬OÀş¶¡²¾°Ê¦Cªí, µLªk¨Ï¥Î\n
+input_warp_syntax	»yªk¿ù»~ 'warp' (Respond to warp)\n
+input_warp_syntax	¨Ï¥Î¤èªk: warp <warp # | to | open | cancel> <¦a¹Ï¦WºÙ>\n
+input_warp_cancel	¨ú®ø¨Ï¥Î¶Ç°e¤§°}\n
+warp_error		±z¨S¦³¶Ç°e¤§°}§Ş¯à, µLªk¨Ï¥Î\n
+warp_useSkill		¥¿¦b¶Ç°e¨ì: %$arg1{alias}(%$arg1{name})\n
+warp_move		²¾°Ê¨ì¶Ç°eÂI (%$arg0{x}, %$arg0{y})\n
+warp_error_2		¥Ø¼Ğ¦aÂI¤£¦b¶Ç°e¦Cªí¤º\n
+settingLimit		¡º%$arg0 '%$arg1' §C©ó­­¨î¡A­«³]¦¨ %$arg2\n
+settingLimit_color	setting
+
+
+#######################################
+# Plugins\record.pm
+#######################################
+updateNPC_1		¡»­«­n°T®§: §ïÅÜ³QÂĞ»\\ªºNPC½s¸¹ %$arg0 -> %$arg1\n
+updateNPC_1_color	setting
+updateNPC_1_log		Alert.txt
+
+updateNPC_2		¡»­«­n°T®§: ¦Û°Ê§ó·sNPC½s¸¹ %$arg0 -> %$arg1\n
+updateNPC_2_color	setting
+updateNPC_2_log		Alert.txt
+
+input_exp_syntax	µo¥Í¿ù»~ 'exp' (Exp Report)\n
+input_exp_syntax	¨Ï¥Î¤èªk: exp [reset]\n
+getExp			[Àò±o¸gÅç] %$arg0/%$arg1\n
+getExp_color		exp
+expReport_head		-------------¸gÅç­È®Ä²v------------\n
+expReport		¤w¶}©l¹CÀ¸ : %$arg0{hour}¤p®É %$arg0{min}¤À %$arg0{sec}¬í\n
+expReport		Á`Àò±o°ò¥»¸gÅç­È: %$arg1{base}\n
+expReport		Á`Àò±o§Ş¯à¸gÅç­È: %$arg1{job}\n
+expReport		¨C¤p®ÉÀò±o°ò¥»¸gÅç: %$arg2{base}\n
+expReport		¨C¤p®ÉÀò±o§Ş¯à¸gÅç: %$arg2{job}\n
+expReport_1_head	------------- ¾ÔÁZ²M³æ ------------\n
+expReport_1		%-23s x %-3d\n
+expReport_1_arg		%$arg0
+expReport_1_arg		%$arg1
+expReport_2_head	------------- ¶Q­«ª««~ ------------\n
+expReport_2		%-23s x %-3d\n
+expReport_2_arg		%$arg0
+expReport_2_arg		%$arg1
+expReport_end		-----------------------------------\n
+expReport_3 		¹w´ú¤É¯Å®É¶¡: %$arg0¤Ñ %$arg1¤p®É %$arg2¤À %$arg3¬í\n
+expLog_head		*** [%$time{start} -> %$time{now}] ***\n
+expLog_head		*** [%$server{name} - %$char{name}] ***\n
+storageLog_head		----------­Ü®w [%$time{now}] -----------\n
+storageLog_end		\nª««~¼Æ¶q: %$arg0{items}/%$arg0{items_max}\n
+storageLog_end		------------------------------\n
+
+
+#######################################
+# Plugins\remoteControl.pm
+#######################################
+adminPassword		ÀH¾÷²£¥Í»·ºİ±±¨î±ÂÅv±K½X\n
+callSign		ÀH¾÷²£¥Í»·ºİ±±¨î«e¸m¦rµü\n
+input_auth_syntax	»yªk¿ù»~ 'auth' (Overall Authorize)\n
+input_auth_syntax	¨Ï¥Î¤èªk: auth <username> <flag>\n
+
+calculateRoute_1	Calculating route to: %$arg0{alias}(%$arg0{name})\n
+calculateRoute_1_verbose	3
+
+calculateRoute_2	Calculating route to: %$arg0{alias}(%$arg0{name}): %$arg1{x}, %$arg1{y}\n
+calculateRoute_2_verbose	3
+
+calculateRoute_error	Map %$arg0 does not exist\n
+calculateRoute_error_verbose	3
+
+auth_0			¡ººM¾Pª±®a '%$arg0' »·ºİ±±¨îªº±ÂÅv\n
+auth_0_color		setting
+
+auth_1			¡º½á¤©ª±®a '%$arg0' »·ºİ±±¨îªº±ÂÅv\n
+auth_1_color		setting
+
+
+#######################################
+# Plugins\teleport.pm
+#######################################
+connectRestart		\n­«µn®É¶¡¨ì¡A¦Û°Ê­«·sµn¤J!!\n\n
+restart_setDirectory	¦Û°Ê­«³]³]©w¥Î¥Ø¿ı\n
+
+connectWaitingTime	\nµ¥«İ®É¶¡ : %$arg0 to %$arg1\n\n
+connectWaitingTime_log	Alert.txt
+
+dcOnTryReConnect	¥¿À|¸Õ­«·s³sµ² %$arg0 , µn¥X¤¤...\n
+dcOnTryReConnect_log	Alert.txt
+
+setRestartTime		³]©w¦Û°Ê­«µn¬í¼Æ¬° %$arg0 ¬í\n
+
+allowMap		§A¤w¸g²æÂ÷«ü©wªº¬¡°Ê¦a¹Ï¡A¥Ø«e¦ì©ó : %$arg0{alias} (%$arg0{name})\n
+allowMap_log		Alert.txt
+allowMap_sound		sound/gm.wav
+
+allowMap_respawn	Àş²¾ªğ¦^¬ö¿ıÂI\n
+allowMap_respawn_log	Alert.txt
+
+allowMap_disconnect	µn¥X°jÁ×\n
+allowMap_disconnect_log		Alert.txt
+
+teleport_monster_1	¡¶¦Û°ÊÀş²¾ - °jÁ×«ü©w©Çª«(1): %$arg0{name}\n
+teleport_monster_2	¡¶¦Û°ÊÀş²¾ - °jÁ×«ü©w©Çª«(2): %$arg0{name}\n
+teleport_monster_3	¡¶¦Û°ÊÀş²¾ - °jÁ×«ü©w©Çª«(3): %$arg0{name}\n
+teleport_monster_4	¡¶¦Û°ÊÀş²¾ - °jÁ×«ü©w©Çª«(4): %$arg0{name}, ¶ZÂ÷: %$arg1\n
+teleport_monster_5_1	¡¶¦Û°ÊÀş²¾ - °jÁ×«ü©w©Çª«(5-1): %$arg0{name}, ¼Æ¶q: %$arg1\n
+teleport_monster_5_2	¡¶¦Û°ÊÀş²¾ - °jÁ×«ü©w©Çª«(5-2): %$arg0{name}, ¼Æ¶q: %$arg1\n
+teleport_hp		[°{Á×] ¦Û°ÊÀş²¾ - HP§C©ó %$arg0% (%$arg1)\n
+teleport_sp		[°{Á×] ¦Û°ÊÀş²¾ - SP§C©ó %$arg0% (%$arg1)\n
+teleport_minAggress	[°{Á×] ¦Û°ÊÀş²¾ - ¾D¨ü %$arg1°¦¥H¤W©Çª«³ò§ğ (¼Æ¶q:%$arg0)\n
+
+teleport_atkMiss	You attack miss! %$arg0 times or more, then teleport..\n
+teleport_atkMiss_log	Alert.txt
+
+dcOnAtkMiss		You attack miss! %$arg0 times or more, then disconnect...\n
+dcOnAtkMiss_log		Alert.txt
+
+teleport_skill_0	[°jÁ×]¡»µo²{§Ş¯à: %$arg0 ¹ï %$arg1 ¬I®i %$arg2, ÀH¾÷²¾°Ê¦Ü(%$arg3{x},%$arg3{y})¡I\n
+teleport_skill_0_log	Alert.txt
+
+teleport_skill_1	[°jÁ×]¡»µo²{§Ş¯à: %$arg0 ¹ï %$arg1 ¬I®i %$arg2, Àş¶¡²¾°Ê¡I\n
+teleport_skill_1_log	Alert.txt
+
+teleport_spell_0	[°jÁ×]¡»µo²{§Ş¯à: %$arg0 ¬I©ñªº %$arg1 ¶ZÂ÷§A¥u³Ñ %$arg2®æ, ÀH¾÷²¾°Ê¦Ü(%$arg3{x}, %$arg3{y})¡I\n
+teleport_spell_0_log	Alert.txt
+
+teleport_spell_1	[°jÁ×]¡»µo²{§Ş¯à: %$arg0 ¬I©ñªº %$arg1 ¶ZÂ÷§A¥u³Ñ %$arg2®æ, Àş¶¡²¾°Ê¡I\n
+teleport_spell_1_log	Alert.txt
+
+teleport_auto		[°{¸ú] ¦Û°ÊÀş²¾ - %$arg0{name} (%$arg0{binID}) §ğÀ»§A\n
+teleport_deadly		[°{¸ú] ¦Û°ÊÀş²¾ - %$arg0{name} (%$arg0{binID}) ¤U¤@­Ó§ğÀ»±N¨Ï§A¦º¤`. (¶Ë®`­È: %$arg1)\n
+teleport_maxDmg		[°{¸ú] ¦Û°ÊÀş²¾ - %$arg0{name} (%$arg0{binID}) §ğÀ»§A³y¦¨ %$arg2 ¥H¤Wªº¶Ë®` (¶Ë®`­È: %$arg1)\n
+teleport_search		¡¶¦Û°ÊÀş²¾ - ·j´M«ü©w©Çª«(%$0¬í)\n
+teleport_idle		¡¶¦Û°ÊÀş²¾ - µo§b¶W¹L®É¶¡(%$0¬í)\n
+teleport_portal		¡¶¦Û°ÊÀş²¾ - °jÁ×¶Ç°eÂI\n
+
+#######################################
+# die
+#######################################
+die_findFile		§ä¤£¨ìÀÉ®× %$arg1
+die_callFunc		µo¥Í¿ù»~¡A§ä¤£¨ì¨ç¦¡ %$arg1
+die_writeFile		Could not write file: %$arg1\n
+die_loadFile		µLªk¸ü¤J %$arg1
+die_createInjectSocket	¿ù»~¡AµLªk«Ø¥ß¥»¾÷·¾³q¨ó©w: %$arg0
+die_injectDLL		Could not inject DLL
+die_injectLocalhost	Inject Socket must be connected from localhost
+die_initConsole		Could not init Console Attribute
+die_createInputSocket	Error creating local input server: %$arg0
+die_connectInputSocket	Error creating connection to local server: %$arg0
+die_inputLocalhost	Input Socket must be connected from localhost
+die_forkInputProcess	Unable to fork input server process
+die_invalidSign		Invalid digital signature\n
+die_invalidBootupkey	µL®Äªº±Ò°Êª÷Æ_\n
+die_invalidRule		Invalid redistribution rule\n
+die_invalidFile		µL®ÄªºÀÉ®×\n
+
+
+##########################################################################################
+#
+# ³]©w»¡©ú
+#
+# ³]©wªk¤@: ª½±µ±NÅÜ¼Æ¶ñ¤J¦r¦ê¤¤
+#     ½d¨Ò:
+#	test1		®y¼Ğ : (%$char{pos_x}, %$char{pos_y})\n
+#     ª½±µ§â¨¤¦âªº®y¼Ğ©ñ¤J«ü©wªºÅÜ¼Æ
+#
+# ³]©wªk¤G: ¨Ï¥Îprintfªº¼Ëª©¨Ó½s±Æ¿é¥X®æ¦¡
+#     ¦pªG¦³¨ä¥L¼ĞÅÒ¬O¬Û¦P¦WºÙ«á­±¥[¤W'_arg'ªº¸Ü, «h¬O¨Ï¥Îprintfªº³]©w®æ¦¡,
+#     ³]©w­ÈÅÜ¦¨¨Ï¥Îprintf®Éªº¼Ë¦¡, 
+#     ¨C¤@¦æ¥[¤W'_arg'ªº¼ĞÅÒ¥Nªí¤@­Ó¶ñ¤J¼Ë¦¡ªºÅÜ¼Æ, ³]©w­È¥u¯à¨Ï¥Î³]©wªk¤@,
+#     ¦pªG¦³¼ĞÅÒ¦WºÙ«á­±¦³¶W¹L¤@­Ó'_arg', ¤]·í§@«e­±¦WºÙ¼ĞÅÒªº°Ñ¼Æ¤§¤@
+#     ½d¨Ò:
+#	test2		®y¼Ğ : (%3d,%3d)\n
+#	test2_arg	%$char{pos_x}
+#	test2_arg	%$char{pos_y}
+#
+# ³Æµù:
+# 1. escape sequences ¥u¤ä´© \n,\t,\s, ¨ä¥Lªº«h¬O­ì¥»ªº¦r¤¸, EX: \a = a , \\ = \
+#    \n¬°´«¦æ, \t¬°tab¦r¤¸, \s¬°ªÅ¥Õ¦r¤¸
+# 2. ¦r¦ê¶}ÀY©Mµ²§ÀªºªÅ¥Õ·|³Q¥h±¼, ¶}ÀY­n¨Ï¥ÎªÅ¥Õªº¸Ü®É§â²Ä¤@­Ó¦r¤¸«e¥[¤W'\'§Y¥i
+# 3. ¥i¨Ï¥ÎÅÜ¼Æ, ®æ¦¡¤Î¦WºÙ¦p¤U
+# 4. ÅÜ¼Æ¶}ÀY¬° %$arg «h¬O¦U°T®§±M¥ÎÅÜ¼Æ, ·|¦]°T®§¤£¦P¦ÓÅÜ¼Æ¤º®e¤]¤£¦P
+# 5. °£¤F°Ñ¼Æªº¼ĞÅÒ, ¦P¦Wªº¼ĞÅÒ·|¦Û°Ê¦X¨Ö¦¨¤@­Ó, ½d¨Ò:
+#	test3 ²Ä¤@¦æ\n
+#	test3 ²Ä¤G¦æ\n
+#    µ¥¦P©ó
+#	test3 ²Ä¤@¦æ\n²Ä¤G¦æ\n
+#
+# ¯S®í·N¸qªº¦r§À:
+#	_arg		¨Ï¥Îsprintf®æ¦¡ªº°Ñ¼Æ
+#	_color		¹ïÀ³ÃC¦â³]©wªºtag
+#	_log		¼g¨ì°O¿ıÀÉ (ªÅ¥Õ=¤£¼g¤J¡B¨ä¥L=¼g¤JÀÉ¦W)
+#	_verbose	Åã¥Ü¤è¦¡ (ªÅ¥Õ=Åã¥Ü¡B1=Åã¥Ü¡B2=xmode®ÉÅã¥Ü¦bclient¤W¡B¨ä¥L=¤£Åã¥Ü)
+#			³]©w¤è¦¡¥H2ªº«ü¼Æ¦¸¤è(1¡B2¡B4¡B8¡B ...), ¥²¶·¨Ï¥Î¥[Á`ªk
+#	_sound		¼½©ñ­µ®Ä, ­µ®ÄÀÉ¦W(.wav)¶·¬°§¹¾ã¸ô®|-¦p:(c:/windows/sound/beep.wav)©Î¹w³]ÅÜ¼Æ"SystemDefault"
+#
+# ¼ĞÅÒ©R¦W³W«h°Ñ¦Ò:
+# ¦r­º
+#	list_		¦Cªí
+#	input_		Áä½L¿é¤J
+#	die_		¿ù»~¿é¥X
+#	debug_		°£¿ù°T®§
+#	log_		°O¿ı°T®§
+# ¦r§À
+#	_head		¦Cªíªº¶}ÀY
+#	_end		¦Cªíªºµ²§À
+#	_syntax		»yªk¿ù»~
+#	_error		¨Ï¥Î¿ù»~
+#
+# ¥i¥ÎÅÜ¼Æ
+#	%$char{name}		¦WºÙ
+#	%$char{job}		Â¾·~
+#	%$char{sex}		©Ê§O
+#	%$char{hp}		¥Ø«eHP
+#	%$char{hp_max}		³Ì¤jHP
+#	%$char{percent_hp}	¦Ê¤À¤ñHP
+#	%$char{sp}		¥Ø«eSP
+#	%$char{sp_max}		³Ì¤jSP
+#	%$char{percent_sp}	¦Ê¤À¤ñSP
+#	%$char{lv}		°ò¥»µ¥¯Å
+#	%$char{lv_job}		Â¾·~µ¥¯Å
+#	%$char{exp}		°ò¥»¸gÅç­È
+#	%$char{exp_max}		ª@¯Å®É»İ°ò¥»¸gÅç­È
+#	%$char{exp_job}		Â¾·~¸gÅç­È
+#	%$char{exp_job_max}	ª@¯Å®É»İÂ¾·~¸gÅç­È
+#	%$char{weight}		¥Ø«e­t­«
+#	%$char{weight_max}	³Ì¤j­t­«
+#	%$char{percent_weight}	¦Ê¤À¤ñ­t­«
+#	%$char{aid}		¨¤¦âAID
+#	%$char{cid}		¨¤¦âCID
+#	%$char{zenny}		¾Ö¦³ªºª÷¿ú
+#	%$char{guild}		©ÒÄİ¤½·|¦WºÙ
+#	%$char{pos_x}		¨¤¦â©Ò¦b®y¼ĞX­È
+#	%$char{pos_y}		¨¤¦â©Ò¦b®y¼ĞY­È
+#
+#	%$map{name}		¦a¹Ï¦WºÙ
+#	%$map{alias}		¦a¹Ï§O¦W
+#
+#	%$server{name}		¦øªA¾¹¦WºÙ
+#	%$server{ip}		¦øªA¾¹IP
+#	%$server{port}		¦øªA¾¹PORT
+#
+#	%$time{now}		¥Ø«e®É¶¡(¤å¦r«¬¦¡)
+#	%$time{start}		±Ò°Ê®É¶¡
+#	%$time{num}		¥Ø«e®É¶¡(¾ã¼Æ«¬¦¡)
+#	%$time{float}		¥Ø«e®É¶¡(¯BÂI«¬¦¡)
+#
+#	%$def{control}		control¥Ø¿ı¦WºÙ
+#	%$def{table}		table¥Ø¿ı¦WºÙ
+#	%$def{field}		field¥Ø¿ı¦WºÙ
+#	%$def{plugin}		plugin¥Ø¿ı¦WºÙ
+#
+# 	%$arg ¶}ÀY		¦U°T®§±M¥ÎÅÜ¼Æ, ²Ä¤@­Ó¬O%$arg0, ²Ä2­Ó¬O%$arg1 ¨Ì¦¹Ãş±À
+# 	%$0 ~			¦pªGÅÜ¼Æ¤º®e¬OHASH«h¥i¨Ï¥Î¤j¬A¸¹¨ú±oHASH¸Ì¯S©wÁä­Èªº¤º®e
+#				¦pªG­n¨ú±ohash¤º¦sµÛ®y¼Ğhashªº¸ê®Æ, ¥Hpos_x¤Îpos_y¨Ó¨ú±o®y¼Ğ­È
+#				½d¨Ò: $arg0{name} «h¬OHASH¸ÌÁä¬°'name'ªº¤º®e
+#
+#	%$unpackL{}		unsigned long ¼Æ¦rÂà´«
+#	%$formatNumber{}	Âà´«¼Æ¦r¬°³f¹ô®æ¦¡
+#	%$job{}			job¬dªíÂà´«
+#	%$item{}		ª««~¦WºÙ¬dªíÂà´«
+#	%$itemTypes{}		ª««~type¬dªíÂà´«
+#	%$equipTypes{}		¸Ë³Ætype¬dªíÂà´«
+#	%$sex{}			©Ê§O¬dªíÂà´«
+#	%$getHex{}		±N¦r¦êÂà¦¨hex®æ¦¡
+#	%$fixItemName{}		­×¹¢ª««~¦WºÙ
+#
+######################################################################################################
+
+#######################################
+# ·s¼W
+#######################################
+
+input_automake_retry	¦Û°ÊÁë³y/»sÃÄ¥¢±Ñ - ¥¼¦¬¨ì»s§@²M³æ,­«·s¨Ï¥Î§Ş¯à©Îª««~\n
+
+list_blacksmith_head	----------Blacksmith Rank-----------\n
+list_blacksmith_head	#  Name                       Point\n
+list_blacksmith		%2d %-23s %8d\n
+list_blacksmith_arg	%$0
+list_blacksmith_arg	%$1
+list_blacksmith_arg	%$2
+list_blacksmith_end	-----------------------------------\n
+
+list_alchemist_head	-----------Alchemist Rank----------\n
+list_alchemist_head	#  Name                       Point\n
+list_alchemist		%2d %-23s %8d\n
+list_alchemist_arg	%$0
+list_alchemist_arg	%$1
+list_alchemist_arg	%$2
+list_alchemist_end	-----------------------------------\n
+
+passwordStatus_0	¨S¦³³]©w­Ü®w±K½X, ½Ğ¥ı³]©w\n
+passwordStatus_1	½Ğ¿é¤J±K½X\n
+passwordStatus_other	±K½X¥¼ª¾ª¬ºA %$0\n
+
+passwordResult_4	±K½XÅÜ§ó¦¨¥\\\n
+passwordResult_5	±K½XÅÜ§ó¥¢±Ñ\n
+passwordResult_6	±K½X¥¿½T\n
+passwordResult_7	±K½X¿ù»~\n
+passwordResult_8	±K½X³sÄò3¦¸¿é¤J¿ù»~\n
+passwordResult_other	±K½X¥¼ª¾µ²ªG %$0 %$1\n
+
+point_blacksmith	ÅK¦Kªº±Æ¦æº]ÂI¼Æ¤W¤É%$0¤À¡A©Ò¥HÂI¼ÆÅÜ¦¨%$1¤À¤F\n
+point_alchemist		Áåª÷³N®vªº±Æ¦æº]ÂI¼Æ¤W¤É%$0¤À¡A©Ò¥HÂI¼ÆÅÜ¦¨%$1¤À¤F\n
+
+xmode_storagePassword	­Ü®w±K½X - %$0\n
+useArrowAuto		¦Û°Ê¨Ï¥Î½b¥Úµ©\n
+
+#######################################
+# fix3·s¼W¶µ¥Ø
+#######################################
+newMail_ToYou			[«H¥ó]#%$arg2 From: %$arg0 -  ¼ĞÃD: %$arg1\n
+newMail_ToYou_log		Alert.txt
+autoRelog_stripWeapon		ªZ¾¹¨ø°£ª¬ºAµLªk¸Ë³Æ  %$arg0 (%$arg1)¡A¦Û°Ê­«µn\n
+autoRelog_stripWeapon_log	Alert.txt
+cashItem_Rebirth_0		¡»­«­n°T®§: ¨Ï¥Î­ì¦a´_¬¡¤§ÃÒ¡I\n
+cashItem_Rebirth_1		¡»­«­n°T®§: ¨S¦³­ì¦a´_¬¡¤§ÃÒ¡A¦Û°Ê¦^­«¥ÍÂI\n
+
+input_homun_error		µo¥Í¿ù»~ 'homun' ( Q'honum command )\n
+input_homun_error		§A¨S¦³¤w¥l³êªº¥Í©RÅé\n
+input_homunDel_error		µo¥Í¿ù»~ 'homun del' (honum delete)\n
+input_homunDel_error		µLªk§R°£¥Í©RÅé - §A¨S¦³¤w¥l³êªº¥Í©RÅé\n
+input_homun			----- ¥Í©RÅé¸ê°T -----\n
+input_homun			Atk  : %3d   ¦W  ºÙ : %-24s\n
+input_homun			MAtk : %3d   µ¥  ¯Å : %-2d\n
+input_homun			Hit  : %3d       HP : %s\n
+input_homun			Cri  : %3d       SP : %s\n
+input_homun			Def  : %3d   ¸gÅç­È : %s\n
+input_homun			MDef : %3d   º¡¨¬·P : %s\n
+input_homun			Feel : %3d   ¿Ë±K«× : %s\n
+input_homun			Aspd : %3d   §Ş¯àÂI : %2d\n
+input_homun			----------------------\n
+input_homun_arg			%$arg0{atk}
+input_homun_arg			%$arg0{name}
+input_homun_arg			%$arg0{matk}
+input_homun_arg			%$arg0{level}
+input_homun_arg			%$arg0{hit}
+input_homun_arg			%$arg0{hp}/%$arg0{hp_max}
+input_homun_arg			%$arg0{critical}
+input_homun_arg			%$arg0{sp}/%$arg0{sp_max}
+input_homun_arg			%$arg0{def}
+input_homun_arg			%$arg0{exp}/%$arg0{exp_max}
+input_homun_arg			%$arg0{mdef}
+input_homun_arg			%$arg0{hunger}
+input_homun_arg			%$arg0{flee}
+input_homun_arg			%$arg0{intimate}
+input_homun_arg			%$arg0{aspd}
+input_homun_arg			%$arg0{skill_point}
+input_homunFeed			§AÁı­¹¤F¥Í©RÅé\n
+input_homunBack			§A¦w®§¤F¥Í©RÅé\n
+input_homunDel			§A§R°£¤F¥Í©RÅé\n
+input_homun_syntax		»yªk¿ù»~ 'homun' ( Q'homun command )\n
+input_homun_syntax		¨Ï¥Î¤èªk : homun < info | feed | back >\n
+homunFeed			¦Û°ÊÁı­¹¥Í©RÅé\n
+homunFeedFail			Áı­¹¥Í©RÅé %$arg0 ¥¢±Ñ¡A¦Û°Ê¦w®§¥Í©RÅé\n
+homunAutoReturn			¥Í©RÅé¿Ë±K«×°ª©ó%$arg0¡A¦Û°Ê¦w®§¥Í©RÅé\n
+homunAutoProtect_1		¥Í©RÅé¿Ë±K«×§C©ó20¡A¦Û°Ê¦w®§¥Í©RÅé\n
+homunAutoProtect_2		¥Í©RÅéº¡¨¬«×§C©ó%$arg0¡A¦Û°Ê¦w®§¥Í©RÅé\n

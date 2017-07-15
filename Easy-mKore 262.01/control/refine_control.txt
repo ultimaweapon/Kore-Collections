@@ -1,0 +1,120 @@
+#------------------------------------------------------------------------------------------
+# 這裡是設定要自動精煉之物品清單。
+#------------------------------------[自動精練相關]---------------------------------------
+# 指令格式:ar
+#	   ar <all/stop> <精練等級>
+#	   ar all 7 把全部裝備精練到 7 
+#	   ar 5 7   於"i"指令得物品編號5為"長靴(1洞)"，將攜帶在身上所有"長靴(1洞)"精練到 7 
+#	   ar stop  停止自動精煉
+#------------------------------------------------------------------------------------------
+
+refineAuto_npc auto payon 144 173
+# 精練NPC編號
+# 可用新型的npc座標擷取法 ex:refineAuto_npc auto payon 144 173
+refineAuto_distance 4
+# 與精練NPC對話之隨機距離(格)
+
+#------------------------------------------------------------------------------------------
+#==============================[ 盔甲 ]================================
+refineAuto_0 毛皮大衣(1洞),鐵制鎧甲(1洞),鋼鐵鎖子甲(1洞),鋼鐵鎧甲,西裝外套(1洞),絲質外袍(1洞),聖職之衣(1洞),緊身便衣(1洞),帽險衣(1洞)
+refineAuto_0_steps_0 c r1 c r0 c n
+refineAuto_0_steps_1 c r1 c r0 c n
+refineAuto_0_steps_2 c r1 c r0 c n
+refineAuto_0_steps_3 c r1 c r0 c n
+refineAuto_0_steps_4 c r1 c r0 c c r0 c c n
+refineAuto_0_steps_5 c r1 c r0 c c r0 c c n
+refineAuto_0_steps_6 c r1 c r0 c c r0 c c n
+refineAuto_0_steps_7 c r1 c r0 c c r0 c c n
+refineAuto_0_steps_8 c r1 c r0 c c r0 c c n
+refineAuto_0_steps_9 c r1 c r0 c c r0 c c n
+
+#==============================[ 盾牌 ]================================
+refineAuto_1 鐵盾(1洞),圓盾(1洞),剛盾(1洞),鏡盾(1洞)
+refineAuto_1_steps_0 c r2 c r0 c n
+refineAuto_1_steps_1 c r2 c r0 c n
+refineAuto_1_steps_2 c r2 c r0 c n
+refineAuto_1_steps_3 c r2 c r0 c n
+refineAuto_1_steps_4 c r2 c r0 c c r0 c c n
+refineAuto_1_steps_5 c r2 c r0 c c r0 c c n
+refineAuto_1_steps_6 c r2 c r0 c c r0 c c n
+refineAuto_1_steps_7 c r2 c r0 c c r0 c c n
+refineAuto_1_steps_8 c r2 c r0 c c r0 c c n
+refineAuto_1_steps_9 c r2 c r0 c c r0 c c n
+
+#==============================[ 披肩 ]================================
+refineAuto_2 連帽披肩(1洞),披肩(1洞),鬥篷,鬥篷(1洞),伯爵鬥篷,抗魔鬥篷
+refineAuto_2_steps_0 c r4 c r0 c n
+refineAuto_2_steps_1 c r4 c r0 c n
+refineAuto_2_steps_2 c r4 c r0 c n
+refineAuto_2_steps_3 c r4 c r0 c n
+refineAuto_2_steps_4 c r4 c r0 c c r0 c c n
+refineAuto_2_steps_5 c r4 c r0 c c r0 c c n
+refineAuto_2_steps_6 c r4 c r0 c c r0 c c n
+refineAuto_2_steps_7 c r4 c r0 c c r0 c c n
+refineAuto_2_steps_8 c r4 c r0 c c r0 c c n
+refineAuto_2_steps_9 c r4 c r0 c c r0 c c n
+
+#==============================[ 鞋子 ]================================
+refineAuto_3 輕便鞋(1洞),長靴(1洞),戰士長靴(1洞),玻璃鞋
+refineAuto_3_steps_0 c r5 c r0 c n
+refineAuto_3_steps_1 c r5 c r0 c n
+refineAuto_3_steps_2 c r5 c r0 c n
+refineAuto_3_steps_3 c r5 c r0 c n
+refineAuto_3_steps_4 c r5 c r0 c c r0 c c n
+refineAuto_3_steps_5 c r5 c r0 c c r0 c c n
+refineAuto_3_steps_6 c r5 c r0 c c r0 c c n
+refineAuto_3_steps_7 c r5 c r0 c c r0 c c n
+refineAuto_3_steps_8 c r5 c r0 c c r0 c c n
+refineAuto_3_steps_9 c r5 c r0 c c r0 c c n
+
+#==============================[ 頭盔 ]================================
+refineAuto_4 聖職之帽(1洞),防風皮革眼鏡(1洞),無邊帽(1洞),金屬頭盔,金屬頭盔(1洞),寶石頭盔(1洞),頭箍(1洞),蘋果頭飾,海盜頭巾,獸人頭盔,紫蝶髮帶(1洞)
+refineAuto_4_steps_0 c r8 c r0 c n
+refineAuto_4_steps_1 c r8 c r0 c n
+refineAuto_4_steps_2 c r8 c r0 c n
+refineAuto_4_steps_3 c r8 c r0 c n
+refineAuto_4_steps_4 c r8 c r0 c c r0 c c n
+refineAuto_4_steps_5 c r8 c r0 c c r0 c c n
+refineAuto_4_steps_6 c r8 c r0 c c r0 c c n
+refineAuto_4_steps_7 c r8 c r0 c c r0 c c n
+refineAuto_4_steps_8 c r8 c r0 c c r0 c c n
+refineAuto_4_steps_9 c r8 c r0 c c r0 c c n
+
+#==============================[ 一級武器 ]================================
+refineAuto_5 武士刀(4洞),笨拙短劍(4洞),斧(4洞),步兵長矛(4洞),鐵錘(4洞),坎普茲弓(4洞),手杖(4洞)
+refineAuto_5_steps_0 c r3 c r0 c n
+refineAuto_5_steps_1 c r3 c r0 c n
+refineAuto_5_steps_2 c r3 c r0 c n
+refineAuto_5_steps_3 c r3 c r0 c n
+refineAuto_5_steps_4 c r3 c r0 c n
+refineAuto_5_steps_5 c r3 c r0 c n
+refineAuto_5_steps_6 c r3 c r0 c n
+refineAuto_5_steps_7 c r3 c r0 c c r0 c c n
+refineAuto_5_steps_8 c r3 c r0 c c r0 c c n
+refineAuto_5_steps_9 c r3 c r0 c c r0 c c n
+
+#==============================[ 二級武器 ]================================
+refineAuto_6 亞爾特劍(3洞),雙刃短劍(3洞),拳刃(3洞),鏈錘(3洞),十字弓(3洞)
+refineAuto_6_steps_0 c r3 c r0 c n
+refineAuto_6_steps_1 c r3 c r0 c n
+refineAuto_6_steps_2 c r3 c r0 c n
+refineAuto_6_steps_3 c r3 c r0 c n
+refineAuto_6_steps_4 c r3 c r0 c n
+refineAuto_6_steps_5 c r3 c r0 c n
+refineAuto_6_steps_6 c r3 c r0 c c r0 c c n
+refineAuto_6_steps_7 c r3 c r0 c c r0 c c n
+refineAuto_6_steps_8 c r3 c r0 c c r0 c c n
+refineAuto_6_steps_9 c r3 c r0 c c r0 c c n
+
+#==============================[ 三級武器 ]================================
+refineAuto_7 日本刀(2洞),騎兵之劍(3洞),雙手巨劍(2洞),長柄短劍(3洞),雙手斧(2洞),亞伯雷弓(2洞),角弓(2洞)
+refineAuto_7_steps_0 c r3 c r0 c n
+refineAuto_7_steps_1 c r3 c r0 c n
+refineAuto_7_steps_2 c r3 c r0 c n
+refineAuto_7_steps_3 c r3 c r0 c n
+refineAuto_7_steps_4 c r3 c r0 c n
+refineAuto_7_steps_5 c r3 c r0 c c r0 c c n
+refineAuto_7_steps_6 c r3 c r0 c c r0 c c n
+refineAuto_7_steps_7 c r3 c r0 c c r0 c c n
+refineAuto_7_steps_8 c r3 c r0 c c r0 c c n
+refineAuto_7_steps_9 c r3 c r0 c c r0 c c n

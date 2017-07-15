@@ -1,0 +1,162 @@
+
+#------------------------------------[城戰傳師設定]------------------------------------
+
+Guild_Name
+# 判斷公會設置多個請以逗號隔開 (設定的公會才會有動作)
+
+GVG_Warp 0
+# 是否開啟傳送設定(0=關、1=開)
+
+#-- 傳送之陣施放位置(上) --
+GVG_Warp_up_Emotions_set *出發*
+# 使用傳送之陣表情設定 (參照tables/emotions.txt內的設定) (空白=關)
+GVG_Warp_up_Chat_set 中
+# 使用傳送之陣公頻字句設定 (空白=關)
+GVG_Warp_up_Map prt_gld
+# 傳送到達地圖 (請打上地圖名稱 不含.rsw)
+GVG_Warp_up_Msg 中
+# 開啟傳送之陣後說出字詞 (空白=關)
+
+#-- 傳送之陣施放位置(下) --
+GVG_Warp_down_Emotions_set *剪刀*
+GVG_Warp_down_Chat_set 斐
+GVG_Warp_down_Map pay_gld
+GVG_Warp_down_Msg 斐
+
+#-- 傳送之陣施放位置(左) --
+GVG_Warp_left_Emotions_set *石頭*
+GVG_Warp_left_Chat_set 吉
+GVG_Warp_left_Map gef_fild13
+GVG_Warp_left_Msg 吉
+
+#-- 傳送之陣施放位置(右) --
+GVG_Warp_right_Emotions_set *布*
+GVG_Warp_right_Chat_set 新
+GVG_Warp_right_Map alde_gld
+GVG_Warp_right_Msg 新
+
+#----------------------------------[表情使用技能設定]----------------------------------
+
+EmotionsSkill_0_set *感謝*
+# 使用技能陣表情設定 (參照tables/emotions.txt內的設定)
+EmotionsSkill_0 武器修理
+# 技能名稱設定參照skills.txt
+EmotionsSkill_0_dist 5
+# 使用技能的偵測距離(格)
+EmotionsSkill_0_lvl 1
+# 施放技能等級
+
+#------------------------------------[公會技能設定]------------------------------------
+
+guildSkill_Auto 0
+# 是否使用公會技能(0=關、1=開)
+
+guildSkill_0 加速術
+# 技能名稱設定參照skills.txt
+guildSkill_0_smartEquip 
+# 指定必須先裝備後才可獲得此技能之裝備名稱及位置[格式:名稱,位置]
+guildSkill_0_dist 10
+# 使用技能的偵測距離(格)
+guildSkill_0_lvl 10
+# 施放技能等級
+guildSkill_0_job
+# 不被施放技能目標人物職業,設置多項請以逗號隔開 (空白=關)
+guildSkill_0_target 
+# 不被施放技能目標人物名稱,設置多人請以逗號隔開 (限設定公會角色ID、空白=關)
+guildSkill_0_maxCastTime 10
+# 施放技能最長時間
+guildSkill_0_minCastTime 0
+# 施放技能最短時間
+guildSkill_0_sp_lower 0
+guildSkill_0_sp_upper 100
+# 介於最高最低SP量施放
+guildSkill_0_timeout 60
+# 施放技能間隔時間
+guildSkill_0_status 12
+# 角色不在此狀態下施放,編號請參考tables/msgstrings.txt (空白=關、0以上=指定持續狀態、負數=在此狀態下)
+guildSkill_0_onSit 0
+# 僅在目標人物蹲坐時施放此技能
+guildSkill_0_statusTimeout 10
+#此技能將會持續的時間, 只有設定持續狀態才會有作用,可避免目標離開畫面後發呆 (單位:秒)
+guildSkill_0_stopWhenHit 0
+# 自身被攻擊時停止使用此技能(0=關、1=開)
+
+guildSkill_1 天使之賜福
+guildSkill_1_smartEquip
+guildSkill_1_dist 10 
+guildSkill_1_lvl 10
+guildSkill_1_job
+guildSkill_1_target 
+guildSkill_1_maxCastTime 10
+guildSkill_1_minCastTime 0
+guildSkill_1_sp_lower 0
+guildSkill_1_sp_upper 100
+guildSkill_1_timeout 60
+guildSkill_1_status 10
+guildSkill_1_onSit 0
+guildSkill_1_statusTimeout 10
+guildSkill_1_stopWhenHit 0
+
+guildSkill_2 霸邪之陣
+guildSkill_2_smartEquip
+guildSkill_2_dist 10 
+guildSkill_2_lvl 10
+guildSkill_2_job
+guildSkill_2_target 
+guildSkill_2_maxCastTime 10
+guildSkill_2_minCastTime 0
+guildSkill_2_sp_lower 0
+guildSkill_2_sp_upper 100
+guildSkill_2_timeout 60
+guildSkill_2_status 10
+guildSkill_2_onSit 0
+guildSkill_2_statusTimeout 10
+guildSkill_2_stopWhenHit 0
+
+guildSkill_3 治癒術
+guildSkill_3_smartEquip
+guildSkill_3_dist 10 
+guildSkill_3_lvl 10
+guildSkill_3_job
+guildSkill_3_target 
+guildSkill_3_maxCastTime 10
+guildSkill_3_minCastTime 0
+guildSkill_3_sp_lower 0
+guildSkill_3_sp_upper 100
+guildSkill_3_timeout 60
+guildSkill_3_status
+guildSkill_3_onSit 0
+guildSkill_3_statusTimeout 10
+guildSkill_3_stopWhenHit 0
+
+guildSkill_4 治癒術
+guildSkill_4_smartEquip
+guildSkill_4_dist 10 
+guildSkill_4_lvl 10
+guildSkill_4_job
+guildSkill_4_target 
+guildSkill_4_maxCastTime 10
+guildSkill_4_minCastTime 0
+guildSkill_4_sp_lower 0
+guildSkill_4_sp_upper 100
+guildSkill_4_timeout 60
+guildSkill_4_status
+guildSkill_4_onSit 0
+guildSkill_4_statusTimeout 10
+guildSkill_4_stopWhenHit 0
+
+guildSkill_5 治癒術
+guildSkill_5_smartEquip
+guildSkill_5_dist 10 
+guildSkill_5_lvl 10
+guildSkill_5_job
+guildSkill_5_target 
+guildSkill_5_maxCastTime 10
+guildSkill_5_minCastTime 0
+guildSkill_5_sp_lower 0
+guildSkill_5_sp_upper 100
+guildSkill_5_timeout 60
+guildSkill_5_status
+guildSkill_5_onSit 0
+guildSkill_5_statusTimeout 10
+guildSkill_5_stopWhenHit 0
