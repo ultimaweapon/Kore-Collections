@@ -1,0 +1,12 @@
+#Tell Kore to pickup certain items
+#Format: <item name> <flag>
+#
+#<item name> - name of item (not case sensitive)
+#
+#<flag> -	0 to leave it alone,*warning* set to 0 will use Auto-Drop function
+#		1 to pickup the item,
+#		2 to take the item as fast as it can
+#
+#Use the item name "all" to tell kore to pickup or not pickup all items by default
+all 1
+jellopy 0

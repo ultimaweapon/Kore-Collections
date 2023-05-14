@@ -1,0 +1,7 @@
+#This file allows specific items to be cart-add or cart-get or leave
+#
+#Syntax: <item name> <minimum keep amount in inventory> <auto-add flag> <auto-get flag>
+#
+#The item name isn't case sensitive.  Only items found in this file will be do cart auto-add and auto-get.
+
+santa_poring_card 0 1 0

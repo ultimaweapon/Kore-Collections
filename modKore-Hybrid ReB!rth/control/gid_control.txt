@@ -1,0 +1,10 @@
+#This file allows specific AI control for certain Player ID
+#Syntax: <Player Game ID> <auto-teleport flag> <auto-disconnect flag>
+#
+#<Player Game ID>: gid from chatlog or ppl_control
+#
+#<auto-teleport flag>: Put a 1 to teleport , 2 to Respawn if the player is on the screen.
+#
+#<auto-disconnect flag>: Put a 1 to DISCONNECT if the player is on the screen.
+
+100001 1 0

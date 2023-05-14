@@ -1,0 +1,15 @@
+#modKore Option
+#
+#  Vx_interface (flag)  - enable Graphic User Interface while running
+#
+#  enableMoveClick (flag) - enable force kore move through map view
+#
+#  Xmode (flag) - enable X-Kore mode . need RO Client to run.
+#
+#  Xmode_exeName (name) - Ragnarok Client Process Name.
+
+Vx_interface 1
+enableMoveClick 0
+
+Xmode 0
+Xmode_exeName ragexe.exe

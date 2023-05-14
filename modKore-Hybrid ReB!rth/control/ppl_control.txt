@@ -1,0 +1,18 @@
+#This file allows specific AI control for certain Player
+#Syntax: <Player name><tab><Ignored flag> <auto-teleport flag> <auto-disconnect flag>
+#
+#<Player name>: Player's Name ( Case Sensitive )
+#
+#<tab> : Tab Character
+#
+#<Ignored flag>: Put a 1 or 0 to auto-ignored or leave alone.  This also no effect when ignoredAll 1
+#
+#<auto-teleport flag>: Put a 1 to teleport , 2 to Respawn if the player is on the screen.
+#
+#<auto-disconnect flag>: Put a 1 to DISCONNECT if the player is on the screen.
+#
+
+# modKore will be Auto - Generated player that interrupt  modKore ( warp / heal monster )
+# Default flag can set in config.txt
+
+Star-Kung	1 1 0

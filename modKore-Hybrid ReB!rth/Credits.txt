@@ -1,0 +1,12 @@
+-----------------------------------------------------------------
+modKore-Hybrid ReB!rth :: Credits
+http://modkore.sf.net
+-----------------------------------------------------------------
+Original Code Base : Kura (Original Kore)
+Main Development : openKore (http://openkore.sf.net)
+Distributor : Star-Kung
+
+-- Special Thanks Developper ------------------------------
+VCL
+openKore Dev Team
+-----------------------------------------------------------------

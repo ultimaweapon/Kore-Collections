@@ -1,0 +1,310 @@
+#########################################################################
+#  modKore - Hybrid :: Config File
+#  http://modkore.sf.net
+#
+#  This software is open source, licensed under the GNU General Public
+#  License, version 2.
+#  Basically, this means that you're allowed to modify and distribute
+#  this software. However, if you distribute modified versions, you MUST
+#  also distribute the source code.
+#  See http://www.gnu.org/licenses/gpl.html for the full license.
+#########################################################################
+
+#See the documentation for what these variables do
+
+# RO Master Server
+# master_name_# - Display Name
+# master_host_# - RO Master Server IP
+# master_port_# - Master Server Port
+# master_version_# - Master Server Version
+#
+# replace '#' with number start from 0 if you play more than one server
+# RO Master Server List provide at  http://modkore.sourceforge.net/forum/index.php?showtopic=1054
+#
+
+master_name_0 
+master_host_0 
+master_port_0 6900
+master_version_0 7
+
+#charServer_host 38.144.194.195
+#charServer_port 5000
+
+commandPrefix ;
+
+version 24
+encrypt 0
+
+SecureLogin 0
+SecureLogin_RequestType 0
+SecureLogin_Account 0
+
+master 
+server 
+username 
+password 
+char 
+sex 
+
+adminPassword xxxxxxxxxx
+callSign kore
+
+dcOnAtkMiss 0
+dcOnDeath 0
+dcOnDualLogin 0
+dcOnEmptyArrow 0
+dcOnShopClosed 0
+dcOnTryReConnect 0
+autoRestart 0
+deadRespawn 1
+
+#waitingTimeStart 23:39:00
+#waitingTimeStop 23:55:00
+
+verbose 1
+debug 0
+debug_sendPacket 0
+message_length_max 80
+
+attackAuto 3
+attackAuto_followTarget 1
+attackAuto_inLockOnly 0
+attackAuto_onlyWhenSafe 0
+attackAuto_party 1
+attackMaxRouteDistance 100
+attackMaxRouteTime 15
+attackUseWeapon 1
+attackDistance 3
+
+#Avoid Kill Stealing
+NotAttackDistance 5
+
+lockMap_0 
+lockMap_0_x 
+lockMap_0_y 
+lockMap_0_randx 
+lockMap_0_randy 
+lockMap_0_timeout 0
+
+useWaypoint 0
+
+saveMap 
+saveMap_warpToBuyOrSell 0
+
+modifiedWalkType 0
+modifiedWalkDistance 0
+route_randomWalk 1
+route_randomWalk_maxRouteTime 15
+route_step 8
+
+attackSkillSlot_0 
+attackSkillSlot_0_dist 3
+attackSkillSlot_0_hp_lower 0
+attackSkillSlot_0_hp_upper 100
+attackSkillSlot_0_lvl 1
+attackSkillSlot_0_maxAggressives 0
+attackSkillSlot_0_minAggressives 0
+attackSkillSlot_0_maxCastTime 10
+attackSkillSlot_0_minCastTime 0
+attackSkillSlot_0_maxUses 0
+attackSkillSlot_0_monsters 
+attackSkillSlot_0_sp_lower 0
+attackSkillSlot_0_sp_upper 100
+attackSkillSlot_0_stopWhenHit 0
+attackSkillSlot_0_stopWhenFrozen 0
+attackSkillSlot_0_loopSlot 
+
+sitAuto_hp_lower 70
+sitAuto_hp_upper 100
+sitAuto_sp_lower 0
+sitAuto_sp_upper 0
+
+sitAuto_idle 1
+
+teleportAuto_AtkMiss 0
+teleportAuto_deadly 0
+teleportAuto_hp 10
+teleportAuto_idle 0
+teleportAuto_maxDmg 900
+teleportAuto_minAggressives 0
+teleportAuto_onlyWhenSafe 0
+teleportAuto_portal 0
+teleportAuto_search 0
+teleportAuto_useItem 1
+
+useSelf_skill_0 
+useSelf_skill_0_hp_lower 0
+useSelf_skill_0_hp_upper 100
+useSelf_skill_0_inLockOnly 0
+useSelf_skill_0_lvl 1
+useSelf_skill_0_maxAggressives 0
+useSelf_skill_0_minAggressives 0
+useSelf_skill_0_maxCastTime 10
+useSelf_skill_0_minCastTime 0
+useSelf_skill_0_monsters 
+useSelf_skill_0_sp_lower 0
+useSelf_skill_0_sp_upper 100
+useSelf_skill_0_spirits_lower 0
+useSelf_skill_0_spirits_upper 0
+useSelf_skill_0_stopWhenHit 0
+useSelf_skill_0_timeout 0
+useSelf_skill_0_inStatus 0
+useSelf_skill_0_outStatus 0
+useSelf_skill_0_whileSitting 0
+
+useSelf_skill_smartHeal 1
+
+useSelf_item_0 
+useSelf_item_0_hp_lower 0
+useSelf_item_0_hp_upper 60
+useSelf_item_0_maxAggressives 0
+useSelf_item_0_minAggressives 0
+useSelf_item_0_sp_lower 0
+useSelf_item_0_sp_upper 100
+useSelf_item_0_stopWhenHit 0
+useSelf_item_0_inLockOnly 0
+useSelf_item_0_timeout 0
+useSelf_item_0_inStatus 0
+useSelf_item_0_outStatus 0
+
+partySkill_0 
+partySkill_0_lvl 1
+partySkill_0_target 
+partySkill_0_targetHp_lower 0
+partySkill_0_targetHp_upper 60
+partySkill_0_maxCastTime 10
+partySkill_0_minCastTime 0
+partySkill_0_sp_lower 0
+partySkill_0_sp_upper 100
+partySkill_0_timeout 0
+partySkill_0_onSit 1
+
+itemsTakeAuto 1
+itemsGatherAuto 0
+itemsMaxWeight 47
+itemsGreedyMode 0
+
+buyAuto_0 
+buyAuto_0_npc 
+buyAuto_0_minAmount 0
+buyAuto_0_maxAmount 10
+buyAuto_0_distance 1
+
+sellAuto 0
+sellAuto_npc 
+sellAuto_distance 1
+
+storageAuto 0
+storageAuto_npc 
+storageAuto_npc_steps c r1 n
+storageAuto_distance 3
+
+getAuto_0 
+getAuto_0_minAmount 0
+getAuto_0_maxAmount 10
+getAuto_0_passive 0
+
+follow 0
+followTarget 
+followDistanceMax 6
+followDistanceMin 3
+followLostStep 12
+
+tankMode 0
+tankModeTarget 
+
+dealAuto 1
+partyAuto 1
+partyAutoShare 0
+guildAutoDeny 1
+
+seconds_per_block 0.12
+sleepTime 50000
+
+# mod Add - on
+colorMode 0
+autoUpdateNPC 1
+fastInfoDetect 0
+makeChatwhenSit 0
+ignoredAll 0
+
+ChatAuto 0
+ChatAuto_Autoignored 0
+ChatAuto_Cps 0.25
+ChatAuto_Distance 5
+ChatAuto_Emotime 0.5
+ChatAuto_inLockOnly 0
+ChatAuto_Max 5
+
+petAutoFeedRate 25
+petAutoFood Pet Food
+petAutoPlay 0
+
+#All in this area is responding , try to set word in chatAuto.txt
+#----------------------------
+AntiSkillonMonster 0
+AntiIncoming 0
+AntiJam 0
+AntiJam_Count 2
+AntiWarp 0
+AutoThanks 0
+AutoSpeak 0
+#----------------------------
+
+allowableMap 
+reactallowableMap 
+
+avoidGM 0
+avoid_namePattern ^GM
+avoid_onPM 0
+avoid_reConnect 1800
+avoid_walkDistance 5
+ppl_defaultFlag 1 1 0
+Exclusive_Avoid 0
+
+sysLog_emo 0
+sysLog_monster 0
+sysLog_items 0
+
+cureAuto_poison 0
+
+# get weapon's name by type "i eq"
+# To used Bare Hand set with "[NONE]" (only in double quotes) on Right Hand
+
+autoSwitch_default_RightHand 
+autoSwitch_default_LeftHand 
+autoSwitch_default_Arrow 
+
+autoSwitch_0 
+autoSwitch_0_RightHand 
+autoSwitch_0_LeftHand 
+autoSwitch_0_Arrow 
+autoSwitch_0_Distance 
+autoSwitch_0_useWeapon 
+
+alertSound 0
+alertSound_onDanger SystemDefault
+alertSound_onGMnotice SystemDefault
+alertSound_onItem SystemDefault
+alertSound_onPM SystemDefault
+alertSound_onShop SystemDefault
+
+hideMsg_guildBulletin 0
+hideMsg_otherUseItem 0
+hideMsg_otherUseSkill 0
+hideMsg_expDisplay 0
+hideMsg_itemExists 0
+hideMsg_itemAppeared 0
+
+equipAuto_0 
+equipAuto_0_def 
+equipAuto_0_hp_lower 0
+equipAuto_0_hp_upper 100
+equipAuto_0_maxAggressives 0
+equipAuto_0_minAggressives 0
+equipAuto_0_monster 
+equipAuto_0_skills 
+equipAuto_0_sp_lower 0
+equipAuto_0_sp_upper 100
+equipAuto_0_weight 0
+equipAuto_0_whileSitting 0

@@ -1,0 +1,60 @@
+#Shop Config
+#------------------------------------------------------
+
+shop_title AFK
+shop_autoStart 0
+shop_startTimeDelay 100
+
+#------------------------------------------------------
+#Shop Details
+#------------------------------------------------------
+
+name_0 
+quantity_0 
+price_0 
+
+name_1 
+quantity_1 
+price_1 
+
+name_2 
+quantity_2 
+price_2 
+
+name_3 
+quantity_3 
+price_3 
+
+name_4 
+quantity_4 
+price_4 
+
+name_5 
+quantity_5 
+price_5 
+
+name_6 
+quantity_6 
+price_6 
+
+name_7 
+quantity_7 
+price_7 
+
+name_8 
+quantity_8 
+price_8 
+
+name_9 
+quantity_9 
+price_9 
+
+name_10 
+quantity_10 
+price_10 
+
+name_11 
+quantity_11 
+price_11 
+
+#------------------------------------------------------

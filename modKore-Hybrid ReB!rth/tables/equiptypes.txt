@@ -1,0 +1,17 @@
+0 Item
+1 Lower Mask
+2 Right Hand
+4 Cape
+8 Right Accessory
+16 Armour
+32 Left Hand
+34 2H - Weapon
+64 Foot Wear
+128 Left Accessory
+136 Accessory
+256 Helmet
+512 Eye Mask
+513 Mid-Lower Mask
+768 unknow1
+769 unknow2
+32768 Arrow

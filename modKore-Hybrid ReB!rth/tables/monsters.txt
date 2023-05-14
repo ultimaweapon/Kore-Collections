@@ -1,0 +1,13 @@
+#modKore will auto-generate this table
+1122 Goblin-1
+1123 Goblin-2
+1124 Goblin-3
+1125 Goblin-4
+1126 Goblin-5
+1133 Kobold-1
+1134 Kobold-2
+1135 Kobold-3
+1136 Kobold-4
+1137 Kobold-5
+1155 Green Petit
+1156 Sky Petit

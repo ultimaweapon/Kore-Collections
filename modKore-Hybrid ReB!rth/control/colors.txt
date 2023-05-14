@@ -1,0 +1,55 @@
+#this file controls the colors used by v-kore to color highlight some kore output.
+#
+#the format is:
+#<message class> [<fg color>][/<bg color>]
+#
+#<message class> must be a type of message predefined by v-kore
+#<fg color> is the color that the foreground (text) is displayed in
+#<bg color> is the color that the background behind the text is displayed in
+#colors can be either a color name (as recognized by Tk) or the hex value of a color similar to HTML
+#If one or both colors are left out they will use the default colors
+#
+#default sets the colors to be used for all text that is not covered by a message class
+#IE for black text on white background
+#	default black/white
+#or for grey text on black background (my preferred)
+#	default grey/black
+#
+#default_only will disable all colors except for the default color if set to true (or 1 or yes or on)
+
+default_only false
+default grey/black
+
+attacked #66CCFF
+attackedMiss grey/black
+attackmons orange
+attacking #FF0066
+attackingMiss #666666
+jam #339999/#666666
+skillon yellow
+casting #00CC99
+skillAttack white
+skillHeal green
+useItem green
+inventoryAdd #66CC00
+inventoryRemove #5A5A5A
+inventoryNoID #666666/grey25
+sit green
+stand green
+equip /grey25
+disconnected /darkred
+connected /darkgreen
+pm yellow
+chat white
+guild #CCFFCC
+party #CC6600
+version #FFFFFF
+emotion #FFCCCC
+chatroom #00CC00
+GMnotice yellow
+danger black/red
+route #FFCC33
+cartAdd #339900
+cartRemove #5A5A5A
+targetDie #FFDD99
+exp #CCFFFF

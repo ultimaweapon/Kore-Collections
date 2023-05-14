@@ -1,0 +1,28 @@
+# ChatAuto.txt
+# ChatAuto Format :
+# <Question1>,<Question2>,...,<QuestionN><tab><Answer1>,<Answer2>,...,<AnswerN>
+# Answer can adapt to show emotion instead by use "e #" (like in console command)
+# Status Parameter Can use by insert "%$" before Attribute
+###########################
+
+# Talk Table
+bot	What ? , Wuzzup ? , So ?
+lv	%$lv,Are u the weakest ?
+agi	%$agi,like u see
+
+# Emotion Table
+/emo26	e 23,e 18
+
+# Addition Command Table
+/antiskill28,/antiskill29,/antiskill34	 ...,?, /?,e 26,e 23
+/antiskill12	 ...,?, /?,e 26,e 23
+/warp	e 23,?, /?
+/chatroom	 AFK
+/autospeak	e 2
+/thanks	e 15
+/deal	 ?
+/party	...,no!
+/allyguild	....,nope
+/guild	?
+/sorry	 /sorry
+/angry	 /angry

@@ -1,0 +1,148 @@
+4001#Lucky#
+4002#Vital#
+4003#Hard#
+4004#Dexterous#
+4005#Hallowed#
+4006#Lucky#
+4007#Beholder#
+4008#Extra#
+4009#light#
+4010#Wise#
+4011#Dynamic#
+4012#Rigid#
+4013#Excellent#
+4014#of Champion#
+4015#Quick#
+4016#Speedy#
+4017#Stun#
+4018#Smart#
+4019#Martyr#
+4020#Blink#
+4021#Skillful#
+4022#of Spore#
+4023#of Desert#
+4024#Drowsy#
+4025#Keen#
+4026#Shrewd#
+4027#Athletic#
+4028#Double-forced#
+4029#Wolverine#
+4030#Windy#
+4031#of Ares#
+4032#of Athena#
+4033#Detoxication#
+4034#Clever#
+4035#Bloody#
+4036#Robust#
+4037#Untouchable#
+4038#Recovery#
+4039#of Aristotle#
+4040#Teleport#
+4041#of Sandman#
+4042#of Heman#
+4043#Hurricane#
+4044#Hiding#
+4045#Heavy#
+4046#of Cleric#
+4047#Ghost#
+4048#Poison#
+4049#Flammable#
+4050#of Hermes#
+4051#of Flash#
+4052#Erudite#
+4053#Healling#
+4054#Holy#
+4055#Ice#
+4056#of Warmth#
+4057#Silence#
+4058#Cranial#
+4059#of Cadi#
+4060#Clamorous#
+4061#Immortal#
+4062#Envenom#
+4063#Insecticide#
+4064#Nimble#
+4065#Underneath#
+4066#Brutal#
+4067#Atomic#
+4068#Chemical#
+4069#Saharic#
+4070#of Witch#
+4071#Angelic#
+4072#Solid#
+4073#Discount#
+4074#of Gargantua#
+4075#Hypnotic#
+4076#Cursing#
+4077#Under a Cast#
+4078#of Recovery#
+4079#of Mustle#
+4080#Fisher#
+4081#Glorious#
+4082#Gigantic#
+4083#Homer's#
+4084#Blast#
+4085#Damned#
+4086#Critical#
+4087#Order#
+4088#Guard#
+4089#Aqua#
+4090#Amulet#
+4091#of Counter#
+4092#Boned#
+4093#Cure#
+4094#Kingbird#
+4095#Genie's#
+4096#Venomer's#
+4097#Green#
+4098#of Zephyrus#
+4099#of Ifrit#
+4100#Soul-Enchanted#
+4101#of Gnome#
+4102#Mocking#
+4103#Clairvoyant#
+4104#Chaos#
+4105#Unfrozen#
+4106#Ancient#
+4107#Fledged#
+4108#Innoxious#
+4109#Flameguard#
+4110#Viper's#
+4111#Decussate#
+4112#Peerless#
+4113#of Ghost#
+4114#Poisoning#
+4115#Malicious#
+4116#Divine#
+4117#Hybrid#
+4118#Dragoon#
+4119#Evil#
+4120#of Dragoon#
+4121#Perfect#
+4122#Adurate#
+4123#Bearer's#
+4124#Plasterer's#
+4125#Aqua#
+4126#Titan#
+4127#Insomniac#
+4128#of Deaf#
+4129#of Rogue#
+4130#Divine#
+4131#Hasty#
+4132#of Gemstone#
+4133#Immune#
+4134#Spiritual#
+4135#Mirror#
+4136#from Hell#
+4137#of Infinity#
+4138#Satanic#
+4139#of Moonlight#
+4140#Liberation#
+4141#Deadly#
+4142#of Verserk#
+4143#Neutral#
+4144#of Eternity#
+4145#of Bigmouth#
+4146#Reflect#
+4147#Scythelike#
+4148#of Kirin#
