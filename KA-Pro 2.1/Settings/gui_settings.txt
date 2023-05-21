@@ -1,0 +1,172 @@
+###############################################
+
+# This is a special technique I discovered that unloads some memory =P
+# for free_memory timeout check timeouts.txt
+gui_free_memory 1
+
+###############################################
+
+gui_Command_show 0
+gui_Console_show 0
+
+############# [KA] PANEL SETTINGS #############
+
+gui_Console_lineLimit 500
+gui_Console_font Lucida Console
+gui_Console_fontSize 7
+
+gui_Chat_domains publicchat, pm, guildchat, partychat, pm/sent, selfchat, schat, warning
+gui_Chat_lineLimit 100
+gui_Chat_font Verdana
+gui_Chat_fontSize 7
+
+############## [KA] MAP SETTINGS ##############
+# zoom range are from 1 to 10 only but I recommend 5 only because some maps are so huge.
+# If you want to zoom your map set the following to
+# eg.
+# FOR MAP VIEW WITH ZOOM
+# gui_Map_zoom 5
+# gui_Map_move 1
+# gui_Map_autoResize 0
+#
+# FOR NORMAL MAP VIEW
+# gui_Map_zoom 1
+# gui_Map_move 0
+# gui_Map_autoResize 1
+
+gui_Map_zoom 5
+gui_Map_move 1
+gui_Map_autoResize 0
+
+gui_Map_x 21
+gui_Map_y 57
+gui_Map_width 350
+gui_Map_height 350
+gui_Map_center 0
+gui_Map_onTop 1
+
+gui_Map_showPortal 1
+gui_Map_showDirection 1
+
+gui_Map_showName_player 1
+gui_Map_showName_monster 1
+gui_Map_showName_item 0
+gui_Map_showName_npc 1
+gui_Map_showName_route 1
+
+gui_Map_Color_circle #00FFFF
+gui_Map_Color_direction #FFFFFF
+gui_Map_Color_you #0000FF
+gui_Map_Color_player #808040
+gui_Map_Color_monster #FF0000
+gui_Map_Color_item #804040
+gui_Map_Color_npc #8080FF
+gui_Map_Color_portal #FF0000
+
+gui_Map_Color_party_0 #0000A0
+gui_Map_Color_party_1 #408080
+gui_Map_Color_party_2 #000000
+gui_Map_Color_party_3 #800000
+gui_Map_Color_party_4 #008000
+gui_Map_Color_party_5 #808000
+gui_Map_Color_party_6 #800080
+gui_Map_Color_party_7 #804000
+gui_Map_Color_party_8 #808080
+gui_Map_Color_party_9 #000080
+gui_Map_Color_party_10 #004080
+gui_Map_Color_party_11 #000040
+
+############# [KA] WINDOW SIZE/POSITION/CENTER/TOP ##############
+
+saveWindowPosition 1
+
+gui_Kore_x 266
+gui_Kore_y 63
+gui_Kore_width 599
+gui_Kore_height 588
+gui_Kore_center 0
+gui_Kore_onTop 0
+
+gui_Cart_x 379
+gui_Cart_y 391
+gui_Cart_width 350
+gui_Cart_height 229
+gui_Cart_center 0
+gui_Cart_onTop 0
+
+gui_Inventory_x 247
+gui_Inventory_y 257
+gui_Inventory_width 592
+gui_Inventory_height 244
+gui_Inventory_center 0
+gui_Inventory_onTop 0
+
+gui_Players_x 14
+gui_Players_y 4
+gui_Players_width 960
+gui_Players_height 236
+gui_Players_center 0
+gui_Players_onTop 0
+
+gui_Monsters_x 27
+gui_Monsters_y 37
+gui_Monsters_width 660
+gui_Monsters_height 262
+gui_Monsters_center 0
+gui_Monsters_onTop 0
+
+gui_Npcs_x 404
+gui_Npcs_y 298
+gui_Npcs_width 406
+gui_Npcs_height 186
+gui_Npcs_center 0
+gui_Npcs_onTop 0
+
+gui_Items_x 341
+gui_Items_y 290
+gui_Items_width 453
+gui_Items_height 289
+gui_Items_center 0
+gui_Items_onTop 0
+
+gui_Guild_x 242
+gui_Guild_y 154
+gui_Guild_width 660
+gui_Guild_height 356
+gui_Guild_center 0
+gui_Guild_onTop 0
+
+gui_Party_x 337
+gui_Party_y 338
+gui_Party_width 542
+gui_Party_height 183
+gui_Party_center 0
+gui_Party_onTop 0
+
+gui_Friends_x 424
+gui_Friends_y 281
+gui_Friends_width 277
+gui_Friends_height 260
+gui_Friends_center 0
+gui_Friends_onTop 0
+
+gui_Pet_x 52
+gui_Pet_y 290
+gui_Pet_width 288
+gui_Pet_height 233
+gui_Pet_center 0
+gui_Pet_onTop 0
+
+gui_Skills_x 402
+gui_Skills_y 80
+gui_Skills_width 400
+gui_Skills_height 471
+gui_Skills_center 0
+gui_Skills_onTop 0
+
+gui_Browser_x 362
+gui_Browser_y 136
+gui_Browser_width 400
+gui_Browser_height 400
+gui_Browser_center
+gui_Browser_onTop

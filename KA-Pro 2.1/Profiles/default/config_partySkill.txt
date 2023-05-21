@@ -1,0 +1,38 @@
+############################
+# Kore-Advance Professional
+############################
+
+partySkill {
+	lvl
+	maxCastTime
+	minCastTime
+	hp
+	sp
+	onAction
+	whenStatusActive
+	whenStatusInactive
+	whenFollowing
+	spirit
+	aggressives
+	monsters
+	notMonsters
+	stopWhenHit
+	inLockOnly
+	notWhileSitting
+	notInTown
+	timeout
+	disabled
+	target
+	target_hp
+	target_isJob
+	target_isNotJob
+	target_whenStatusActive
+	target_whenStatusInactive
+	target_aggressives
+	target_monsters
+	target_timeout
+	target_dead
+	inInventory
+	isSelfSkill
+}
+

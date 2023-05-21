@@ -1,0 +1,44 @@
+############################
+# Kore-Advance Professional
+############################
+
+useSelf_item {
+	hp
+	sp
+	onAction
+	whenStatusActive
+	whenStatusInactive
+	whenFollowing
+	spirit
+	aggressives
+	monsters
+	notMonsters
+	stopWhenHit
+	inLockOnly
+	notWhileSitting
+	notInTown
+	timeout
+	disabled
+	inInventory
+}
+
+# Heal using Cheap Healing Items
+useSelf_item Red Herb, Monster Food, Banana, Meat, Fried Chicken, Sweet Potato {
+	hp <= 70%
+}
+
+# Heal using Other Healing Items
+useSelf_item Red Potion, Orange Potion, Yellow Potion, White Potion {
+	hp <= 45%
+}
+
+# Automatically Cure Posion using items
+useSelf_item Green Herb, Green Potion {
+	whenStatusActive Poisoned
+}
+
+# Automatically use Speed Pots
+useSelf_item Concentration Potion, Awakening Potion, Berserk Potion {
+	whenStatusInactive Concentration Potion, Awakening Potion, Berserk Potion
+	inLockOnly 1
+}

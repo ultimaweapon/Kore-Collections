@@ -1,0 +1,49 @@
+############################
+# Kore-Advance Professional
+############################
+###### Sound Settings ######
+############################
+# Supported Events:
+# public, private, party, guild, avoidGM, mapChange, died, 
+# avoidMonster, avoidMap, teleportAuto, baseLevelUp, jobLevelUp
+# teleportAuto, pickupRare
+
+alertSound 0
+
+alertSound {
+	eventList avoidGM, avoidMap, avoidMonster
+	notInTown
+	inLockOnly
+	play sound\warn.wav
+}
+
+alertSound {
+	eventList private
+	play sound\pm.wav
+}
+
+alertSound {
+	eventList mapChange
+	play sound\blip.wav
+}
+
+alertSound {
+	eventList died
+	play sound\death.wav
+}
+
+alertSound {
+	eventList teleportAuto
+	play sound\ohno.wav
+}
+
+alertSound {
+	eventList baseLevelUp
+	play sound\levelup.wav
+}
+
+alertSound {
+	eventList itemAddedRare
+	play sound\rare.wav
+}
+

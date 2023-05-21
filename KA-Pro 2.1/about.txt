@@ -1,0 +1,32 @@
+                ##################################
+                ##         Kore-Advance         ##
+  ################  http://www.KoreAdvance.com  ################
+  ##            ##   http://www.IndoForum.org   ##            ##
+  ##            ##################################            ##
+  ##                                                          ##
+  ##                                                          ##
+  ##                   Main developer: JCV                    ##
+  ##                    Partner: andy-ch                      ##
+  ##                                                          ##
+  ##                    Special Thanks to:                    ##
+  ##                   openkore developers                    ##
+  ##                  other kore developers                   ##
+  ##                                                          ##
+  ##                       Greetings to:                      ##
+  ##                       ROCP Members                       ##
+  ##                   IndoForum Community                    ##
+  ##                    OpenKore Community                    ##
+  ##                     Modkore Community                    ##
+  ##                                                          ##
+  ##                                                          ##
+  ##    ##################################################    ##
+  ########           developer@indoforum.org            ########
+        ##################################################
+
+
+  ########### CUSTOM RAGNAROK ONLINE CLIENT WITH A.I. ##########
+  ##                                                          ##
+  ## Original Code Base : Kura (Original Kore)                ##
+  ## Main Development   : OpenKore (http://www.openkore.com)  ##
+  ##                                                          ##
+  ##############################################################

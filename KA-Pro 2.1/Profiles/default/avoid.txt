@@ -1,0 +1,19 @@
+############################
+# Kore-Advance Professional
+############################
+# avoid.txt: Avoid certain players
+
+# Format: <name> (TAB(s)) <disconnect when in sight> <teleport when in sight> <disconnect on chat>
+[Players]
+amacc_boy		1 0 1
+andy-ch			1 0 1
+JCV			1 0 1
+
+
+[ID]
+# Same as above, but uses player IDs instead of names
+# There is no disconnect on chat for this section.
+100001		1 0
+100002		1 0
+100003		1 0
+100004		1 0

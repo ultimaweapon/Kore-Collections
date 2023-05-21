@@ -1,0 +1,244 @@
+############################
+# Kore-Advance Professional
+############################
+
+####### Save Map List #######
+#saveMap <mapname> {
+#	storageAuto_npc <npc location>
+#	storageAuto_distance <npc distance>
+#	storageAuto_npc_type <npc talk type>
+#	storageAuto_npc_steps <npc talk steps>
+#	storageAuto_password <npc password>
+#	storageAuto_keepOpen
+#
+#	sellAuto_npc <npc location>
+#	sellAuto_distance <npc distance>
+#	sellAuto_standpoint <character standpoint>
+#
+#	buyAuto <item list> {
+#		npc <npc location> 
+#		standpoint <character standpoint>
+#		distance <npc distance>
+#		minAmount <minimum amount before buyAuto triggers>
+#		maxAmount <maximum amount to buy>
+#	}
+#
+#	getAuto <item list> {
+#		minAmount <minimum amount before getAuto triggers>
+#		maxAmount <maximum amount to get>
+#		passive
+#	}
+#}
+
+saveMap payon {
+	storageAuto_npc payon 181 104
+	storageAuto_distance 5
+	storageAuto_npc_type 1
+	storageAuto_npc_steps
+	storageAuto_password
+	storageAuto_keepOpen
+
+	sellAuto_npc payon 159 96
+	sellAuto_distance 5
+	sellAuto_standpoint
+
+	buyAuto {
+		npc
+		standpoint
+		distance 5
+		minAmount 2
+		maxAmount 3
+	}
+	getAuto {
+		minAmount
+		maxAmount
+		passive
+	}
+}
+
+saveMap prontera {
+	storageAuto_npc prontera 146 89
+	storageAuto_distance 5
+	storageAuto_npc_type 1
+	storageAuto_npc_steps
+	storageAuto_password
+	storageAuto_keepOpen
+
+	sellAuto_npc prt_in 126 76
+	sellAuto_distance 5
+	sellAuto_standpoint
+
+	buyAuto {
+		npc
+		standpoint
+		distance 5
+		minAmount 2
+		maxAmount 3
+	}
+	getAuto {
+		minAmount
+		maxAmount
+		passive
+	}
+}
+
+saveMap geffen {
+	storageAuto_npc geffen 120 62
+	storageAuto_distance 5
+	storageAuto_npc_type 1
+	storageAuto_npc_steps
+	storageAuto_password
+	storageAuto_keepOpen
+
+	sellAuto_npc geffen_in 77 167
+	sellAuto_distance 5
+	sellAuto_standpoint
+
+	buyAuto {
+		npc
+		standpoint
+		distance 5
+		minAmount 2
+		maxAmount 3
+	}
+	getAuto {
+		minAmount
+		maxAmount
+		passive
+	}
+}
+
+saveMap comodo {
+	storageAuto_npc comodo 195 150
+	storageAuto_distance 5
+	storageAuto_npc_type 1
+	storageAuto_npc_steps
+	storageAuto_password
+	storageAuto_keepOpen
+
+	sellAuto_npc cmd_in01 79 182
+	sellAuto_distance 5
+	sellAuto_standpoint
+
+	buyAuto {
+		npc
+		standpoint
+		distance 5
+		minAmount 2
+		maxAmount 3
+	}
+	getAuto {
+		minAmount
+		maxAmount
+		passive
+	}
+}
+
+saveMap aldebaran {
+	storageAuto_npc aldebaran 143 119
+	storageAuto_distance 5
+	storageAuto_npc_type 1
+	storageAuto_npc_steps
+	storageAuto_password
+	storageAuto_keepOpen
+
+	sellAuto_npc aldeba_in 94 56
+	sellAuto_distance 5
+	sellAuto_standpoint
+
+	buyAuto {
+		npc
+		standpoint
+		distance 5
+		minAmount 2
+		maxAmount 3
+	}
+	getAuto {
+		minAmount
+		maxAmount
+		passive
+	}
+}
+
+saveMap izlude {
+	storageAuto_npc izlude 134 87
+	storageAuto_distance 5
+	storageAuto_npc_type 1
+	storageAuto_npc_steps
+	storageAuto_password
+	storageAuto_keepOpen
+
+	sellAuto_npc izlude_in 115 61
+	sellAuto_distance 5
+	sellAuto_standpoint
+
+	buyAuto Awakening Potion {
+		npc izlude_in 115 61
+		standpoint
+		distance 5
+		minAmount 2
+		maxAmount 10
+	}
+	getAuto White Potion {
+		minAmount 1
+		maxAmount 10
+		passive
+	}
+	getAuto Butterfly Wing {
+		minAmount 1
+		maxAmount 3
+		passive
+	}
+}
+
+saveMap morocc {
+	storageAuto_npc morocc 160 258
+	storageAuto_distance 5
+	storageAuto_npc_type 1
+	storageAuto_npc_steps
+	storageAuto_password
+	storageAuto_keepOpen
+
+	sellAuto_npc morocc 151 243
+	sellAuto_distance 5
+	sellAuto_standpoint
+
+	buyAuto {
+		npc
+		standpoint
+		distance 5
+		minAmount 2
+		maxAmount 3
+	}
+	getAuto {
+		minAmount
+		maxAmount
+		passive
+	}
+}
+
+saveMap alberta {
+	storageAuto_npc alberta 28 229
+	storageAuto_distance 5
+	storageAuto_npc_type 1
+	storageAuto_npc_steps
+	storageAuto_password
+	storageAuto_keepOpen
+
+	sellAuto_npc alberta_in 182 97
+	sellAuto_distance 5
+	sellAuto_standpoint
+
+	buyAuto {
+		npc
+		standpoint
+		distance 5
+		minAmount 2
+		maxAmount 3
+	}
+	getAuto {
+		minAmount
+		maxAmount
+		passive
+	}
+}

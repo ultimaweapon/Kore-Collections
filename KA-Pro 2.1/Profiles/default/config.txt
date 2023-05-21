@@ -1,0 +1,389 @@
+############################
+# Kore-Advance Professional
+############################
+# Project Leader: JCV
+# Partner: andy-ch
+#
+# Support Forums:
+# Main: http://www.KoreAdvance.com
+# IdRO: http://www.IndoForum.org
+#
+# Email:
+# Developer@IndoForum.org
+#
+################################################################
+##################### KA-Pro Special Login #####################
+################################################################
+# KA-Pro Servers
+# 0: RANDOM
+# 1: www.KoreAdvance.com (Main)
+# 2: www.IndoForum.org (Indonesia)
+KA_server 0
+
+# KA-Pro Special Pass (Auto-Generated if blank. You can create your own ID.)
+KA_username 
+KA_password
+
+################################################################
+########### Login options and server-specific options ##########
+################################################################
+
+!include alias.txt
+!include debug.txt
+!include config_attackSkill.txt
+!include config_autoSwitch.txt
+!include config_partySkill.txt
+!include config_selfSkill.txt
+!include config_useItem.txt
+!include homunculus.txt
+!include sounds.txt
+
+################################################################
+
+master 
+server
+username 
+password 
+charSelect_password
+char 0
+sex
+
+
+bindIp
+# 0 = normal server, 1 = oRO, 2 = pRO, 3 = eAthena/Freya,
+# 4 = new Freya, 5 = new eAthena, 6 = new oRO commercial (experimental)
+serverType 2
+thai_Console 0
+
+XKore 0
+XKore_silent 1
+XKore_bypassBotDetection
+XKore_exeName Ragexe.exe
+commandPrefix ;
+
+pauseMapServer
+ignoreInvalidLogin
+secureLogin_requestCode
+
+message_length_max 80
+# If you play oRO or euRO, you should set chatLangCode to 1
+chatLangCode
+storageEncryptKey 0x050B6F79, 0x0202C179, 0x00E20120, 0x04FA43E3, 0x0179B6C8, 0x05973DF2, 0x07D8D6B, 0x08CB9ED9
+
+###############################################################
+##################### Disconnect Settings #####################
+###############################################################
+
+dcOnDeath 0
+dcOnDualLogin 0
+dcOnDisconnect 0
+dcOnEmptyArrow 0
+dcOnMute 0
+dcOnPM 0
+dcOnZeny 0
+dcOnLevel 0
+dcOnJobLevel 0
+dcOnStorageFull 1
+
+###############################################################
+####################### Attack Settings #######################
+###############################################################
+
+attackAuto 2
+attackAuto_party 1
+attackAuto_onlyWhenSafe 0
+attackAuto_followTarget 1
+attackAuto_inLockOnly 1
+attackDistance 15
+attackDistanceAuto 1
+attackMaxDistance 15
+attackMaxRouteDistance 100
+attackMaxRouteTime 4
+attackMinPlayerDistance 2
+attackMinPortalDistance 4
+attackUseWeapon 1
+attackNoGiveup 0
+attackCanSnipe 0
+attackCheckLOS 0
+attackLooters
+
+attackEquip_topHead
+attackEquip_midHead
+attackEquip_lowHead
+attackEquip_leftHand
+attackEquip_rightHand
+attackEquip_leftAccessory
+attackEquip_rightAccessory
+attackEquip_robe
+attackEquip_armor
+attackEquip_shoes
+attackEquip_arrow
+
+autoBreakTime {
+	startTime
+	stopTime
+}
+
+autoConfChange {
+	minTime
+	varTime
+	lvl
+	joblvl
+}
+
+autoRestart 0
+
+autoRestartMin 10800
+autoRestartSeed 3600
+
+autoRestartSleep 1
+autoSleepMin 900
+autoSleepSeed 900
+
+###############################################################
+##################### Item Gather Settings ####################
+###############################################################
+
+itemsTakeAuto 2
+itemsTakeAuto_new 0
+itemsTakeAuto_party 0
+itemsGatherAuto 2
+itemsMaxWeight 89
+itemsMaxWeight_sellOrStore 48
+itemsMaxNum_sellOrStore 99
+cartMaxWeight 7900
+
+###############################################################
+####################### Lockmap Settings ######################
+###############################################################
+
+allowedMaps
+allowedMaps_reaction
+
+lockMap
+lockMap_x
+lockMap_y
+lockMap_randX
+lockMap_randY
+
+autoMoveOnDeath_x
+autoMoveOnDeath_y
+autoMoveOnDeath_map
+
+###############################################################
+####################### Route Settings ########################
+###############################################################
+
+route_randomWalk 1
+route_randomWalk_inTown 0
+route_randomWalk_maxRouteTime 75
+route_maxWarpFee
+route_maxNpcTries 5
+route_modifiedWalk 3
+route_teleport 0
+route_teleport_minDistance 150
+route_teleport_maxTries 8
+route_teleport_notInMaps
+route_escape_randomWalk 1
+route_escape_reachedNoPortal 1
+route_step 15
+
+runFromTarget
+runFromTarget_dist
+
+###############################################################
+##################### Auto-Sit Settings #######################
+###############################################################
+
+sitAuto_hp_lower 40%
+sitAuto_hp_upper 100%
+sitAuto_sp_lower 0
+sitAuto_sp_upper 0
+sitAuto_over_50
+sitAuto_idle
+sitAuto_look
+
+###############################################################
+##################### Teleport Settings #######################
+###############################################################
+
+teleportAuto_hp 10%
+teleportAuto_sp 0
+teleportAuto_idle 0
+teleportAuto_portal 0
+teleportAuto_search 0
+teleportAuto_minAggressives 0
+teleportAuto_minAggressivesInLock 0
+teleportAuto_onlyWhenSafe 0
+teleportAuto_maxDmg 1000
+teleportAuto_maxDmgInLock 0
+teleportAuto_deadly 1
+teleportAuto_useSkill 1
+teleportAuto_emptyName 1
+teleportAuto_allPlayers 0
+teleportAuto_atkCount 0
+teleportAuto_atkMiss 10
+teleportAuto_unstuck 0
+teleportAuto_dropTarget 0
+teleportAuto_dropTargetKS 0
+teleportAuto_attackedWhenSitting 0
+teleportAuto_totalDmg 0
+teleportAuto_totalDmgInLock 0
+teleportAuto_equip_leftAccessory
+teleportAuto_equip_rightAccessory
+teleportAuto_useChatCommand
+
+useSelf_skill_smartHeal 1
+
+###############################################################
+################# BUY/GET/SELL/STORAGE Settings ###############
+###############################################################
+# Just place your saveMap
+# and check npc_control.txt for additional settings
+
+saveMap
+saveMap_warpToBuyOrSell 1
+saveMap_warpChatCommand
+
+sellAuto 1
+storageAuto 1
+relogAfterStorage 1
+
+################################################################
+######################### Follow Settings ######################
+################################################################
+
+follow 0
+followTarget
+followEmotion 1
+followEmotion_distance 4
+followFaceDirection 0
+followDistanceMax 6
+followDistanceMin 3
+followLostStep 12
+followSitAuto 0
+followBot 0
+
+tankMode
+tankModeTarget
+
+################################################################
+######################### Misc Settings ########################
+################################################################
+
+secureAdminPassword 0
+adminPassword
+callSign
+
+dealAuto 1
+partyAuto 1
+partyAutoShare 0
+guildAutoDeny 1
+
+verbose 1
+showDomain 0
+squelchDomains itemAppear, itemExist
+verboseDomains
+beepDomains
+beepDomains_notInTown
+
+chatTitleOversize 0
+shopTitleOversize 0
+
+autoMakeArrows 0
+
+ignoreAll 0
+itemHistory 0
+autoTalkCont 0
+noAutoSkill 0
+portalRecord 1
+missDamage
+
+tankersList
+showAttack_Delay
+
+autoResponse
+
+clientSight 20
+autoSpell
+removeActorWithDistance
+
+sleepTime 50000
+intervalMapDrt 1
+
+hideMsg_guildBulletin 0
+
+################################################################
+################### Anti-Bot/GM Settings #######################
+################################################################
+
+avoidGM_near 0
+avoidGM_near_inTown 0
+avoidGM_talk 0
+avoidGM_reconnect 1800
+avoidGM_ignoreList
+avoidGM_namePattern
+
+avoidList 1
+avoidList_inLockOnly 0
+avoidList_reconnect 1800
+
+cachePlayerNames 1
+cachePlayerNames_duration 900
+cachePlayerNames_maxSize 100
+
+################################################################
+############# Auto-Add Status/Skills Settings ##################
+################################################################
+
+statsAddAuto
+statsAddAuto_list
+statsAddAuto_dontUseBonus
+statsAdd_over_99
+
+skillsAddAuto
+skillsAddAuto_list
+
+###############################################################
+######################### Log Settings ########################
+###############################################################
+
+logChat 1
+logPrivateChat 1
+logPartyChat 1
+logGuildChat 1
+logSystemChat 1
+logEmoticons 0
+logConsole 0
+logAppendUsername 1
+
+###############################################################
+####################### Plugins Settings ######################
+###############################################################
+
+############### reactOnKillSteal ###############
+
+reactOnKillSteal 0
+
+reactOnKillSteal e omg; e an;e ag; c amp; e wah {
+	altCommand_0 c stop!!; c pls stop; c go away;e omg; e 7;e an
+	altCommand_1 c it's mine!; c kill stealer!; c kilstealer!;c hey!
+	player_reactionCount < 3
+	player_ksCount < 3
+	notParty 1
+}
+
+reactOnKillSteal e omg; e an {
+	altCommand_persist
+	skills Blessing, Increase AGI
+	isCasting 0
+	attackTargetOnly 1
+}
+
+##################### Macro ####################
+# Macro Manual: http://openkore.sourceforge.net/macro/
+
+macro_enable 0
+macro_orphans terminate
+
+

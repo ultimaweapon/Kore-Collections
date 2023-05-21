@@ -1,0 +1,2062 @@
+#Generated using JCV's Converter: items.txt -> ROCP (RareList.txt)
+#Rare List Extracted last [3/13/2006] - 1:08:04 PM
+
+#--------------------------------------#
+#-------------Mvp Boss Drop------------#
+#--------------------------------------#
+
+#--------------Amon Ra Drop------------#
+Amon Ra Card
+Stone Fragment
+Elunium
+Oridecon
+Yggdrasilberry
+Old Card Album
+Sphinx Hat
+Tablet[1]
+Safety Ring
+
+#-------------Baphomet Drop------------#
+Baphomet Card
+Crescent Scythe
+Majestic Goat
+Clip[1]
+Emperium
+Old Violet Box
+Elunium
+
+#-------------Dark Lord Drop-----------#
+Dark Lord Card
+Bone Wand
+Bone Helm
+Grimtooth
+Mage Coat
+Old Violet Box
+Ancient Cape
+
+#-----------Doppelganger Drop----------#
+Doppelganger Card
+Spiky Band
+Full Plate[1]
+Broad Sword[2]
+Zweihander
+Lance
+
+#--------------Dracula Drop------------#
+Dracula Card
+Wizardry Staff
+Balistar
+Ring[1]
+Book of the Apocalypse
+Ancient Cape
+
+#---------------Drake Drop-------------#
+Drake Card
+Saber[3]
+Ring Pommel Saber[3]
+Cutlus
+Haedonggum[2]
+Corsair
+
+#---------------Eddga Drop-------------#
+Eddga Card
+Fireblend
+Pipe
+Katar of Raging Blaze
+Tiger's Footskin
+
+#----------Evil Snake Lord Drop--------#
+Evil Snake Lord Card
+Hellfire
+Ba Gua
+Grave Keeper's Sword
+Ph.D Hat
+
+#---------------Garm Drop--------------#
+Garm Card
+Fang of Garm
+Ice Falchion
+Katar of Frozen Icicle
+
+#----------Golden Thief Bug Drop-------#
+Golden Thief Bug Card
+Gold
+Golden Mace[1]
+Golden Gear
+Golden Bell
+
+#-------Incantation Samurai Drop-------#
+Incantation Samurai Card
+Azoth
+Assassin Mask
+Masamune
+Yggdrasil Seed
+Yggdrasilberry
+
+#----------Lord of Death Drop----------#
+Lord of Death Card
+Pole Axe[1]
+Glove[1]
+War Axe[1]
+Ring[1]
+Iron Driver
+
+#--------------Maya Drop---------------#
+Maya Card
+Tiara
+Mother's Nightmare
+Queen's Hair Ornament
+Armlet of Obedience
+Safety Ring
+
+#------------Mistress Drop-------------#
+Mistress Card
+Gungnir
+Coronet
+Young Twig
+
+#---------Moonlight Flower Drop--------#
+Moonlight Flower Card
+Puppy Love
+Haedonggum[2]
+Long Mace
+Punisher
+Silver Knife of Chastity
+
+#-------------Orc Hero Drop------------#
+Orc Hero Card
+Monkey Circlet
+Light Epsilon
+Shield[1]
+Orcish sword
+
+#-------------Orc Lord Drop------------#
+Orc Lord Card
+Bloody Axe
+Grand Circlet
+Ring
+Belt[1]
+
+#---------------Osiris Drop------------#
+Osiris Card
+Sphinx Hat
+Assassin Dagger
+Crown
+Jamadhar[1]
+Hand of God
+Old Violet Box
+
+#--------------Pharaoh Drop------------#
+Pharaoh Card
+Masque of Tutankhamen
+Solar Sword
+Holy Robe
+Jewel Crown
+Broken Pharaoh Emblem
+
+#-------------Phreeoni Drop-----------#
+Phreeoni Card
+Fortune Sword
+Sucsamad
+Mr. Scream
+
+#-----------Stormy Knight Drop---------#
+Stormy Knight Card
+Zephyrus
+Ring[1]
+Old Blue Box
+Old Violet Box
+Manteau[1]
+
+#--------------RSX 0806 Drop------------#
+Dagger of Counter
+
+#-------------Tao Gunka Drop------------#
+Tao Gunka Card
+Binoculars
+
+#-----------Turtle General Drop---------#
+Turtle General Card
+Iron Driver
+Tribal Solidarity
+
+#--------------------------------------#
+#------------Mini Boss Drop------------#
+#--------------------------------------#
+
+#------------Angeling Drop-------------#
+Angeling Card
+Angel Wing
+Scapulare[1]
+Heaven Ring
+Halo
+Emperium
+
+#-----------Arc Angeling Drop----------#
+Arc Angeling Card
+Evil Wing
+Full Plate[1]
+Yggdrasil Berry
+Yggdrasil Seed
+
+#-------------Deviace Drop-------------#
+Deviace Card
+Aerial
+Katar of Frozen Icicle
+
+#------------Deviling Drop-------------#
+Evil Wing
+Blade of Darkness
+
+#------------Dragon Fly Drop-----------#
+Sweet Gent
+Rusty Iron
+
+#-------------Eclipse Drop-------------#
+Four Leaf Clover
+Cute Ribbon
+
+#------------Ghostring Drop------------#
+Ghostring Card
+Ghost Bandana
+Thief Clothes
+Thief Clothes[1]
+Dead Branch
+Old Blue Box
+
+#------------Mastering Drop------------#
+Unicorn Horn
+Unripe Apple
+
+#---------------Toad Drop--------------#
+Alcohol
+Big Ribbon
+Detrimindexta
+
+#-----------Vagabond Wolf Drop---------#
+Western Grace
+
+#---------------Vocal Drop-------------#
+Romantic Gent
+
+#--------------------------------------#
+#------------MISC RARE-----------------#
+#--------------------------------------#
+
+#----------------Potions---------------#
+White Potion
+Blue Potion
+Green Potion
+White Herb
+Blue Herb
+Honey
+Hinalle Leaflet
+Aloe Leaflet
+Mastela Fruit
+Royal Jelly
+Apple Juice
+Banana Juice
+Grape Juice
+Carrot Juice
+Pet Food
+Raw Fish
+Condensed Red Potion
+Condensed Yellow Potion
+Condensed White Potion
+Old Blue Box
+Dead Branch
+Anodyne
+Aloevera
+Yggdrasil Berry
+Yggdrasil Seed
+Yggdrasil Leaf
+
+Mini Furnace
+Iron Hammer
+Golden Hammer
+Oridecon Hammer
+
+Old Card Album
+Old Purple Box
+
+#------------Taming Items------------#
+Unripe Apple
+Orange Juice
+Bitter Herb
+Rainbow Carrot
+Earthworm the Dude
+Rotten Fish
+Rusty Iron
+Monster Juice
+Sweet Milk
+Well-Dried Bone
+Singing Flower
+Dew Laden Moss
+Deadly Noxious Herb
+Fatty Chubby Earthworm
+Tropical Banana
+Orc Trophy
+No Recipient
+Old Broom
+Silver Knife of Chastity
+Armlet of Obedience
+Shining Stone
+Contracts in Shadow
+Book of the Devil
+
+Pet Incubator
+Gift Box
+
+Awakening Potion
+Berserk Potion
+Tribal Solidarity
+Her Heart
+Forbidden Red Candle
+Soft Apron
+Authoritative Badge
+Songpyun
+Gift Box
+Red Envelope
+Rice-Cake Soup
+Bag of Gold Coins
+Gold Coin
+Bag of Bronze Coins
+Bronze Coin
+Mithril Coin
+Silver Coin
+Bag of Silver Coins
+Platinum Coin
+Poison Bottle
+Pilule
+Magic Carnation
+Sweet Memory of Marriage
+Distilled Fighting Spirit
+Herb of Incantation
+Durian
+Ramadan
+Level 3 Earth Spike
+Level 5 Earth Spike
+Level 3 Cold Bolt
+Level 5 Cold Bolt
+Level 3 Fire Bolt
+Level 5 Fire Bolt
+Level 3 Lightening Bolt
+Level 5 Lightening Bolt
+Level 3 Soul Strike
+Level 5 Soul Strike
+Level 1 Fire Ball
+Level 5 Fire Ball
+Level 1 Fire Wall
+Level 5 Fire Wall
+Level 1 Frost Diver
+Ora Ora
+Animal Gore
+Hinalle
+Aloe
+Clover
+Four Leaf Clover
+Singing Plant
+Ment
+Izidor
+Illusion Flower
+Emperium
+Yellow Gemstone
+Red Gemstone
+Blue Gemstone
+Garnet
+Amethyst
+Aquamarine
+Emerald
+Pearl
+Ruby
+Cursed Ruby
+Sardonyx
+Sapphire
+Opal
+Topaz
+Zircon
+1carat Diamond
+2carat Diamond
+3carat Diamond
+Cracked Diamond
+Red Frame
+Chung Jah
+China
+Black Ladle
+Pencil Case
+Rouge
+Puppet
+Poring Doll
+Chonchon Doll
+Spore Doll
+Bouquet
+Wedding Bouquet
+Glass Bead
+Crystal Mirror
+Witherless Rose
+Frozen Rose
+Baphomet Doll
+Osiris Doll
+Grasshopper Doll
+Yoyo Doll
+Raccoon Doll
+Rough Oridecon
+Rough Elunium
+Heroic Emblem
+Gold
+Alcohol
+Detrimindexta
+Karvodailnirol
+Counteragent
+Mixture
+Scarlet Dyestuff
+Lemon Dyestuff
+Cobaltblue Dyestuff
+Darkgreen Dyestuff
+Orange Dyestuff
+Violet Dyestuff
+White Dyestuff
+Black Dyestuff
+Oridecon
+Elunium
+Anvil
+Oridecon Anvil
+Golden Anvil
+Emperium Anvil
+Red Blood
+Crystal Blue
+Wind of Verdure
+Green Live
+Flame Heart
+Mystic Frozen
+Rough Wind
+Great Nature
+Iron
+Steel
+Star Crumb
+Star Dust
+Iron Ore
+Coal
+Chivalry Emblem
+Hammer of Blacksmith
+Old Magicbook
+Necklace of Wisdom
+Necklace of Oblivion
+Hand of God
+Phracon
+Emveretarcon
+Trunk
+Tiger Skin
+Tiger's Footskin
+Skirt of Virgin
+Sword[4]
+Falchion[4]
+Blade[4]
+Rapier[3]
+Scimiter[3]
+Katana[4]
+Tsurugi[2]
+Ring Pommel Saber[2]
+Haedonggum[1]
+Orcish sword
+Ring Pommel Saber[3]
+Saber[3]
+Haedonggum[2]
+Flamberge
+Nagan
+Ice Falchion
+Edge
+Fireblend
+Caesar's Sword
+Cutlus
+Solar Sword
+Excalibur
+Mysteltainn
+Tirfing
+Byeollungum
+Immaterial Sword
+Jeweled Sword
+Gaia Sword
+Sashimi
+Holy Avenger
+Towner's Sword[2]
+Stardust Blade[1]
+Slayer[3]
+Bastard Sword[3]
+Two-handed Sword[2]
+Broad Sword[1]
+Balmung
+Broad Sword[2]
+Claymore
+Muramasa
+Masamune
+Dragon Slayer
+Schweizersabel
+Zweihander
+Executioner
+Katzbalger
+Knife[4]
+Cutter[4]
+Main Gauche[4]
+Dirk[3]
+Dagger[3]
+Stiletto[3]
+Gladius[3]
+Damascus[1]
+Fortune Sword
+Swordbreaker
+Mailbreaker
+Damascus[2]
+Weeder Knife
+Combat Knife
+Kitchen Knife
+Ice Pick
+Bazerald
+Assassin Dagger
+Exorciser
+Moonlight Dagger
+Azoth
+Sucsamad
+Grimtooth
+Zeny Knife
+Poison Knife
+Princess Knife
+Cursed Dagger
+Dagger of Counter
+Holy Dagger
+Cinquedia[1]
+Cinquedia[2]
+Kindling Dagger
+Obsidian Dagger
+Fisherman's Knife
+Jur[3]
+Katar[2]
+Jamadhar[1]
+Katar of Frozen Icicle
+Katar of Quaking
+Katar of Raging Blaze
+Katar of Piercing Wind
+Sharpened Legbone of Ghoul
+Infiltrator
+Loki's Talon
+Unholy Touch
+Various Jur[4]
+Bloody Roar
+Axe[4]
+Orcish Axe
+Cleaver
+War Axe[1]
+Windhawk
+Golden Axe
+Battle Axe[4]
+Hammer[3]
+Buster[2]
+Two-handed Axe[2]
+Bloody Axe
+Great Axe
+Sabbath
+Light Epsilon
+Slaughter
+Tomahawk
+Guillotine
+Javelin[4]
+Spear[4]
+Pike[4]
+Lance
+Gungnir
+Gelerdria
+Brocca
+Tjungkuletti
+Pole Axe[1]
+Guisarme[3]
+Glaive[3]
+Partizan[2]
+Trident[3]
+Halberd[1]
+Halberd[2]
+Crescent Scythe
+Bill Guisarme
+Zephyrus
+Longinus's Spear
+Brionac
+Hellfire
+Soul Staff
+Wizardry Staff
+Gae Bulg
+Cavalry Lance
+Mace[4]
+Smasher[3]
+Flail[3]
+Morning Star[2]
+Sword Mace[1]
+Chain[3]
+Stunner
+Spike
+Golden Mace[1]
+Long Mace
+Slash
+Quadrille
+Grand Cross
+Iron Driver
+Mjolnir
+Wrench
+Book[3]
+Bible[2]
+Tablet[1]
+Book of Billows
+Book of Mother Earth
+Book of the Blazing Sun
+Book of Gust of Wind
+Book of the Apocalypse
+Girl's Diary[1]
+Dragon Legacy
+Sage's Diary[2]
+Hard Covered Book[1]
+Battlefield Textbook[1]
+Angra Manyu[4]
+Rod[4]
+Wand[3]
+Staff[3]
+Arc Wand[1]
+Arc Wand[2]
+Mighty Staff
+Wand of Occult
+Evil Bone Wand
+Staff of Wing
+Wand of Survival
+Wand of Survival[1]
+Wand of Survival
+Wand of Survival[1]
+Wand of Hypnotist[1]
+Wand of Hypnotist[2]
+Bow[4]
+Composite Bow[4]
+Great Bow[3]
+Crossbow[3]
+Arbalest[1]
+Gakkung Bow[1]
+Arbalest[2]
+Gakkung Bow[2]
+Hunter Bow
+Roguemaster's Bow
+Rudra Bow
+Repeating Crossbow[1]
+Ballista
+Lunar Bow[2]
+Dragon Wing
+Wandering Bard's Bow[1]
+Venom Knife
+Waghnak[3]
+Waghnak[4]
+Knuckle Duster[2]
+Knuckle Duster[3]
+Studded Knuckles[2]
+Studded Knuckles[3]
+Fist
+Fist[1]
+Claw[1]
+Claw[2]
+Finger[1]
+Finger[2]
+Kaiser Knuckle
+Berserk
+Garm's Claw[1]
+Violin[3]
+Violin[4]
+Mandolin[2]
+Mandolin[3]
+Lute[2]
+Lute[3]
+Guitar
+Guitar[1]
+Harp[1]
+Harp[2]
+Gumoongoh[1]
+Gumoongoh[2]
+Electric Guitar
+Guitar of Burning Passion
+Guitar of Lonely one
+Guitar of Vast Ground
+Guitar of Breeze
+Korean Mandolin
+Rope[3]
+Rope[4]
+Whip[2]
+Whip[3]
+Wire Whip[2]
+Wire Whip[3]
+Rante Whip
+Rante Whip[1]
+Tail Whip[1]
+Tail Whip[2]
+Whip[1]
+Whip[2]
+Lariat Whip
+Rapture Rose
+Chemeti Whip
+Whip of Scarlet Flame
+Whip of Icy Blade
+Whip of Earth
+Jump Rope
+Blade Whip
+Queen's Whip
+Electric Wire
+Guard[1]
+Buckler[1]
+Shield[1]
+Mirror Shield[1]
+Memory Book
+Holy Guard
+Sacred Mission
+Stone Buckler[1]
+Valkyrie Shield[1]
+Angel's Guard[1]
+Ahura Mazdah
+Sunglasses
+Sunglasses[1]
+Glasses
+Glasses[1]
+Diver Goggles
+Wedding Veil
+Fancy Flower
+Ribbon[1]
+Hair Band
+Bandana
+Eye Patch
+Kitty Band
+Bunny Band
+Flower Band
+Biretta[1]
+Flu Mask[1]
+Hat[1]
+Turban[1]
+Goggles[1]
+Cap[1]
+Helm
+Helm[1]
+Gemmed Sallet
+Gemmed Sallet[1]
+Circlet[1]
+Tiara
+Crown
+Santa Hat
+Bandit Beard
+Moustache
+Monocle
+Beard
+Grandpa Beard
+Purple Glasses
+Geek Glasses
+Big Ribbon
+Sweet Gent
+Golden Gear
+Romantic Gent
+Western Grace
+Coronet
+Cute Ribbon
+Monk Hat
+Wizard Hat
+Sunflower
+Angel Wing
+Evil Wing
+Majestic Goat
+Unicorn Horn
+Spiky Band
+Mini Propeller
+Mini Glasses
+Army Cap
+Clown Nose
+Zorro Masque
+Munak Hat
+Gangster Mask
+Iron Cain
+Cigarette
+Pipe
+Romantic Flower
+Romantic Leaf
+Jack be Dandy
+Stop Post
+Doctor Band
+Ghost Bandana
+Red Bandana
+Angled Glasses
+Nurse Cap
+Mr. Smile
+Bomb Wick
+Sakkat
+Opera Masque
+Halo
+Ear Muffs
+Antlers
+Apple of Archer
+Elven Ears
+Pirate Bandana
+Mr. Scream
+Poo Poo Hat
+Funeral Hat
+Masquerade
+Welding Mask
+Pretend Murdered
+Stellar
+Blinker
+Binoculars
+Goblin Mask
+Green Feeler
+Orc Helm
+Mantle[1]
+Coat[1]
+Mink Coat[1]
+Padded Armor[1]
+Chain Mail
+Chain Mail[1]
+Full Plate
+Full Plate[1]
+Lord's Clothes[1]
+Glittering Jacket[1]
+Formal Suit[1]
+Silk Robe[1]
+Scapulare[1]
+Saint's Robe[1]
+Holy Robe
+Tights
+Tights[1]
+Silver Robe[1]
+Mage Coat
+Thief Clothes
+Thief Clothes[1]
+Ninja Suit
+Wedding Dress
+Legion Plate Armor
+Legion Plate Armor[1]
+Robe of Cast
+Lucius's Fierce Armor of Volcano
+Lucius's Fierce Armor of Volcano[1]
+Saphien's Armor of Ocean
+Saphien's Armor of Ocean[1]
+Aebeccee's Raging Typhoon Armor
+Aebeccee's Raging Typhoon Armor[1]
+Claytos Cracking Earth Armor
+Claytos Cracking Earth Armor[1]
+Blessing of Odin[1]
+Gebney Armor
+Angel Protection[1]
+Holy Cloth of Benefit[1]
+Valkyrie's Armor[1]
+Sandals[1]
+Shoes[1]
+Boots[1]
+Crystal Pumps
+Shackles
+High Heels
+Sleipnir
+Greaves
+Greaves[1]
+Safety Boots
+Bunny Slipper[1]
+Frico Shoes
+Boots of Vidar
+Gebney's Combat Boots
+Second Advent of Angel[1]
+Valkyrie's Shoes[1]
+Hood[1]
+Muffler[1]
+Manteau
+Manteau[1]
+Ancient Cape
+Ragamuffin Manteau
+Survivor's Manteau
+Skeleton's Manteau
+Light Wing-cloth[1]
+Falldrun[1]
+Wings of Eagle[1]
+Hawk Wing Cape
+Manteau of Vali
+Morphicious Shawl
+Manteau of Morrigan
+Gebneys Shoulder
+Warmth of Angel
+Running Shirt
+Running Shirt[1]
+Valkyrie's Manteau[1]
+Ring
+Earring
+Necklace
+Glove
+Brooch
+Clip[1]
+Rosary
+Skull Ring
+Gold Ring
+Silver Ring
+Flower Ring
+Diamond Ring
+Eye of Dullahan
+Safety Ring
+Critical Ring
+Celebrant's Mitten
+Matyr's Leash
+Bow Thimble
+Rogue's Treasure
+Ring[1]
+Earring[1]
+Necklace[1]
+Glove[1]
+Brooch[1]
+Rosary[1]
+Belt[1]
+Novice Armlet[1]
+Megingjard
+Brisingamen
+Celebration Ring
+Wedding Ring
+Gold Christmas Ring
+Silver Christmas Ring
+Sacred Incense
+Occult Incense
+Kafra Ring
+Fashion Hip Sack
+Serin's Gold Ring
+The Sign
+Moonlight Ring
+Bunch of Carnations
+Nile Rose
+Morphicious Ring
+Morphicious Bracelet
+Belt of Morrigan
+Pendant of Morrigan
+Brooch of Cursed Fortune
+Sacrifice Ring
+Shinobi Belt
+Blood-Stained Leg Irons
+Hyper-mode Changer
+Laboratory Passport
+Nile Rose[1]
+Vesper Core 01
+Vesper Core 02
+Vesper Core 03
+Vesper Core 04
+Gauntlet of Hit
+Belcarf
+Ring of Exorcism
+Lamp of Hope
+Gloves of Archer
+Woman Glory
+
+#------------Rare Cards------------#
+Poring Card
+Fabre Card
+Pupa Card
+Drops Card
+Santa Poring Card
+Lunatic Card
+Peco Peco Egg Card
+Picky Card
+Chonchon Card
+Willow Card
+Picky Egg Card
+Thief Bug Egg Card
+Andre Egg Card
+Roda Frog Card
+Condor Card
+Thief Bug Card
+Savage Babe Card
+Andre Larva Card
+Hornet Card
+Farmiliar Card
+Rocker Card
+Spore Card
+Baby Desert Wolf Card
+Plankton Card
+Skeleton Card
+Female Thief Bug Card
+Kukre Card
+Tarou Card
+Wolf Card
+Mandragora Card
+Peco Peco Card
+Ambernite Card
+Poporing Card
+Wormtail Card
+Hydra Card
+Muka Card
+Snake Card
+Zombie Card
+Stainer Card
+Creamy Card
+Coco Card
+Steel Chonchon Card
+Andre Card
+Smokie Card
+Horn Card
+Martin Card
+Ghostring Card
+Poison Spore Card
+Vadon Card
+Male Thief Bug Card
+Yoyo Card
+Elder Willow Card
+Vitata Card
+Angeling Card
+Marina Card
+Dustiness Card
+Metaller Card
+Thara Frog Card
+Soldier Andre Card
+Goblin Card
+Cornutus Card
+Anacondaq Card
+Caramel Card
+Zerom Card
+Kaho Card
+Orc Warrior Card
+Megalodon Card
+Scorpion Card
+Drainliar Card
+Eggyra Card
+Orc Zombie Card
+Golem Card
+Pirate Skel Card
+Bigfoot Card
+Argos Card
+Magnolia Card
+Phen Card
+Savage Card
+Mantis Card
+Flora Card
+Hode Card
+Desert Wolf Card
+Rafflesia Card
+Marine Sphere Card
+Orc Skeleton Card
+Soldier Skeleton Card
+Giearth Card
+Frilldora Card
+Swordfish Card
+Munak Card
+Kobold Card
+Skel Worker Card
+Obeaune Card
+Archer Skeleton Card
+Marse Card
+Zenorc Card
+Matyr Card
+Dokebi Card
+Pasana Card
+Sohee Card
+Sandman Card
+Whisper Card
+Horong Card
+Requiem Card
+Marc Card
+Mummy Card
+Verit Card
+Myst Card
+Jakk Card
+Ghoul Card
+Strouf Card
+Marduk Card
+Marionette Card
+Argiope Card
+Hunter Fly Card
+Isis Card
+Sidewinder Card
+Earth Petite Card
+Bathory Card
+Sky Petite Card
+Phreeoni Card
+Deviruchi Card
+Eddga Card
+Medusa Card
+Deviace Card
+Minorous Card
+Nightmare Card
+Golden Thief Bug Card
+Bapho Jr. Card
+Scorpion King Card
+Moonlight Flower Card
+Mistress Card
+Raydric Card
+Dracula Card
+Orc Lord Card
+Khalitzburg Card
+Drake Card
+Anubis Card
+Joker Card
+Abysmal Knight Card
+Evil Druid Card
+Doppelganger Card
+Orc Hero Card
+Osiris Card
+Berzebub Card
+Maya Card
+Baphomet Card
+Pharaoh Card
+Gargoyle Card
+Goat Card
+Gajomart Card
+Galapago Card
+Crab Card
+Dumpling Child Card
+Goblin Leader Card
+Goblin Steamrider Card
+Goblin Archer Card
+Sky Deleter Card
+Nine Tail Card
+Firelock Soldier Card
+Grand Peco Card
+Grizzly Card
+Gryphon Card
+Gullinbursti Card
+Gig Card
+Nightmare Terror Card
+Neraid Card
+Dark Lord Card
+Dark Illusion Card
+Dark Frame Card
+Dark Priest Card
+The Paper Card
+Demon Fungus Card
+Deviling Card
+Poisonous Toad Card
+Dullahan Card
+Dryad Card
+Dragon Tail Card
+Dragon Fly Card
+Driller Card
+Disguise Card
+Diabolic Card
+Vagabond Wolf Card
+Lava Golem Card
+Rideword Card
+Raggler Card
+Raydric Archer Card
+Leib Olmai Card
+Wraith Dead Card
+Wraith Card
+Loli Ruri Card
+Rotar Zairo Card
+Lude Card
+Rybio Card
+Leaf Cat Card
+Marin Card
+Mastering Card
+Maya Purple Card
+Merman Card
+Megalith Card
+Majoruros Card
+Civil Servant Card
+Mutant Dragonoid Card
+Mini Demon Card
+Mimic Card
+Myst Case Card
+Mysteltainn Card
+Miyabi Doll Card
+Violy Card
+Wanderer Card
+Vocal Card
+Bongun Card
+Brilight Card
+Bloody Murderer Card
+Blazer Card
+Sasquatch Card
+Enchanted Peach Tree Card
+Succubus Card
+Sage Worm Card
+Solider Card
+Skeleton General Card
+Skel Prisoner Card
+Stalactic Golem Card
+Stem Worm Card
+Stone Shooter Card
+Sting Card
+Spring Rabbit Card
+Sleeper Card
+Clock Tower Manager Card
+Shinobi Card
+Increase Soil Card
+Hermit Plant Card
+Baby Leopard Card
+Anolian Card
+Christmas Cookie Card
+Amon Ra Card
+Owl Duke Card
+Owl Baron Card
+Iron Fist Card
+Arclouze Card
+Arc Angeling Card
+Apocalipse Card
+Antonio Card
+Alarm Card
+Am Mut Card
+Assaulter Card
+Aster Card
+Ancient Mummy Card
+Ancient Worm Card
+Executioner Card
+Elder Card
+Alligator Card
+Alice Card
+Tirfing Card
+Orc Lady Card
+Orc Archer Card
+Wild Rose Card
+Evil Nymph Card
+Wooden Golem Card
+Wootan Shooter Card
+Wootan Fighter Card
+Cloud Hermit Card
+Incantation Samurai Card
+Wind Ghost Card
+Li Me Mang Ryang Card
+Eclipse Card
+Explosion Card
+Injustice Card
+Incubus Card
+Giant Spider Card
+Giant Hornet Card
+Dancing Dragon Card
+Shell Fish Card
+Zombie Master Card
+Zombie Prisoner Card
+Lord of Death Card
+Zherlthsh Card
+Gibbet Card
+Earth Deleter Card
+Geographer Card
+Zipper Bear Card
+Tengu Card
+Greatest General Card
+Chepet Card
+Choco Card
+Karakasa Card
+Kapha Card
+Carat Card
+Caterpillar Card
+Cat O' Nine Tails Card
+Kobold Leader Card
+Kobold Archer Card
+Cookie Card
+Quve Card
+Kraben Card
+Cramp Card
+Cruiser Card
+Creamy Fear Card
+Clock Card
+Chimera Card
+Killer Mantis Card
+Tao Gunka Card
+Giant Whisper Card
+Tamruan Card
+Turtle General Card
+Toad Card
+Beetle King Card
+Tri Joint Card
+Parasite Card
+Panzer Goblin Card
+Permeter Card
+Seal Card
+Punk Card
+Penomena Card
+Pest Card
+False Angel Card
+Mobster Card
+Stormy Knight Card
+Freezer Card
+Bloody Knight Card
+Hylozoist Card
+High Orc Card
+Garm Baby Card
+Garm Card
+Harpy Card
+Sea-Otter Card
+Bloody Butterfly Card
+Hyegun Card
+Phendark Card
+Evil Snake Lord Card
+Heater Card
+
+#------------Rare Headgears------------#
+Headset
+Jewel Crown
+Joker Jester
+Oxygen Mask
+Gas Mask
+Machoman's Glasses
+Grand Circlet
+Puppy Love
+Safety Helmet
+Indian Fillet
+Aerial
+Ph.D Hat
+Lord Kaho's Horn
+Fin Helm
+Egg Shell
+Boys Cap
+Bone Helm
+Feather Bonnet
+Corsair
+Kafra Band
+Grief for Greed
+Hat of the Sun God
+Parcel Hat
+Cake Hat
+Helm of Angel
+Chef Hat
+Mage Hat
+Candle
+Spore Hat
+Panda Hat
+Mine Hat
+Sunday Hat
+Raccoon Hat
+Bulb Band
+Poring Hat
+Cross Hat
+Nutshell
+Deviruchi Hat
+Rainbow Eggshell
+Blush
+Heart Hairpin
+Bao Bao
+Opera Phantom Mask
+Wings of Diablo
+Magician Hat
+Bongun Hat
+Fashionable Glasses
+Cresent Hairpin
+Striped Hairband
+Wonder Nutshell
+Pussy Cat Bell
+Blue Hairband
+Sphinx Hat
+Assassin Mask
+Fruit of Love
+Black Cat Ears
+Drooping Cat
+Teddybear Hat
+Party Hat
+Flower Hairpin
+Straw Hat
+Giant Band Aid
+Smokie Leaf
+Blue Fish
+Succubus Horn
+Sombrero
+Evil Wing Ears
+Kitsune Mask
+Hot-blooded Headband
+Indian Headband
+Incubus Horn
+Model Training Hat
+Angel Wing Ears
+Cowboy Hat
+Beanie
+Tulip Hairpin
+Sea-Otter Hat
+X Hairpin
+Crown of Ancient Queen
+Crown of Mistress
+Decorative Mushroom
+Red Ribbon
+Lazy Smokie
+Small Ribbons
+Alarm Mask
+Poker Face
+Surprised Mask
+Annoyed Mask
+Goblin Leader Mask
+Decorative Golden Bell
+Coif
+Coif[1]
+Helmet of Orc Hero
+Assassin Mask
+2 Years Anniversary Hat
+Tiger Mask
+Neko Mimi
+Sales Banner
+Takius's Blindfold
+Blank Eyes
+Sunflower Hairpin
+Dark Blinder
+Chinese 2nd Annual Cake Hat
+Indonesian 2nd Anniversary Hat
+Well-Baked Toast
+Hat of the Investigator[1]
+Red Bonnet
+Baby Suckle
+Galapago Hat
+Angry Mouth
+Wide Bunker Hat
+Fashionable Warm Hat
+Banana Hat
+Mystic Rose
+Dog Ear Hairband
+Super Novice Hat[1]
+Wide Bunker Hat[1]
+Mask of Zherlthsh
+Megin Cap
+Wool Cap[1]
+Frica Circlet
+Angel's Kiss[1]
+Morphicious Hood
+Helm of Morrigan
+Goibniu Helm
+Bird Nest
+Lion Mask
+Close Helmet
+Angeling Hat
+Sheep Hat
+Pumpkin-Head
+Cyclops Eye
+Louise's Santa Hat
+Alice Doll
+Magic Eyes
+Lotus
+Kawaii Ribbon
+Marionette Doll
+Crescent Helm
+Kabuki Mask
+Gambler Hat
+Memory Bookmark
+Bent Spoon
+Executioner's Glove
+Young Twig
+Loki's Whispers
+Mother's Nightmare
+Foolishness of the Blind
+Broken Sword Handle
+Blade of Darkness
+Bloody Edge
+Lucifer's Lament
+Clock Tower Key
+Key of the Underground
+Invite for Duel
+Admission for Duel
+Claw of Desert Wolf
+Old Frying Pan
+Piece of Egg Shell
+Red Stocking
+Matchstick
+Fang of Garm
+Coupon
+Yarn
+Newbie Tag
+Megaphone
+Leather Bag of Infinity
+Fine Sand
+Vigorgra
+Magic Paint
+Cart Parts
+Cotton Mat
+Silk Mat
+Old Papers
+Animal Poop
+Payment Statement for Kafra Employee
+Gjallar
+Gleipnir
+Free Ticket for Kafra Storage
+Free Ticket for Kafra Transportation
+Free Ticket for the Cart Service
+Broken Turtle Shell
+Soft Feather
+Freya's Jewel
+Thor's Gauntlet
+Iron Maiden
+Wheel of the Unknown
+Silver Ornament
+Wrath of Valkyrie
+Feather of Angel Wing
+Footprints of Cat
+Woman's Moustaches
+Root of Stone
+Spirit of Fish
+Sputum of Bird
+Sinew of Bear
+Emblem of the Sun God
+Breath of Soul
+Snow Crystal
+Omen of Tempest
+Ripple
+Billow
+Drifting Air
+Cogwheel
+Fragment
+Metal Fragment
+Lava
+Burning Heart
+Live Coal
+Worn-out Magic Scroll
+Sharp Leaf
+Peco Peco Feather
+Nightmare
+Unknown Liquid Bottle
+False Angel Wing
+False Heaven Ring
+Antelope Horn
+Antelope Skin
+Piece of Shield
+Shining Spear Blade
+Broken Sword
+Slick Paper
+Sharp Paper
+Broken Pharaoh Emblem
+Masque of Tutankhamen
+Harpy Feather
+Harpy Talon
+Torn Magic Book
+Torn Scroll
+Bacillus
+Burning Horseshoe
+Honey Pot
+Burning Hair
+Dragon Skin
+Sand Clump
+Scorpion Claw
+Large Jellopy
+Alcohol Creation Guide
+Bottle Grenade Creation Guide
+Acid Bottle Creation Guide
+Plant Bottle Creation Guide
+Marine Sphere Creation Guide
+Glistening Coat Creation Guide
+Condensed Potion Creation Guide
+Medicine Bowl
+Fire Bottle
+Acid Bottle
+Plant Bottle
+Marine Sphere Bottle
+Glistening Coat
+Seed of Life
+Morning Dew of Yggdrasil
+Embryo
+Seperation Tubes
+Potion Creation Gude
+Ragnarok T-Shirt
+Vacation Ticket
+Jasmine
+Mother's Letter
+Yellow Plate
+Piece of Bamboo
+Oil Paper
+Glossy Hair
+Worn-out Kimono
+Poisonous Powder
+Poisonous Toad Skin
+Broken Shuriken
+Dark Mask
+Broken Liquor Jar
+Tengu Nose
+Feudal Lord Permit
+Black Bear Skin
+Cloud Crumb
+Transparent Celestial Robe
+Soft Silk
+Strange Steel Piece
+Giant Butterfly Wing
+Ba Gua
+Tuxedo
+Leopard Skin
+Leopard Claw
+Bun Buster Bag
+Wrapping Lace
+Wrapping Paper
+Royal Certificate
+Crumb of Sobbing Starlight
+Sobbing Starlight
+Proof of Donation
+Hahn Sukbong's Recommendation
+Receipt
+Cacao
+Letter from Sister
+Piano Key
+Quiz Entry
+Thin Trunk
+Festival Mask
+Brown Root
+Wooden Heart
+Solid Husk
+Lamp
+Vane
+Sprout
+Soft Blade of Grass
+Slingshot
+Shoulder Protector
+Tough Vines
+Huge Leaf
+Unknown Coupon
+Elastic Band
+Log
+Pincher of Beetle
+Strong Branch
+Gunpowder
+Piece of Black Cloth
+Black Cat Doll
+Old Manteau
+Rusty Kitchen Knife
+Helm of Dullahan
+Armor Piece of Dullahan
+Fragment of Rossata Stone
+Hung Doll
+Needle Packet
+Bat Cage
+Broken Needle
+Red Muffler
+Spool
+Decomposed Rope
+Striped Sock
+Ectoplasm
+Tangled Chains
+Wooden Gnarl
+Contorted Self-Portrait
+Stone of Sage
+Pumpkin Lantern
+Pellet
+TCG Card
+Gold Bullion
+Silver Bullion
+Platinum Bullion
+Gold Ore
+Silver Ore
+Mithril Ore
+Spirit of Guild
+Spirit of Charge
+Spirit of Protection
+Spirit of Association
+Spirit of Coordination
+Spirit of Advance
+Spirit of Trust
+Spirit of Union
+Spirit of Combination
+Spirit of Cooperation
+Spirit of Solidarity
+Spirit of Friendship
+Spirit of Peace
+Spirit of Determination
+Spirit of Honor
+Spirit of Service
+Spirit of Glory
+Spirit of Victory
+Herbal Medicine
+Golden Korean Flag
+Digital Picture Printing Coupon
+Songwha Orb
+Folding Fan of Cat Ghost
+Cat's Eye
+Dry Sand
+Dragon Horn
+Denture from Dragon Mask
+Tiger Panty
+Little Ghost Doll
+Pinafore
+Nursing Bottle
+Rice Ball Doll
+RWC Necklace
+Translated Ancient Language
+Record of Ancient Language
+Doodled Message
+Munak Doll
+Letter to Wife
+Vita500 Lid
+1st Quiz Entry
+2nd Quiz Entry
+3rd Quiz Entry
+4th Quiz Entry
+5th Quiz Entry
+Holy Threads
+Red Chile
+Holier Threads
+Engagement Ring
+Peridot
+Phlogopite
+Agate
+Muscovite
+Rose Quartz
+Turquoise
+Citrin
+Pyroxene
+Biotite
+Fig Leaf
+Straw Basket
+Gemstone
+Tassel
+Krathong
+Straw Rice Bag
+Witch's Spell Scroll
+Symbol of the Nine Realms
+Piece of Spirit
+Spiritual Whispers
+Witch's Tonic
+Crow Wing
+Free Ticket for Peco Ride
+Free Ticket for Flyship
+Jubilee
+Witch's Medal
+The Sign
+Dark Crystal Fragment
+Insect Leg
+Rusty Screw
+Old Pick
+Used Iron Plate
+Dust Pollutant
+Crystal Fragment
+Toxic Gas
+Battered Kettle
+Flexible Tube
+Fluorescent Liquid
+Flashlight
+Legend of Songkran
+Old Bronze Key
+Songwha Orb
+Heaven Anger
+Complete Tablet
+Prontera Tablet
+Payon Tablet
+Morocc Tablet
+Geffen Tablet
+Eye of Hellion
+One Way Ticket
+Commoemorative Traffic Card
+Dark Will
+Old Pendant
+Thin Folder
+Sealed File
+Sinocas Incident File
+Prisoner's Bangle
+Pile of Ymir's Heart
+Researcher Record
+Organization Member's Certificate
+Archives Passport
+Pass
+Friend's Diary
+Transparent Plate
+Piece of Emblem
+RO Festival Invitation Ticket
+Number 01 Ball
+Number 02 Ball
+Number 03 Ball
+Number 04 Ball
+Number 05 Ball
+Number 06 Ball
+Number 07 Ball
+Number 08 Ball
+Number 09 Ball
+Number 10 Ball
+Number 11 Ball
+Number 12 Ball
+Number 13 Ball
+Number 14 Ball
+Number 15 Ball
+Number 16 Ball
+Number 17 Ball
+Number 18 Ball
+Number 19 Ball
+Number 20 Ball
+Number 21 Ball
+Number 22 Ball
+Number 23 Ball
+Number 24 Ball
+Number 25 Ball
+Number 26 Ball
+Number 27 Ball
+Number 28 Ball
+Number 29 Ball
+Number 30 Ball
+Number 31 Ball
+Number 32 Ball
+Number 33 Ball
+Number 34 Ball
+Number 35 Ball
+Number 36 Ball
+Number 37 Ball
+Number 38 Ball
+Selamat
+Hari
+Kemerdekaan
+Republik
+Indonesia
+Ke-60
+Crushed Can
+Yuebing
+Summoning Stone
+Letter of Recommentation
+Written Request 01
+Written Request 02
+Embryo Creation Guide
+Red Key
+Yellow Key
+Blue Key
+Green Key
+Black Key
+Red Magic Stone
+Yellow Magic Stone
+Blue Magic Stone
+Green Magic Stone
+Black Magic Stone
+Books
+Leather Pouch
+Empty Scroll
+Elemental Potion Creation Guide
+Golden Accessory
+Fragment of Agony
+Fragment of Sorrow
+Fragment of Hatred
+Fragment of Despair
+Red tinted Feather
+Blue tinted Feather
+Cursed Seal
+Head of Three Headed Dragon
+Treasure Box
+Green Orb
+Blue Orb
+Red Orb
+Yellow Orb
+Bloodstained Page
+Bone Armor Piece
+Scale of Fire Dragon
+Yellow Spice
+Sweet Sauce
+Plain Sauce
+Hot Sauce
+Red Spice
+Cooking Oil
+Fortune Horn
+Ramadan
+Niflheim Express Ticket
+Blue A Card
+Blue E Card
+Blue F Card
+Blue H Card
+Blue L Card
+Blue N Card
+Blue O Card
+Blue P Card
+Blue U Card
+Blue W Card
+Blue Y Card
+Lv1 Cookbook
+Lv2 Cookbook
+Lv3 Cookbook
+Lv4 Cookbook
+Lv5 Cookbook
+Lv6 Cookbook
+Lv7 Cookbook
+Lv8 Cookbook
+Lv9 Cookbook
+Lv10 Cookbook
+Pot
+Key of the Seal
+Symbol of a Brave Warrior
+Cloud General
+Wind General
+Pub Liquor
+Delivery Box
+Spare Key to the Outhouse
+Letter to Elie
+Iron Box
+Yellow Keycard
+Golden Key
+Exquisite Button
+Blue Keycard
+Red Keycard
+Piece of Metal
+Key to Losimier's House
+Portrait of a Family
+Portrait of a Lady
+K.H's Letter
+James's Memo
+Portrait of a Guy
+Power Source
+Toy Key
+Black Keycard
+Hard Piece of Steel
+Elisia's Ring
+Gorgeous Keycard
+Valhalla's Flower
+Darkness Rune
+Burnt Pieces
+Pocket Watch
+Monster Ticket
+Interesting Medal
+Green Keycard
+Golden Coin
+Women's Medal
+Summer Festival Ticket
+Application
+Poring Egg
+Drops Egg
+Poporing Egg
+Lunatic Egg
+Picky Egg
+Chonchon Egg
+Steel Chonchon Egg
+Hunter Fly Egg
+Savage Babe Egg
+Baby Desert Wolf Egg
+Rocker Egg
+Spore Egg
+Poison Spore Egg
+Peco Peco Egg
+Smokie Egg
+Yoyo Egg
+Orc Warrior Egg
+Munak Egg
+Dokebi Egg
+Sohee Egg
+Isis Egg
+Green Petite Egg
+Deviruchi Egg
+Bapho Jr. Egg
+Bongun Egg
+Zherlthsh Egg
+Alice Egg
+Skull Helm
+Monster Oxygen Mask
+Transparent Headgear
+Pacifier
+Wig
+Queen's Hair Ornament
+Silk Ribbon
+Punisher
+Wild Flower
+Battered Pot
+Stellar Hairpin
+Tiny Egg Shell
+Backpack
+Rocker Glasses
+Green Lace
+Golden Bell
+Bark Shorts
+Monkey Circlet
+Red Scarf
+Grave Keeper's Sword
+History book of Prontera
+Level 5 Frost Diver
+Level 3 Heal
+Level 5 Heal
+Level 1 Teleport
+Speed Potion
+Slow Potion
+Firecracker
+Holy Egg
+Cursed Water
+Pork
+Galbi
+Chinese 2nd Annual Giftbox
+Red Pouch
+Five Paragraphs Egg
+Giggling Box
+Lightning Box
+Gloomy Box
+Box of Grudge
+Sleepy Box
+Box of Heavy Rain
+Box of Sunshine
+Gasping Box
+Ball Box 01
+Ball Box 02
+Ball Box 03
+Ball Box 04
+Ball Box 05
+Philosopher's Stone
+Boiled Down Locust
+Seasoned Webs
+Bomber Steak
+Rib with Herb and Spices
+Lutie Flat Cake
+Herb Tea with Grape Juice
+Black Tea
+Herb and Honey Tea
+Morocc Fruit Wine
+Mastela Wine
+Steamed Crab Pincer
+Sea Food
+Clam Soup
+Seasoned Jellyfish
+Peppery Roasted Dumpling
+Frog Spawn Soup
+Smooth Noodle
+Tentacle and Cheese Gratin
+Lutie Mixed Cold Noodle
+Steamed Bat Wing and Pumpkin
+Grape Juice with Honey
+Chocolate Mousse Cake
+Fruits Punch
+Cream Sandwich
+Green Salad
+Fried Monkey Tail
+Mixed Juice
+Fried Sweet Potato with Syrup
+Ancient Fish Dish
+Broiled Down Scorpion
+Flavored Grilled Beef
+Barbecue
+Bear Foot Dish
+Sauted Meat Strips
+Tongue Dish
+Red Mushroom Wine
+Royal Jelly and Herb Tea
+Royal Tea
+Tristan XII
+Dragon Breath Cocktail
+Very Bitter Invigorant
+Sumptuous Feast
+Huge Stuffed Leaves
+Ascending Dragon Broth
+Stew of Immortality
+Chili and Prawn Gratin
+Boiled Vegitable stuffed with Roasted Crocodile
+Very Hot Curry
+Delicious Boiled Meats
+Hot Sand Steamed Scorpion
+Peach Cake
+Soul Hunt Bread
+Special Toast
+Ethereal Fruit Juice
+Wine of Bergelmir
+Soup of Great Luck
+Grilled Meat Skewer
+Strawberry Rice Ball
+Blood Flavored Sodapop
+Nine Tail Dish
+Citron
+Grilled Skewer
+Bloody Branch
+Random Quiver
+Taming Item Giftset
+Jewel Case
+Wrapped Mask
+Bundle of Spells
+Poring Box
+First Aid Box
+Wrapped Food
+Tropical Sograt
+Vermilion the Beach
+Flame Elemental Converter
+Frost Elemental Converter
+Seismic Elemental Converter
+Lighting Elemental Converter
+Resist Fire Potion
+Resist Cold Potion
+Resist Earth Potion
+Resist Thunder Potion
+Sesame Pastry
+Honey Pastry
+Rainbow Cake
+Outdoor Cooker
+Home Cooking Set
+Deluxe Cooking Set
+Court Cooking Set
+Legendary Cooking Set
+Cookie Bag
+Lucky Potion
+Santa's Bag
+McDonald's Ice Cone
+Red Envelope
+Green Ale
+Women's Bundle
+Dagger with Jujube hilt
+Dragon Killer
+Ginnungagap
+Coward[1]
+Coward[2]
+Angel Wing Dagger[1]

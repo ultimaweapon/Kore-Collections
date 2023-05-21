@@ -1,0 +1,147 @@
+--KA-Pro v1.0.RC2.1--
+Fixed unblessed error on added objects
+Support irc colors, bold, underline text
+Support playing games in KA Chatroom (served by: Kafra)
+Added user nickname collision check on KA Chatroom
+
+---KA-Pro v1.0.RC2---
+support for FLD Packs of other Kore
+homunculus support
+show meaningful connection error
+trigger autoSell after autoBuy
+KA Loader with Chatroom and editor
+
+---KA-Pro v1.0.RC1---
+Added skills window
+Fixed validation bug
+
+============ BETA ============
+
+---KA-Pro Beta 6.7---
+Added Skill Window
+Added Mini browser Window
+Limit map cursor range
+
+---KA-Pro Beta 6.6---
+Added input dialog (username, password)
+Added server list dialog
+
+---KA-Pro Beta 6.5---
+Modified map cursor
+gui_settings and colors can now be reloaded
+
+---KA-Pro Beta 6.4---
+Added Map Viewer Target Marker
+Added more translations
+
+---KA-Pro Beta 6.3---
+Added show route in Map Viewer (NEW gui_Map_showName_route in Settings/gui_settings.txt)
+Fixed Expiration Check Bug
+Added Settings Editor. (Currently disabled. To be activated on Final Version)
+Added the following in Profiles/Default (For Settings Editor)
+  >alias.txt - alias commands must be placed here
+  >debug.txt - debugging
+  >config_attackSkill.txt - attackSkills are placed here
+  >config_partySkill.txt - party skills are placed here
+  >config_selfSkill.txt - self skills are placed here
+  >config_useItem.txt - item use is placed here
+
+---KA-Pro Beta 6.2---
+Added mini browser for KA news/updates
+Changed Map Viewer Field Color
+Fixed Job Exp/Hr in Exp Info
+Fixed getAuto and buyAuto in npc_control.txt
+
+---KA-Pro Beta 6.1---
+Fixed XKore
+Added 'al' command
+Fix KA_Server connection typo error
+
+---KA-Pro Beta 5---
+adminPassword now generates random 15 characters if secureAdminPassword is enabled (for better protection) (03/31/2006)
+Fix Status Icon Bug. (03/31/2006)
+Fix Time Server checking bug. It should check once only. (03/31/2006)
+Map Viewer will not update the map without flickering. (03/31/2006)
+Fix Map Viewer Bug. (03/31/2006)
+timerServer and msgCenter added in config.txt (You can choose which server you would like to validate and gather news/updates.) (03/31/2006)
+reactOnKillSteal - by Hakore (openkore)
+
+---KA-Pro Beta 4---
+Fix Guild Login Message (03/30/2006)
+Fix Shop Bug (03/30/2006)
+
+--- KA-Pro Base ---
+
+[CONFIG]
+new Profiles/default/npc_control.txt
+new Profiles/default/alias.txt
+new Tables/maps_alias.txt
+new Settings/gui_colors.txt
+new Settings/gui_settings.txt
+updated Settings/console_colors.txt
+
+[KA ONLINE]
+Auto-check updates/news from KA-Pro Message Center
+
+:For Private Members:
+Online Character Status Viewer
+Global Messaging System (Ability to send chat message to other KA-Pro users)
+
+[PLUGINS]
+Almost all plugins from OpenKore are supported. Even Macro
+
+[CONSOLE INTERFACE]
+autohide added. check (console_hide in Settings/console_colors.txt) (03/28/2006)
+added systray icon and hide/show console function. Click the icon to hide, click again to unhide (03/28/2006)
+added free memory function for console. (03/28/2006)
+updated text color of domains. (03/28/2006)
+
+[GRAPHICAL INTERFACE]
+map viewer now updates without flickering (03/31/2006)
+clicking the map viewer will route to clicked position (03/27/2006)
+map viewer can now support different colored map format (jpg, png, gif, psd, xbm, pcd, pcx, ras, bmp, xpm) (03/27/2006)
+map viewer now loads images very fast (03/24/2006)
+cool graphical interface
+map viewer that supports zoom (1-10x)
+map viewer can show units name
+map viewer can show party position
+finished dialogbox (guild/inventory/cart/friends/party/players list/monsters list/npc list/item list/)
+show status images
+show guild emblem image
+auto-save gui positions/sizes
+added free memory function for GUI
+Keyboard Shortcuts have been added
+
+[Internal]
+added route_modifiedWalk - walking distance from the wall (0 = default openkore routing, 1 = default original kore, 2 = 2 cells away, ..., 6 = 6 cells away from wall)
+added sendEmblemRequest to network::send
+fields/distance maps are compressed now (map/*.map *.dat) (original fld pack 34.4mb) (new map pack 926kb only!)
+complete map aliases now loaded from tables/maps_alias.txt
+completed the guild management
+modified guild structure (all guild info of your character will be saved on %{$char->{guild}} instead of $guild)
+all guild info not related to your character will be saved on %{guild}
+guild commands - | skills | members | expelled | positions | notice |
+
+added (R) 01B5 - air time
+added (R) 01B6 - guild info
+added (R) 0152 - guild emblem data
+added (R) 0156 - guild member position list
+added (R) 015A - guild leave message
+added (R) 015E - guild break
+added (R) 0160 - guild member support update
+added (R) 0162 - guild skill list
+added (R) 0166 - guild member title list
+added (R) 0167 - guild create
+added (R) 0174 - guild member title update
+added (R) 023E - storage password result
+
+modified (R) 0154 - guild_members_list (added sex, hair_style, hair_color)
+modified (R) 0073 - automatically request guild info (0)
+modified (R) 0191 - show talkie box message
+modified (R) 0209 - added $type 2 = "fiend list is full"
+modified (R) 0194 - character name
+modified (R) 0160 - guild member support
+modified (R) 0163 - guild expulsion list
+
+added on Network::Send - $net->sendNameRequest($ID) (request forger name)
+

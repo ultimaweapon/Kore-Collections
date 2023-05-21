@@ -1,0 +1,26 @@
+############################
+# Kore-Advance Professional
+############################
+
+###### Language settings ######
+# th - thailand
+# tl - tagalog
+# zh - china
+# id - indonesia
+language 
+
+###### PLUGINS CONTROL ######
+enablePlugins 1
+
+###### PARSE MISC ######
+parse_commandDesc 1
+parse_itemDesc 0
+parse_packetDesc 0
+parse_skillDesc 0
+
+###### IPC framework settings ######
+ipc 0
+ipc_manager_host
+ipc_manager_port
+ipc_manager_bind
+ipc_manager_startAtPort

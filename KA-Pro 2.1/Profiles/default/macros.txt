@@ -1,0 +1,5 @@
+############################
+# Kore-Advance Professional
+############################
+# For macro plugins
+# Macro Manual: http://openkore.sourceforge.net/macro/

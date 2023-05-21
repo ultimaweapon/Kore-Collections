@@ -1,0 +1,225 @@
+# This file contains information about master servers.
+
+#####################
+# Official RO Servers
+
+[Indonesia - idRO: Chaos/Loki/Iris/Fenrir]
+ip 202.43.167.66
+port 6900
+master_version 12
+version 2
+serverType 0
+secureLogin 1
+secureLogin_type 0
+secureLogin_requestCode
+secureLogin_account 0
+
+[Indonesia - idRO: Sakray]
+ip 202.93.18.250
+port 6900
+master_version 13
+version 2
+serverType 0
+secureLogin 1
+secureLogin_type 0
+secureLogin_account 0
+
+[International - iRO: Chaos/Loki/Iris]
+ip 38.144.194.2
+port 6900
+master_version 1
+version 18
+serverType 0
+
+[International - iRO: Sakray]
+ip 38.144.194.2
+port 6900
+master_version 14
+version 18
+serverType 0
+
+[Malaysia - mRO: Main Server: Balder]
+ip 61.220.63.248
+port 6900
+master_version 16
+version 102
+serverType 0
+storageEncryptKey 0x050B6F79, 0x0202C179, 0x00E20120, 0x04FA43E3, 0x0179B6C8, 0x05973DF2, 0x07D8D6B, 0x08CB9ED9
+
+[Malaysia - mRO (English): Aegir/Idun]
+ip 61.220.63.129
+port 6900
+master_version 17
+version 102
+serverType 0
+storageEncryptKey 0x050B6F79, 0x0202C179, 0x00E20120, 0x04FA43E3, 0x0179B6C8, 0x05973DF2, 0x07D8D6B, 0x08CB9ED9
+
+[Malaysia - mRO: Sakray]
+ip 220.130.113.227
+port 6900
+master_version 16
+version 102
+serverType 0
+storageEncryptKey 0x050B6F79, 0x0202C179, 0x00E20120, 0x04FA43E3, 0x0179B6C8, 0x05973DF2, 0x07D8D6B, 0x08CB9ED9
+
+[Philippines - pRO: Fenrir/Iris/Lydia]
+ip 202.57.118.232
+port 6900
+master_version 15
+version 1
+secureLogin 1
+secureLogin_type 0
+secureLogin_requestCode
+secureLogin_account 0
+serverType 2
+patchserver wpatch.ragnarok.com.ph
+patchpath /patch50
+storageEncryptKey 0x050B6F79, 0x0202C179, 0x00E20120, 0x04FA43E3, 0x0179B6C8, 0x05973DF2, 0x07D8D6B, 0x08CB9ED9
+
+[Philippines - pRO: Loki/Sarah]
+ip 202.57.118.231
+port 6900
+master_version 15
+version 1
+secureLogin 1
+secureLogin_type 0
+secureLogin_requestCode
+secureLogin_account 0
+serverType 2
+patchserver wpatch.ragnarok.com.ph
+patchpath /patch50
+storageEncryptKey 0x050B6F79, 0x0202C179, 0x00E20120, 0x04FA43E3, 0x0179B6C8, 0x05973DF2, 0x07D8D6B, 0x08CB9ED9
+
+[Philippines - pRO: Odin/Chaos]
+ip 202.57.118.233
+port 6900
+master_version 15
+version 1
+secureLogin 1
+secureLogin_type 0
+secureLogin_requestCode
+secureLogin_account 0
+serverType 2
+patchserver wpatch.ragnarok.com.ph
+patchpath /patch50
+storageEncryptKey 0x050B6F79, 0x0202C179, 0x00E20120, 0x04FA43E3, 0x0179B6C8, 0x05973DF2, 0x07D8D6B, 0x08CB9ED9
+
+[Philippines - pRO: Urdr]
+ip 202.57.118.231
+port 6900
+master_version 27
+version 1
+secureLogin 1
+secureLogin_type 0
+secureLogin_requestCode
+secureLogin_account 0
+serverType 2
+patchserver wpatch.ragnarok.com.ph
+patchpath /patch50
+storageEncryptKey 0x050B6F79, 0x0202C179, 0x00E20120, 0x04FA43E3, 0x0179B6C8, 0x05973DF2, 0x07D8D6B, 0x08CB9ED9
+
+[Philippines - pRO: Sakray]
+ip 202.57.118.232
+port 6900
+master_version 18
+version 1
+secureLogin 1
+secureLogin_type 0
+secureLogin_requestCode
+secureLogin_account 0
+serverType 2
+storageEncryptKey 0x050B6F79, 0x0202C179, 0x00E20120, 0x04FA43E3, 0x0179B6C8, 0x05973DF2, 0x07D8D6B, 0x08CB9ED9
+
+## www.ragnarok.in.th/
+[Thailand - tRO Account 1: Sol, Chaos, Loki, Iris, Valkyrie]
+ip 203.144.244.10
+port 6900
+master_version 7
+version 24
+serverType 0
+secureLogin 3
+secureLogin_type 0
+secureLogin_requestCode
+secureLogin_account 3
+gameLogin_packet 0273
+
+## www.ragnarok.in.th/
+[Thailand - tRO Account 1: Fenrir, Lydia, Sarah, Valkyrie]
+ip 203.144.244.121
+port 6900
+master_version 7
+version 24
+serverType 0
+secureLogin 3
+secureLogin_type 0
+secureLogin_requestCode
+secureLogin_account 3
+gameLogin_packet 0273
+
+## www.ragnarok.in.th/
+[Thailand - tRO Account 2: Frigg, Freya, Baldur, Heimdal, Valkyrie]
+ip 203.144.244.5
+port 6900
+master_version 7
+version 24
+serverType 0
+secureLogin 3
+secureLogin_type 0
+secureLogin_requestCode
+secureLogin_account 3
+gameLogin_packet 0273
+
+## www.ragnarok.in.th/
+[Thailand - tRO Account 2: Honir, Odin, Thor, Valkyrie]
+ip 203.144.244.122
+port 6900
+master_version 7
+version 24
+serverType 0
+secureLogin 3
+secureLogin_type 0
+secureLogin_requestCode
+secureLogin_account 3
+gameLogin_packet 0273
+
+## www.ragnarok.in.th/
+[Thailand - tRO Account 3: Mani, Isa, Tyr, Idun, Valkyrie]
+ip 203.144.244.7
+port 6900
+master_version 7
+version 24
+serverType 0
+secureLogin 3
+secureLogin_type 0
+secureLogin_requestCode
+secureLogin_account 3
+gameLogin_packet 0273
+
+## www.ragnarok.in.th/
+[Thailand - tRO Account 3: Bijou, Grimnir, Bragi, Valkyrie]
+ip 203.144.244.123
+port 6900
+master_version 7
+version 24
+serverType 0
+secureLogin 3
+secureLogin_type 0
+secureLogin_requestCode
+secureLogin_account 3
+gameLogin_packet 0273
+
+
+####################
+# Private RO Servers
+
+# eAthena private servers use these options:
+# master_version 1
+# version 20
+
+[Localhost]
+ip 127.0.0.1
+port 6900
+master_version 1
+version 20
+serverType 4
+

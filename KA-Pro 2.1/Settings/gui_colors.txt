@@ -1,0 +1,102 @@
+# This file controls the colors used to highlight messages in the GUI
+# Valid Color formats: 
+# (Blue, Green, Red)
+# #FF0000	# Blue
+# #00FF00	# Green
+# #0000FF	# Red
+#
+# Format:
+# [Message type]
+# <message domain> [foreground color][/background color] #background color not yet supported
+
+[message]
+default #C0C0C0
+
+KA_mail #FFFFDC
+KA_news #FFFF80
+
+attacking #C09000
+attackMon #66CCFF
+attackMonMiss #B5B5B5
+attacked #FF0066
+attackedMiss #B5B5B5
+attackedJam #FFC040
+
+skill #FFC0FF
+selfSkill #FFFFFF
+
+connection #007BBA
+drop #FFC000
+useItem #FFC000
+
+cartAdd #339900
+cartRemove #5A5A5A
+
+inventoryAdd #66CC00
+inventoryDrop #5A5A5A
+inventoryRemove #5A5A5A
+
+equip #00FFFF
+unequip #C0C0FF
+
+looter #FFFFC0
+
+targetDie #FFDD99
+npc #FFC1C1
+trigger #FF96FF
+exp #C0C000
+
+itemRareAppear #00B4FF
+itemAppear #9D9DC8
+
+itemRareExist #00C0FF
+itemExist #C0C090
+
+pickupItem #C0C00A
+pickupRare #C0FFFF
+pickupError #0000C0
+
+guildnotice #FFFF80
+coordinates #FFFFDC
+
+input #00FFFF
+load #00C0C0
+sit #4040C0
+stand #C0C0FF
+warn #D2D2FF
+route #C08080
+
+exist_npc #C08090
+exist_portals #C08080
+
+statuslook_on #FFFF00
+statuslook_off #C0C000
+
+success #FFFFC0
+system #FFFF80
+pm #FFFF80
+pm/sent #FFFF80
+publicchat #00C000
+guildchat #CCFFCC
+partychat #FFC0FF
+selfchat #00FF00
+schat #FFFF80
+list #FFFFFF
+info #FFFFFF
+
+teleport #FFFF80
+update #FFFF80
+
+white #FFFFFF
+yellow #FFFF80
+red #FF0000
+
+[error]
+default #FF0000
+
+[warning]
+default #FFFF80
+info #FFFF80
+
+[debug]
+default #C0C0C0

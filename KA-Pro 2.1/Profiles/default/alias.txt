@@ -1,0 +1,7 @@
+############################
+# Kore-Advance Professional
+############################
+#
+#format:
+#<macro chat command><space><console command>
+alias_heal e 28
